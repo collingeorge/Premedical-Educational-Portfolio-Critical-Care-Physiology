@@ -29,7 +29,7 @@ Each scenario set is constructed entirely from published literature, textbook ph
 | [case_set_04_educational_summary.md](case_set_04_educational_summary.md) | Cross-scenario synthesis and educational discussion themes for Case Set 04 |
 | [case_set_05_mechanical_support_and_goals_of_care.md](case_set_05_mechanical_support_and_goals_of_care.md) | Five synthetic scenarios exploring mechanical circulatory support physiology, literature-based study of extracorporeal support indications, ventricular assist device concepts, and comfort-focused ethical reasoning |
 | [case_set_05_educational_summary.md](case_set_05_educational_summary.md) | Cross-scenario synthesis and educational discussion themes for Case Set 05 |
-| `learning_objectives/` | Educational development frameworks for hemodynamics, respiratory failure, neurocritical care, sedation and analgesia, terminology, and self-assessment |
+| [learning_objectives/] (https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology/tree/main/learning_objectives) | Educational development frameworks for hemodynamics, respiratory failure, neurocritical care, sedation and analgesia, terminology, and self-assessment |
 | `references/` | Physiology study notes, ventilator strategy reference, shock classification framework, and annotated bibliography |
 | [CITATION.cff](CITATION.cff) | Formal citation metadata |
 | [LICENSE](LICENSE) | CC BY 4.0 |

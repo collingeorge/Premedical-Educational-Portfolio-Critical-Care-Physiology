@@ -1,202 +1,41 @@
-# Critical Care Physiology Study Notes
-**Critical Care Physiology Study Reference**
-Version 1.1
+# Critical care physiology: concepts and unit conventions
 
----
+> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
 
-# 1. Cardiovascular Physiology
+## Flow and oxygen transport
 
-Critical care decision-making centers on one principle:
-**Tissue perfusion depends on oxygen delivery (DO₂), not blood pressure alone.**
+Cardiac output equals heart rate multiplied by stroke volume. Stroke volume, ejection fraction, LVOT velocity-time integral, and perfusion markers are influenced by loading conditions; none is an isolated measure of intrinsic contractility. A normal ejection fraction does not exclude shock.
 
----
+With hemoglobin in g/dL, arterial saturation as a fraction from 0 to 1, and PaO2 in mmHg:
 
-## 1.1 Determinants of Cardiac Output (CO)
+**CaO2 (mL O2/dL) = 1.34 × Hb × SaO2 + 0.003 × PaO2.**
 
-**CO = HR × SV**, where stroke volume depends on:
+With CO in L/min, **DO2 (mL O2/min) = CO × CaO2 × 10**. The factor of 10 converts litres to decilitres. The systemic oxygen extraction ratio is VO2/DO2; extraction can rise as delivery falls before consumption becomes delivery-dependent. There is no universal ScvO2 threshold that defines this transition. ScvO2 and mixed venous SvO2 are not interchangeable and can be normal or high despite tissue hypoperfusion.
 
-### Preload
-- End-diastolic volume/pressure
-- Surrogate markers: RAP/CVP, PCWP, IVC variation, LVEDAi (echo)
-- Too much preload → pulmonary edema, septal bowing, worsened RV function
-- Too little → low SV and CO despite normal contractility
+## Pressure and preload
 
-### Afterload
-- Systemic vascular resistance (SVR), MAP, arterial elastance (Ea)
-- Excessive afterload impairs forward flow, especially in LV systolic dysfunction
+If SVR is in mmHg·min/L, **MAP − RAP ≈ CO × SVR**. If SVR is in dyn·s/cm5, **SVR = 80 × (MAP − RAP)/CO**. Omitting right atrial pressure is an approximation. Blood pressure alone neither establishes nor excludes adequate perfusion.
 
-### Contractility
-- Intrinsic myocardial strength
-- Evaluated by:
-  - LVOT VTI
-  - TAPSE / RV S'
-  - EF (least reliable in shock)
-  - Lactate clearance
-  - SvO₂ / ScvO₂
+CVP, wedge pressure, and IVC appearance are context-dependent observations, not stand-alone tests of volume status or fluid responsiveness. Fluid responsiveness also does not establish that fluid is indicated or tolerable.
 
-**Clinical anchor:**
-A normal EF does *not* exclude shock. Evaluate VTI and perfusion metrics.
+## Heart–lung interaction
 
----
+PEEP may recruit collapsed lung or overdistend aerated lung. Recruitment can reduce hypoxic pulmonary vasoconstriction; overdistension can raise pulmonary vascular resistance, and positive pressure can reduce venous return. Its net effect on RV function is context-dependent. “Always lower PEEP in RV failure” is not a valid general rule.
 
-## 1.2 Perfusion Pressure
+Plateau and driving pressure interpretation requires attention to patient effort, chest-wall mechanics, total PEEP, and the measurement conditions. A driving-pressure association does not establish a universal independent treatment target.
 
-### Mean Arterial Pressure (MAP)
-**MAP = CO × SVR**
-Shock begins when MAP < 65 **or** when DO₂ falls below the metabolic requirement **even if MAP ≥ 65**.
+## Renal, acid–base, and neurologic concepts
 
-### Organ-Specific Perfusion
-- **Brain:** CPP = MAP – ICP (target 60–70 depending on pathology)
-- **Kidneys:** autoregulate between MAP ~65–80
-- **Coronaries:** LV perfusion occurs primarily in diastole; tachycardia reduces perfusion
+AKI in critical illness can reflect several overlapping mechanisms, including altered perfusion, venous congestion, inflammation, nephrotoxins, and obstruction; it should not be presumed prerenal. Urine output is one contextual measure, not a stand-alone explanation.
 
----
+Winter’s formula estimates expected respiratory compensation in metabolic acidosis: PaCO2 ≈ 1.5 × bicarbonate + 8 ± 2 (PaCO2 in mmHg; bicarbonate in mmol/L). A discrepancy prompts consideration of a mixed disorder; the formula does not prescribe ventilation.
 
-## 1.3 Oxygen Delivery (DO₂) and Consumption (VO₂)
+CPP ≈ MAP − ICP is a simplified relationship. A target derived from traumatic brain injury should not be generalized to every neurologic condition.
 
-**DO₂ = CO × CaO₂**
-and
-**CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)**
+## Sources and applicability
 
-### Critical thresholds
-- When DO₂ < VO₂, extraction rises → **ScvO₂ < 65%**
-- Rising lactate = impaired oxygen utilization (not always due to hypoperfusion)
-- Hemoglobin concentration is often the limiting factor in cardiac surgery and sepsis
+- [SCCM/ESICM 2026 adult sepsis guideline](https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines): the current guideline supersedes the 2021 edition. For ongoing fluid decisions, dynamic responsiveness assessment is preferable to isolated filling pressures.
+- [ATS 2024 ARDS guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/): conditionally favors higher PEEP without recruitment maneuvers in moderate-to-severe ARDS and recommends against prolonged recruitment maneuvers.
+- [ATS/ESICM/SCCM 2017 ventilation guideline](https://academic.oup.com/ajrccm/article/195/9/1253/8500154): lower tidal volumes use predicted body weight, not actual body weight.
 
----
-
-## 1.4 Cardiopulmonary Interaction
-
-Positive-pressure ventilation affects hemodynamics:
-
-### Increases in PEEP
-- ↓ venous return → ↓ preload
-- ↑ RV afterload via increased transpulmonary pressure
-- Can precipitate RV failure in:
-  - Massive PE
-  - Pulmonary hypertension
-  - Post-cardiotomy RV dysfunction
-
-### Key principle
-**If the RV is failing, treat the RV — not the FiO₂.**
-(Decrease PEEP, optimize preload, reduce driving pressure, consider inhaled pulmonary vasodilators.)
-
----
-
-# 2. Respiratory Physiology
-
-## 2.1 Mechanics of Ventilation
-
-### Plateau Pressure (Pplat)
-- Surrogate for alveolar pressure
-- Target ≤ 30 cm H₂O to avoid volutrauma
-
-### Driving Pressure (ΔP)
-**ΔP = Pplat – PEEP**
-- Strongest predictor of mortality in ARDS
-- Goal: **< 14 cm H₂O**, ideally **< 12**
-
-### Compliance
-**Cstat = Vt / ΔP**
-- Declining compliance = worsening lung stiffness
-- Rising compliance = improved aeration, reduced edema
-
----
-
-## 2.2 Oxygenation
-
-Oxygenation depends primarily on:
-- FiO₂
-- PEEP (recruitment of alveoli)
-- Shunt fraction
-- V/Q matching
-
-FiO₂ increases saturate quickly; PEEP changes the physiology.
-
----
-
-## 2.3 Gas Exchange
-
-### Hypoxemia
-Causes:
-- Shunt
-- V/Q mismatch
-- Diffusion limitation
-- Hypoventilation
-- Low FiO₂
-
-### Hypercapnia
-Always due to **inadequate alveolar ventilation**.
-
----
-
-# 3. Renal Physiology
-
-## 3.1 Perfusion and GFR
-
-Kidney injury in shock is typically **pre-renal** until proven otherwise.
-
-- Kidneys require MAP ≥ 65–70
-- CVP > 12–15 impairs renal perfusion (venous congestion)
-- Urine output is a **late** marker of perfusion
-
----
-
-## 3.2 Acid–Base Interpretation
-
-Foundation:
-- Compensation rules must be satisfied
-- Mixed disorders are common in critical illness
-
-**High-yield formula:**
-**Expected PaCO₂ in metabolic acidosis (Winter's):**
-PaCO₂ = 1.5 × HCO₃ + 8 ± 2
-
----
-
-# 4. Neurophysiology
-
-## 4.1 ICP Dynamics
-
-ICP determined by:
-- Brain tissue
-- CSF
-- Cerebral blood volume
-
-Decompensation occurs when compensation mechanisms fail, causing a spike in ICP.
-
----
-
-## 4.2 Cerebral Perfusion Pressure (CPP)
-
-CPP = MAP – ICP
-- TBI target: 60–70
-- SAH with vasospasm risk: often require higher MAP goals
-- CPP must be balanced against systemic hemodynamics
-
----
-
-# 5. Endocrine and Stress Physiology
-
-- Critical illness induces cortisol resistance and relative adrenal insufficiency
-- Insulin resistance increases
-- Target glucose: 140–180 mg/dL
-- Overly tight control increases mortality
-
----
-
-# 6. Hematology & Coagulation
-
-## 6.1 Massive Transfusion Principles
-- Balanced ratios (1:1:1 or 2:1:1 depending on institution)
-- TEG/ROTEM-directed resuscitation preferable when available
-
-## 6.2 Anticoagulation in Cardiothoracic Critical Care
-- Post-bypass patients often have transient coagulopathy
-- ECMO requires precise anticoagulation to avoid oxygenator clotting or hemorrhage
-
----
-
-# Summary
-
-This document reflects essential physiological frameworks that inform critical care management of shock, ventilator strategy, postoperative cardiac care, and neurologic stabilization. These concepts form the foundation for advanced educational reasoning in critical care physiology.
+These summaries are educational and do not reproduce the full guideline, its exceptions, or its implementation requirements.

@@ -1,146 +1,68 @@
-# Simulated Case Set 05: Mechanical Support and Goals of Care
-**Author:** Collin George
-**Topic Area:** Cardiothoracic Critical Care Physiology
-**Focus:** Clinical reasoning, physiologic decision-making, and ethical patient care
-**Purpose:** Premedical educational portfolio demonstrating physiology-based reasoning
+# Simulated case set: Mechanical support and goals of care
 
----
+Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
-## Scenario 1 — POD1 CABG ×3 (Early Low Cardiac Output Physiology)
+## How to use these exercises
 
-### Summary
-58-year-old male, POD1 following CABG ×3, with rising lactate, borderline MAP on norepinephrine, oliguria with venous congestion, and mild right ventricular (RV) dysfunction.
+Identify mechanisms, missing information and the limits of each inference. These are discussion prompts rather than management plans. A completed worksheet demonstrates study, not competence to diagnose or treat patients. Use the [source guide](references/bibliography.md) and [self-assessment rubric](learning_objectives/self_assessment_rubric.md).
 
-### Assessment
-Primary concern is inadequate tissue perfusion despite acceptable arterial pressures, consistent with early low cardiac output syndrome rather than distributive shock.
+## Scenario 1: Early low-output physiology
 
-### Plan
-- MAP target of ≥65–70 mmHg would be a key hemodynamic goal, while prioritizing optimization of cardiac output.
-- Continued norepinephrine support at current dose would be appropriate.
-- Inotropic support (dobutamine vs milrinone) would be favored over escalation of pure vasoconstrictors if lactate fails to clear.
-- Beta-blockade would generally be avoided in this setting.
-- Deferring diuresis would be reasonable given venous congestion and borderline forward flow; reassessment would follow if hemodynamics stabilize.
-- Continuation of lung-protective ventilation would be appropriate; increases in PEEP would be avoided due to RV sensitivity.
-- Trending lactate, renal function, and urine output would be important for ongoing assessment.
-- Considerations warranting urgent reassessment by the supervising clinical team: rising lactate, escalating vasopressor needs, or worsening AKI.
+**Synthetic vignette:** A fictional bypass recipient has borderline pressure, rising lactate, oliguria and RV dysfunction.
 
-### Higher-Order Physiology Discussion
-**Q:** Why not increase norepinephrine for hypotension?
-**A:** Rising lactate despite acceptable MAP suggests impaired forward flow; increasing afterload alone risks worsening cardiac output.
+**Reasoning questions**
 
-**Q:** Why defer diuresis despite volume overload?
-**A:** Venous congestion with low forward flow suggests cardiorenal physiology; preload reduction without improved contractility may worsen perfusion.
+1. Compare impaired flow, venous congestion and mixed shock.
+2. Why might pressure alone appear satisfactory despite poor perfusion?
+3. How can ventilation affect both venous return and RV loading?
 
----
+**Interpretation boundary:** No automatic decision to withhold diuresis or lower PEEP follows from RV dysfunction alone.
 
-## Scenario 2 — POD2 Acute Type A Aortic Dissection Repair
+## Scenario 2: Aortic repair and agitation
 
-### Summary
-Post-operative day 2 following ascending aorta and hemi-arch repair. Course complicated by intermittent agitation, hypoxemia from atelectasis, and thrombocytopenia.
+**Synthetic vignette:** A fictional aortic-surgery patient has agitation, intermittent hypertension and hypoxemia.
 
-### Assessment
-Primary risk is graft stress or dehiscence from hypertensive surges. Secondary concerns include agitation-driven sympathetic activation and hypoxemia.
+**Reasoning questions**
 
-### Plan
-- Strict systolic blood pressure control (<140 mmHg) using nicardipine infusion would be a key priority.
-- Abrupt BP swings would be avoided; gradual titration would be preferred.
-- Optimizing analgesia would be appropriate; dexmedetomidine would be a reasonable option for agitation refractory to pain control.
-- Benzodiazepines would generally be avoided if possible.
-- HFNC for comfort would be maintained; unnecessary positive pressure would be avoided.
-- Platelet monitoring would continue; transfusion would generally be considered only if <50k or with active bleeding.
-- Considerations warranting urgent reassessment by the supervising clinical team: sustained SBP >160, uncontrolled agitation, or worsening hypoxemia.
+1. Compare pain, delirium, hypoxemia and neurologic causes of agitation.
+2. How do heart rate and blood pressure both relate to the aortic-repair context?
+3. What surgical and patient information is required to interpret medication choices?
 
-### Higher-Order Physiology Discussion
-**Q:** Why prioritize agitation control?
-**A:** Agitation causes catecholamine surges leading to hypertension, increasing graft wall stress and risk of catastrophic bleeding.
+**Interpretation boundary:** The earlier claim that beta-blockade should be avoided because heart rate is not the main driver is withdrawn. No replacement antihypertensive regimen is prescribed.
 
-**Q:** Why avoid beta-blockade in this scenario?
-**A:** Heart rate is not the primary driver of hypertension; goal is smooth BP control without compromising cerebral or renal perfusion.
+## Scenario 3: Chronic LVAD low-flow alarms
 
----
+**Synthetic vignette:** A fictional LVAD patient has low-flow alarms, anemia, rising LDH and RV dysfunction.
 
-## Scenario 3 — Chronic HeartMate 3 LVAD with Low-Flow Alarms
+**Reasoning questions**
 
-### Summary
-Chronic HM3 LVAD patient admitted with intermittent low-flow alarms, rising LDH, anemia, AKI, and echocardiographic evidence of RV dysfunction with underfilled LV.
+1. Compare loading, rhythm, pump, inflow and outflow causes.
+2. What separates a hemolysis signal from an established diagnosis of pump thrombosis or suction?
+3. What information would justify a transfusion discussion beyond an isolated hemoglobin?
 
-### Assessment
-Reduced LVAD flow due to inadequate preload and RV failure physiology. Secondary concern for hemolysis related to suction events rather than primary pump thrombosis.
+**Interpretation boundary:** A low-flow alarm does not justify empiric speed, fluid or transfusion changes outside specialist assessment.
 
-### Plan
-- Doppler MAP target of 70–80 mmHg would be a key hemodynamic goal.
-- Further diuresis would be avoided; cautious volume resuscitation (250 mL crystalloid) with reassessment would be a reasonable consideration.
-- Empiric LVAD speed increases would be avoided due to suction risk.
-- Transfusion of 1 unit PRBC to support oxygen delivery and preload would be reasonable.
-- Monitoring hemolysis markers (LDH, plasma-free hemoglobin, bilirubin) would be important for ongoing assessment.
-- Milrinone initiation would be a reasonable consideration for RV support if preload optimization is insufficient.
-- Considerations warranting urgent reassessment by the supervising clinical team: persistent low-flow alarms, rising lactate, or increasing LVAD power.
+## Scenario 4: VV-ECMO with hypoxemia
 
-### Higher-Order Physiology Discussion
-**Q:** Why not increase pump speed?
-**A:** Underfilled LV with septal shift suggests suction physiology; speed increase risks worsening hemolysis and RV preload limitation.
+**Synthetic vignette:** A fictional adult on VV-ECMO has hypoxemia, rising lactate, oliguria and high sedation requirements.
 
-**Q:** Why transfuse at hemoglobin 7.4?
-**A:** In low-flow LVAD physiology, transfusion supports oxygen delivery and preload rather than targeting an isolated numeric threshold.
+**Reasoning questions**
 
----
+1. Compare recirculation, circuit function, native-lung shunt, cardiac output, hemoglobin and demand.
+2. How do sweep and blood flow affect gas exchange differently?
+3. Why does normal post-membrane oxygenation not fully explain systemic oxygen delivery?
 
-## Scenario 4 — VV-ECMO Day 5 for Severe ARDS
+**Interpretation boundary:** A normal post-membrane value does not prove that all circuit-related causes are absent or make transfusion/paralysis automatic.
 
-### Summary
-VV-ECMO-supported patient with severe ARDS from pneumonia, worsening hypoxemia, rising lactate, AKI with oliguria, thrombocytopenia, and high sedation requirements.
+## Scenario 5: Explicitly chosen comfort-focused care
 
-### Assessment
-Inadequate systemic oxygen delivery despite adequate ECMO circuit performance, likely due to severe native lung shunt, anemia, volume overload, and metabolic demand rather than oxygenator failure.
+**Synthetic vignette:** A fictional adult with advanced illness has separately chosen a comfort-focused plan after a goals-of-care discussion.
 
-### Plan
-- Continuation of lung-protective ventilation would be appropriate; escalation of ventilator pressures would be avoided.
-- ECMO flow and sweep would be maintained; sweep adjustment primarily for PaCO₂ control would be the expected approach.
-- Transfusion of 1 unit PRBC to improve oxygen delivery would be reasonable.
-- Further volume administration would be avoided; early discussion for CRRT would be warranted if oliguria persists.
-- Continuation of neuromuscular blockade with daily reassessment would be appropriate.
-- Monitoring for oxygenator dysfunction and bleeding would be important.
-- Considerations warranting urgent reassessment by the supervising clinical team: worsening hypoxemia, rising lactate, or circuit concerns.
+**Reasoning questions**
 
-### Higher-Order Physiology Discussion
-**Q:** Why not change the ECMO circuit?
-**A:** Preserved post-membrane PaO₂ and stable delta-P argue against oxygenator failure; hypoxemia reflects native lung pathology.
+1. What symptoms and patient priorities define benefit from an intervention?
+2. Which tests or monitoring would change a comfort-oriented decision?
+3. How should clinicians reassess symptom relief, unwanted effects and family concerns?
 
-**Q:** Why tolerate permissive hypercapnia?
-**A:** Acceptable pH with controlled CO₂ avoids ventilator-induced lung injury and preserves hemodynamic stability.
+**Interpretation boundary:** Comfort-only goals are explicitly supplied here and are not inferred from DNR/DNI. Sedative combinations are not automatically appropriate; choices require proportionate symptom-focused assessment by the treating team.
 
----
-
-## Scenario 5 — Comfort-Focused Care (End-of-Life)
-
-### Summary
-72-year-old male with end-stage ischemic cardiomyopathy following prolonged critical care course complicated by refractory cardiogenic shock, multiorgan failure, and poor neurologic recovery. Transitioned to comfort-focused care per goals-of-care discussion.
-
-### Assessment
-Primary focus is symptom relief and dignity at end of life. No escalation of life-sustaining therapies.
-
-### Plan
-- Low-flow oxygen for comfort only would be maintained.
-- Continuation of hydromorphone infusion with PRN dosing for pain or dyspnea would be appropriate.
-- Lorazepam PRN for anxiety or refractory air hunger would be a reasonable consideration.
-- Glycopyrrolate PRN for terminal secretions would be appropriate.
-- No further labs, imaging, or invasive monitoring would be indicated.
-- Supporting family presence and offering spiritual and palliative resources would be important.
-- Considerations warranting urgent reassessment by the supervising clinical team: uncontrolled symptoms or family distress.
-
-### Higher-Order Physiology Discussion
-**Q:** Why combine opioids and benzodiazepines?
-**A:** In comfort-focused care, combined therapy is appropriate to relieve dyspnea and anxiety and aligns with patient goals.
-
-**Q:** Why discontinue labs and monitoring?
-**A:** Results would not alter management and would not align with comfort-focused goals, risking unnecessary patient distress.
-
----
-
-## Educational Reflection
-This scenario set reflects structured educational reasoning, physiologic analysis, and ethical awareness appropriate to premedical study. Emphasis is placed on patient-centered care, restraint, and evidence-based reasoning consistent with academic medicine standards.
-
----
-
-**Disclaimer:**
-This document is a synthetic educational portfolio. All scenarios are fictional constructions designed for self-directed learning. It does not represent independent medical practice, clinical documentation, or institutional affiliation.

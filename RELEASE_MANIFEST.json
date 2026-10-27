@@ -1,5 +1,5 @@
 {
-  "candidate": "2026.10-rc1",
+  "candidate": "2026.10-rc2",
   "public_release": false,
   "history_included": false,
   "history_audited": false,
@@ -8,78 +8,83 @@
   "files": [
     {
       "path": "case_set_01_multisystem_critical_care_scenarios.md",
-      "bytes": 105132,
-      "sha256": "7a7606277400a37cf5fe7c56926c926826187abefbd2f9c047e416c48cd0574d"
+      "bytes": 6487,
+      "sha256": "c90a2cb1bc582588009025da486e40079a4ba465b945b2bca7649b9c0cbaa12d"
     },
     {
       "path": "case_set_02_advanced_hemodynamic_scenarios.md",
-      "bytes": 12698,
-      "sha256": "44fbc3ebe88e3423576199de33ccca278a82fff2ae5abbd8d40e490803f48eb7"
+      "bytes": 5409,
+      "sha256": "cca7345e6d54570258d8b65d038c8899331f71b92ce114f38a986c59cb47b2c9"
     },
     {
       "path": "case_set_03_educational_summary.md",
-      "bytes": 8764,
-      "sha256": "872ea81df1766c0de36a28cd4840576d787d9dca68053144f36e79ebc62a097e"
+      "bytes": 1793,
+      "sha256": "3acda257705e3a559e8fa17ea04767e1e44d6336b059b1027dff69b5b3829332"
     },
     {
       "path": "case_set_03_postoperative_cardiothoracic_scenarios.md",
-      "bytes": 11693,
-      "sha256": "21d2b08ff73607e0808286a610a4b1c84e8847ad9b99dfbc7c34731be0585784"
+      "bytes": 5368,
+      "sha256": "38a89abaf0d7cdfe50715ddd847b58238b3135300ea14cd8c2385b0db4712a31"
     },
     {
       "path": "case_set_04_educational_summary.md",
-      "bytes": 7729,
-      "sha256": "50f30ff90a292496f0d4b84b8dded3b80441f0429bb02fe210cf85befc202ba5"
+      "bytes": 2292,
+      "sha256": "2dc68504bf4201353306b3df0f4b66e728f0e972d3b3a44415cd7c8468fa60a1"
     },
     {
       "path": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
-      "bytes": 11128,
-      "sha256": "0be3ff361b2dae99b0f0b47ad2dbc6266d6e6282c01e425debbbc617cfddbec0"
+      "bytes": 7778,
+      "sha256": "fca59bb5900b77899f507fd46ca9790846eb2f2ea0d3a45e7187e974b0c5ffe3"
     },
     {
       "path": "case_set_05_educational_summary.md",
-      "bytes": 3753,
-      "sha256": "93242b54d613e446a1027f710a5d0688703d839a374fff09cf85436cd4247838"
+      "bytes": 1471,
+      "sha256": "ace7fb725d4e8a996c45d3948597e86879f5ccd363f23e70dc64362f5feb9c48"
     },
     {
       "path": "case_set_05_mechanical_support_and_goals_of_care.md",
-      "bytes": 8818,
-      "sha256": "d1b8d7592353030eb86ca2b24c0b94ca37ed4b505f5a88b24c22910be452f613"
+      "bytes": 3826,
+      "sha256": "5af8088317231108e85869e13f4fba82669149b6fbb3bf4ea768e15da2cb84da"
     },
     {
       "path": "CITATION.cff",
       "bytes": 569,
-      "sha256": "f96d2c70d2ada710c5be29dc17af651508870de39e766b7feddfa0443abe474b"
+      "sha256": "bf849a5bbf71a3ebc69bd862a1b5c4a5f3d5e6c2758de101fc0f0349fb177bd3"
+    },
+    {
+      "path": "HISTORICAL_VERSION_NOTICE.md",
+      "bytes": 467,
+      "sha256": "c35978856d877183e1500d5eb494f1dd0130ac581dc7f0a907cdfab65094128a"
     },
     {
       "path": "learning_objectives/hemodynamics.md",
-      "bytes": 8123,
-      "sha256": "7a4c4b78afbd576bf8b0c04a4ead2c35d033ca983f9b1393d0d12fcc811279d8"
+      "bytes": 1787,
+      "sha256": "db6afbc95f2dce8a16c7660e058ffa4b5bee045203283d2831216aad59425fd2"
     },
     {
       "path": "learning_objectives/neurocritical_care.md",
-      "bytes": 8936,
-      "sha256": "056816725e6817519a20d8e589c3bfabeb612fe2b4004e6619831c61237b88fa"
+      "bytes": 1506,
+      "sha256": "1ad06a57e8bd767b615ef86f30111602f41a05bf13594e2d3efab17886ecef67"
     },
     {
       "path": "learning_objectives/respiratory_failure.md",
-      "bytes": 7566,
-      "sha256": "7d0edfc15fe9b8a2ae02e963cef67369f2230ed0a9c8086b8dbace3d9841fe0e"
+      "bytes": 1808,
+      "sha256": "6fe28c992856a95e022d4983eada58b1f91f962f26ffed093f9c731a5c1cc4f9"
     },
     {
       "path": "learning_objectives/sedation_analgesia.md",
-      "bytes": 7963,
-      "sha256": "11e43a5c6a40e49685bf40e312d347b045904c9ac343695e8e180be31a3be834"
+      "bytes": 1748,
+      "sha256": "d161abdf8f7468b2753bd3b8f84140c8dd807890a35c2ec2e2eb62d9bd7f64fc"
     },
     {
       "path": "learning_objectives/self_assessment_rubric.md",
-      "bytes": 6405,
-      "sha256": "63ef5b6782455dc66a6dd017483c53fe4b9e1db0afa5f6448f63f2a12b61a5f0"
+      "bytes": 1463,
+      "sha256": "777f1a464a0e66be96e05278f526f670e3cca63fad97ae4354b823b1c26f780b"
     },
     {
       "path": "learning_objectives/terminology_and_abbreviations.md",
-      "bytes": 9293,
-      "sha256": "0a47318af6828e612624635053e53cceec69c5e2ba8fa93f78f256b3e8c4093a"
+      "bytes": 2362,
+      "sha256": "b1833d1f8062fea473768682a4f64e78ffd253b553a77234c0e33e78797e7592"
     },
     {
       "path": "LICENSE",
@@ -88,23 +93,23 @@
     },
     {
       "path": "PROVENANCE.md",
-      "bytes": 548,
-      "sha256": "8ffff6d01456ea29bcc6e0e8286d875ab0d1aa03f617a2d8b2d34ff747b1d7c2"
+      "bytes": 1553,
+      "sha256": "cb9882e1024f195ff91a9aa32446dba8593bcbd10d3d7d043c4ca68061c6e205"
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "bytes": 2424,
-      "sha256": "df71d1058272f56306ade9170fb31cc2cfa62be048ca58b47650eb3426af377d"
+      "bytes": 2570,
+      "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
     },
     {
       "path": "README.md",
-      "bytes": 11109,
-      "sha256": "36b663c99e34a2342e3891efe715880d7cd5041e49439322dc57087b86358398"
+      "bytes": 2764,
+      "sha256": "a06f894fd1931d3cbaeb1402906de682462ddd5d4ff7369c008e9e0783619035"
     },
     {
       "path": "references/bibliography.md",
-      "bytes": 6884,
-      "sha256": "a8118421b1aaaa0841c4e0c0837960f8a134fe9527571f2d9be0b1ec8f0f001a"
+      "bytes": 4211,
+      "sha256": "3c0a83400e7ebb0d0b9f93efe8bf3b3dc64f610d113ca64c5be85cb49c900a8c"
     },
     {
       "path": "references/icu_physiology_notes.md",
@@ -123,8 +128,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 553,
-      "sha256": "4d90a0b8b4aa8276ad132dcc30e4976c47650a82b84d2614d3d632dde0ef41fb"
+      "bytes": 610,
+      "sha256": "01f827257e76caabbc7bacfcd4ce085780b0dfe289a74058d2f1be760194423f"
     }
   ]
 }

@@ -9,7 +9,7 @@ authors:
 version: "1.0"
 date-released: "2025"
 license: "CC-BY-4.0"
-repository-code: "https://github.com/collingeorge/ICU-Clinical-Reasoning-Portfolio"
+repository-code: "https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology"
 
 abstract: >
   A structured educational portfolio demonstrating systematic development
@@ -37,4 +37,4 @@ preferred-citation:
     - family-names: George
       given-names: Collin B.
   year: 2025
-  url: "https://github.com/collingeorge/ICU-Clinical-Reasoning-Portfolio"
+  url: "https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology"

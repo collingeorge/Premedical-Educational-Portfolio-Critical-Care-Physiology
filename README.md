@@ -9,6 +9,10 @@ Independent Self-Directed Study in Physiology-Based Learning, Synthetic Scenario
 
 ---
 
+## Revision status
+
+This remains a review draft. The current reference notes correct unit conventions, limits of static filling pressures, and oversimplified PEEP rules. Synthetic scenarios are educational simplifications, not evidence of patient care or clinical competence. A complete claim-by-claim clinical and citation review remains outstanding. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+
 ## Overview
 
 This repository contains an independent premedical educational portfolio of synthetic critical care scenarios developed for self-directed study in physiology-based reasoning and structured scenario analysis. Five scenario sets examine hemodynamic physiology, respiratory failure, multi-organ dysfunction, mechanical circulatory support concepts, and ethical dimensions of critical care from distinct educational perspectives.
@@ -108,11 +112,11 @@ Full references are provided in `references/bibliography.md`.
 
 **Vancouver**
 
-George CB. Premedical educational portfolio in critical care physiology: independent self-directed study in physiology-based learning, synthetic scenario analysis, and scenario-based reasoning [Internet]. Educational portfolio. 2025. Available from: https://github.com/collingeorge/ICU-Clinical-Reasoning-Portfolio
+George CB. Premedical educational portfolio in critical care physiology: independent self-directed study in physiology-based learning, synthetic scenario analysis, and scenario-based reasoning [Internet]. Educational portfolio. 2025. Available from: https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology
 
 **APA**
 
-George, C. B. (2025). *Premedical educational portfolio in critical care physiology: Independent self-directed study in physiology-based learning, synthetic scenario analysis, and scenario-based reasoning* [Educational portfolio]. GitHub. https://github.com/collingeorge/ICU-Clinical-Reasoning-Portfolio
+George, C. B. (2025). *Premedical educational portfolio in critical care physiology: Independent self-directed study in physiology-based learning, synthetic scenario analysis, and scenario-based reasoning* [Educational portfolio]. GitHub. https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology
 
 ---
 
@@ -130,4 +134,4 @@ This is an independent scholarly work. It is not affiliated with, endorsed by, r
 
 Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-© 2025 Collin B. George — https://github.com/collingeorge/ICU-Clinical-Reasoning-Portfolio
+© 2025 Collin B. George — https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology

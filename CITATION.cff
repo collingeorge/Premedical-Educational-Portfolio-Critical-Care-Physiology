@@ -1,40 +1,11 @@
 cff-version: 1.2.0
-title: "Critical Care Physiology and Simulated Clinical Reasoning Portfolio: A Premedical Educational Framework"
-message: "If you use this repository, please cite it using the information below."
+message: "Review candidate; not a peer-reviewed or clinically validated publication. Cite the version actually used."
+title: "Premedical Educational Portfolio in Critical Care Physiology"
 authors:
   - family-names: George
     given-names: Collin B.
     orcid: "https://orcid.org/0009-0007-8162-6839"
-
-version: "1.0"
-date-released: "2025"
+version: "2026.10-rc1"
 license: "CC-BY-4.0"
+url: "https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology"
 repository-code: "https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology"
-
-abstract: >
-  A structured educational portfolio demonstrating systematic development
-  of clinical reasoning in critical care medicine. Includes simulated ICU
-  cases, physiologic analysis, shock frameworks, ventilatory strategies,
-  and interdisciplinary decision-making models aligned with critical care
-  educational frameworks. Designed as a longitudinal academic project
-  documenting structured learning for premedical physiology study.
-
-keywords:
-  - critical care
-  - critical care physiology
-  - hemodynamics
-  - shock physiology
-  - mechanical ventilation
-  - clinical reasoning
-  - medical education
-  - physiology
-  - ICU medicine
-
-preferred-citation:
-  type: article
-  title: "Critical Care Physiology and Simulated Clinical Reasoning Portfolio: A Premedical Educational Framework"
-  authors:
-    - family-names: George
-      given-names: Collin B.
-  year: 2025
-  url: "https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology"

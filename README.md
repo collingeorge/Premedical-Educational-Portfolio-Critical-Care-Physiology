@@ -11,7 +11,7 @@ Independent Self-Directed Study in Physiology-Based Learning, Synthetic Scenario
 
 ## Revision status
 
-This remains a review draft. The current reference notes correct unit conventions, limits of static filling pressures, and oversimplified PEEP rules. Synthetic scenarios are educational simplifications, not evidence of patient care or clinical competence. A complete claim-by-claim clinical and citation review remains outstanding. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+This remains a review draft. The author confirmed on 27 October 2026 that all scenarios are entirely synthetic and independent of real encounters or charts; see [PROVENANCE.md](PROVENANCE.md). The current reference notes correct unit conventions, limits of static filling pressures, and oversimplified PEEP rules. Synthetic scenarios are educational simplifications, not evidence of patient care or clinical competence. A complete claim-by-claim clinical and citation review remains outstanding. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
 
 ## Overview
 

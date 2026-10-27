@@ -1,403 +1,164 @@
-# Simulated Case Set 04: Postoperative Hemodynamics and Device Physiology
+# Simulated case set: Postoperative pattern recognition
 
-## 13-Scenario Educational Analysis
+Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
-**Number of Scenarios:** 13
+## How to use these exercises
 
-A structured educational analysis of synthetic postoperative cardiothoracic critical care scenarios, organized for physiology-based reasoning practice.
+Identify mechanisms, missing information and the limits of each inference. These are discussion prompts rather than management plans. A completed worksheet demonstrates study, not competence to diagnose or treat patients. Use the [source guide](references/bibliography.md) and [self-assessment rubric](learning_objectives/self_assessment_rubric.md).
 
-**Format note:** This scenario set uses a condensed educational reference format to practice rapid problem prioritization and structured synthesis across a larger number of scenarios. Each scenario includes a one-liner, key problems, management considerations, physiologic thresholds, and a brief summary. This format is distinct from the full-narrative case analyses in other scenario sets and is designed for pattern-recognition practice, not clinical documentation.
+## Scenario 1: CABG with low vascular tone
 
-- **One-liner**
-- **Key Problems**
-- **Management considerations**
-- **Physiologic thresholds for discussion**
-- **Summary**
+**Synthetic vignette:** A fictional bypass recipient has hypotension, low calculated SVR, rising lactate and hypothermia.
 
----
+**Reasoning questions**
 
-## Scenario 1 — POD0 CABG ×3 (Vasoplegic Shock)
+1. What must be known about cardiac output before interpreting SVR?
+2. Which competing mechanisms remain possible?
+3. Which observations would meaningfully change the differential?
 
-**ONE-LINER:**
-62M POD0 CABG×3, vasoplegic shock on dual pressors, rising lactate, hypothermia, intubated.
+**Interpretation boundary:** No methylene-blue or vasopressor trigger is derived from one resistance or lactate number.
 
-**KEY PROBLEMS:**
-- Vasoplegia (SVR 640) + lactate 2.9→3.4
-- Hypothermia (35.8°C) worsening vasodilation
-- Adequate CI (2.1) with normal echo
-- Not extubatable
+## Scenario 2: Redo AVR with AKI and congestion
 
-**Management considerations:**
-- Active rewarming to >36°C
-- NE up to 0.15 if MAP <60; consider methylene blue if SVR <700 + lactate >4
-- Maintaining PRVC with serial ABG monitoring would be appropriate
-- No fluids unless CVP <6
-- Hourly chest tube monitoring
+**Synthetic vignette:** A fictional valve-surgery patient has borderline cardiac output, pulmonary edema and worsening kidney function.
 
-**Physiologic thresholds for discussion:**
-- MAP <55 despite NE 0.15 + vaso 0.04
-- Lactate >5 or ↑ >1
-- CT output >200 mL/hr × 2 hrs
-- UOP <0.3 mL/kg/hr
-- New arrhythmia
+**Reasoning questions**
 
-**Summary:**
-Rewarming, uptitrating NE as needed, monitor lactate. Would warrant urgent reassessment for shock progression or bleeding.
+1. How could low forward flow and venous congestion contribute simultaneously?
+2. What supports the assertion that excess fluid is present?
+3. What evidence would distinguish an intervention’s physiologic effect from improved clinical outcomes?
 
----
+**Interpretation boundary:** A cardiac-index cutoff alone does not select an inotrope.
 
-## Scenario 2 — POD2 Redo AVR (Low CO + AKI)
+## Scenario 3: Mitral surgery, bradycardia and delirium
 
-**ONE-LINER:**
-67M POD2 redo sternotomy + bioAVR, low CO (CI 1.9–2.2), AKI, volume overload.
+**Synthetic vignette:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
 
-**KEY PROBLEMS:**
-- Low CO, mild biventricular dysfunction
-- Lactate 2.4→2.7
-- AKI (Cr 1.5→1.7), CVP 12–14
-- Volume overload + pulmonary edema
+**Reasoning questions**
 
-**Management considerations:**
-- Wean vaso first; MAP ≥65
-- Milrinone consideration if CI remains <2.2 on reassessment
-- Furosemide 20 mg IV → infusion if needed; add metolazone if refractory
-- SBT when hemodynamically stable
-- Trend lactate and Cr
+1. Could rhythm, medication effects, low flow and noncardiac causes explain the mental status?
+2. Which observations establish whether the rate is causing hemodynamic compromise?
+3. What airway support is actually present?
 
-**Physiologic thresholds for discussion:**
-- MAP <60 despite NE 0.1
-- Lactate >3.5
-- UOP <20/hr despite diuresis
-- Cr ↑ ≥0.3
+**Interpretation boundary:** HFNC does not imply an endotracheal tube. An extubation SBT is not the corresponding readiness test. No atropine dose or pacing rule is supplied.
 
-**Summary:**
-Low-output physiology with AKI and volume overload. Milrinone may be required if lactate rises.
+## Scenario 4: Tricuspid repair and RV dysfunction
 
----
+**Synthetic vignette:** A fictional adult after CABG and tricuspid repair has RV dysfunction, kidney injury and oxygen needs.
 
-## Scenario 3 — POD4 MV Repair + MAZE (Sinus Brady + Delirium)
+**Reasoning questions**
 
-**ONE-LINER:**
-74M POD4 MV repair + MAZE, sinus bradycardia limiting CO, AKI, mild overload, delirium.
+1. How do preload, afterload and contractility interact in RV physiology?
+2. Why can both derecruitment and overdistension matter?
+3. What does a venous-pressure trend fail to establish on its own?
 
-**KEY PROBLEMS:**
-- Bradycardia HR 55–62 limiting CI
-- Mild AKI (Cr 1.3→1.5) + +1.2 L
-- Delirium, HFNC dependent
+**Interpretation boundary:** Avoid blanket prohibition of PEEP or a fluid-removal rule based solely on CVP.
 
-**Management considerations:**
-- MAP ≥65; wean NE if MAP >70
-- Atropine 0.5 mg if HR <50 + hypotension; enable pacing backup
-- Furosemide 20 mg IV → goal –0.5 L
-- HFNC 40L/40%; CXR if worsening
-- Non-pharm delirium care
+## Scenario 5: Mechanical AVR and anticoagulation
 
-**Physiologic thresholds for discussion:**
-- HR <50 with MAP <60
-- Cr >1.8
-- SpO₂ <90 on HFNC 50%
-- Unsafe agitation
+**Synthetic vignette:** A fictional adult after mechanical-valve surgery has a reported INR and an incompletely described bleeding risk.
 
-**Summary:**
-Rate-limited cardiac output; avoid AV nodal blockers; gentle diuresis.
+**Reasoning questions**
 
----
+1. Which valve, position, thrombotic risks, postoperative timing and medicines must be identified?
+2. Why is an isolated INR insufficient to set the complete anticoagulation plan?
+3. What device/surgical guidance and team input are needed?
 
-## Scenario 4 — POD3 CABG×2 + TV Repair (Moderate RV Dysfunction)
+**Interpretation boundary:** No universal INR range, warfarin hold or heparin instruction is supplied.
 
-**ONE-LINER:**
-68F POD3 CABG×2 + TV repair, moderate RV dysfunction, AKI, mild overload.
-
-**KEY PROBLEMS:**
-- RV dysfunction (afterload sensitive)
-- Mild AKI +0.8 L
-- Persistent HFNC need
+## Scenario 6: CABG/MVR with pulmonary edema
 
-**Management considerations:**
-- MAP ≥65; avoid β-blockers
-- Gentle diuresis (–0.3 to –0.5 L)
-- HFNC, no SBT
-- Delirium management
+**Synthetic vignette:** A fictional adult after bypass and mitral surgery has reduced output, pulmonary edema, kidney injury and early fever.
 
-**Physiologic thresholds for discussion:**
-- MAP <60
-- CVP <6 abruptly
-- SpO₂ <90 on HFNC
-- Cr >1.6
+**Reasoning questions**
 
-**Summary:**
-Balance RV preload/afterload while removing volume.
+1. What distinguishes hydrostatic, permeability and mixed pulmonary edema?
+2. Which findings support infection rather than nonspecific postoperative inflammation?
+3. How might perfusion and congestion goals conflict?
 
----
+**Interpretation boundary:** No automatic broad-spectrum antibiotic or fixed negative-fluid target is established.
 
-## Scenario 5 — POD2 Redo Mechanical AVR + Graft (Anticoagulation Management)
+## Scenario 7: Post-MAZE bradycardia
 
-**ONE-LINER:**
-71F POD2 redo mechanical AVR + graft, resolving vasoplegia, therapeutic INR 2.1, HFNC.
+**Synthetic vignette:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
 
-**KEY PROBLEMS:**
-- Dual pressors weaning
-- Mechanical valve anticoagulation management
-- HFNC dependence
+**Reasoning questions**
 
-**Management considerations:**
-- MAP ≥65; wean vaso → NE
-- Serial INR monitoring; holding warfarin if >3.5 would be appropriate
-- Heparin would be held in this scenario
-- SBT when off pressors
+1. Assess whether bradycardia is causal, compensatory or incidental.
+2. What is missing about rhythm, pacing wires and medication effects?
+3. How would renal perfusion and congestion be evaluated together?
 
-**Physiologic thresholds for discussion:**
-- MAP <60 despite NE 0.08
-- INR >4
-- Hb <8 or drop >1
-- SpO₂ <90 on HFNC
+**Interpretation boundary:** No rate-only treatment threshold is supplied.
 
-**Summary:**
-Goal: wean pressors, maintain INR 2–3, evaluate extubation readiness.
+## Scenario 8: LV aneurysmectomy with low output
 
----
+**Synthetic vignette:** A fictional adult after bypass and aneurysm surgery has low measured output, rising lactate and edema.
 
-## Scenario 6 — POD1 CABG + MVR (Low CO + Pulmonary Edema)
+**Reasoning questions**
 
-**ONE-LINER:**
-63M POD1 CABG + bioprosthetic MVR, low CO, pulmonary edema, AKI, early fever.
+1. Verify the output measurement and identify possible mechanical causes.
+2. What do venous saturation and lactate add, and where can they mislead?
+3. What findings would distinguish congestion from fluid responsiveness?
 
-**KEY PROBLEMS:**
-- Sinus tachycardia 105–118 (compensatory)
-- Pulmonary edema on FiO₂ 50%
-- AKI +2.2 L
-- Early fever 38.1
+**Interpretation boundary:** A low saturation or rising lactate is not by itself a milrinone or diuresis prescription.
 
-**Management considerations:**
-- MAP ≥65; consider milrinone if CI <2.0
-- Furosemide → infusion; add metolazone if refractory
-- Cultures ×2, UA, CXR
-- Maintain PRVC; avoid high PEEP
+## Scenario 9: New postoperative fever
 
-**Physiologic thresholds for discussion:**
-- MAP <60
-- Lactate ↑ or CI <2
-- SpO₂ <88 on FiO₂ 60%
-- Temp >39
+**Synthetic vignette:** A fictional valve/bypass recipient develops fever, leukocytosis and a renewed vasopressor requirement.
 
-**Summary:**
-Mixed shock + pulmonary edema; treat volume overload aggressively and monitor for infection.
+**Reasoning questions**
 
----
+1. Consider infectious and noninfectious causes in the postoperative context.
+2. What cultures, imaging and source-control questions are relevant?
+3. How should microbiology, exposure and local resistance inform an antimicrobial discussion?
 
-## Scenario 7 — POD3 CABG + MAZE (Sinus Brady Post-MAZE)
+**Interpretation boundary:** Fever or procalcitonin alone neither proves infection nor chooses an antibiotic regimen.
 
-**ONE-LINER:**
-72M POD3 CABG×2 + MAZE + LAA clip, sinus brady + RV dysfunction, AKI, delirium.
+## Scenario 10: RV dysfunction after tricuspid repair
 
-**KEY PROBLEMS:**
-- Sinus brady limiting CO
-- Mild RV dysfunction
-- AKI +0.9 L
-- HFNC dependence
+**Synthetic vignette:** A fictional patient has RV dysfunction, kidney injury, congestion and HFNC support.
 
-**Management considerations:**
-- MAP ≥65; atropine if HR <55 + hypotension
-- Furosemide 20 mg → goal –0.5 L
-- HFNC, defer SBT
-- Delirium precautions
+**Reasoning questions**
 
-**Physiologic thresholds for discussion:**
-- MAP <60 despite NE 0.06
-- Cr >1.8
-- SpO₂ <90
-- Agitation unsafe
+1. Identify potential causes of increased RV load.
+2. What observations would suggest intolerance of a proposed fluid change?
+3. How can respiratory support affect RV physiology in either direction?
 
-**Summary:**
-RV-sensitive preload/afterload; manage bradycardia and diuresis cautiously.
+**Interpretation boundary:** No blanket beta-blocker prohibition, PEEP prohibition or SBT instruction is supplied.
 
----
+## Scenario 11: Bentall/hemiarch with mixed shock
 
-## Scenario 8 — POD1 CABG×3 + LV Aneurysmectomy (Severe Low CO State)
+**Synthetic vignette:** A fictional postoperative adult has vasopressor support, biventricular dysfunction, kidney injury and an INR result.
 
-**ONE-LINER:**
-69F POD1 CABG×3 + LV aneurysmectomy, low cardiac output, rising lactate, AKI, severe overload.
+**Reasoning questions**
 
-**KEY PROBLEMS:**
-- CI 1.8–2.1, SvO₂ 59%, lactate 3.1→3.8
-- AKI +2.5 L
-- Pulmonary edema, intubated
+1. Separate tone, pump, bleeding and obstructive questions.
+2. Which details of the operation determine the anticoagulation context?
+3. Which new findings require surgical reassessment?
 
-**Management considerations:**
-- Milrinone initiation at 0.25 would be a reasonable consideration (supervised decision)
-- Diuresis following inotrope support, targeting –1 to –1.5 L, would be appropriate
-- Ventilator settings of FiO₂ 50%, PEEP 8 would be maintained; serial ABG and lactate/SvO₂ trending would guide reassessment
+**Interpretation boundary:** An INR value does not identify the prosthesis or establish the complete anticoagulation plan.
 
-**Physiologic thresholds for discussion:**
-- MAP <55
-- Lactate >5
-- SvO₂ <55
-- CI <1.8
-- Oliguria <20/hr
+## Scenario 12: Persistent congestion after CABG/AVR
 
-**Summary:**
-High-risk low-output state; inotrope support and aggressive diuresis would likely be indicated.
+**Synthetic vignette:** A fictional adult has persistent congestion, kidney dysfunction and incomplete response to prior diuretic treatment.
 
----
+**Reasoning questions**
 
-## Scenario 9 — POD5 CABG + MVR (New Fever + Leukocytosis)
+1. What supports the diagnosis of congestion and apparent treatment resistance?
+2. Could low flow, renal injury, drug delivery or anatomic problems contribute?
+3. What distinguishes refractory life-threatening fluid complications from uncomplicated positive balance?
 
-**ONE-LINER:**
-71M POD5 CABG×2 + bioprosthetic MVR, fever 38.5, leukocytosis, mild AKI, mild overload.
+**Interpretation boundary:** No escalating diuretic combination or dialysis instruction is supplied.
 
-**KEY PROBLEMS:**
-- Fever 38.5 (cultures pending)
-- Tachycardia + low-dose pressor
-- Mild AKI
-- HFNC dependence
+## Scenario 13: Rising lactate after CABG/mitral repair
 
-**Management considerations:**
-- Empiric antibiotic initiation (vancomycin + piperacillin-tazobactam) would be a reasonable consideration, with discussion warranted regarding coverage
-- Diuresis targeting –0.3 to –0.5 L would be appropriate
-- HFNC weaning as tolerated
-- Serial procalcitonin trending
+**Synthetic vignette:** A fictional adult develops rising lactate with borderline output and pulmonary congestion.
 
-**Physiologic thresholds for discussion:**
-- Temp >38.8
-- Worsening Cr
-- SpO₂ <90
-- Septic shock signs
+**Reasoning questions**
 
-**Summary:**
-Treat infection early, monitor renal function closely.
+1. Check alternative causes of lactate elevation and sampling changes.
+2. What mechanical or ischemic problems should be considered?
+3. How would serial perfusion findings alter the working hypothesis?
 
----
+**Interpretation boundary:** A lactate cutoff is not a validated trigger for a particular inotrope.
 
-## Scenario 10 — POD2 CABG×2 + TV Repair (RV Dysfunction + AKI)
-
-**ONE-LINER:**
-74F POD2 CABG×2 + TV repair, moderate RV dysfunction, AKI, volume overload.
-
-**KEY PROBLEMS:**
-- RV afterload sensitivity
-- Mild AKI
-- Volume overload +1.4 L
-
-**Management considerations:**
-- Cautious diuresis –0.3 to –0.5 L
-- HFNC; no SBT
-- MAP ≥65; avoid ↑PEEP
-
-**Physiologic thresholds for discussion:**
-- MAP <60
-- Cr >1.6
-- SpO₂ <90
-
-**Summary:**
-RV-protective strategy + gentle diuresis.
-
----
-
-## Scenario 11 — POD1 Bentall + Hemiarch (Mixed Shock + Anticoagulation)
-
-**ONE-LINER:**
-68M POD1 Bentall + hemiarch, dual pressors, mild biventricular dysfunction, AKI, INR 2.6.
-
-**KEY PROBLEMS:**
-- Mixed vasoplegia/low CO
-- AKI
-- Anticoagulation management
-- Intubated
-
-**Management considerations:**
-- MAP ≥65; NE up to 0.12 if needed
-- Furosemide 20 mg targeting –0.3 to –0.5 L
-- Serial INR monitoring; heparin held in this scenario
-- Serial ABG monitoring
-
-**Physiologic thresholds for discussion:**
-- MAP <60 despite NE 0.12 + vaso
-- CI <2.0
-- INR >4
-- Chest tube >150/hr
-
-**Summary:**
-Monitor closely for hemodynamic deterioration or bleeding.
-
----
-
-## Scenario 12 — POD4 CABG×3 + AVR (Diuretic-Resistant Volume Overload)
-
-**ONE-LINER:**
-72M POD4 CABG×3 + bioprosthetic AVR, diuretic-resistant overload, mild AKI, HFNC, low-grade fever.
-
-**KEY PROBLEMS:**
-- Persistent overload despite diuresis
-- Mild AKI
-- Low-grade fever (cultures pending)
-
-**Management considerations:**
-- Furosemide 40 mg + metolazone 5 mg escalation would be appropriate
-- Maintaining MAP ≥65
-- HFNC continuation; SBT deferred
-- Serial procalcitonin trending
-
-**Physiologic thresholds for discussion:**
-- MAP <60
-- Cr >1.8
-- SpO₂ <90
-- Temp >38.8
-
-**Summary:**
-Requires escalated diuresis; rule out infection.
-
----
-
-## Scenario 13 — POD2 CABG×2 + MV Repair (Rising Lactate + Low CO)
-
-**ONE-LINER:**
-76F POD2 CABG×2 + MV repair, rising lactate, borderline CI, AKI, volume overload.
-
-**KEY PROBLEMS:**
-- Lactate rising (early low-output physiology)
-- Mild AKI
-- Volume overload + HFNC dependence
-
-**Management considerations:**
-- MAP ≥65; avoid β-blockers
-- Consider milrinone if lactate >2.8
-- No diuresis until CO improves
-- HFNC; no SBT
-
-**Physiologic thresholds for discussion:**
-- Lactate >2.8
-- CI <2.0
-- MAP <60
-- Cr >1.8
-
-**Summary:**
-Monitor perfusion closely; escalate to inotrope if lactate rises.
-
----
-
-## Educational Synthesis
-
-**Total Scenarios:** 13
-
-**Cross-Scenario Educational Themes:**
-- Multiple low-output syndromes requiring inotrope consideration
-- Widespread RV dysfunction and volume overload
-- Early and late postoperative infections
-- Significant AKI burden
-- High proportion of HFNC dependence
-- Complex anticoagulation management
-
-**Overall Status:**
-No catastrophic events, but **Scenarios 1, 8, 11, and 13** require highest ongoing vigilance.
-
----
-
-**Document Information:**
-- **Format:** Structured educational case analysis for premedical portfolio
-- **Training Context:** Simulated case-based reasoning exercise for premedical portfolio
-- **Author:** Collin George
-- **Purpose:** Educational demonstration of physiology-based clinical reasoning and critical care knowledge
-
----
-
-*This document is a synthetic educational exercise developed for portfolio purposes. All scenarios, clinical details, and post-surgical parameters are entirely fabricated. No real patient data, protected health information, or actual clinical events are represented. This work was created independently and does not represent the views, protocols, or endorsement of any healthcare institution.*

@@ -1,5 +1,13 @@
-# Scenario provenance
+# Provenance and rights scope
 
-On 27 October 2026, the author confirmed that all ICU scenarios are entirely synthetic and independent of real patient encounters or charts. This is an author attestation, not an institutional finding. No clinical shadowing notes are included in this repository.
+Recorded 27 October 2026.
 
-Scenario synthesis does not establish clinical accuracy. The current case sets, learning objectives, and older bibliography remain subject to a full clinical and source audit. The corrected reference notes are educational summaries, not patient-care protocols.
+The author stated that the portfolio material was not created under paid employment, coursework, a laboratory appointment or an institutional IP/confidentiality agreement, and described the background as clinical shadowing only. This is an author statement, not an institutional rights determination. It does not grant rights in third-party material or authorize disclosure of encounter-derived content.
+
+Unauthorized clinical shadowing notes are excluded from the publication candidate. The ICU author separately confirmed that all scenarios are entirely synthetic and independent of real encounters/charts. No claim of clinical experience, institutional authorship, IRB approval or patient-care authorization is created by the synthetic exercises or simulation.
+
+The repository license covers only material the author has authority to license. Cited publications, guidelines, product names, copyrighted instruments and any external assets retain their own rights. External deposits and institution-specific obligations must be assessed separately. No institutional logos, copied society algorithms or patient records are included intentionally in this candidate.
+
+Historical Git versions may contain superseded claims. See PUBLICATION_REVIEW.md and any historical-version notice. No history rewrite or public-visibility change is performed by this revision.
+
+The 42 current exercises are a reconstruction of prior synthetic themes, not a transcription or de-identification of real encounters.

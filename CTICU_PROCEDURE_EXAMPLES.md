@@ -35,6 +35,8 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Improvement includes adequate perfusion, controlled bleeding, comfortable ventilation and an organ-function trajectory consistent with recovery. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding) · [Lab example: ventilation](CLINICAL_LAB_EXAMPLES.md#ventilation) · [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: extubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#extubation); [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -76,6 +78,8 @@ flowchart TD
 **Worked care course:** The man receives specialist evaluation of bradycardia and perfusion, including temporary pacing if clinically indicated. The woman receives evaluation of ventricular and valve function before choosing fluid removal or circulatory support. Antithrombotic planning is specific to valve type, timing and bleeding.
 
 **Reassessment:** Reassessment includes rhythm, perfusion, pulmonary congestion and bleeding/thrombosis balance; tricuspid procedures also require close right-heart assessment. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: anticoagulation](CLINICAL_LAB_EXAMPLES.md#anticoagulation) · [Lab example: electrolytes](CLINICAL_LAB_EXAMPLES.md#electrolytes) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: extubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#extubation); [Equipment: pacing](ICU_EQUIPMENT_BASICS.md#pacing) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -119,6 +123,8 @@ flowchart TD
 
 **Reassessment:** The response is judged by organ perfusion, neurological findings and surgical integrity, as well as pressure. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare); [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -160,6 +166,8 @@ flowchart TD
 **Worked care course:** For the man, examination and access assessment investigate impaired limb/systemic perfusion. For the woman, echo and specialist assessment investigate loading and pulmonary congestion. Device changes belong to the ECMO team using the actual configuration and protocol.
 
 **Reassessment:** Reassessment follows organ perfusion, gas exchange, bleeding, access and ventricular loading, rather than a single circuit number. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation) · [Lab example: hemolysis](CLINICAL_LAB_EXAMPLES.md#hemolysis) · [Lab example: anticoagulation](CLINICAL_LAB_EXAMPLES.md#anticoagulation); [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare) · [Care example: modes](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#modes); [Equipment: va](ICU_EQUIPMENT_BASICS.md#va) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: pac](ICU_EQUIPMENT_BASICS.md#pac). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -203,6 +211,8 @@ flowchart TD
 
 **Reassessment:** Track perfusion, congestion, renal function, bleeding and device findings after the team-directed intervention. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: hemolysis](CLINICAL_LAB_EXAMPLES.md#hemolysis) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: anticoagulation](CLINICAL_LAB_EXAMPLES.md#anticoagulation); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: lvad](ICU_EQUIPMENT_BASICS.md#lvad) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: pac](ICU_EQUIPMENT_BASICS.md#pac). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -245,6 +255,8 @@ flowchart TD
 
 **Reassessment:** Follow limb viability, organ perfusion, bleeding, hemolysis and device performance. Support is not declared successful from pressure alone. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: hemolysis](CLINICAL_LAB_EXAMPLES.md#hemolysis) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding) · [Lab example: anticoagulation](CLINICAL_LAB_EXAMPLES.md#anticoagulation); [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare); [Equipment: microaxial](ICU_EQUIPMENT_BASICS.md#microaxial) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -286,6 +298,8 @@ flowchart TD
 **Worked care course:** The man’s renal change triggers reassessment of perfusion, congestion and drug exposure. The woman’s rhythm/support change triggers urgent graft and rhythm assessment. The transplant service determines immunosuppression and any biopsy or additional imaging.
 
 **Reassessment:** Follow graft function, perfusion, kidney trajectory, infection and medication toxicity with a documented recovery plan. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate) · [Lab example: electrolytes](CLINICAL_LAB_EXAMPLES.md#electrolytes); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: extubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#extubation); [Equipment: pac](ICU_EQUIPMENT_BASICS.md#pac) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -331,6 +345,8 @@ flowchart TD
 
 **Reassessment:** Improvement includes comfortable breathing/coughing, adequate gas exchange, mobilization and a stable circulatory course. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation) · [Lab example: ventilation](CLINICAL_LAB_EXAMPLES.md#ventilation) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: drain](ICU_EQUIPMENT_BASICS.md#drain) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: hfnc](ICU_EQUIPMENT_BASICS.md#hfnc). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -372,6 +388,8 @@ flowchart TD
 **Worked care course:** The man’s findings prompt assessment of graft dysfunction alongside alternatives. The woman’s pressure change prompts airway and mechanical assessment, rather than an oxygen-only response. PGD classification is not a substitute for investigating treatable causes.
 
 **Reassessment:** Follow oxygenation, mechanics, perfusion, airway integrity, renal function and immunosuppression toxicity with the transplant service. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation) · [Lab example: ventilation](CLINICAL_LAB_EXAMPLES.md#ventilation) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney); [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare) · [Care example: modes](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#modes) · [Care example: extubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#extubation); [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: vv](ICU_EQUIPMENT_BASICS.md#vv) · [Equipment: capnography](ICU_EQUIPMENT_BASICS.md#capnography). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -415,6 +433,8 @@ flowchart TD
 
 **Reassessment:** Follow perfusion, respiration, source control and nutritional tolerance, documenting the reconstruction-specific plan. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: cultures](CLINICAL_LAB_EXAMPLES.md#cultures) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: drain](ICU_EQUIPMENT_BASICS.md#drain) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -456,6 +476,8 @@ flowchart TD
 **Worked care course:** The man’s stridor triggers urgent coordinated airway/surgical management. The woman’s positional findings trigger assessment for airway and circulatory compression. Analgesia/sedation are cautious and coordinated because loss of airway tone or pressure changes can matter.
 
 **Reassessment:** Follow airway patency, gas exchange, hemodynamics and reconstruction integrity under the specialist plan. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: ventilation](CLINICAL_LAB_EXAMPLES.md#ventilation) · [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation); [Care example: intubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#intubation) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare); [Equipment: airway](ICU_EQUIPMENT_BASICS.md#airway) · [Equipment: capnography](ICU_EQUIPMENT_BASICS.md#capnography) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -501,6 +523,8 @@ flowchart TD
 
 **Reassessment:** Track abdomen, limb/organ perfusion, bleeding and renal response; laboratory improvement alone cannot exclude a structural complication. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: crrt](ICU_EQUIPMENT_BASICS.md#crrt). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -543,6 +567,8 @@ flowchart TD
 
 **Reassessment:** Follow airway, neurological findings, pressure/perfusion and bleeding. Unit placement depends on risk and local service organization. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding) · [Lab example: paireddata](CLINICAL_LAB_EXAMPLES.md#paireddata); [Care example: intubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#intubation) · [Care example: airwaycare](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#airwaycare); [Equipment: airway](ICU_EQUIPMENT_BASICS.md#airway) · [Equipment: capnography](ICU_EQUIPMENT_BASICS.md#capnography) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -584,6 +610,8 @@ flowchart TD
 **Worked care course:** The man receives prompt surgical assessment of the swollen painful limb; analgesia alone is insufficient. The woman receives urgent assessment of graft flow/ischemia. Antithrombotic decisions depend on repair, indication and bleeding; no regimen is inferred solely from sex.
 
 **Reassessment:** Follow motor/sensory function, perfusion, renal/electrolyte effects and bleeding. ICU need reflects actual complexity, not every bypass operation. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: electrolytes](CLINICAL_LAB_EXAMPLES.md#electrolytes) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: bleeding](CLINICAL_LAB_EXAMPLES.md#bleeding); [Care example: pain](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#pain) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion) · [Equipment: crrt](ICU_EQUIPMENT_BASICS.md#crrt). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -629,6 +657,8 @@ flowchart TD
 
 **Reassessment:** Reassess clinical perfusion and organ trajectory, not pressure alone; de-escalation also needs evidence of recovery. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation); [Care example: intubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#intubation) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: pac](ICU_EQUIPMENT_BASICS.md#pac) · [Equipment: iabp](ICU_EQUIPMENT_BASICS.md#iabp) · [Equipment: microaxial](ICU_EQUIPMENT_BASICS.md#microaxial) · [Equipment: va](ICU_EQUIPMENT_BASICS.md#va). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -670,6 +700,8 @@ flowchart TD
 **Worked care course:** The man’s course leads to cause-directed care and assessment of evidence-based ARDS options. The woman’s course leads to assessment of ventilation, mechanics and sedation rather than simply increasing oxygen. VV-ECMO referral is a specialist selection decision for refractory failure.
 
 **Reassessment:** Follow gas exchange, mechanics, perfusion, comfort and treatment harms. VA and VV support address different physiologic problems. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: ventilation](CLINICAL_LAB_EXAMPLES.md#ventilation) · [Lab example: oxygenation](CLINICAL_LAB_EXAMPLES.md#oxygenation) · [Lab example: cultures](CLINICAL_LAB_EXAMPLES.md#cultures); [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support) · [Care example: modes](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#modes) · [Care example: extubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#extubation); [Equipment: hfnc](ICU_EQUIPMENT_BASICS.md#hfnc) · [Equipment: niv](ICU_EQUIPMENT_BASICS.md#niv) · [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: vv](ICU_EQUIPMENT_BASICS.md#vv). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 
@@ -713,6 +745,8 @@ flowchart TD
 
 **Reassessment:** Follow perfusion, infection evidence, organ injury and complications; persistent instability triggers re-evaluation of source and structural disease. These are illustrative response criteria; no actual outcome is claimed.
 
+**Applied detail:** [Lab example: cultures](CLINICAL_LAB_EXAMPLES.md#cultures) · [Lab example: kidney](CLINICAL_LAB_EXAMPLES.md#kidney) · [Lab example: lactate](CLINICAL_LAB_EXAMPLES.md#lactate); [Care example: intubation](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#intubation) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: ventilator](ICU_EQUIPMENT_BASICS.md#ventilator) · [Equipment: arterial](ICU_EQUIPMENT_BASICS.md#arterial) · [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
+
 **Visual decision tree — paired worked example**
 
 The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
@@ -754,6 +788,8 @@ flowchart TD
 **Worked care course:** Symptom medication is proportionate to distress, prior exposure and organ function, with reassessment. No unrestricted dose escalation or automatic simultaneous discontinuation of all support is implied. Withdrawal decisions follow the agreed plan and clinical/legal context.
 
 **Reassessment:** Reassessment centers on symptoms, communication, unwanted effects and goal consistency. These examples do not establish legal rules for a jurisdiction. These are illustrative response criteria; no actual outcome is claimed.
+
+**Applied detail:** [Lab example: paireddata](CLINICAL_LAB_EXAMPLES.md#paireddata); [Care example: comfort](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#comfort) · [Care example: support](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md#support); [Equipment: infusion](ICU_EQUIPMENT_BASICS.md#infusion) · [Equipment: hfnc](ICU_EQUIPMENT_BASICS.md#hfnc). These links explain relevant options; listing equipment is not a recommendation to use every device in the case.
 
 **Visual decision tree — paired worked example**
 

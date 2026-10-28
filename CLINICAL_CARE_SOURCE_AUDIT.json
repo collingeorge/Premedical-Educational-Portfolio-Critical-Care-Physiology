@@ -1,0 +1,828 @@
+{
+  "date": "2026-10-28",
+  "scope": "New clinical care/equipment teaching supplements only",
+  "sources": [
+    {
+      "id": "PADIS18",
+      "title": "SCCM PADIS guideline (2018)",
+      "doi": "10.1097/CCM.0000000000003299",
+      "public_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "type": "Clinical guideline; public society recommendations",
+      "support": "Pain assessment, analgesia-first care and selected adjuncts",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "PADIS25",
+      "title": "SCCM PADIS focused update (2025)",
+      "doi": "10.1097/CCM.0000000000006574",
+      "public_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/focused-update-padis-guideline",
+      "type": "Clinical guideline; public society recommendations",
+      "support": "Conditional sedation recommendation when light sedation/delirium reduction is prioritized",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "CARDREC",
+      "title": "ERAS/STS cardiac perioperative consensus (2024)",
+      "doi": "10.1016/j.athoracsur.2023.12.006",
+      "public_url": "https://www.annalsthoracicsurgery.org/article/S0003497523013176/pdf",
+      "type": "Clinical consensus; public publisher PDF",
+      "support": "Cardiac perioperative recovery and multimodal care context",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "RSI",
+      "title": "SCCM rapid sequence intubation guideline (2023)",
+      "doi": "10.1097/CCM.0000000000006000",
+      "public_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation",
+      "type": "Clinical guideline; public society recommendations",
+      "support": "Physiologic preparation, preoxygenation and medication classes",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "TUBE",
+      "title": "PUMA/international airway societies consensus (2022)",
+      "doi": "10.1111/anae.15817",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9804892/",
+      "type": "Clinical consensus; public full text",
+      "support": "Sustained exhaled CO2 and exclusion of esophageal intubation",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "VENTASSESS",
+      "title": "AARC patient-ventilator assessment guideline (2024)",
+      "doi": "10.4187/respcare.12007",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11298231/",
+      "type": "Clinical guideline; public full text",
+      "support": "Delivered volume, pressures, PEEP/auto-PEEP, FiO2, airway and humidification assessment",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "SBT",
+      "title": "AARC spontaneous breathing trials guideline (2024)",
+      "doi": "10.4187/respcare.11735",
+      "public_url": "https://www.aarc.org/wp-content/uploads/2023/11/CPG2024SpontaneousBreathingTrial.pdf",
+      "type": "Clinical guideline; public society PDF",
+      "support": "Readiness assessment and SBTs with or without pressure support; PMC lists a corrected-version supplement (29 March 2024); this guide does not reproduce numerical trial settings",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "LIBERATE",
+      "title": "ATS/CHEST liberation executive summary (2017)",
+      "doi": "10.1164/rccm.201610-2076ST",
+      "public_url": "https://www.thoracic.org/statements/resources/cc/weaning-exec-summary.pdf",
+      "type": "Clinical guideline; public publisher text",
+      "support": "Extubation readiness and preventive NIV in selected high-risk patients",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "MODES",
+      "title": "Wattley and Camporota, ventilation physiology/mechanism/modes (2026)",
+      "doi": "10.1177/17511437261470614",
+      "public_url": "https://journals.sagepub.com/doi/10.1177/17511437261470614",
+      "type": "Peer-reviewed educational review; public publisher text",
+      "support": "Mode definitions and patient-ventilator interaction; not a mode superiority guideline",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "NIV",
+      "title": "ERS/ATS NIV guideline (2017)",
+      "doi": "10.1183/13993003.02426-2016",
+      "public_url": "https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf",
+      "type": "Clinical guideline; public society PDF",
+      "support": "NIV for selected conditions including COPD-related acidosis and cardiogenic pulmonary edema",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "HFNC",
+      "title": "ERS HFNC guideline (2022)",
+      "doi": "10.1183/13993003.01574-2021",
+      "public_url": "https://publications.ersnet.org/content/erj/59/4/2101574",
+      "type": "Clinical guideline; public society text",
+      "support": "Conditional HFNC recommendations in defined populations",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "ARDS",
+      "title": "ATS ARDS update (2024)",
+      "doi": "10.1164/rccm.202311-2011ST",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/",
+      "type": "Clinical guideline; public full text",
+      "support": "Patient-specific PEEP and selected ARDS adjuncts; against prolonged recruitment maneuvers",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "GAS",
+      "title": "AARC blood gas analysis/hemoximetry guideline (2013)",
+      "doi": "10.4187/respcare.02786",
+      "public_url": "https://www.aarc.org/wp-content/uploads/2025/03/davis-et-al-2013-aarc-clinical-practice-guideline-blood-gas-analysis-and-hemoximetry-2013.pdf",
+      "type": "Clinical guideline; public society PDF, older foundational source",
+      "support": "Sampling conditions and assessment of ventilation, oxygenation and acid-base state",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "PBM",
+      "title": "EACTS/EACTAIC cardiac blood management guideline (2024)",
+      "doi": "10.1093/ejcts/ezae352",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12257489/",
+      "type": "Clinical guideline; public full text",
+      "support": "Bleeding, anemia, coagulation and context-dependent hemostatic assessment",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "SEPSIS",
+      "title": "Surviving Sepsis Campaign adult guideline (2026)",
+      "doi": "10.1007/s00134-026-08361-1",
+      "public_url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "type": "Clinical guideline; public society recommendations",
+      "support": "Blood cultures and lactate in clinical context; publisher correction 10.1007/s00134-026-08410-9 previously identified, not fully appraised",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "FEVER",
+      "title": "SCCM/IDSA new ICU fever guideline (2023)",
+      "doi": "10.1097/CCM.0000000000006022",
+      "public_url": "https://www.idsociety.org/practice-guideline/new-fever-in-critically-ill-patients/",
+      "type": "Clinical guideline; public society recommendations",
+      "support": "Source-focused investigation; scope excludes severe immunocompromise",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "AKI",
+      "title": "KDIGO AKI section 2 (2012)",
+      "doi": "10.1038/kisup.2011.32",
+      "public_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+      "type": "Clinical guideline; public official PDF, foundational older version",
+      "support": "Kidney-function trajectory and diagnostic evaluation; the March 2026 public-review draft is not used as final guidance",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "RRT",
+      "title": "KDIGO AKI section 5 (2012)",
+      "doi": "10.1038/kisup.2011.35",
+      "public_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+      "type": "Clinical guideline; public official PDF, foundational older version",
+      "support": "RRT decisions from clinical context and fluid/electrolyte/acid-base needs; CRRT in instability; the March 2026 public-review draft is not used as final guidance",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "VV",
+      "title": "ELSO adult VV-ECMO guideline (2021)",
+      "doi": "10.1097/MAT.0000000000001432",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315725/",
+      "type": "Clinical consensus guideline; public full text",
+      "support": "Respiratory support, circuit basics and patient selection",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "MCS",
+      "title": "Cardiovascular physiology during MCS review (2025)",
+      "doi": "10.3390/jcm14196935",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12524590/",
+      "type": "Peer-reviewed clinical review; public full text",
+      "support": "VA-ECMO and temporary microaxial support mechanisms and limitations",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "IABP",
+      "title": "Gillespie et al. IABP focused review (2024)",
+      "doi": "10.1016/j.jscai.2024.101337",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11307388/",
+      "type": "Peer-reviewed clinical review; public full text",
+      "support": "Counterpulsation mechanism, specialist use and complications",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "LVAD",
+      "title": "LVAD primer for the non-MCS provider (2022)",
+      "doi": "10.3390/jcm11092575",
+      "public_url": "https://www.mdpi.com/2077-0383/11/9/2575",
+      "type": "Peer-reviewed clinical review; public full text",
+      "support": "Durable pump components and loading/pulsatility considerations",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "HEMO",
+      "title": "Hamzaoui and Boissier hemodynamic monitoring review (2023)",
+      "doi": "10.1016/j.jointm.2022.10.003",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/",
+      "type": "Peer-reviewed clinical review; public full text",
+      "support": "Arterial, central venous and PA monitoring with clinical/echo context",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "PACE",
+      "title": "Temporary epicardial pacing after cardiac surgery (2023)",
+      "doi": "10.1016/j.bjae.2023.05.003",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10433321/",
+      "type": "Peer-reviewed clinical review; public full text",
+      "support": "Temporary pacing purpose, capture/sensing and monitoring",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "DRAIN",
+      "title": "BTS pleural procedures clinical statement (2023)",
+      "doi": "10.1136/thorax-2022-219371",
+      "public_url": "https://thorax.bmj.com/content/78/Suppl_3/s43",
+      "type": "Clinical statement; public publisher/society text",
+      "support": "Pleural drainage safety; not a cardiac mediastinal drain protocol",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "WORKSTATION",
+      "title": "The modern integrated anaesthesia workstation (2013)",
+      "doi": "10.4103/0019-5049.120139",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3821261/",
+      "type": "Peer-reviewed equipment review; public full text, older foundational source",
+      "support": "Gas delivery, vaporizer, breathing system, ventilator and monitoring components",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "PUMP",
+      "title": "FDA infusion-pump risk reduction for clinicians",
+      "doi": null,
+      "public_url": "https://www.fda.gov/medical-devices/infusion-pumps/infusion-pump-risk-reduction-strategies-clinicians",
+      "type": "Official public device-safety guidance; not a peer-reviewed clinical guideline",
+      "support": "Programming checks, drug-library use, monitoring and failure planning",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "SPO2",
+      "title": "FDA pulse oximeters",
+      "doi": null,
+      "public_url": "https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters",
+      "type": "Official public device-safety information; not a peer-reviewed clinical guideline",
+      "support": "Oxygen-saturation estimate and measurement limitations",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "GOALS",
+      "title": "ESICM end-of-life and palliative care guideline (2024)",
+      "doi": "10.1007/s00134-024-07579-1",
+      "public_url": "https://link.springer.com/article/10.1007/s00134-024-07579-1",
+      "type": "Clinical guideline; public full text",
+      "support": "Structured goals-of-care decisions, symptom assessment and palliative care context",
+      "checked": "2026-10-28",
+      "verification": "Identity and relevant public passages checked; not a comprehensive full-text/supplement audit"
+    }
+  ],
+  "lab_examples": [
+    {
+      "id": "bleeding",
+      "title": "Postoperative bleeding and anemia",
+      "sources": [
+        "PBM"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "ventilation",
+      "title": "Carbon dioxide retention and acidemia",
+      "sources": [
+        "GAS",
+        "VENTASSESS"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "oxygenation",
+      "title": "Oxygenation under defined support",
+      "sources": [
+        "GAS",
+        "ARDS"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "lactate",
+      "title": "Lactate in sepsis or postoperative shock",
+      "sources": [
+        "SEPSIS",
+        "HEMO"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "kidney",
+      "title": "Kidney injury after major surgery",
+      "sources": [
+        "AKI",
+        "RRT"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "electrolytes",
+      "title": "Potassium and rhythm/perfusion changes",
+      "sources": [
+        "RRT",
+        "HEMO"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "cultures",
+      "title": "New fever and a suspected source",
+      "sources": [
+        "FEVER",
+        "SEPSIS"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "anticoagulation",
+      "title": "Bleeding/thrombosis balance with anticoagulation",
+      "sources": [
+        "PBM",
+        "MCS"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "hemolysis",
+      "title": "Anemia or dark urine during mechanical support",
+      "sources": [
+        "MCS",
+        "LVAD"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "fluidacid",
+      "title": "Fluid, electrolyte and acid-base needs during CRRT",
+      "sources": [
+        "RRT"
+      ],
+      "synthetic_values": true
+    },
+    {
+      "id": "paireddata",
+      "title": "A displayed number that conflicts with the patient",
+      "sources": [
+        "SPO2",
+        "GAS",
+        "LVAD"
+      ],
+      "synthetic_values": true
+    }
+  ],
+  "equipment": [
+    {
+      "id": "ventilator",
+      "name": "ICU ventilator",
+      "sources": [
+        "VENTASSESS"
+      ]
+    },
+    {
+      "id": "workstation",
+      "name": "Anesthesia workstation",
+      "sources": [
+        "WORKSTATION"
+      ]
+    },
+    {
+      "id": "hfnc",
+      "name": "HFNC system",
+      "sources": [
+        "HFNC"
+      ]
+    },
+    {
+      "id": "niv",
+      "name": "Noninvasive positive-pressure system",
+      "sources": [
+        "NIV"
+      ]
+    },
+    {
+      "id": "airway",
+      "name": "Airway devices and visualization equipment",
+      "sources": [
+        "RSI",
+        "TUBE"
+      ]
+    },
+    {
+      "id": "capnography",
+      "name": "Waveform capnograph",
+      "sources": [
+        "TUBE"
+      ]
+    },
+    {
+      "id": "oximeter",
+      "name": "Pulse oximeter",
+      "sources": [
+        "SPO2"
+      ]
+    },
+    {
+      "id": "arterial",
+      "name": "Arterial catheter/transducer",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "central",
+      "name": "Central venous catheter",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "pac",
+      "name": "Pulmonary artery catheter",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "infusion",
+      "name": "Infusion or syringe pump",
+      "sources": [
+        "PUMP"
+      ]
+    },
+    {
+      "id": "drain",
+      "name": "Pleural chest-drain system",
+      "sources": [
+        "DRAIN"
+      ]
+    },
+    {
+      "id": "pacing",
+      "name": "Temporary epicardial pacing system",
+      "sources": [
+        "PACE"
+      ]
+    },
+    {
+      "id": "crrt",
+      "name": "CRRT machine and circuit",
+      "sources": [
+        "RRT"
+      ]
+    },
+    {
+      "id": "vv",
+      "name": "VV-ECMO circuit",
+      "sources": [
+        "VV"
+      ]
+    },
+    {
+      "id": "va",
+      "name": "VA-ECMO circuit",
+      "sources": [
+        "MCS"
+      ]
+    },
+    {
+      "id": "iabp",
+      "name": "Intra-aortic balloon pump",
+      "sources": [
+        "IABP"
+      ]
+    },
+    {
+      "id": "lvad",
+      "name": "Durable LVAD",
+      "sources": [
+        "LVAD"
+      ]
+    },
+    {
+      "id": "microaxial",
+      "name": "Temporary left-sided microaxial pump",
+      "sources": [
+        "MCS"
+      ]
+    }
+  ],
+  "procedure_mapping": {
+    "CABG": {
+      "labs": [
+        "bleeding",
+        "ventilation",
+        "lactate"
+      ],
+      "air": [
+        "pain",
+        "extubation"
+      ],
+      "equipment": [
+        "ventilator",
+        "arterial",
+        "infusion"
+      ]
+    },
+    "VALVE": {
+      "labs": [
+        "anticoagulation",
+        "electrolytes",
+        "bleeding"
+      ],
+      "air": [
+        "pain",
+        "extubation"
+      ],
+      "equipment": [
+        "pacing",
+        "arterial",
+        "ventilator"
+      ]
+    },
+    "AORTIC": {
+      "labs": [
+        "kidney",
+        "lactate",
+        "bleeding"
+      ],
+      "air": [
+        "pain",
+        "airwaycare"
+      ],
+      "equipment": [
+        "arterial",
+        "infusion",
+        "ventilator"
+      ]
+    },
+    "VA": {
+      "labs": [
+        "oxygenation",
+        "hemolysis",
+        "anticoagulation"
+      ],
+      "air": [
+        "airwaycare",
+        "modes"
+      ],
+      "equipment": [
+        "va",
+        "arterial",
+        "pac"
+      ]
+    },
+    "LVAD": {
+      "labs": [
+        "hemolysis",
+        "kidney",
+        "anticoagulation"
+      ],
+      "air": [
+        "pain",
+        "support"
+      ],
+      "equipment": [
+        "lvad",
+        "arterial",
+        "pac"
+      ]
+    },
+    "IMPELLA": {
+      "labs": [
+        "hemolysis",
+        "bleeding",
+        "anticoagulation"
+      ],
+      "air": [
+        "support",
+        "airwaycare"
+      ],
+      "equipment": [
+        "microaxial",
+        "arterial",
+        "infusion"
+      ]
+    },
+    "HEARTTX": {
+      "labs": [
+        "kidney",
+        "lactate",
+        "electrolytes"
+      ],
+      "air": [
+        "pain",
+        "extubation"
+      ],
+      "equipment": [
+        "pac",
+        "ventilator",
+        "infusion"
+      ]
+    },
+    "LUNGRESECTION": {
+      "labs": [
+        "oxygenation",
+        "ventilation",
+        "bleeding"
+      ],
+      "air": [
+        "pain",
+        "airwaycare",
+        "support"
+      ],
+      "equipment": [
+        "drain",
+        "ventilator",
+        "hfnc"
+      ]
+    },
+    "LUNGTX": {
+      "labs": [
+        "oxygenation",
+        "ventilation",
+        "kidney"
+      ],
+      "air": [
+        "airwaycare",
+        "modes",
+        "extubation"
+      ],
+      "equipment": [
+        "ventilator",
+        "vv",
+        "capnography"
+      ]
+    },
+    "ESOPH": {
+      "labs": [
+        "cultures",
+        "bleeding",
+        "kidney"
+      ],
+      "air": [
+        "pain",
+        "airwaycare",
+        "support"
+      ],
+      "equipment": [
+        "drain",
+        "ventilator",
+        "infusion"
+      ]
+    },
+    "AIRWAYSURG": {
+      "labs": [
+        "ventilation",
+        "oxygenation"
+      ],
+      "air": [
+        "intubation",
+        "airwaycare"
+      ],
+      "equipment": [
+        "airway",
+        "capnography",
+        "ventilator"
+      ]
+    },
+    "AAA": {
+      "labs": [
+        "bleeding",
+        "kidney",
+        "lactate"
+      ],
+      "air": [
+        "pain",
+        "support"
+      ],
+      "equipment": [
+        "arterial",
+        "ventilator",
+        "crrt"
+      ]
+    },
+    "CAROTID": {
+      "labs": [
+        "bleeding",
+        "paireddata"
+      ],
+      "air": [
+        "intubation",
+        "airwaycare"
+      ],
+      "equipment": [
+        "airway",
+        "capnography",
+        "arterial"
+      ]
+    },
+    "LIMB": {
+      "labs": [
+        "electrolytes",
+        "kidney",
+        "bleeding"
+      ],
+      "air": [
+        "pain",
+        "support"
+      ],
+      "equipment": [
+        "arterial",
+        "infusion",
+        "crrt"
+      ]
+    },
+    "SHOCK": {
+      "labs": [
+        "lactate",
+        "kidney",
+        "oxygenation"
+      ],
+      "air": [
+        "intubation",
+        "support"
+      ],
+      "equipment": [
+        "pac",
+        "iabp",
+        "microaxial",
+        "va"
+      ]
+    },
+    "RESPFAIL": {
+      "labs": [
+        "ventilation",
+        "oxygenation",
+        "cultures"
+      ],
+      "air": [
+        "support",
+        "modes",
+        "extubation"
+      ],
+      "equipment": [
+        "hfnc",
+        "niv",
+        "ventilator",
+        "vv"
+      ]
+    },
+    "ENDOCARD": {
+      "labs": [
+        "cultures",
+        "kidney",
+        "lactate"
+      ],
+      "air": [
+        "intubation",
+        "support"
+      ],
+      "equipment": [
+        "ventilator",
+        "arterial",
+        "infusion"
+      ]
+    },
+    "COMFORT": {
+      "labs": [
+        "paireddata"
+      ],
+      "air": [
+        "comfort",
+        "support"
+      ],
+      "equipment": [
+        "infusion",
+        "hfnc"
+      ]
+    }
+  },
+  "format": "worked examples; no quizzes",
+  "clinical_validation": false,
+  "full_text_audit_complete": false,
+  "all_sources_have_public_links": true,
+  "source_types_distinguished": true
+}

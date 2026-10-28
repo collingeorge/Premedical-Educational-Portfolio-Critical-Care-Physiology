@@ -1,5 +1,7 @@
 # Critical care physiology: synthetic educational exercises
 
+[Laboratory findings and diagnosis examples](CLINICAL_LAB_EXAMPLES.md) · [Pain, airway, ventilation and extubation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) · [Equipment basics and case uses](ICU_EQUIPMENT_BASICS.md) · [Public clinical sources](CLINICAL_CARE_PUBLIC_SOURCES.md)
+
 [Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives with visual decision trees across cardiac, thoracic, vascular and acute cardiorespiratory care.
 
 [Integrated ICU/CTICU workups: pain, airway, circulation, diagnosis and testing](ICU_CTICU_WORKUP_CASES.md) — all 42 topics, with conditional test purposes and reassessment.

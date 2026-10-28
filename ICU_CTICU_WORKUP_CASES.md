@@ -1,5 +1,7 @@
 # Integrated ICU and CTICU workups: 42 paired case applications
 
+[Laboratory findings and diagnosis examples](CLINICAL_LAB_EXAMPLES.md) · [Pain, airway, ventilation and extubation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) · [Equipment basics and case uses](ICU_EQUIPMENT_BASICS.md) · [Public clinical sources](CLINICAL_CARE_PUBLIC_SOURCES.md)
+
 [Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives across cardiac, thoracic, vascular and acute cardiorespiratory care.
 
 28 October 2026. This supplement expands [the 42 paired ICU topics](APPLIED_CASES.md) beyond anesthesia to diagnostic reasoning, pain/sedation, airway and breathing, circulation, renal/metabolic status, laboratory/imaging choices and reassessment. The 84 profiles remain entirely synthetic. It is an educational workup, not a standing order set, bedside protocol or exhaustive patient assessment.

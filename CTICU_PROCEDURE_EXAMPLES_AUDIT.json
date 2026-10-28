@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-28",
+  "format": "worked examples, no quiz questions",
+  "cases": [
+    {
+      "id": "CABG",
+      "group": "cardiac",
+      "title": "After coronary bypass",
+      "male": "A man with diabetes has incisional pain, shallow breathing and a new fall in pressure.",
+      "female": "A woman with prior ventricular dysfunction has the same operation and new congestion.",
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "ERASC"
+      ]
+    },
+    {
+      "id": "VALVE",
+      "group": "cardiac",
+      "title": "Aortic, mitral or tricuspid repair/replacement",
+      "male": "A man after mechanical aortic replacement develops bradycardia and reduced urine output.",
+      "female": "A woman after mitral repair develops breathlessness and congestion.",
+      "sources": [
+        "POSTCARD",
+        "VALVE",
+        "RV"
+      ]
+    },
+    {
+      "id": "AORTIC",
+      "group": "cardiac",
+      "title": "Thoracic aortic repair or dissection",
+      "male": "A man after dissection repair becomes hypertensive and reports new pain.",
+      "female": "A woman after arch repair develops reduced urine output and a focal neurological change.",
+      "sources": [
+        "AORTA",
+        "KIDNEY"
+      ]
+    },
+    {
+      "id": "VA",
+      "group": "cardiac",
+      "title": "VA-ECMO for cardiac failure",
+      "male": "A man on VA-ECMO after myocardial injury develops cool extremities and rising lactate.",
+      "female": "A woman on VA-ECMO after surgery develops pulmonary congestion despite displayed circuit flow.",
+      "sources": [
+        "VA",
+        "RV"
+      ]
+    },
+    {
+      "id": "LVAD",
+      "group": "cardiac",
+      "title": "Early or established LVAD support",
+      "male": "A man soon after LVAD implantation develops venous congestion and reduced device flow.",
+      "female": "A woman with an established LVAD has alarms, dark urine and falling hemoglobin.",
+      "sources": [
+        "LVAD",
+        "RV"
+      ]
+    },
+    {
+      "id": "IMPELLA",
+      "group": "cardiac",
+      "title": "Temporary microaxial flow-pump support",
+      "male": "A man supported with an Impella develops access-site swelling and a cooler leg.",
+      "female": "A woman supported with an Impella develops dark urine and a falling hemoglobin.",
+      "sources": [
+        "CS2025",
+        "MCSHEM"
+      ]
+    },
+    {
+      "id": "HEARTTX",
+      "group": "cardiac",
+      "title": "Immediate heart-transplant recovery",
+      "male": "A man after heart transplant develops low output and worsening kidney function.",
+      "female": "A woman after heart transplant has a new rhythm change and rising support needs.",
+      "sources": [
+        "HEARTTX"
+      ]
+    },
+    {
+      "id": "LUNGRESECTION",
+      "group": "thoracic",
+      "title": "Lobectomy or pneumonectomy",
+      "male": "A man after lobectomy has pain-limited coughing and a rising oxygen requirement.",
+      "female": "A woman after pneumonectomy develops breathlessness and a new circulation change.",
+      "sources": [
+        "LUNGERAS"
+      ]
+    },
+    {
+      "id": "LUNGTX",
+      "group": "thoracic",
+      "title": "Single or double lung transplantation",
+      "male": "A man early after bilateral transplant develops impaired oxygenation and opacities.",
+      "female": "A woman after single-lung transplant develops hypoxemia with altered airway pressures.",
+      "sources": [
+        "PGD",
+        "TRANSPLANT"
+      ]
+    },
+    {
+      "id": "ESOPH",
+      "group": "thoracic",
+      "title": "Esophagectomy",
+      "male": "A man after esophagectomy develops tachycardia, new oxygen need and chest discomfort.",
+      "female": "A woman after esophagectomy develops fever, hypotension and altered drain findings.",
+      "sources": [
+        "ESOPERAS",
+        "FEVER"
+      ]
+    },
+    {
+      "id": "AIRWAYSURG",
+      "group": "thoracic",
+      "title": "Tracheal reconstruction or mediastinal surgery",
+      "male": "A man after tracheal reconstruction develops stridor and distress.",
+      "female": "A woman after mediastinal tumor surgery develops positional breathing difficulty and hypotension.",
+      "sources": [
+        "TRACHEAL",
+        "AIRWAY"
+      ]
+    },
+    {
+      "id": "AAA",
+      "group": "vascular",
+      "title": "Open or endovascular abdominal aortic repair",
+      "male": "A man after open AAA repair develops abdominal distension and reduced urine output.",
+      "female": "A woman after endovascular repair develops new pain and falling pressure.",
+      "sources": [
+        "AAA",
+        "ABD",
+        "KIDNEY"
+      ]
+    },
+    {
+      "id": "CAROTID",
+      "group": "vascular",
+      "title": "Carotid endarterectomy",
+      "male": "A man after carotid endarterectomy develops neck swelling and voice change.",
+      "female": "A woman after the same operation develops severe headache and a new focal deficit.",
+      "sources": [
+        "CAROTID"
+      ]
+    },
+    {
+      "id": "LIMB",
+      "group": "vascular",
+      "title": "Complex limb revascularization",
+      "male": "A man after lower-limb bypass develops increasing pain, tense swelling and sensory change.",
+      "female": "A woman after revascularization has a newly cool foot with diminished Doppler signals.",
+      "sources": [
+        "PAD2024"
+      ]
+    },
+    {
+      "id": "SHOCK",
+      "group": "crisis",
+      "title": "Cardiogenic shock without a completed operation",
+      "male": "A man with acute myocardial injury has cool skin, oliguria and pulmonary edema.",
+      "female": "A woman with acute severe ventricular dysfunction has hypotension and increasing respiratory effort.",
+      "sources": [
+        "CS2025"
+      ]
+    },
+    {
+      "id": "RESPFAIL",
+      "group": "crisis",
+      "title": "Severe respiratory failure or ARDS",
+      "male": "A man with severe pneumonia develops diffuse lung injury and worsening oxygenation.",
+      "female": "A woman with a similar lung injury develops hypercapnia and ventilator dyssynchrony.",
+      "sources": [
+        "ARDS",
+        "VV"
+      ]
+    },
+    {
+      "id": "ENDOCARD",
+      "group": "crisis",
+      "title": "Complicated infective endocarditis",
+      "male": "A man with valve infection develops pulmonary edema and low output.",
+      "female": "A woman with suspected valve infection develops shock and a focal neurological change.",
+      "sources": [
+        "ENDO"
+      ]
+    },
+    {
+      "id": "COMFORT",
+      "group": "crisis",
+      "title": "A goals-concordant course with advanced cardiorespiratory failure",
+      "male": "A man with persistent multiorgan failure chooses a comfort-focused plan after an informed discussion.",
+      "female": "A woman with severe lung disease declines intubation but requests treatment of a potentially reversible infection.",
+      "sources": [
+        "GOALS",
+        "DNR"
+      ]
+    }
+  ],
+  "synthetic_profiles": 36,
+  "new_sources": [
+    {
+      "id": "ERASC",
+      "title": "Grant et al. cardiac perioperative care consensus (2024)",
+      "doi": "10.1016/j.athoracsur.2023.12.006",
+      "checked": "Publisher consensus identity/abstract; procedure context, no pathway reproduced."
+    },
+    {
+      "id": "HEARTTX",
+      "title": "ISHLT care of heart transplant recipients (2023)",
+      "doi": "10.1016/j.healun.2022.10.015",
+      "checked": "Society and PubMed identity; complete guideline not appraised."
+    },
+    {
+      "id": "LUNGERAS",
+      "title": "ERAS/ESTS enhanced recovery after lung surgery (2019)",
+      "doi": "10.1093/ejcts/ezy301",
+      "checked": "PubMed identity; complete guideline not appraised."
+    },
+    {
+      "id": "ESOPERAS",
+      "title": "Low et al. ERAS esophagectomy recommendations (2019)",
+      "doi": "10.1007/s00268-018-4786-4",
+      "checked": "Publisher identity/abstract; complete guideline not appraised."
+    },
+    {
+      "id": "TRACHEAL",
+      "title": "Anesthesia for tracheal resection and reconstruction (2012)",
+      "doi": "10.1016/j.anclin.2012.08.012",
+      "checked": "PubMed abstract; historical review specific to tracheal surgery, not a complete mediastinal surgery guideline."
+    },
+    {
+      "id": "AAA",
+      "title": "ESVS abdominal aorto-iliac aneurysm guideline (2024)",
+      "doi": "10.1016/j.ejvs.2023.11.002",
+      "checked": "Society PDF and publisher scope; no complete recommendation audit."
+    },
+    {
+      "id": "CAROTID",
+      "title": "ESVS carotid and vertebral artery guideline (2023)",
+      "doi": "10.1016/j.ejvs.2022.04.011",
+      "checked": "PubMed identity and society postoperative chapter; no complete recommendation audit."
+    },
+    {
+      "id": "PAD2024",
+      "title": "ACC/AHA multisociety lower-extremity PAD guideline (2024)",
+      "doi": "10.1161/CIR.0000000000001251",
+      "checked": "Primary guideline identity and available text; no full recommendation audit."
+    },
+    {
+      "id": "CS2025",
+      "title": "ACC evaluation and management of cardiogenic shock consensus (2025)",
+      "doi": "10.1016/j.jacc.2025.02.018",
+      "checked": "Publisher text, including structured reassessment; no order schedule reproduced."
+    },
+    {
+      "id": "MCSHEM",
+      "title": "Prevention and Management of Hemolysis when Utilizing Mechanical Circulatory Support (2026)",
+      "doi": "10.1016/j.iccl.2026.03.013",
+      "checked": "PubMed review abstract; not proof of device benefit and no device adjustment instructions."
+    },
+    {
+      "id": "ENDO",
+      "title": "ESC management of endocarditis guideline (2023)",
+      "doi": "10.1093/eurheartj/ehad193",
+      "checked": "Primary guideline identity and available text. Corrections 10.1093/eurheartj/ehad625, ehad776 and ehae877 identified; not all correction content fully appraised."
+    }
+  ],
+  "full_text_audit_complete": false,
+  "clinical_validation": false
+}

@@ -7,18 +7,18 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3705,
-      "sha256": "9c4891ba87b8bfbd4d91718d729d9267961be36bcbe07e1d3fbeb1921a607e93"
+      "bytes": 3873,
+      "sha256": "57ae85da4ec5faacdb6f7544210fe305cafe96bbbf1e5b72daf51e1ef0f598be"
     },
     {
       "path": "APPLIED_CASES.md",
-      "bytes": 62225,
-      "sha256": "671911056d960d61984f700c1742e5b298c1ed5ce999857b1d8a051fa3186b7b"
+      "bytes": 62473,
+      "sha256": "d26ec4a8dc9a83aab6147bf4b4afecef6d21ab047f1aef60beacce49addbc154"
     },
     {
       "path": "EXAMPLE_SOURCE_AUDIT.json",
-      "bytes": 41472,
-      "sha256": "f22e838ed369d9eb998737b60d0390d883886190bd34ba358890cd144e93866b"
+      "bytes": 41769,
+      "sha256": "697461d024ffd5c1d98a7539572886cb7fcbcfbd174f2e6373982877292d06d7"
     },
     {
       "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
@@ -37,38 +37,38 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1549,
-      "sha256": "dcf6589fcef50bb1945672366dbd7796ff61632ebaffca3d679fba09b9be84cb"
+      "bytes": 2084,
+      "sha256": "cd59c32fa2ba0a4cac50bb9d96718fda9073dc824ece8e039e18b858eb0834ce"
     },
     {
       "path": "case_set_01_multisystem_critical_care_scenarios.md",
-      "bytes": 7663,
-      "sha256": "4ac9cf06a61db40872f8eb622908f31cc4ca0f4474ffec25f692f9e51f5695b2"
+      "bytes": 8728,
+      "sha256": "f49fc3c89b7ba7c2d3e710f93da57d3345e36ab9ed2030fc73bc34fd21a4118e"
     },
     {
       "path": "case_set_02_advanced_hemodynamic_scenarios.md",
-      "bytes": 6585,
-      "sha256": "28e86c38d4529e90c721392846b550f65ebf08179f54ea83eb43866454aa7e06"
+      "bytes": 7919,
+      "sha256": "94f7a548b8117f05daf164fdfbd3ce987843a2aa6fd02d8c20385097fdca5dd6"
     },
     {
       "path": "case_set_03_postoperative_cardiothoracic_scenarios.md",
-      "bytes": 6544,
-      "sha256": "e53ecb36827bf9395a749d96299a557dd3b8b4ab0e4b7bea4425ce6acd6aaafe"
+      "bytes": 7720,
+      "sha256": "02974ca1eb2485ed8c05fb7342c2ea7773d0ee5bbdf5fa71f55148b16a67a352"
     },
     {
       "path": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
-      "bytes": 9689,
-      "sha256": "d13075662667b4f86b849853a52221ba789a9317bddf8d34d8eac151fc6055f2"
+      "bytes": 11629,
+      "sha256": "750d438beed12c412d3b99b4619e76c95b98bb11d93790def8d21b0643f07f5d"
     },
     {
       "path": "case_set_05_mechanical_support_and_goals_of_care.md",
-      "bytes": 4561,
-      "sha256": "d95ae757dd9e9ebd22dbe6fa8ec085c97c760a93e0a8812cc4a7f42785335c1a"
+      "bytes": 5298,
+      "sha256": "3a8c232caca023929237047f55067bda3fe6ae523caa828670e3c7efbae2d614"
     },
     {
       "path": "ICU_CTICU_WORKUP_CASES.md",
-      "bytes": 144226,
-      "sha256": "44eda94d71245fb7eaf145c088f8c12aebd477635c717834a91854b8e00bea5b"
+      "bytes": 144394,
+      "sha256": "87da86e4c2bfc590798185be87b24f6120ba90486f84d9e1af87990bce165a3e"
     },
     {
       "path": "INTEGRATED_WORKUP_AUDIT.json",
@@ -77,8 +77,18 @@
     },
     {
       "path": "references/bibliography.md",
-      "bytes": 4500,
-      "sha256": "3bcd4d3ecca8cfad184771b500bfc392290c95f92b454b57bd9f2fe6a882731a"
+      "bytes": 4763,
+      "sha256": "af68b5e411b15b40bcac8f71e7e88f0c7e97aeac607ec16ed67b3a678e35436c"
+    },
+    {
+      "path": "CTICU_PROCEDURE_EXAMPLES.md",
+      "bytes": 39662,
+      "sha256": "5889ae6c4bafedce99d8d7e5b0a31e67e22e64869289c788f5ac349ba723d114"
+    },
+    {
+      "path": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
+      "bytes": 9870,
+      "sha256": "6491ca4d3858c977b3f1d3e8e5f21ffc33df0d66e53f9b9524d32cf7caf85b33"
     }
   ]
 }

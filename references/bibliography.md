@@ -31,3 +31,6 @@ Sources retain their own copyright. No society algorithm, questionnaire, clinica
 ## Integrated ICU/CTICU workup sources (28 October 2026)
 
 See the [27-source register](../ICU_CTICU_WORKUP_CASES.md#sources-and-verification-scope) and [per-case source/test mapping](../INTEGRATED_WORKUP_AUDIT.json). Source verification scope and full-text limitations are stated there.
+
+
+The [procedure-organized CTICU casebook](../CTICU_PROCEDURE_EXAMPLES.md#source-register-and-limits) adds 11 DOI-bearing references for its 18 paired narratives, including thoracic/vascular surgery and transplantation. Verification limits are stated per source.

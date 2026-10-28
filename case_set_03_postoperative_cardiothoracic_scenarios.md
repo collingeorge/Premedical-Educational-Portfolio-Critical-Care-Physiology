@@ -2,9 +2,9 @@
 
 Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
-## How to use these exercises
+## How to use these worked examples
 
-Identify mechanisms, missing information and the limits of each inference. These are discussion prompts rather than management plans. A completed worksheet demonstrates study, not competence to diagnose or treat patients. Use the [source guide](references/bibliography.md) and [self-assessment rubric](learning_objectives/self_assessment_rubric.md).
+Read the paired patient examples and integrated clinical narratives linked under each scenario. The examples explain interpretation and conditional care decisions; no student answers or scoring are required. See the [procedure-organized CTICU casebook](CTICU_PROCEDURE_EXAMPLES.md) and [source guide](references/bibliography.md).
 
 ## Scenario 1: CABG with vasoplegia, hypothermia and bleeding
 
@@ -12,11 +12,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional bypass recipient has hypotension, a rising lactate trend, reduced calculated vascular resistance and drain output.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Which values depend on the cardiac-output measurement?
-2. What findings would support or weaken a mixed-shock explanation?
-3. How could temperature and bleeding affect the picture?
+Check how resistance was calculated and whether bleeding, pump dysfunction and tone abnormalities overlap. Vasopressors do not replace correction of an anatomic or bleeding cause; do not infer vasodilation from low temperature alone. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A preserved EF does not exclude important low-output physiology, and hypothermia should not be assumed to cause vasodilation.
 
@@ -26,11 +24,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional myocarditis patient on VA-ECMO has rising lactate and concern about hemolysis, LV distension or circuit dysfunction.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Which observations separately assess LV loading, blood trauma and oxygenator performance?
-2. Why might an increase in circuit flow worsen some forms of LV loading?
-3. What could cause lactate elevation despite apparently adequate extracorporeal flow?
+Evaluate LV loading, blood trauma and circuit performance separately; apparent circuit flow does not establish effective tissue delivery. An escalation in vasoactive drugs or circuit flow is not a universal response; the ECMO team evaluates competing effects. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A transmembrane gradient alone is not an oxygenator-change rule; interpretation belongs to the ECMO team.
 
@@ -40,11 +36,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional LVAD recipient has rising venous pressure, falling pulsatility and worsening renal function.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Compare RV dysfunction, loading changes, rhythm disturbance and device-related causes.
-2. What can septal geometry and inflow assessment add?
-3. Why does congestion not by itself determine a fluid or diuretic prescription?
+Compare RV, rhythm and loading explanations using imaging and device context; a congestion label does not prove fluid responsiveness. Fluid, diuretic and inotrope discussions require different supporting findings and device-team review. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** Device alarms and displayed flow do not establish a unique diagnosis or universal speed adjustment.
 
@@ -54,11 +48,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional adult with ARDS has worsening oxygenation and carbon dioxide retention after supination.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Check whether pressure and blood-gas measurements are comparable over time.
-2. Compare dead-space, shunt, effort, secretions and mechanical explanations.
-3. How does the lung-protection question interact with hemodynamics and acid–base status?
+Recheck airway mechanics, comparable gases and positional effects before attributing deterioration to loss of recruitment alone. A mode switch, paralytic or sedative is not guaranteed to reduce lung stress; ECMO assessment is a separate specialist question. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A mode switch alone does not cap injurious lung stress. No universal pH or driving-pressure trigger for ECMO is prescribed.
 
@@ -68,11 +60,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional aortic-surgery patient has new back pain, hypertension and deteriorating urine output.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. What urgent anatomic and perfusion questions arise?
-2. Why is waiting for a CVP target an unsafe substitute for evaluating possible malperfusion?
-3. Which details determine the usefulness and risks of diagnostic options?
+New symptoms after repair require urgent anatomic/perfusion reassessment; a filling-pressure target cannot rule out malperfusion. Analgesia may be needed but should not become a substitute for evaluation of the underlying complication. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** This is a prompt for urgent expert evaluation, not a sequence of fluids followed by imaging only if a numerical target fails.
 
@@ -82,11 +72,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional transplant recipient has low compliance and worsening gas exchange soon after surgery.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. What competing diagnoses must be assessed before assigning PGD?
-2. How do ventilator measurements differ from a diagnosis of recruitability?
-3. How would a transplant team evaluate competing lung and circulatory effects?
+Organize the differential before labeling PGD; ventilation measurements do not independently establish recruitability. No PEEP change, immune regimen or ECMO threshold is derived from the limited data. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No graft diagnosis, PEEP range or ECMO threshold follows from this short vignette alone.
 
@@ -96,11 +84,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional adult after bowel surgery remains shocked with oliguria and venous congestion.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Revisit source control and alternative shock mechanisms.
-2. What is needed to determine whether congestion is contributing to kidney dysfunction?
-3. How would a renal-support decision be separated from an arbitrary creatinine or fluid-balance trigger?
+Assess infection control, perfusion and kidney complications separately; severe AKI alone is not an automatic accelerated-dialysis mandate. Antimicrobials, fluid/vasoactive treatment and renal support have separate indications and exposure considerations. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** Laboratory values and positive balance do not alone establish a dialysis indication or an ultrafiltration rate.
 
@@ -110,11 +96,9 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 **Synthetic vignette:** A fictional aneurysmal-SAH patient has reduced cardiac function and uncertain cerebral perfusion.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Check the arithmetic and measurement conditions for CPP.
-2. What evidence distinguishes vasospasm from delayed cerebral ischemia?
-3. How might treatment risks change with cardiac dysfunction?
+Verify MAP/ICP measurement conditions and distinguish vasospasm from the clinical syndrome of delayed ischemia. A preselected pressor target or sodium range is not justified by the label SAH alone. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A preselected MAP or sodium range is not a validated plan for every SAH patient.
 

@@ -1,0 +1,819 @@
+{
+  "date": "2026-10-28",
+  "case_pairs": 42,
+  "synthetic_profiles": 84,
+  "sources": [
+    {
+      "id": "SEPSIS",
+      "title": "Prescott et al. Surviving Sepsis Campaign adult guideline (2026)",
+      "doi": "10.1007/s00134-026-08361-1",
+      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here.",
+      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved"
+    },
+    {
+      "id": "ARDS",
+      "title": "Qadir et al. ATS ARDS update (2024)",
+      "doi": "10.1164/rccm.202311-2011ST",
+      "scope": "Conditional options depend on severity and patient selection; a P:F ratio is not a standalone escalation command.",
+      "checked": "PMC guideline summary and recommendations"
+    },
+    {
+      "id": "POSTCARD",
+      "title": "Hall et al. Management of Post-cardiotomy Shock (2024)",
+      "doi": "10.15420/usc.2024.16",
+      "scope": "Review of mixed shock after cardiac surgery. Not a universal drug or lactate threshold.",
+      "checked": "PubMed abstract and available PMC passages"
+    },
+    {
+      "id": "RV",
+      "title": "ESC Acute cor pulmonale consensus (2024)",
+      "doi": "10.1093/ehjacc/zuad157",
+      "scope": "RV afterload/preload/contractility assessment; surgical and device populations need additional sources.",
+      "checked": "Publisher consensus identity and available passages"
+    },
+    {
+      "id": "VA",
+      "title": "Lorusso et al. ELSO adult VA-ECMO interim guideline (2021)",
+      "doi": "10.1097/MAT.0000000000001510",
+      "scope": "Specialist circulatory-support assessment; not a cannulation or adjustment manual.",
+      "checked": "PubMed and publisher record/selected passages"
+    },
+    {
+      "id": "VV",
+      "title": "Tonna et al. ELSO adult VV-ECMO guideline (2021)",
+      "doi": "10.1097/MAT.0000000000001432",
+      "scope": "Respiratory-support/circuit interpretation; differs from VA physiology.",
+      "checked": "Publisher guideline record/available text"
+    },
+    {
+      "id": "LVAD",
+      "title": "Saeed et al. ISHLT mechanical circulatory support update (2023)",
+      "doi": "10.1016/j.healun.2022.12.004",
+      "scope": "Device-specific assessment and specialist oversight; displayed flow alone does not establish cause.",
+      "checked": "Society guideline and PubMed identity/selected text"
+    },
+    {
+      "id": "AORTA",
+      "title": "Isselbacher et al. ACC/AHA aortic disease guideline (2022)",
+      "doi": "10.1161/CIR.0000000000001106",
+      "scope": "Aortic/perfusion assessment; no universal postoperative BP prescription supplied.",
+      "checked": "AHA/PubMed DOI identity and available PMC guideline text"
+    },
+    {
+      "id": "VALVE",
+      "title": "Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021)",
+      "doi": "10.1161/CIR.0000000000000923",
+      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule.",
+      "checked": "PubMed identity; corrections listed in record, exact targets not reproduced"
+    },
+    {
+      "id": "PGD",
+      "title": "Snell et al. ISHLT PGD definition/grading, 2016 consensus published 2017",
+      "doi": "10.1016/j.healun.2017.07.021",
+      "scope": "Timing, imaging and gas-exchange context required; definition source is not a complete treatment guideline.",
+      "checked": "PubMed identity and available published definition context"
+    },
+    {
+      "id": "RENAL",
+      "title": "STARRT-AKI investigators. Timing of Initiation of Renal-Replacement Therapy (2020)",
+      "doi": "10.1056/NEJMoa2000741",
+      "scope": "Timing trial in selected severe AKI; urgent indications are a separate clinical question.",
+      "checked": "Primary trial record and available abstract"
+    },
+    {
+      "id": "PANCREAS",
+      "title": "de-Madaria et al. WATERFALL trial (2022)",
+      "doi": "10.1056/NEJMoa2202884",
+      "scope": "Aggressive fluids increased overload in the studied population; not a fixed replacement strategy for established postoperative organ failure.",
+      "checked": "Primary NEJM abstract"
+    },
+    {
+      "id": "TBI",
+      "title": "Carney et al. Severe TBI guideline, fourth edition (2017)",
+      "doi": "10.1227/NEU.0000000000001432",
+      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here.",
+      "checked": "Brain Trauma Foundation executive summary and publisher recommendations"
+    },
+    {
+      "id": "SAH",
+      "title": "Hoh et al. AHA/ASA aneurysmal SAH guideline (2023)",
+      "doi": "10.1161/STR.0000000000000436",
+      "scope": "Separate delayed ischemia assessment from prophylactic augmentation.",
+      "checked": "PubMed and AHA guideline record/available passages"
+    },
+    {
+      "id": "PADIS",
+      "title": "Lewis et al. PADIS focused update (2025)",
+      "doi": "10.1097/CCM.0000000000006574",
+      "scope": "Pain/anxiety/sedation/delirium questions in adult ICU; not every earlier PADIS topic is replaced.",
+      "checked": "Society recommendations and publisher identity"
+    },
+    {
+      "id": "NIV",
+      "title": "Rochwerg et al. ERS/ATS NIV guideline (2017)",
+      "doi": "10.1183/13993003.02426-2016",
+      "scope": "NIV suitability and goals differ by etiology and treatment preferences.",
+      "checked": "Publisher guideline text"
+    },
+    {
+      "id": "ABD",
+      "title": "Kirkpatrick et al. WSACS definitions/guideline (2013)",
+      "doi": "10.1007/s00134-013-2906-z",
+      "scope": "Pressure interpreted with organ dysfunction and context; not a dressing-change instruction.",
+      "checked": "PMC guideline"
+    },
+    {
+      "id": "GOALS",
+      "title": "ESICM end-of-life/palliative care guideline (2024)",
+      "doi": "10.1007/s00134-024-07579-1",
+      "scope": "Patient priorities, communication and symptom reassessment; jurisdiction and culture matter.",
+      "checked": "Society/publisher guideline record and available passages"
+    },
+    {
+      "id": "DNR",
+      "title": "ICMR DNAR consensus (2020)",
+      "doi": "10.4103/ijmr.IJMR_395_20",
+      "scope": "DNAR pertains to resuscitation rather than a blanket limit on all treatment; Indian guidance used as ethical context, not US legal authority.",
+      "checked": "Published consensus text"
+    }
+  ],
+  "cases": [
+    {
+      "set": 1,
+      "n": 1,
+      "title": "Postoperative hemodynamic instability",
+      "vignette": "A fictional postoperative adult develops hypotension, rising lactate and chest-drain output. Cardiac function and the bleeding source have not been established.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-01",
+      "sources": [
+        "POSTCARD"
+      ],
+      "male_extra": "Bleeding trend is increasing.",
+      "female_extra": "Prior ventricular dysfunction is documented.",
+      "application": "Separate blood loss, pump failure, obstruction and vascular tone; focused imaging and serial perfusion findings discriminate the branches.",
+      "medication_context": "Vasoactive support does not correct a surgical bleeding source; analgesic/sedative effects also belong in the medication review."
+    },
+    {
+      "set": 1,
+      "n": 2,
+      "title": "DNI status and respiratory distress",
+      "vignette": "An older fictional adult with COPD and pneumonia is distressed and has difficulty tolerating non-invasive ventilation. DNR/DNI is documented; other treatment preferences are unknown.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-02",
+      "sources": [
+        "NIV",
+        "DNR",
+        "GOALS"
+      ],
+      "male_extra": "Wants active treatment short of intubation.",
+      "female_extra": "Preferences beyond DNI have not been discussed.",
+      "application": "Clarify the treatment ceiling and trial goals before interpreting NIV intolerance; distinguish reversible distress from a separately chosen symptom-only plan.",
+      "medication_context": "Analgesia and anxiolysis require respiratory reassessment; a sedative combination is not implied by DNI."
+    },
+    {
+      "set": 1,
+      "n": 3,
+      "title": "Worsening septic shock",
+      "vignette": "A fictional adult with suspected infection has increasing vasopressor requirements, mottling, oliguria and rising lactate.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-03",
+      "sources": [
+        "SEPSIS"
+      ],
+      "male_extra": "Source is suspected but not controlled.",
+      "female_extra": "Positive fluid balance and congestion are present.",
+      "application": "Reassess infection/source control and perfusion while asking whether additional fluid is both effective and tolerated.",
+      "medication_context": "Antimicrobials and vasopressor support are distinct interventions; culture/resistance and organ function inform drug discussions."
+    },
+    {
+      "set": 1,
+      "n": 4,
+      "title": "Rib fractures and impaired ventilation",
+      "vignette": "A fictional trauma patient has chest-wall pain, shallow breathing and increasing oxygen needs. Associated injuries are incompletely described.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-04",
+      "sources": [
+        "NIV",
+        "PADIS"
+      ],
+      "male_extra": "Chest pain limits deep breathing.",
+      "female_extra": "Sleep apnea and other injuries need clarification.",
+      "application": "Evaluate chest injury, ventilation and analgesic adequacy together; a pain score alone cannot exclude worsening respiratory injury.",
+      "medication_context": "Local/regional or systemic analgesia are discussion options after injury and bleeding-risk assessment; respiratory effects matter."
+    },
+    {
+      "set": 1,
+      "n": 5,
+      "title": "Myocarditis and shock",
+      "vignette": "A fictional adult with suspected fulminant myocarditis has poor perfusion despite initial support. Ventricular function, rhythm and the cause of inflammation need reassessment.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-05",
+      "sources": [
+        "VA",
+        "POSTCARD"
+      ],
+      "male_extra": "Rhythm disturbance is suspected.",
+      "female_extra": "Biventricular dysfunction is suspected.",
+      "application": "Characterize rhythm and ventricular involvement before comparing pharmacologic support with expert mechanical-support assessment.",
+      "medication_context": "Inotrope, vasopressor and sedation choices depend on the assessed physiology; suspected myocarditis does not select an empiric immune-treatment regimen."
+    },
+    {
+      "set": 1,
+      "n": 6,
+      "title": "Pancreatitis with respiratory and renal dysfunction",
+      "vignette": "A fictional postoperative adult with pancreatitis has pain, positive fluid balance, worsening breathing and rising creatinine.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-06",
+      "sources": [
+        "PANCREAS",
+        "RENAL"
+      ],
+      "male_extra": "Recent fluids were followed by dyspnea.",
+      "female_extra": "Baseline kidney dysfunction complicates fluid tolerance.",
+      "application": "The WATERFALL result argues against assuming more fluid is better; established organ failure differs from its trial population and requires individualized reassessment.",
+      "medication_context": "Analgesic choice and renal/hepatic exposure need review; no fixed high-volume fluid or drug infusion follows from the diagnosis."
+    },
+    {
+      "set": 1,
+      "n": 7,
+      "title": "Brain injury with aspiration and airway decline",
+      "vignette": "A fictional adult with traumatic brain injury develops reduced alertness and suspected aspiration.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-07",
+      "sources": [
+        "TBI",
+        "PADIS"
+      ],
+      "male_extra": "Neurologic examination is declining.",
+      "female_extra": "Recent sedatives confound the examination.",
+      "application": "Separate airway/oxygenation threats, injury progression and medication effects; a sedative-adjusted examination is not equivalent to exclusion of intracranial deterioration.",
+      "medication_context": "Hypnotics, analgesics and osmotic agents have different purposes; no dose or ventilation target can be selected from the abbreviated case."
+    },
+    {
+      "set": 1,
+      "n": 8,
+      "title": "Sepsis with ARDS and kidney injury",
+      "vignette": "A fictional adult with pneumonia has bilateral opacities, impaired gas exchange, positive fluid balance and kidney dysfunction.",
+      "file": "case_set_01_multisystem_critical_care_scenarios.md",
+      "id": "ICU-01-08",
+      "sources": [
+        "SEPSIS",
+        "ARDS",
+        "RENAL"
+      ],
+      "male_extra": "Lung gas exchange is deteriorating.",
+      "female_extra": "Fluid accumulation accompanies kidney injury.",
+      "application": "Integrate lung-protection assessment, infection/source control and fluid tolerance rather than treating isolated oxygenation or creatinine values.",
+      "medication_context": "Sedation or neuromuscular-block discussions depend on the actual ventilation problem; renal support is a separate indication-based decision."
+    },
+    {
+      "set": 2,
+      "n": 1,
+      "title": "Shock immediately after CABG",
+      "vignette": "A fictional adult after coronary bypass has hypotension, low estimated output, hypothermia and ongoing drain output.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-01",
+      "sources": [
+        "POSTCARD"
+      ],
+      "male_extra": "Drains show renewed bleeding.",
+      "female_extra": "Echo suggests reduced contractility.",
+      "application": "Use surgical assessment and verified output measurements to distinguish blood loss from pump failure, while allowing coexistence.",
+      "medication_context": "A vasopressor, inotrope or transfusion discussion addresses different mechanisms; none is selected solely by MAP."
+    },
+    {
+      "set": 2,
+      "n": 2,
+      "title": "VA-ECMO after myocardial infarction",
+      "vignette": "A fictional adult on VA-ECMO has improving lactate but oliguria and concern about limb perfusion.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-02",
+      "sources": [
+        "VA",
+        "RENAL"
+      ],
+      "male_extra": "A cannulated limb is cool.",
+      "female_extra": "Urine output is low despite falling lactate.",
+      "application": "Falling lactate does not settle limb perfusion or kidney questions; evaluate each organ and circuit configuration.",
+      "medication_context": "Anticoagulation, vasoactive and analgesic choices require bleeding/perfusion context and specialist oversight."
+    },
+    {
+      "set": 2,
+      "n": 3,
+      "title": "Early LVAD and RV function",
+      "vignette": "A fictional adult after LVAD implantation has changing displayed flow and pulsatility with borderline RV function.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-03",
+      "sources": [
+        "LVAD",
+        "RV"
+      ],
+      "male_extra": "RV function is borderline.",
+      "female_extra": "Displayed flow varies with rhythm.",
+      "application": "Interpret loading, rhythm, ventricular interaction and device data together before assigning a device cause.",
+      "medication_context": "Fluid and vasoactive changes are not substitutes for device assessment; no universal speed or dose follows from a display value."
+    },
+    {
+      "set": 2,
+      "n": 4,
+      "title": "Pneumonia-associated ARDS",
+      "vignette": "A fictional adult with ARDS has a reported P:F ratio near 87, increased driving pressure and vasopressor support.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-04",
+      "sources": [
+        "ARDS",
+        "RV"
+      ],
+      "male_extra": "P:F is 87 with stable sampling conditions.",
+      "female_extra": "A similar ratio was measured under different support.",
+      "application": "Check comparability and mechanics before grading severity; assess lung protection and hemodynamic tolerance before discussing conditional adjuncts.",
+      "medication_context": "Corticosteroids or neuromuscular blockade are indication-dependent options in the cited guideline, not automatic responses to a ratio."
+    },
+    {
+      "set": 2,
+      "n": 5,
+      "title": "Aortic repair, hypertension and AKI",
+      "vignette": "A fictional adult after type A dissection repair develops hypertension, oliguria and rising creatinine.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-05",
+      "sources": [
+        "AORTA",
+        "RENAL"
+      ],
+      "male_extra": "Hypertension accompanies new oliguria.",
+      "female_extra": "New perfusion asymmetry is noted.",
+      "application": "Assess anatomy and organ perfusion as well as pressure; distinguish possible malperfusion from congestion or medication-related kidney changes.",
+      "medication_context": "Rate/pressure-control discussion is specific to repair and perfusion; repeated fluid or antihypertensive changes are not an imaging substitute."
+    },
+    {
+      "set": 2,
+      "n": 6,
+      "title": "Lung transplantation and graft dysfunction",
+      "vignette": "A fictional lung-transplant recipient develops poor compliance, impaired gas exchange and fluid accumulation.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-06",
+      "sources": [
+        "PGD",
+        "RV"
+      ],
+      "male_extra": "Abnormal imaging appears early after transplant.",
+      "female_extra": "Cardiac congestion is a competing explanation.",
+      "application": "Check transplant timing, imaging and competing causes before using PGD classification; donor/recipient size and mechanics need context.",
+      "medication_context": "Diuresis, ventilator support and immune therapy answer different questions; none is established by poor compliance alone."
+    },
+    {
+      "set": 2,
+      "n": 7,
+      "title": "Sepsis and an open abdomen",
+      "vignette": "A fictional adult with abdominal sepsis has worsening shock, oliguria and positive fluid balance.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-07",
+      "sources": [
+        "SEPSIS",
+        "ABD",
+        "RENAL"
+      ],
+      "male_extra": "Abdominal distension accompanies shock.",
+      "female_extra": "Pressure is elevated with new kidney dysfunction.",
+      "application": "Review source control and measured pressure with new organ dysfunction; isolated pressure is not the whole syndrome.",
+      "medication_context": "Antimicrobial and hemodynamic treatment require reassessment; no dressing manipulation or fixed fluid-removal rate is implied."
+    },
+    {
+      "set": 2,
+      "n": 8,
+      "title": "SAH with stress cardiomyopathy",
+      "vignette": "A fictional adult after aneurysm treatment has cardiac dysfunction and concern about cerebral perfusion.",
+      "file": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "id": "ICU-02-08",
+      "sources": [
+        "SAH",
+        "RV"
+      ],
+      "male_extra": "Neurologic concern occurs with reduced LV function.",
+      "female_extra": "Hemodynamic support may worsen pulmonary congestion.",
+      "application": "Check cerebral perfusion measurements and whether symptomatic delayed ischemia is present before discussing competing circulatory goals.",
+      "medication_context": "Nimodipine and hemodynamic augmentation have different indications; prophylactic hypertension or a fixed sodium regimen is not inferred."
+    },
+    {
+      "set": 3,
+      "n": 1,
+      "title": "CABG with vasoplegia, hypothermia and bleeding",
+      "vignette": "A fictional bypass recipient has hypotension, a rising lactate trend, reduced calculated vascular resistance and drain output.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-01",
+      "sources": [
+        "POSTCARD"
+      ],
+      "male_extra": "Hypothermia and increasing drains coexist.",
+      "female_extra": "Low calculated resistance coexists with low output.",
+      "application": "Check how resistance was calculated and whether bleeding, pump dysfunction and tone abnormalities overlap.",
+      "medication_context": "Vasopressors do not replace correction of an anatomic or bleeding cause; do not infer vasodilation from low temperature alone."
+    },
+    {
+      "set": 3,
+      "n": 2,
+      "title": "VA-ECMO with rising lactate",
+      "vignette": "A fictional myocarditis patient on VA-ECMO has rising lactate and concern about hemolysis, LV distension or circuit dysfunction.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-02",
+      "sources": [
+        "VA"
+      ],
+      "male_extra": "Lactate rises while LV opening is uncertain.",
+      "female_extra": "Hemolysis markers rise with circuit concern.",
+      "application": "Evaluate LV loading, blood trauma and circuit performance separately; apparent circuit flow does not establish effective tissue delivery.",
+      "medication_context": "An escalation in vasoactive drugs or circuit flow is not a universal response; the ECMO team evaluates competing effects."
+    },
+    {
+      "set": 3,
+      "n": 3,
+      "title": "LVAD with RV dysfunction",
+      "vignette": "A fictional LVAD recipient has rising venous pressure, falling pulsatility and worsening renal function.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-03",
+      "sources": [
+        "LVAD",
+        "RV",
+        "RENAL"
+      ],
+      "male_extra": "Venous pressure rises with kidney dysfunction.",
+      "female_extra": "Rhythm changes accompany reduced pulsatility.",
+      "application": "Compare RV, rhythm and loading explanations using imaging and device context; a congestion label does not prove fluid responsiveness.",
+      "medication_context": "Fluid, diuretic and inotrope discussions require different supporting findings and device-team review."
+    },
+    {
+      "set": 3,
+      "n": 4,
+      "title": "ARDS after supination",
+      "vignette": "A fictional adult with ARDS has worsening oxygenation and carbon dioxide retention after supination.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-04",
+      "sources": [
+        "ARDS",
+        "RV"
+      ],
+      "male_extra": "Worsening follows supination.",
+      "female_extra": "Airway secretions are a competing cause.",
+      "application": "Recheck airway mechanics, comparable gases and positional effects before attributing deterioration to loss of recruitment alone.",
+      "medication_context": "A mode switch, paralytic or sedative is not guaranteed to reduce lung stress; ECMO assessment is a separate specialist question."
+    },
+    {
+      "set": 3,
+      "n": 5,
+      "title": "Aortic repair with new pain and oliguria",
+      "vignette": "A fictional aortic-surgery patient has new back pain, hypertension and deteriorating urine output.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-05",
+      "sources": [
+        "AORTA",
+        "RENAL"
+      ],
+      "male_extra": "New back pain accompanies oliguria.",
+      "female_extra": "New leg symptoms accompany hypertension.",
+      "application": "New symptoms after repair require urgent anatomic/perfusion reassessment; a filling-pressure target cannot rule out malperfusion.",
+      "medication_context": "Analgesia may be needed but should not become a substitute for evaluation of the underlying complication."
+    },
+    {
+      "set": 3,
+      "n": 6,
+      "title": "Early lung-graft dysfunction",
+      "vignette": "A fictional transplant recipient has low compliance and worsening gas exchange soon after surgery.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-06",
+      "sources": [
+        "PGD",
+        "ARDS"
+      ],
+      "male_extra": "Gas exchange worsens soon after graft implantation.",
+      "female_extra": "Imaging and cardiac findings are incomplete.",
+      "application": "Organize the differential before labeling PGD; ventilation measurements do not independently establish recruitability.",
+      "medication_context": "No PEEP change, immune regimen or ECMO threshold is derived from the limited data."
+    },
+    {
+      "set": 3,
+      "n": 7,
+      "title": "Abdominal sepsis with refractory shock",
+      "vignette": "A fictional adult after bowel surgery remains shocked with oliguria and venous congestion.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-07",
+      "sources": [
+        "SEPSIS",
+        "RENAL"
+      ],
+      "male_extra": "Source control remains uncertain.",
+      "female_extra": "Congestion persists after abdominal surgery.",
+      "application": "Assess infection control, perfusion and kidney complications separately; severe AKI alone is not an automatic accelerated-dialysis mandate.",
+      "medication_context": "Antimicrobials, fluid/vasoactive treatment and renal support have separate indications and exposure considerations."
+    },
+    {
+      "set": 3,
+      "n": 8,
+      "title": "SAH with cardiac dysfunction",
+      "vignette": "A fictional aneurysmal-SAH patient has reduced cardiac function and uncertain cerebral perfusion.",
+      "file": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "id": "ICU-03-08",
+      "sources": [
+        "SAH",
+        "RV"
+      ],
+      "male_extra": "CPP is reported without an ICP method.",
+      "female_extra": "Poor cardiac function complicates perfusion goals.",
+      "application": "Verify MAP/ICP measurement conditions and distinguish vasospasm from the clinical syndrome of delayed ischemia.",
+      "medication_context": "A preselected pressor target or sodium range is not justified by the label SAH alone."
+    },
+    {
+      "set": 4,
+      "n": 1,
+      "title": "CABG with low vascular tone",
+      "vignette": "A fictional bypass recipient has hypotension, low calculated SVR, rising lactate and hypothermia.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-01",
+      "sources": [
+        "POSTCARD"
+      ],
+      "male_extra": "Resistance appears low but output is uncertain.",
+      "female_extra": "Temperature is low with rising lactate.",
+      "application": "Verify the measurement and recheck tone, flow, blood loss and obstruction; a single calculated resistance cannot determine mechanism.",
+      "medication_context": "Methylene blue and other vasoactive agents are not routine numerical-trigger treatments; interactions and contraindications require review."
+    },
+    {
+      "set": 4,
+      "n": 2,
+      "title": "Redo AVR with AKI and congestion",
+      "vignette": "A fictional valve-surgery patient has borderline cardiac output, pulmonary edema and worsening kidney function.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-02",
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL"
+      ],
+      "male_extra": "Pulmonary edema accompanies borderline output.",
+      "female_extra": "Venous congestion accompanies kidney dysfunction.",
+      "application": "Low forward flow and venous back-pressure can coexist; choose observations that distinguish mechanisms and response to prior interventions.",
+      "medication_context": "Inotropes and diuretics address different hypotheses; a cardiac-index cutoff alone does not select either."
+    },
+    {
+      "set": 4,
+      "n": 3,
+      "title": "Mitral surgery, bradycardia and delirium",
+      "vignette": "A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-03",
+      "sources": [
+        "POSTCARD",
+        "PADIS"
+      ],
+      "male_extra": "Bradycardia coincides with altered attention.",
+      "female_extra": "Sedating medication and HFNC are documented.",
+      "application": "Check rhythm/perfusion and noncardiac delirium contributors; establish the actual airway device before discussing readiness tests.",
+      "medication_context": "Medication review may reveal rate/sedation effects; HFNC is not an endotracheal tube and does not itself call for an extubation SBT."
+    },
+    {
+      "set": 4,
+      "n": 4,
+      "title": "Tricuspid repair and RV dysfunction",
+      "vignette": "A fictional adult after CABG and tricuspid repair has RV dysfunction, kidney injury and oxygen needs.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-04",
+      "sources": [
+        "RV",
+        "RENAL"
+      ],
+      "male_extra": "RV dysfunction and edema coexist.",
+      "female_extra": "Oxygen needs change with respiratory support.",
+      "application": "Compare RV loading and pulmonary mechanics; both inadequate recruitment and overdistension can affect circulation.",
+      "medication_context": "Neither all PEEP nor all diuresis is categorically excluded; specialist assessment determines suitability."
+    },
+    {
+      "set": 4,
+      "n": 5,
+      "title": "Mechanical AVR and anticoagulation",
+      "vignette": "A fictional adult after mechanical-valve surgery has a reported INR and an incompletely described bleeding risk.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-05",
+      "sources": [
+        "VALVE"
+      ],
+      "male_extra": "Valve model and postoperative timing are known.",
+      "female_extra": "INR is supplied but prosthesis details are missing.",
+      "application": "Verify valve position/model, thrombotic context and bleeding history before interpreting the INR.",
+      "medication_context": "No generic warfarin hold, heparin addition or INR target is supplied; anticoagulation requires the complete clinical context."
+    },
+    {
+      "set": 4,
+      "n": 6,
+      "title": "CABG/MVR with pulmonary edema",
+      "vignette": "A fictional adult after bypass and mitral surgery has reduced output, pulmonary edema, kidney injury and early fever.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-06",
+      "sources": [
+        "POSTCARD",
+        "RENAL",
+        "SEPSIS"
+      ],
+      "male_extra": "Edema develops with reduced output.",
+      "female_extra": "Early fever accompanies otherwise similar findings.",
+      "application": "Assess hydrostatic, inflammatory and infectious explanations rather than treating early fever as proof of infection.",
+      "medication_context": "A broad antibiotic regimen or negative-fluid target cannot be selected from fever and edema alone."
+    },
+    {
+      "set": 4,
+      "n": 7,
+      "title": "Post-MAZE bradycardia",
+      "vignette": "A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-07",
+      "sources": [
+        "POSTCARD",
+        "PADIS",
+        "RV"
+      ],
+      "male_extra": "Bradycardia follows MAZE surgery.",
+      "female_extra": "Oliguria and inattention accompany bradycardia.",
+      "application": "Determine temporal association, rhythm and hemodynamic consequences; assess whether a rate change explains organ findings.",
+      "medication_context": "Review rate-altering and sedating drugs; atropine/pacing decisions are not made from a rate-only threshold."
+    },
+    {
+      "set": 4,
+      "n": 8,
+      "title": "LV aneurysmectomy with low output",
+      "vignette": "A fictional adult after bypass and aneurysm surgery has low measured output, rising lactate and edema.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-08",
+      "sources": [
+        "POSTCARD",
+        "RENAL"
+      ],
+      "male_extra": "Measured output falls after aneurysm surgery.",
+      "female_extra": "Low venous saturation accompanies congestion.",
+      "application": "Confirm output and sampling, then examine mechanical/ischemic causes and the relationship of delivery to demand.",
+      "medication_context": "Low saturation or lactate does not independently select milrinone, transfusion or fluid removal."
+    },
+    {
+      "set": 4,
+      "n": 9,
+      "title": "New postoperative fever",
+      "vignette": "A fictional valve/bypass recipient develops fever, leukocytosis and a renewed vasopressor requirement.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-09",
+      "sources": [
+        "SEPSIS",
+        "POSTCARD"
+      ],
+      "male_extra": "New fever follows a period of improvement.",
+      "female_extra": "Vasopressor needs rise with leukocytosis.",
+      "application": "Revisit infection sources and noninfectious postoperative causes; use cultures and imaging to refine hypotheses.",
+      "medication_context": "Antimicrobial discussion incorporates likely source, prior exposure, local resistance and organ function, not fever alone."
+    },
+    {
+      "set": 4,
+      "n": 10,
+      "title": "RV dysfunction after tricuspid repair",
+      "vignette": "A fictional patient has RV dysfunction, kidney injury, congestion and HFNC support.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-10",
+      "sources": [
+        "RV",
+        "RENAL"
+      ],
+      "male_extra": "Congestion persists after tricuspid repair.",
+      "female_extra": "HFNC and changing work of breathing complicate assessment.",
+      "application": "Assess RV load and fluid tolerance with respiratory context rather than imposing a blanket pressure or volume rule.",
+      "medication_context": "No categorical beta-blocker/PEEP prohibition or extubation SBT instruction follows from these findings."
+    },
+    {
+      "set": 4,
+      "n": 11,
+      "title": "Bentall/hemiarch with mixed shock",
+      "vignette": "A fictional postoperative adult has vasopressor support, biventricular dysfunction, kidney injury and an INR result.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-11",
+      "sources": [
+        "POSTCARD",
+        "AORTA",
+        "VALVE"
+      ],
+      "male_extra": "Biventricular dysfunction follows root/arch surgery.",
+      "female_extra": "The root prosthesis and INR indication are unclear.",
+      "application": "Separate pump, tone, bleeding and obstruction; identify the operation/prosthesis before discussing anticoagulation.",
+      "medication_context": "Vasoactive and anticoagulation choices solve different problems and require surgical-team context."
+    },
+    {
+      "set": 4,
+      "n": 12,
+      "title": "Persistent congestion after CABG/AVR",
+      "vignette": "A fictional adult has persistent congestion, kidney dysfunction and incomplete response to prior diuretic treatment.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-12",
+      "sources": [
+        "RENAL",
+        "RV"
+      ],
+      "male_extra": "Congestion remains after prior diuresis.",
+      "female_extra": "Apparent diuretic resistance accompanies low perfusion.",
+      "application": "Examine exposure, delivery, perfusion and urgent complications before comparing decongestion options.",
+      "medication_context": "More diuretic or renal support is not selected solely because balance is positive; response and tolerance matter."
+    },
+    {
+      "set": 4,
+      "n": 13,
+      "title": "Rising lactate after CABG/mitral repair",
+      "vignette": "A fictional adult develops rising lactate with borderline output and pulmonary congestion.",
+      "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "id": "ICU-04-13",
+      "sources": [
+        "POSTCARD",
+        "RV"
+      ],
+      "male_extra": "Lactate rises with borderline output.",
+      "female_extra": "Congestion coexists with a new rhythm change.",
+      "application": "Review sampling and non-flow causes of lactate, then reassess mechanical, ischemic and rhythm explanations.",
+      "medication_context": "A lactate cutoff alone is not an evidence-based switch to a specific inotrope."
+    },
+    {
+      "set": 5,
+      "n": 1,
+      "title": "Early low-output physiology",
+      "vignette": "A fictional bypass recipient has borderline pressure, rising lactate, oliguria and RV dysfunction.",
+      "file": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "id": "ICU-05-01",
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL"
+      ],
+      "male_extra": "Pressure is acceptable but urine output falls.",
+      "female_extra": "RV dysfunction accompanies rising venous pressure.",
+      "application": "Assess effective perfusion and congestion together; acceptable MAP does not resolve the low-flow question.",
+      "medication_context": "Do not automatically withhold decongestion or lower PEEP without the broader assessment."
+    },
+    {
+      "set": 5,
+      "n": 2,
+      "title": "Aortic repair and agitation",
+      "vignette": "A fictional aortic-surgery patient has agitation, intermittent hypertension and hypoxemia.",
+      "file": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "id": "ICU-05-02",
+      "sources": [
+        "AORTA",
+        "PADIS"
+      ],
+      "male_extra": "Agitation accompanies pain after repair.",
+      "female_extra": "Hypoxemia and confusion accompany intermittent hypertension.",
+      "application": "Compare pain, respiratory and neurologic explanations before treating agitation as an isolated sedation problem.",
+      "medication_context": "Heart rate and pressure both matter in the aortic context; a sedative or antihypertensive is not selected by agitation alone."
+    },
+    {
+      "set": 5,
+      "n": 3,
+      "title": "Chronic LVAD low-flow alarms",
+      "vignette": "A fictional LVAD patient has low-flow alarms, anemia, rising LDH and RV dysfunction.",
+      "file": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "id": "ICU-05-03",
+      "sources": [
+        "LVAD",
+        "RV"
+      ],
+      "male_extra": "Low-flow alarm accompanies anemia.",
+      "female_extra": "LDH rises while RV dysfunction is documented.",
+      "application": "Compare device, rhythm and loading explanations; hemolysis markers do not uniquely identify thrombosis.",
+      "medication_context": "No empirical speed, fluid or transfusion change follows from the alarm; device-specific expert assessment is required."
+    },
+    {
+      "set": 5,
+      "n": 4,
+      "title": "VV-ECMO with hypoxemia",
+      "vignette": "A fictional adult on VV-ECMO has hypoxemia, rising lactate, oliguria and high sedation requirements.",
+      "file": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "id": "ICU-05-04",
+      "sources": [
+        "VV",
+        "ARDS",
+        "PADIS"
+      ],
+      "male_extra": "Systemic hypoxemia persists despite good post-membrane gas.",
+      "female_extra": "Oliguria and high sedation exposure coexist.",
+      "application": "Consider recirculation, native-lung disease, hemoglobin, flow and demand; one circuit gas does not settle systemic oxygen delivery.",
+      "medication_context": "Sweeping gas and blood flow affect different processes; no automatic paralysis, transfusion or sedative escalation is inferred."
+    },
+    {
+      "set": 5,
+      "n": 5,
+      "title": "Explicitly chosen comfort-focused care",
+      "vignette": "A fictional adult with advanced illness has separately chosen a comfort-focused plan after a goals-of-care discussion.",
+      "file": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "id": "ICU-05-05",
+      "sources": [
+        "GOALS",
+        "DNR"
+      ],
+      "male_extra": "Explicitly values alertness and relief of dyspnea.",
+      "female_extra": "Explicitly prioritizes relief even if some drowsiness occurs.",
+      "application": "Document the separately chosen comfort-focused goals and assess distress, benefit and unwanted effects over time; do not infer these goals from DNR alone.",
+      "medication_context": "Proportionate symptom treatment is individualized; routine sedative combinations or disease-driven targets are not substituted for the expressed priorities."
+    }
+  ],
+  "full_text_audit_complete": false,
+  "clinical_validation": false
+}

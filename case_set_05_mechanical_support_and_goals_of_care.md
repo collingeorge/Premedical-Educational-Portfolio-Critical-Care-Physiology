@@ -8,6 +8,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: Early low-output physiology
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-05-01).
+
 **Synthetic vignette:** A fictional bypass recipient has borderline pressure, rising lactate, oliguria and RV dysfunction.
 
 **Reasoning questions**
@@ -19,6 +21,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No automatic decision to withhold diuresis or lower PEEP follows from RV dysfunction alone.
 
 ## Scenario 2: Aortic repair and agitation
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-05-02).
 
 **Synthetic vignette:** A fictional aortic-surgery patient has agitation, intermittent hypertension and hypoxemia.
 
@@ -32,6 +36,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: Chronic LVAD low-flow alarms
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-05-03).
+
 **Synthetic vignette:** A fictional LVAD patient has low-flow alarms, anemia, rising LDH and RV dysfunction.
 
 **Reasoning questions**
@@ -44,6 +50,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 4: VV-ECMO with hypoxemia
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-05-04).
+
 **Synthetic vignette:** A fictional adult on VV-ECMO has hypoxemia, rising lactate, oliguria and high sedation requirements.
 
 **Reasoning questions**
@@ -55,6 +63,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** A normal post-membrane value does not prove that all circuit-related causes are absent or make transfusion/paralysis automatic.
 
 ## Scenario 5: Explicitly chosen comfort-focused care
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-05-05).
 
 **Synthetic vignette:** A fictional adult with advanced illness has separately chosen a comfort-focused plan after a goals-of-care discussion.
 

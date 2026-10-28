@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-28",
+  "scope": "Files added/edited for the applied-case supplement; not a full repository/history audit",
+  "case_pairs": 42,
+  "full_text_audit_complete": false,
+  "clinical_validation": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3528,
+      "sha256": "98c31d7ae0d3350fdca5b12c51a9f91a08525e951b7c29d81249f321926eeace"
+    },
+    {
+      "path": "APPLIED_CASES.md",
+      "bytes": 58562,
+      "sha256": "511021699986931ad8b00e9e152fb1ff0f4854757337acadb3c3148db3627a7b"
+    },
+    {
+      "path": "EXAMPLE_SOURCE_AUDIT.json",
+      "bytes": 41147,
+      "sha256": "a9f75b8e75874e197f59127c224c60168b1474e1e46690518873130168c700f6"
+    },
+    {
+      "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+      "bytes": 24999,
+      "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+    },
+    {
+      "path": "SHARED_SOURCE_AUDIT.json",
+      "bytes": 4088,
+      "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+    },
+    {
+      "path": "CASE_EXAMPLE_STANDARD.md",
+      "bytes": 2519,
+      "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 990,
+      "sha256": "fa6a524d2f38091b9ab6870533a2580723ceb38dc2c0b95a664c5381491c684a"
+    },
+    {
+      "path": "case_set_01_multisystem_critical_care_scenarios.md",
+      "bytes": 7047,
+      "sha256": "e163a81c71ac1aa37945979e53bde750dad99ee83ae4a2309c1425922a38dabb"
+    },
+    {
+      "path": "case_set_02_advanced_hemodynamic_scenarios.md",
+      "bytes": 5969,
+      "sha256": "4d341e35b14acdd4fd64cdb7fe2a70959074570c77e68fa31315a37cbd93afdb"
+    },
+    {
+      "path": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+      "bytes": 5928,
+      "sha256": "c1465f500ce4e07bb04ade8556995d6a66b040a6b3dd6f17fdc96138761ef5be"
+    },
+    {
+      "path": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+      "bytes": 8688,
+      "sha256": "a4c4ee7496b86b653e0b82522c0caa24a1d5e16b7e061fb453cc7c0f70a56da7"
+    },
+    {
+      "path": "case_set_05_mechanical_support_and_goals_of_care.md",
+      "bytes": 4176,
+      "sha256": "bdd058f11315e5844c412da661a88542355859ea53a641d66b7dd1441dc1394c"
+    }
+  ]
+}

@@ -8,6 +8,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: Shock immediately after CABG
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-01).
+
 **Synthetic vignette:** A fictional adult after coronary bypass has hypotension, low estimated output, hypothermia and ongoing drain output.
 
 **Reasoning questions**
@@ -19,6 +21,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** A single cardiac-index or drain-output cutoff is not a complete treatment rule.
 
 ## Scenario 2: VA-ECMO after myocardial infarction
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-02).
 
 **Synthetic vignette:** A fictional adult on VA-ECMO has improving lactate but oliguria and concern about limb perfusion.
 
@@ -32,6 +36,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: Early LVAD and RV function
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-03).
+
 **Synthetic vignette:** A fictional adult after LVAD implantation has changing displayed flow and pulsatility with borderline RV function.
 
 **Reasoning questions**
@@ -43,6 +49,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No universal pulsatility-index target, CVP range, speed change or anticoagulation sequence is established here.
 
 ## Scenario 4: Pneumonia-associated ARDS
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-04).
 
 **Synthetic vignette:** A fictional adult with ARDS has a reported P:F ratio near 87, increased driving pressure and vasopressor support.
 
@@ -56,6 +64,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 5: Aortic repair, hypertension and AKI
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-05).
+
 **Synthetic vignette:** A fictional adult after type A dissection repair develops hypertension, oliguria and rising creatinine.
 
 **Reasoning questions**
@@ -67,6 +77,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No blood-pressure prescription or delay-to-imaging rule is supplied.
 
 ## Scenario 6: Lung transplantation and graft dysfunction
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-06).
 
 **Synthetic vignette:** A fictional lung-transplant recipient develops poor compliance, impaired gas exchange and fluid accumulation.
 
@@ -80,6 +92,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 7: Sepsis and an open abdomen
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-07).
+
 **Synthetic vignette:** A fictional adult with abdominal sepsis has worsening shock, oliguria and positive fluid balance.
 
 **Reasoning questions**
@@ -91,6 +105,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** A pressure number alone does not diagnose abdominal compartment syndrome or authorize altering a surgical dressing.
 
 ## Scenario 8: SAH with stress cardiomyopathy
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-02-08).
 
 **Synthetic vignette:** A fictional adult after aneurysm treatment has cardiac dysfunction and concern about cerebral perfusion.
 

@@ -8,6 +8,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: CABG with vasoplegia, hypothermia and bleeding
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-01).
+
 **Synthetic vignette:** A fictional bypass recipient has hypotension, a rising lactate trend, reduced calculated vascular resistance and drain output.
 
 **Reasoning questions**
@@ -19,6 +21,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** A preserved EF does not exclude important low-output physiology, and hypothermia should not be assumed to cause vasodilation.
 
 ## Scenario 2: VA-ECMO with rising lactate
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-02).
 
 **Synthetic vignette:** A fictional myocarditis patient on VA-ECMO has rising lactate and concern about hemolysis, LV distension or circuit dysfunction.
 
@@ -32,6 +36,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: LVAD with RV dysfunction
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-03).
+
 **Synthetic vignette:** A fictional LVAD recipient has rising venous pressure, falling pulsatility and worsening renal function.
 
 **Reasoning questions**
@@ -43,6 +49,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** Device alarms and displayed flow do not establish a unique diagnosis or universal speed adjustment.
 
 ## Scenario 4: ARDS after supination
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-04).
 
 **Synthetic vignette:** A fictional adult with ARDS has worsening oxygenation and carbon dioxide retention after supination.
 
@@ -56,6 +64,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 5: Aortic repair with new pain and oliguria
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-05).
+
 **Synthetic vignette:** A fictional aortic-surgery patient has new back pain, hypertension and deteriorating urine output.
 
 **Reasoning questions**
@@ -67,6 +77,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** This is a prompt for urgent expert evaluation, not a sequence of fluids followed by imaging only if a numerical target fails.
 
 ## Scenario 6: Early lung-graft dysfunction
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-06).
 
 **Synthetic vignette:** A fictional transplant recipient has low compliance and worsening gas exchange soon after surgery.
 
@@ -80,6 +92,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 7: Abdominal sepsis with refractory shock
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-07).
+
 **Synthetic vignette:** A fictional adult after bowel surgery remains shocked with oliguria and venous congestion.
 
 **Reasoning questions**
@@ -91,6 +105,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** Laboratory values and positive balance do not alone establish a dialysis indication or an ultrafiltration rate.
 
 ## Scenario 8: SAH with cardiac dysfunction
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-08).
 
 **Synthetic vignette:** A fictional aneurysmal-SAH patient has reduced cardiac function and uncertain cerebral perfusion.
 

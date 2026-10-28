@@ -103,8 +103,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4191,
-      "sha256": "fcf63193e6b8bcce9e05e2e50416194d89e85155aef0c25027bddd3b5081f6f9"
+      "bytes": 4363,
+      "sha256": "ea746f34e0c7e83746546c583b085aa1fd7e990f7dbd20e3ed2bba7e2a7263de"
     },
     {
       "path": "references/bibliography.md",
@@ -128,18 +128,18 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 3159,
-      "sha256": "26619e53786c1b9641fb817153b960d81650a9a1d54a6bfa35b2f031c3f1eb94"
+      "bytes": 3789,
+      "sha256": "2d93a2133a806383f4430924edfff19280433c9c00a6058b555a9a8936d70f02"
     },
     {
       "path": "APPLIED_CASES.md",
-      "bytes": 62764,
-      "sha256": "10eef15a8a74d3e746b72112d9f591f0f6bd6063fb47034fa622accb454cda29"
+      "bytes": 69578,
+      "sha256": "532881ea1fdbbd44fec088490fcf44c7cd26dfd585baeb478b3484821316b735"
     },
     {
       "path": "EXAMPLE_SOURCE_AUDIT.json",
-      "bytes": 41769,
-      "sha256": "697461d024ffd5c1d98a7539572886cb7fcbcfbd174f2e6373982877292d06d7"
+      "bytes": 42132,
+      "sha256": "7b42513496745767b55e60fb9a6a450241c19054b87c39ca1774f302b4252cdc"
     },
     {
       "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
@@ -153,58 +153,68 @@
     },
     {
       "path": "CASE_EXAMPLE_STANDARD.md",
-      "bytes": 2519,
-      "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+      "bytes": 2871,
+      "sha256": "ba0ee5689fcf6fd569c02bf14f907e3c8b290cf6ff0eff24794bcc56586ed119"
     },
     {
       "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 3915,
-      "sha256": "e25d881f782f1d2b7652bc32472e47c05b6e9a3d7323c4794557fb979ec48567"
+      "bytes": 4241,
+      "sha256": "9588f602af38a95d62f246136b87fbb8ecc0f568a7ec6e5d164df94e224cc12b"
     },
     {
       "path": "ICU_CTICU_WORKUP_CASES.md",
-      "bytes": 144685,
-      "sha256": "4a6c2037514397d53f5274c824dd2dab4f11701aa96faf7b52dcf57d96ab7d47"
+      "bytes": 145359,
+      "sha256": "de99b6879ee4394b26c34769f58e94ed47dd8b0aa53db38fa3bb8bab85f985bd"
     },
     {
       "path": "INTEGRATED_WORKUP_AUDIT.json",
-      "bytes": 83269,
-      "sha256": "f3c1c465389efbd47d9f3ab527e311607717353db90c9eb5a34f5b823bbc5366"
+      "bytes": 83632,
+      "sha256": "7b344ca24317760cf03f3e800feb951d8b21dd7262ff1ab52b11717c2589b1d3"
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES.md",
-      "bytes": 74825,
-      "sha256": "27297b5f3f159ed2829769cbd7c5800a7485b0f1515521fed64886ad86451681"
+      "bytes": 80945,
+      "sha256": "cc9fd2f9583f50d61e8081f8ba1b926c44af6cb6ef355689a282cddef8fb78d1"
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
-      "bytes": 11720,
-      "sha256": "66e4b3489a70606e7f6f114c82ea71b9a667416bcbd6258f08982dbf72c08faf"
+      "bytes": 12083,
+      "sha256": "48d1c7c1be240badea01a5f66fb4e1dd09f1e63a63fc4516b49c1169e27c3cef"
     },
     {
       "path": "CLINICAL_LAB_EXAMPLES.md",
-      "bytes": 12819,
-      "sha256": "a7e9c220f11a65d2fd0355f1ea7d5951f90d45163dec4d78d62b01203f2cebad"
+      "bytes": 17004,
+      "sha256": "6379e0bb1fdaa01c63fbf18f0016904d33f81b6fb6afea6f42b4e86bb4e6bd58"
     },
     {
       "path": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
-      "bytes": 13211,
-      "sha256": "5b4bbdc4c5bf6e74643a5ed1f411240f96c9e123983a6fbb0e5d074aea1921ce"
+      "bytes": 15700,
+      "sha256": "044cb5ab6773dd00c4d9d12d39294e3ef83fc2fb92c64faa9fa3fc6a102ff730"
     },
     {
       "path": "ICU_EQUIPMENT_BASICS.md",
-      "bytes": 15050,
-      "sha256": "36338ee5507eecac3f016b290ceb63b40564860ad659ab9aed3748072e23352a"
+      "bytes": 21151,
+      "sha256": "52c7074ca5caefc793a3ee3933dcced036619759f52b407715facf48a3172d4a"
     },
     {
       "path": "CLINICAL_CARE_PUBLIC_SOURCES.md",
-      "bytes": 11313,
-      "sha256": "0521fc6202a7163e0bdf9195fe3c34b9ff3fe39562a843c3d5a0f6dce07c3e02"
+      "bytes": 11820,
+      "sha256": "07232a0f60a63ed51c86328f40e45eff1bace6e8474b30b9631057d941ab973f"
     },
     {
       "path": "CLINICAL_CARE_SOURCE_AUDIT.json",
-      "bytes": 26194,
-      "sha256": "5604d08f53b5f29ef50721e79ea5b5531fdf7c18788820a13e1876974ac99ade"
+      "bytes": 26557,
+      "sha256": "cea80dd16d7997145ea4a8441a84f95b1dbaf797f4c1aaf0f3e164cdae05f017"
+    },
+    {
+      "path": "EVIDENCE_CLASSIFICATION.md",
+      "bytes": 21737,
+      "sha256": "d745539e6d6ad3fddb18ec3a79310d97bbb1944f2f2b9c099742a7420ee5cb28"
+    },
+    {
+      "path": "EVIDENCE_CLASSIFICATION.json",
+      "bytes": 41099,
+      "sha256": "1eac89b5d61d02b80e597ab83cb9216305dcbc182f499963406369de76719297"
     }
   ],
   "supplement": "clinical-applied-cases-2026-10-28"

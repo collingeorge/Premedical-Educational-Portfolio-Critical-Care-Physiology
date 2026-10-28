@@ -28,3 +28,8 @@ Added one original Mermaid decision tree to each of the 18 paired procedure/cond
 ### Public-source clinical care and equipment examples
 
 Added 11 worked laboratory examples, pain/sedation and airway/intubation/extubation workflows, respiratory-support and ventilator-mode comparisons, and 19 equipment explanations. Linked all 18 procedure pairs to relevant sections and added navigation from the 42-topic ICU supplements. Each teaching item links to public clinical or official device sources, with source type, conditional recommendations and review limits stated. Existing decision trees, case narratives, manuscripts and code are retained.
+
+
+### Clinical knowledge versus guideline recommendations
+
+Checked and classified 27 scoped recommendation groups, recording source strength, location and population. Labeled the 11 laboratory examples, 19 equipment entries, 18 procedure pairs and 42 ICU topic pairs as appropriate: guideline/consensus guidance, general clinical knowledge, context-dependent practice and/or synthetic example. Clarified the ARDS recruitment wording, NIV population limits and preventive post-extubation NIV eligibility. Retained narratives and diagrams; removed the implication that the authored reasoning format standardizes a clinical regimen.

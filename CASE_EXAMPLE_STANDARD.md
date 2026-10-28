@@ -3,6 +3,8 @@ Version: 2026-10-28
 
 This is an author-created educational documentation standard, not a professional practice guideline, certification or validated assessment instrument.
 
+Evidence labels are defined in [the classification record](EVIDENCE_CLASSIFICATION.md): direct guideline/consensus recommendations retain source strength and scope, general clinical knowledge is identified as such, and case decisions are context-dependent practice. Synthetic values and original trees are not labeled standardized clinical protocols.
+
 Every topic-specific example pair records:
 1. Entirely synthetic provenance, procedure/clinical question and relevant male/female profile details.
 2. The patient factor that changes the discussion; sex alone is not treated as a dose or treatment rule.

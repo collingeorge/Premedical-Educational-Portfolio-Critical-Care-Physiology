@@ -1,0 +1,1070 @@
+{
+  "date": "2026-10-28",
+  "scope": "Classification of the ICU/CTICU care/equipment additions and labeling of the 18 procedure pairs and 42 ICU topics",
+  "categories": {
+    "guideline": "Direct recommendation or definition; retain strength, source year and population",
+    "consensus": "Consensus guidance; do not invent a GRADE strength or call it an international standard",
+    "knowledge": "General clinical or equipment knowledge supported by the source; not a treatment protocol",
+    "practice": "Context-dependent clinical practice or authored application; individual choices vary",
+    "synthetic": "Fictional patients, values and original decision trees; not observed outcomes or standardized regimens"
+  },
+  "verified_recommendation_groups": [
+    {
+      "id": "G01",
+      "claim": "Self-report/behavioral pain assessment",
+      "classification": "Guideline statement — ungraded",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Pain Assessment statements",
+      "scope": "Reliable self-report; behavioral assessment when self-report is unavailable and behaviors can be observed.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G02",
+      "claim": "Pain assessment and treatment before sedation",
+      "classification": "Guideline good-practice statement",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Pain Assessment good-practice statement",
+      "scope": "Pain and sedation remain separate assessments.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G03",
+      "claim": "Assessment-driven stepwise pain/sedation approach",
+      "classification": "Guideline recommendation — conditional",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Protocol-Based Pain Management; moderate certainty",
+      "scope": "Approach is recommended; the fictional regimen is not prescribed by the guideline.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G04",
+      "claim": "Acetaminophen adjunct",
+      "classification": "Guideline recommendation — conditional",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Pain Acetaminophen; very low certainty",
+      "scope": "Adjunct to opioid therapy in critically ill adults.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G05",
+      "claim": "Postoperative ketamine adjunct",
+      "classification": "Guideline recommendation — conditional",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Pain Ketamine; very low certainty",
+      "scope": "Selected postsurgical ICU adults when reducing opioid consumption.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G06",
+      "claim": "Neuropathic agent with opioids for neuropathic pain",
+      "classification": "Guideline recommendation — strong",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Neuropathic Pain Meds; moderate certainty",
+      "scope": "Neuropathic pain indication, not every acute postoperative pain.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G07",
+      "claim": "Against routine IV lidocaine adjunct",
+      "classification": "Guideline recommendation — conditional against routine use",
+      "source": "PADIS18",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
+      "source_location": "Pain Lidocaine; low certainty",
+      "scope": "ICU opioid-adjunct context; not a blanket statement about all lidocaine indications.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G08",
+      "claim": "Dexmedetomidine over propofol in the defined priority setting",
+      "classification": "Guideline recommendation — conditional",
+      "source": "PADIS25",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/focused-update-padis-guideline",
+      "source_location": "Sedation Dexmedetomidine; moderate certainty",
+      "scope": "Mechanically ventilated ICU adults when light sedation and/or delirium reduction are highest priorities.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G09",
+      "claim": "Induction hypnotic when NMBA is used",
+      "classification": "Guideline best-practice statement",
+      "source": "RSI",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation",
+      "source_location": "Induction Agent Use",
+      "scope": "Critically ill adult intubation; paralysis does not establish unconsciousness.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G10",
+      "claim": "NMBA with sedative-hypnotic induction",
+      "classification": "Guideline recommendation — strong",
+      "source": "RSI",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation",
+      "source_location": "NMBA Use; low certainty",
+      "scope": "The guideline RSI population; not a standalone drug-choice recipe.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G11",
+      "claim": "Specific preoxygenation strategies",
+      "classification": "Guideline recommendation — conditional",
+      "source": "RSI",
+      "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation",
+      "source_location": "Preoxygenation and Med-Assisted Preoxygenation; low/very low certainty",
+      "scope": "Different suggestions for anticipated difficult laryngoscopy, severe hypoxemia or inability to tolerate oxygenation interfaces.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G12",
+      "claim": "Waveform CO2 and exclusion of esophageal tube placement",
+      "classification": "Consensus guidance",
+      "source": "TUBE",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9804892/",
+      "source_location": "Summary recommendations and disclaimer",
+      "scope": "PUMA explicitly describes consensus guidance, not international standards; do not assign a GRADE strength here.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G13",
+      "claim": "Plateau pressure, tidal volume, PEEP/auto-PEEP assessment",
+      "classification": "Guideline recommendation — strong",
+      "source": "VENTASSESS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11298231/",
+      "source_location": "Recommendations 1–4; high certainty",
+      "scope": "Assessment recommendations, not a universal ventilator prescription.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G14",
+      "claim": "FiO2, humidification and airway securement assessment",
+      "classification": "Guideline recommendation — conditional",
+      "source": "VENTASSESS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11298231/",
+      "source_location": "Recommendations 6, 9–10 and 15; low/very low certainty",
+      "scope": "Recommendation strength differs from plateau-pressure/tidal-volume assessment.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G15",
+      "claim": "HFNC over conventional oxygen in acute hypoxemic failure",
+      "classification": "Guideline recommendation — conditional",
+      "source": "HFNC",
+      "source_url": "https://publications.ersnet.org/content/erj/59/4/2101574",
+      "source_location": "PICO 1 / Recommendation 1; moderate certainty",
+      "scope": "Adults with acute hypoxemic respiratory failure; not every ICU condition.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G16",
+      "claim": "Bilevel NIV for COPD-related respiratory acidosis",
+      "classification": "Guideline recommendation — strong",
+      "source": "NIV",
+      "source_url": "https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf",
+      "source_location": "COPD recommendations; high certainty",
+      "scope": "Acute or acute-on-chronic respiratory acidosis due to COPD exacerbation; assess suitability and deterioration.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G17",
+      "claim": "CPAP or bilevel NIV for cardiogenic pulmonary edema",
+      "classification": "Guideline recommendation — strong",
+      "source": "NIV",
+      "source_url": "https://www.thoracic.org/statements/resources/cc/niv-guidelines.pdf",
+      "source_location": "Cardiogenic pulmonary edema recommendation; moderate certainty",
+      "scope": "Do not extrapolate directly to cardiogenic shock or acute coronary syndromes excluded from the supporting population.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G18",
+      "claim": "SBT with or without pressure support; RSBI not required for readiness",
+      "classification": "Guideline recommendation — conditional",
+      "source": "SBT",
+      "source_url": "https://www.aarc.org/wp-content/uploads/2023/11/CPG2024SpontaneousBreathingTrial.pdf",
+      "source_location": "Recommendations 1–2; moderate certainty",
+      "scope": "Adult ventilator liberation; the exact case remains an application.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G19",
+      "claim": "Standardized assessment for an appropriate daily SBT",
+      "classification": "Guideline recommendation — conditional",
+      "source": "SBT",
+      "source_url": "https://www.aarc.org/wp-content/uploads/2023/11/CPG2024SpontaneousBreathingTrial.pdf",
+      "source_location": "Recommendation 3; very low certainty",
+      "scope": "Standardizing the assessment process is different from a fixed extubation time.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G20",
+      "claim": "Preventive NIV immediately after planned extubation",
+      "classification": "Guideline recommendation — strong",
+      "source": "LIBERATE",
+      "source_url": "https://www.thoracic.org/statements/resources/cc/weaning-exec-summary.pdf",
+      "source_location": "Question 3; moderate certainty",
+      "scope": "High extubation-failure risk, ventilated more than 24 hours and passed an SBT; patient-specific suitability still matters.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G21",
+      "claim": "Higher PEEP without recruitment maneuvers",
+      "classification": "Guideline recommendation — conditional",
+      "source": "ARDS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/",
+      "source_location": "Question 4; low-to-moderate certainty",
+      "scope": "ATS: moderate-to-severe ARDS. Other societies differ; not a universal PEEP strategy.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G22",
+      "claim": "Against prolonged recruitment maneuvers",
+      "classification": "Guideline recommendation — strong against",
+      "source": "ARDS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/",
+      "source_location": "Question 4; moderate certainty",
+      "scope": "Moderate-to-severe ARDS; separate from the higher-PEEP recommendation.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G23",
+      "claim": "Blood cultures in possible/probable/definite sepsis",
+      "classification": "Guideline recommendation — strong",
+      "source": "SEPSIS",
+      "source_url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "source_location": "Blood culture; low certainty",
+      "scope": "Adults with sepsis/septic shock; obtain promptly, ideally before antimicrobials without harmful delay.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G24",
+      "claim": "Blood lactate in suspected sepsis",
+      "classification": "Guideline recommendation — conditional",
+      "source": "SEPSIS",
+      "source_url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+      "source_location": "Blood lactate; low certainty",
+      "scope": "Interpret with clinical context, not as a complete diagnosis or automatic fluid instruction.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G25",
+      "claim": "Creatinine/urine-output AKI definition",
+      "classification": "Guideline diagnostic definition — not graded",
+      "source": "AKI",
+      "source_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+      "source_location": "Recommendation 2.1.1",
+      "scope": "The 2012 KDIGO definition supports the fictional creatinine arithmetic; it does not diagnose etiology.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G26",
+      "claim": "RRT decision from context and trends",
+      "classification": "Guideline statement — not graded",
+      "source": "RRT",
+      "source_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+      "source_location": "Recommendations 5.1.1–5.1.2",
+      "scope": "Clinical needs and trajectory rather than one creatinine/BUN number.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    },
+    {
+      "id": "G27",
+      "claim": "CRRT rather than standard intermittent RRT in instability",
+      "classification": "Guideline recommendation — conditional (2B)",
+      "source": "RRT",
+      "source_url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+      "source_location": "Recommendation 5.6.2",
+      "scope": "Hemodynamically unstable AKI patients requiring RRT; historical 2012 guidance, not universal modality superiority.",
+      "checked": "2026-10-28",
+      "result": "Supported within the stated source population and qualification"
+    }
+  ],
+  "lab_examples": [
+    {
+      "id": "bleeding",
+      "title": "Postoperative bleeding and anemia",
+      "classification": "General clinical knowledge and context-dependent bleeding assessment; the fictional hemoglobin change is not a standardized transfusion trigger.",
+      "sources": [
+        "PBM"
+      ]
+    },
+    {
+      "id": "ventilation",
+      "title": "Carbon dioxide retention and acidemia",
+      "classification": "General clinical knowledge plus synthetic numerical interpretation; this is not a guideline-defined intubation or ventilator-adjustment threshold.",
+      "sources": [
+        "GAS",
+        "VENTASSESS"
+      ]
+    },
+    {
+      "id": "oxygenation",
+      "title": "Oxygenation under defined support",
+      "classification": "General clinical knowledge/arithmetic; the P:F calculation is not a complete diagnostic criterion or treatment instruction.",
+      "sources": [
+        "GAS",
+        "ARDS"
+      ]
+    },
+    {
+      "id": "lactate",
+      "title": "Lactate in sepsis or postoperative shock",
+      "classification": "Guideline recommendation G24 is conditional (low certainty) for measuring lactate in sepsis; interpretation and response in this case are context-dependent.",
+      "sources": [
+        "SEPSIS",
+        "HEMO"
+      ]
+    },
+    {
+      "id": "kidney",
+      "title": "Kidney injury after major surgery",
+      "classification": "Guideline diagnostic definition G25 is not graded. The fictional creatinine change fits a definition component after context checks; the cause and management remain clinical assessments.",
+      "sources": [
+        "AKI",
+        "RRT"
+      ]
+    },
+    {
+      "id": "electrolytes",
+      "title": "Potassium and rhythm/perfusion changes",
+      "classification": "General clinical knowledge and context-dependent urgent assessment. The fictional potassium value is not asserted to be one universal treatment threshold.",
+      "sources": [
+        "RRT",
+        "HEMO"
+      ]
+    },
+    {
+      "id": "cultures",
+      "title": "New fever and a suspected source",
+      "classification": "Guideline recommendation G23 is strong (low certainty) for blood cultures in the stated sepsis population. Other source-directed investigations remain context-dependent; general fever guidance excludes severe immunocompromise.",
+      "sources": [
+        "FEVER",
+        "SEPSIS"
+      ]
+    },
+    {
+      "id": "anticoagulation",
+      "title": "Bleeding/thrombosis balance with anticoagulation",
+      "classification": "General clinical knowledge and drug/device-specific practice; there is no universal assay or target across these therapies.",
+      "sources": [
+        "PBM",
+        "MCS"
+      ]
+    },
+    {
+      "id": "hemolysis",
+      "title": "Anemia or dark urine during mechanical support",
+      "classification": "General clinical knowledge and specialist practice; no isolated marker establishes pump thrombosis.",
+      "sources": [
+        "MCS",
+        "LVAD"
+      ]
+    },
+    {
+      "id": "fluidacid",
+      "title": "Fluid, electrolyte and acid-base needs during CRRT",
+      "classification": "Guideline statements G26 are not graded; CRRT preference in unstable patients (G27) is conditional, 2B. Monitoring and adjustment remain individualized.",
+      "sources": [
+        "RRT"
+      ]
+    },
+    {
+      "id": "paireddata",
+      "title": "A displayed number that conflicts with the patient",
+      "classification": "General measurement knowledge and official device-safety information, applied to fictional observations.",
+      "sources": [
+        "SPO2",
+        "GAS",
+        "LVAD"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "ventilator",
+      "title": "ICU ventilator",
+      "classification": "General equipment knowledge; patient-ventilator assessment recommendations G13–G14 have distinct strong/conditional grades.",
+      "sources": [
+        "VENTASSESS"
+      ]
+    },
+    {
+      "id": "workstation",
+      "title": "Anesthesia workstation",
+      "classification": "General equipment knowledge from a clinical review; not a single standardized workstation configuration or operating sequence.",
+      "sources": [
+        "WORKSTATION"
+      ]
+    },
+    {
+      "id": "hfnc",
+      "title": "HFNC system",
+      "classification": "General equipment knowledge; the selected clinical indication G15 has conditional guideline support.",
+      "sources": [
+        "HFNC"
+      ]
+    },
+    {
+      "id": "niv",
+      "title": "Noninvasive positive-pressure system",
+      "classification": "General equipment knowledge; G16/G17 are strong recommendations in specific disease populations, not universal NIV use.",
+      "sources": [
+        "NIV"
+      ]
+    },
+    {
+      "id": "airway",
+      "title": "Airway devices and visualization equipment",
+      "classification": "General equipment knowledge and context-dependent airway planning; specific RSI statements G09–G11 and confirmation guidance G12 are separate.",
+      "sources": [
+        "RSI",
+        "TUBE"
+      ]
+    },
+    {
+      "id": "capnography",
+      "title": "Waveform capnograph",
+      "classification": "Consensus guidance G12 supports airway-confirmation use; the source does not claim international standards.",
+      "sources": [
+        "TUBE"
+      ]
+    },
+    {
+      "id": "oximeter",
+      "title": "Pulse oximeter",
+      "classification": "General measurement knowledge and official FDA safety information; not a treatment protocol.",
+      "sources": [
+        "SPO2"
+      ]
+    },
+    {
+      "id": "arterial",
+      "title": "Arterial catheter/transducer",
+      "classification": "General clinical/measurement knowledge; selection and interpretation depend on the clinical setting.",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "central",
+      "title": "Central venous catheter",
+      "classification": "General clinical/measurement knowledge; selection and interpretation depend on the clinical setting.",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "pac",
+      "title": "Pulmonary artery catheter",
+      "classification": "General clinical/measurement knowledge and selected specialist practice; not routine use for every ICU patient.",
+      "sources": [
+        "HEMO"
+      ]
+    },
+    {
+      "id": "infusion",
+      "title": "Infusion or syringe pump",
+      "classification": "General equipment knowledge and official FDA risk-reduction guidance; device safeguards do not establish a clinical regimen.",
+      "sources": [
+        "PUMP"
+      ]
+    },
+    {
+      "id": "drain",
+      "title": "Pleural chest-drain system",
+      "classification": "General equipment knowledge and procedure-specific practice; pleural guidance is not a standardized cardiac mediastinal-drain protocol.",
+      "sources": [
+        "DRAIN"
+      ]
+    },
+    {
+      "id": "pacing",
+      "title": "Temporary epicardial pacing system",
+      "classification": "General clinical/equipment knowledge and context-dependent specialist practice; the cited review explicitly rejects one correct pacing approach for every postoperative patient.",
+      "sources": [
+        "PACE"
+      ]
+    },
+    {
+      "id": "crrt",
+      "title": "CRRT machine and circuit",
+      "classification": "General equipment knowledge; G27 is a conditional 2B modality recommendation for the stated unstable AKI population.",
+      "sources": [
+        "RRT"
+      ]
+    },
+    {
+      "id": "vv",
+      "title": "VV-ECMO circuit",
+      "classification": "General equipment knowledge and specialist selection; describing the circuit does not recommend it for every severe respiratory case.",
+      "sources": [
+        "VV"
+      ]
+    },
+    {
+      "id": "va",
+      "title": "VA-ECMO circuit",
+      "classification": "General equipment knowledge and specialist selection; not a standardized response to any one pressure or lactate.",
+      "sources": [
+        "MCS"
+      ]
+    },
+    {
+      "id": "iabp",
+      "title": "Intra-aortic balloon pump",
+      "classification": "General equipment knowledge and selected specialist practice; no universal survival-benefit or routine-use claim is made.",
+      "sources": [
+        "IABP"
+      ]
+    },
+    {
+      "id": "lvad",
+      "title": "Durable LVAD",
+      "classification": "General equipment knowledge and specialist practice; a controller display is not a standardized management rule.",
+      "sources": [
+        "LVAD"
+      ]
+    },
+    {
+      "id": "microaxial",
+      "title": "Temporary left-sided microaxial pump",
+      "classification": "General equipment knowledge and selected specialist practice; no universal device-selection or adjustment protocol is implied.",
+      "sources": [
+        "MCS"
+      ]
+    }
+  ],
+  "procedure_pairs": [
+    {
+      "id": "CABG",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "ERASC"
+      ]
+    },
+    {
+      "id": "VALVE",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "POSTCARD",
+        "VALVE",
+        "RV"
+      ]
+    },
+    {
+      "id": "AORTIC",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "AORTA",
+        "KIDNEY"
+      ]
+    },
+    {
+      "id": "VA",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "VA",
+        "RV"
+      ]
+    },
+    {
+      "id": "LVAD",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "LVAD",
+        "RV"
+      ]
+    },
+    {
+      "id": "IMPELLA",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "CS2025",
+        "MCSHEM"
+      ]
+    },
+    {
+      "id": "HEARTTX",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "HEARTTX"
+      ]
+    },
+    {
+      "id": "LUNGRESECTION",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "LUNGERAS"
+      ]
+    },
+    {
+      "id": "LUNGTX",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "PGD",
+        "TRANSPLANT"
+      ]
+    },
+    {
+      "id": "ESOPH",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "ESOPERAS",
+        "FEVER"
+      ]
+    },
+    {
+      "id": "AIRWAYSURG",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "TRACHEAL",
+        "AIRWAY"
+      ]
+    },
+    {
+      "id": "AAA",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "AAA",
+        "ABD",
+        "KIDNEY"
+      ]
+    },
+    {
+      "id": "CAROTID",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "CAROTID"
+      ]
+    },
+    {
+      "id": "LIMB",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "PAD2024"
+      ]
+    },
+    {
+      "id": "SHOCK",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "CS2025"
+      ]
+    },
+    {
+      "id": "RESPFAIL",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "ARDS",
+        "VV"
+      ]
+    },
+    {
+      "id": "ENDOCARD",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "ENDO"
+      ]
+    },
+    {
+      "id": "COMFORT",
+      "classification": "Synthetic example; general clinical knowledge in interpretation, context-dependent clinical practice in care course; original tree not standardized protocol",
+      "sources": [
+        "GOALS",
+        "DNR"
+      ]
+    }
+  ],
+  "icu_topics": [
+    {
+      "id": "ICU-01-01",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-01-02",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "NIV",
+        "DNR",
+        "GOALS"
+      ]
+    },
+    {
+      "id": "ICU-01-03",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SEPSIS"
+      ]
+    },
+    {
+      "id": "ICU-01-04",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "NIV",
+        "PADIS"
+      ]
+    },
+    {
+      "id": "ICU-01-05",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "VA",
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-01-06",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "PANCREAS",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-01-07",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "TBI",
+        "PADIS"
+      ]
+    },
+    {
+      "id": "ICU-01-08",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SEPSIS",
+        "ARDS",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-02-01",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-02-02",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "VA",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-02-03",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "LVAD",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-02-04",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "ARDS",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-02-05",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "AORTA",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-02-06",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "PGD",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-02-07",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SEPSIS",
+        "ABD",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-02-08",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SAH",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-03-01",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-03-02",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "VA"
+      ]
+    },
+    {
+      "id": "ICU-03-03",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "LVAD",
+        "RV",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-03-04",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "ARDS",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-03-05",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "AORTA",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-03-06",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "PGD",
+        "ARDS"
+      ]
+    },
+    {
+      "id": "ICU-03-07",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SEPSIS",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-03-08",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SAH",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-04-01",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-04-02",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-04-03",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "PADIS"
+      ]
+    },
+    {
+      "id": "ICU-04-04",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "RV",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-04-05",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "VALVE"
+      ]
+    },
+    {
+      "id": "ICU-04-06",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "RENAL",
+        "SEPSIS"
+      ]
+    },
+    {
+      "id": "ICU-04-07",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "PADIS",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-04-08",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-04-09",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "SEPSIS",
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "ICU-04-10",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "RV",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-04-11",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "AORTA",
+        "VALVE"
+      ]
+    },
+    {
+      "id": "ICU-04-12",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "RENAL",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-04-13",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-05-01",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "ICU-05-02",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "AORTA",
+        "PADIS"
+      ]
+    },
+    {
+      "id": "ICU-05-03",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "LVAD",
+        "RV"
+      ]
+    },
+    {
+      "id": "ICU-05-04",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "VV",
+        "ARDS",
+        "PADIS"
+      ]
+    },
+    {
+      "id": "ICU-05-05",
+      "classification": "Synthetic example; authored application of general clinical knowledge and context-dependent practice",
+      "sources": [
+        "GOALS",
+        "DNR"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "file": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+      "topic": "ARDS PEEP",
+      "change": "Separate the ATS conditional recommendation for higher PEEP without recruitment maneuvers from its strong recommendation against prolonged recruitment maneuvers."
+    },
+    {
+      "file": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+      "topic": "NIV eligibility",
+      "change": "State the COPD-acidosis and cardiogenic-pulmonary-edema populations; do not extend the latter recommendation directly to shock/ACS."
+    },
+    {
+      "file": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+      "topic": "Preventive post-extubation NIV",
+      "change": "State high risk, more than 24 hours ventilation and passed SBT, rather than an unspecified guideline population."
+    }
+  ],
+  "review_method": "Compared the scoped statements with public source recommendation sections, definitions and clinical/equipment passages. Recorded source locations and source strength where directly stated; technical function descriptions remain general knowledge and case selections remain context-dependent practice.",
+  "clinical_validation": false,
+  "full_text_audit_complete": false,
+  "legal_standard_of_care_determination": false
+}

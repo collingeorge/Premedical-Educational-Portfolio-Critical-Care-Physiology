@@ -318,5 +318,13 @@
     "sources": "CLINICAL_CARE_PUBLIC_SOURCES.md",
     "audit": "CLINICAL_CARE_SOURCE_AUDIT.json",
     "case_mapping_count": 18
+  },
+  "evidence_classification": {
+    "reviewed": "2026-10-28",
+    "document": "EVIDENCE_CLASSIFICATION.md",
+    "record": "EVIDENCE_CLASSIFICATION.json",
+    "recommendation_groups": 27,
+    "case_applications": "Synthetic examples using general clinical knowledge and context-dependent practice; not standardized protocols",
+    "clinical_validation": false
   }
 }

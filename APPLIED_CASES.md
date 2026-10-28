@@ -1,5 +1,7 @@
 # ICU applied examples: all 42 topics
 
+**Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
+
 [Laboratory findings and diagnosis examples](CLINICAL_LAB_EXAMPLES.md) · [Pain, airway, ventilation and extubation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) · [Equipment basics and case uses](ICU_EQUIPMENT_BASICS.md) · [Public clinical sources](CLINICAL_CARE_PUBLIC_SOURCES.md)
 
 [Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives across cardiac, thoracic, vascular and acute cardiorespiratory care.
@@ -14,9 +16,9 @@ For comparability, each fictional male is 60 years, 180 cm and 80 kg, and each f
 
 The same general anesthesia-options teaching set is available locally in [the shared guide](ANESTHESIA_OPTIONS_AND_CASES.md). It does not replace condition-specific ICU guidance.
 
-## How reasoning is standardized
+## How the examples organize clinical reasoning
 
-Verify observations and context → identify competing mechanisms → identify patient goals and source applicability → discuss conditional options and monitoring → reassess response and unwanted effects. The standardized element is the reasoning and documentation, not one regimen for every patient.
+Verify observations and context → identify competing mechanisms → identify patient goals and source applicability → discuss conditional options and monitoring → reassess response and unwanted effects. The author-created format organizes reasoning and documentation; it does not standardize a patient’s clinical regimen.
 
 ```mermaid
 flowchart TD
@@ -38,6 +40,8 @@ flowchart TD
 <a id="icu-01-01"></a>
 ## ICU-01-01 — Postoperative hemodynamic instability
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-01).
 
 **Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 1](case_set_01_multisystem_critical_care_scenarios.md).
@@ -57,6 +61,8 @@ flowchart TD
 
 <a id="icu-01-02"></a>
 ## ICU-01-02 — DNI status and respiratory distress
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-02).
 
@@ -78,6 +84,8 @@ flowchart TD
 <a id="icu-01-03"></a>
 ## ICU-01-03 — Worsening septic shock
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-03).
 
 **Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 3](case_set_01_multisystem_critical_care_scenarios.md).
@@ -97,6 +105,8 @@ flowchart TD
 
 <a id="icu-01-04"></a>
 ## ICU-01-04 — Rib fractures and impaired ventilation
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-04).
 
@@ -118,6 +128,8 @@ flowchart TD
 <a id="icu-01-05"></a>
 ## ICU-01-05 — Myocarditis and shock
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-05).
 
 **Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 5](case_set_01_multisystem_critical_care_scenarios.md).
@@ -137,6 +149,8 @@ flowchart TD
 
 <a id="icu-01-06"></a>
 ## ICU-01-06 — Pancreatitis with respiratory and renal dysfunction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-06).
 
@@ -158,6 +172,8 @@ flowchart TD
 <a id="icu-01-07"></a>
 ## ICU-01-07 — Brain injury with aspiration and airway decline
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-07).
 
 **Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 7](case_set_01_multisystem_critical_care_scenarios.md).
@@ -177,6 +193,8 @@ flowchart TD
 
 <a id="icu-01-08"></a>
 ## ICU-01-08 — Sepsis with ARDS and kidney injury
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-08).
 
@@ -198,6 +216,8 @@ flowchart TD
 <a id="icu-02-01"></a>
 ## ICU-02-01 — Shock immediately after CABG
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-01).
 
 **Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 1](case_set_02_advanced_hemodynamic_scenarios.md).
@@ -217,6 +237,8 @@ flowchart TD
 
 <a id="icu-02-02"></a>
 ## ICU-02-02 — VA-ECMO after myocardial infarction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-02).
 
@@ -238,6 +260,8 @@ flowchart TD
 <a id="icu-02-03"></a>
 ## ICU-02-03 — Early LVAD and RV function
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-03).
 
 **Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 3](case_set_02_advanced_hemodynamic_scenarios.md).
@@ -257,6 +281,8 @@ flowchart TD
 
 <a id="icu-02-04"></a>
 ## ICU-02-04 — Pneumonia-associated ARDS
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-04).
 
@@ -278,6 +304,8 @@ flowchart TD
 <a id="icu-02-05"></a>
 ## ICU-02-05 — Aortic repair, hypertension and AKI
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-05).
 
 **Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 5](case_set_02_advanced_hemodynamic_scenarios.md).
@@ -297,6 +325,8 @@ flowchart TD
 
 <a id="icu-02-06"></a>
 ## ICU-02-06 — Lung transplantation and graft dysfunction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-06).
 
@@ -318,6 +348,8 @@ flowchart TD
 <a id="icu-02-07"></a>
 ## ICU-02-07 — Sepsis and an open abdomen
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-07).
 
 **Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 7](case_set_02_advanced_hemodynamic_scenarios.md).
@@ -337,6 +369,8 @@ flowchart TD
 
 <a id="icu-02-08"></a>
 ## ICU-02-08 — SAH with stress cardiomyopathy
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-08).
 
@@ -358,6 +392,8 @@ flowchart TD
 <a id="icu-03-01"></a>
 ## ICU-03-01 — CABG with vasoplegia, hypothermia and bleeding
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-01).
 
 **Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 1](case_set_03_postoperative_cardiothoracic_scenarios.md).
@@ -377,6 +413,8 @@ flowchart TD
 
 <a id="icu-03-02"></a>
 ## ICU-03-02 — VA-ECMO with rising lactate
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-02).
 
@@ -398,6 +436,8 @@ flowchart TD
 <a id="icu-03-03"></a>
 ## ICU-03-03 — LVAD with RV dysfunction
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-03).
 
 **Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 3](case_set_03_postoperative_cardiothoracic_scenarios.md).
@@ -417,6 +457,8 @@ flowchart TD
 
 <a id="icu-03-04"></a>
 ## ICU-03-04 — ARDS after supination
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-04).
 
@@ -438,6 +480,8 @@ flowchart TD
 <a id="icu-03-05"></a>
 ## ICU-03-05 — Aortic repair with new pain and oliguria
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-05).
 
 **Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 5](case_set_03_postoperative_cardiothoracic_scenarios.md).
@@ -457,6 +501,8 @@ flowchart TD
 
 <a id="icu-03-06"></a>
 ## ICU-03-06 — Early lung-graft dysfunction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-06).
 
@@ -478,6 +524,8 @@ flowchart TD
 <a id="icu-03-07"></a>
 ## ICU-03-07 — Abdominal sepsis with refractory shock
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-07).
 
 **Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 7](case_set_03_postoperative_cardiothoracic_scenarios.md).
@@ -497,6 +545,8 @@ flowchart TD
 
 <a id="icu-03-08"></a>
 ## ICU-03-08 — SAH with cardiac dysfunction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-08).
 
@@ -518,6 +568,8 @@ flowchart TD
 <a id="icu-04-01"></a>
 ## ICU-04-01 — CABG with low vascular tone
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-01).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 1](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -537,6 +589,8 @@ flowchart TD
 
 <a id="icu-04-02"></a>
 ## ICU-04-02 — Redo AVR with AKI and congestion
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-02).
 
@@ -558,6 +612,8 @@ flowchart TD
 <a id="icu-04-03"></a>
 ## ICU-04-03 — Mitral surgery, bradycardia and delirium
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-03).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 3](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -577,6 +633,8 @@ flowchart TD
 
 <a id="icu-04-04"></a>
 ## ICU-04-04 — Tricuspid repair and RV dysfunction
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-04).
 
@@ -598,6 +656,8 @@ flowchart TD
 <a id="icu-04-05"></a>
 ## ICU-04-05 — Mechanical AVR and anticoagulation
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-05).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 5](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -617,6 +677,8 @@ flowchart TD
 
 <a id="icu-04-06"></a>
 ## ICU-04-06 — CABG/MVR with pulmonary edema
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-06).
 
@@ -638,6 +700,8 @@ flowchart TD
 <a id="icu-04-07"></a>
 ## ICU-04-07 — Post-MAZE bradycardia
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-07).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 7](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -657,6 +721,8 @@ flowchart TD
 
 <a id="icu-04-08"></a>
 ## ICU-04-08 — LV aneurysmectomy with low output
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-08).
 
@@ -678,6 +744,8 @@ flowchart TD
 <a id="icu-04-09"></a>
 ## ICU-04-09 — New postoperative fever
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-09).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 9](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -697,6 +765,8 @@ flowchart TD
 
 <a id="icu-04-10"></a>
 ## ICU-04-10 — RV dysfunction after tricuspid repair
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-10).
 
@@ -718,6 +788,8 @@ flowchart TD
 <a id="icu-04-11"></a>
 ## ICU-04-11 — Bentall/hemiarch with mixed shock
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-11).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 11](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -737,6 +809,8 @@ flowchart TD
 
 <a id="icu-04-12"></a>
 ## ICU-04-12 — Persistent congestion after CABG/AVR
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-12).
 
@@ -758,6 +832,8 @@ flowchart TD
 <a id="icu-04-13"></a>
 ## ICU-04-13 — Rising lactate after CABG/mitral repair
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-13).
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 13](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
@@ -777,6 +853,8 @@ flowchart TD
 
 <a id="icu-05-01"></a>
 ## ICU-05-01 — Early low-output physiology
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-01).
 
@@ -798,6 +876,8 @@ flowchart TD
 <a id="icu-05-02"></a>
 ## ICU-05-02 — Aortic repair and agitation
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-02).
 
 **Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 2](case_set_05_mechanical_support_and_goals_of_care.md).
@@ -817,6 +897,8 @@ flowchart TD
 
 <a id="icu-05-03"></a>
 ## ICU-05-03 — Chronic LVAD low-flow alarms
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-03).
 
@@ -838,6 +920,8 @@ flowchart TD
 <a id="icu-05-04"></a>
 ## ICU-05-04 — VV-ECMO with hypoxemia
 
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-04).
 
 **Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 4](case_set_05_mechanical_support_and_goals_of_care.md).
@@ -857,6 +941,8 @@ flowchart TD
 
 <a id="icu-05-05"></a>
 ## ICU-05-05 — Explicitly chosen comfort-focused care
+
+**Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 [Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-05).
 

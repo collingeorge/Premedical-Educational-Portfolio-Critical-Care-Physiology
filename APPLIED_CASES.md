@@ -1,6 +1,10 @@
 # ICU applied examples: all 42 topics
 
-28 October 2026. Entirely synthetic educational cases, independent of real encounters/charts. Each of the 42 existing topics has a male and female example (84 profiles). These illustrate source-informed reasoning, not observed treatment, a dosing protocol or proof of clinical competence. All existing case text is retained.
+[Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives across cardiac, thoracic, vascular and acute cardiorespiratory care.
+
+[Integrated ICU/CTICU workups: pain, airway, circulation, diagnosis and testing](ICU_CTICU_WORKUP_CASES.md) — all 42 topics, with conditional test purposes and reassessment.
+
+28 October 2026. Entirely synthetic educational cases, independent of real encounters/charts. Each of the 42 existing topics has a male and female example (84 profiles). These illustrate source-informed reasoning, not observed treatment, a dosing protocol or proof of clinical competence. Existing topics, vignettes and interpretation boundaries are retained; question lists now have worked explanations.
 
 ## Consistent case format
 
@@ -32,7 +36,9 @@ flowchart TD
 <a id="icu-01-01"></a>
 ## ICU-01-01 — Postoperative hemodynamic instability
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 1](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-01).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 1](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional postoperative adult develops hypotension, rising lactate and chest-drain output. Cardiac function and the bleeding source have not been established.
 
@@ -50,7 +56,9 @@ flowchart TD
 <a id="icu-01-02"></a>
 ## ICU-01-02 — DNI status and respiratory distress
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 2](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-02).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 2](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** An older fictional adult with COPD and pneumonia is distressed and has difficulty tolerating non-invasive ventilation. DNR/DNI is documented; other treatment preferences are unknown.
 
@@ -68,7 +76,9 @@ flowchart TD
 <a id="icu-01-03"></a>
 ## ICU-01-03 — Worsening septic shock
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 3](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-03).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 3](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with suspected infection has increasing vasopressor requirements, mottling, oliguria and rising lactate.
 
@@ -86,7 +96,9 @@ flowchart TD
 <a id="icu-01-04"></a>
 ## ICU-01-04 — Rib fractures and impaired ventilation
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 4](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-04).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 4](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional trauma patient has chest-wall pain, shallow breathing and increasing oxygen needs. Associated injuries are incompletely described.
 
@@ -104,7 +116,9 @@ flowchart TD
 <a id="icu-01-05"></a>
 ## ICU-01-05 — Myocarditis and shock
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 5](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-05).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 5](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with suspected fulminant myocarditis has poor perfusion despite initial support. Ventricular function, rhythm and the cause of inflammation need reassessment.
 
@@ -122,7 +136,9 @@ flowchart TD
 <a id="icu-01-06"></a>
 ## ICU-01-06 — Pancreatitis with respiratory and renal dysfunction
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 6](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-06).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 6](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional postoperative adult with pancreatitis has pain, positive fluid balance, worsening breathing and rising creatinine.
 
@@ -140,7 +156,9 @@ flowchart TD
 <a id="icu-01-07"></a>
 ## ICU-01-07 — Brain injury with aspiration and airway decline
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 7](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-07).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 7](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with traumatic brain injury develops reduced alertness and suspected aspiration.
 
@@ -158,7 +176,9 @@ flowchart TD
 <a id="icu-01-08"></a>
 ## ICU-01-08 — Sepsis with ARDS and kidney injury
 
-**Original exercise:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 8](case_set_01_multisystem_critical_care_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-08).
+
+**Original scenario:** [case_set_01_multisystem_critical_care_scenarios.md — scenario 8](case_set_01_multisystem_critical_care_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with pneumonia has bilateral opacities, impaired gas exchange, positive fluid balance and kidney dysfunction.
 
@@ -176,7 +196,9 @@ flowchart TD
 <a id="icu-02-01"></a>
 ## ICU-02-01 — Shock immediately after CABG
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 1](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-01).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 1](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult after coronary bypass has hypotension, low estimated output, hypothermia and ongoing drain output.
 
@@ -194,7 +216,9 @@ flowchart TD
 <a id="icu-02-02"></a>
 ## ICU-02-02 — VA-ECMO after myocardial infarction
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 2](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-02).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 2](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult on VA-ECMO has improving lactate but oliguria and concern about limb perfusion.
 
@@ -212,7 +236,9 @@ flowchart TD
 <a id="icu-02-03"></a>
 ## ICU-02-03 — Early LVAD and RV function
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 3](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-03).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 3](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult after LVAD implantation has changing displayed flow and pulsatility with borderline RV function.
 
@@ -230,7 +256,9 @@ flowchart TD
 <a id="icu-02-04"></a>
 ## ICU-02-04 — Pneumonia-associated ARDS
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 4](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-04).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 4](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with ARDS has a reported P:F ratio near 87, increased driving pressure and vasopressor support.
 
@@ -248,7 +276,9 @@ flowchart TD
 <a id="icu-02-05"></a>
 ## ICU-02-05 — Aortic repair, hypertension and AKI
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 5](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-05).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 5](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult after type A dissection repair develops hypertension, oliguria and rising creatinine.
 
@@ -266,7 +296,9 @@ flowchart TD
 <a id="icu-02-06"></a>
 ## ICU-02-06 — Lung transplantation and graft dysfunction
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 6](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-06).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 6](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional lung-transplant recipient develops poor compliance, impaired gas exchange and fluid accumulation.
 
@@ -284,7 +316,9 @@ flowchart TD
 <a id="icu-02-07"></a>
 ## ICU-02-07 — Sepsis and an open abdomen
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 7](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-07).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 7](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with abdominal sepsis has worsening shock, oliguria and positive fluid balance.
 
@@ -302,7 +336,9 @@ flowchart TD
 <a id="icu-02-08"></a>
 ## ICU-02-08 — SAH with stress cardiomyopathy
 
-**Original exercise:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 8](case_set_02_advanced_hemodynamic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-02-08).
+
+**Original scenario:** [case_set_02_advanced_hemodynamic_scenarios.md — scenario 8](case_set_02_advanced_hemodynamic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult after aneurysm treatment has cardiac dysfunction and concern about cerebral perfusion.
 
@@ -320,7 +356,9 @@ flowchart TD
 <a id="icu-03-01"></a>
 ## ICU-03-01 — CABG with vasoplegia, hypothermia and bleeding
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 1](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-01).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 1](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional bypass recipient has hypotension, a rising lactate trend, reduced calculated vascular resistance and drain output.
 
@@ -338,7 +376,9 @@ flowchart TD
 <a id="icu-03-02"></a>
 ## ICU-03-02 — VA-ECMO with rising lactate
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 2](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-02).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 2](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional myocarditis patient on VA-ECMO has rising lactate and concern about hemolysis, LV distension or circuit dysfunction.
 
@@ -356,7 +396,9 @@ flowchart TD
 <a id="icu-03-03"></a>
 ## ICU-03-03 — LVAD with RV dysfunction
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 3](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-03).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 3](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional LVAD recipient has rising venous pressure, falling pulsatility and worsening renal function.
 
@@ -374,7 +416,9 @@ flowchart TD
 <a id="icu-03-04"></a>
 ## ICU-03-04 — ARDS after supination
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 4](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-04).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 4](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult with ARDS has worsening oxygenation and carbon dioxide retention after supination.
 
@@ -392,7 +436,9 @@ flowchart TD
 <a id="icu-03-05"></a>
 ## ICU-03-05 — Aortic repair with new pain and oliguria
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 5](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-05).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 5](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional aortic-surgery patient has new back pain, hypertension and deteriorating urine output.
 
@@ -410,7 +456,9 @@ flowchart TD
 <a id="icu-03-06"></a>
 ## ICU-03-06 — Early lung-graft dysfunction
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 6](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-06).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 6](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional transplant recipient has low compliance and worsening gas exchange soon after surgery.
 
@@ -428,7 +476,9 @@ flowchart TD
 <a id="icu-03-07"></a>
 ## ICU-03-07 — Abdominal sepsis with refractory shock
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 7](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-07).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 7](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional adult after bowel surgery remains shocked with oliguria and venous congestion.
 
@@ -446,7 +496,9 @@ flowchart TD
 <a id="icu-03-08"></a>
 ## ICU-03-08 — SAH with cardiac dysfunction
 
-**Original exercise:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 8](case_set_03_postoperative_cardiothoracic_scenarios.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-08).
+
+**Original scenario:** [case_set_03_postoperative_cardiothoracic_scenarios.md — scenario 8](case_set_03_postoperative_cardiothoracic_scenarios.md).
 
 **Shared fictional situation:** A fictional aneurysmal-SAH patient has reduced cardiac function and uncertain cerebral perfusion.
 
@@ -464,7 +516,9 @@ flowchart TD
 <a id="icu-04-01"></a>
 ## ICU-04-01 — CABG with low vascular tone
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 1](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-01).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 1](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional bypass recipient has hypotension, low calculated SVR, rising lactate and hypothermia.
 
@@ -482,7 +536,9 @@ flowchart TD
 <a id="icu-04-02"></a>
 ## ICU-04-02 — Redo AVR with AKI and congestion
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 2](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-02).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 2](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional valve-surgery patient has borderline cardiac output, pulmonary edema and worsening kidney function.
 
@@ -500,7 +556,9 @@ flowchart TD
 <a id="icu-04-03"></a>
 ## ICU-04-03 — Mitral surgery, bradycardia and delirium
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 3](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-03).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 3](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
 
@@ -518,7 +576,9 @@ flowchart TD
 <a id="icu-04-04"></a>
 ## ICU-04-04 — Tricuspid repair and RV dysfunction
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 4](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-04).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 4](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after CABG and tricuspid repair has RV dysfunction, kidney injury and oxygen needs.
 
@@ -536,7 +596,9 @@ flowchart TD
 <a id="icu-04-05"></a>
 ## ICU-04-05 — Mechanical AVR and anticoagulation
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 5](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-05).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 5](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after mechanical-valve surgery has a reported INR and an incompletely described bleeding risk.
 
@@ -554,7 +616,9 @@ flowchart TD
 <a id="icu-04-06"></a>
 ## ICU-04-06 — CABG/MVR with pulmonary edema
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 6](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-06).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 6](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after bypass and mitral surgery has reduced output, pulmonary edema, kidney injury and early fever.
 
@@ -572,7 +636,9 @@ flowchart TD
 <a id="icu-04-07"></a>
 ## ICU-04-07 — Post-MAZE bradycardia
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 7](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-07).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 7](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
 
@@ -590,7 +656,9 @@ flowchart TD
 <a id="icu-04-08"></a>
 ## ICU-04-08 — LV aneurysmectomy with low output
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 8](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-08).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 8](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult after bypass and aneurysm surgery has low measured output, rising lactate and edema.
 
@@ -608,7 +676,9 @@ flowchart TD
 <a id="icu-04-09"></a>
 ## ICU-04-09 — New postoperative fever
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 9](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-09).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 9](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional valve/bypass recipient develops fever, leukocytosis and a renewed vasopressor requirement.
 
@@ -626,7 +696,9 @@ flowchart TD
 <a id="icu-04-10"></a>
 ## ICU-04-10 — RV dysfunction after tricuspid repair
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 10](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-10).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 10](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional patient has RV dysfunction, kidney injury, congestion and HFNC support.
 
@@ -644,7 +716,9 @@ flowchart TD
 <a id="icu-04-11"></a>
 ## ICU-04-11 — Bentall/hemiarch with mixed shock
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 11](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-11).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 11](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional postoperative adult has vasopressor support, biventricular dysfunction, kidney injury and an INR result.
 
@@ -662,7 +736,9 @@ flowchart TD
 <a id="icu-04-12"></a>
 ## ICU-04-12 — Persistent congestion after CABG/AVR
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 12](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-12).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 12](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult has persistent congestion, kidney dysfunction and incomplete response to prior diuretic treatment.
 
@@ -680,7 +756,9 @@ flowchart TD
 <a id="icu-04-13"></a>
 ## ICU-04-13 — Rising lactate after CABG/mitral repair
 
-**Original exercise:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 13](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-13).
+
+**Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 13](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
 **Shared fictional situation:** A fictional adult develops rising lactate with borderline output and pulmonary congestion.
 
@@ -698,7 +776,9 @@ flowchart TD
 <a id="icu-05-01"></a>
 ## ICU-05-01 — Early low-output physiology
 
-**Original exercise:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 1](case_set_05_mechanical_support_and_goals_of_care.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-01).
+
+**Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 1](case_set_05_mechanical_support_and_goals_of_care.md).
 
 **Shared fictional situation:** A fictional bypass recipient has borderline pressure, rising lactate, oliguria and RV dysfunction.
 
@@ -716,7 +796,9 @@ flowchart TD
 <a id="icu-05-02"></a>
 ## ICU-05-02 — Aortic repair and agitation
 
-**Original exercise:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 2](case_set_05_mechanical_support_and_goals_of_care.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-02).
+
+**Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 2](case_set_05_mechanical_support_and_goals_of_care.md).
 
 **Shared fictional situation:** A fictional aortic-surgery patient has agitation, intermittent hypertension and hypoxemia.
 
@@ -734,7 +816,9 @@ flowchart TD
 <a id="icu-05-03"></a>
 ## ICU-05-03 — Chronic LVAD low-flow alarms
 
-**Original exercise:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 3](case_set_05_mechanical_support_and_goals_of_care.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-03).
+
+**Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 3](case_set_05_mechanical_support_and_goals_of_care.md).
 
 **Shared fictional situation:** A fictional LVAD patient has low-flow alarms, anemia, rising LDH and RV dysfunction.
 
@@ -752,7 +836,9 @@ flowchart TD
 <a id="icu-05-04"></a>
 ## ICU-05-04 — VV-ECMO with hypoxemia
 
-**Original exercise:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 4](case_set_05_mechanical_support_and_goals_of_care.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-04).
+
+**Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 4](case_set_05_mechanical_support_and_goals_of_care.md).
 
 **Shared fictional situation:** A fictional adult on VV-ECMO has hypoxemia, rising lactate, oliguria and high sedation requirements.
 
@@ -770,7 +856,9 @@ flowchart TD
 <a id="icu-05-05"></a>
 ## ICU-05-05 — Explicitly chosen comfort-focused care
 
-**Original exercise:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 5](case_set_05_mechanical_support_and_goals_of_care.md).
+[Full integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-05-05).
+
+**Original scenario:** [case_set_05_mechanical_support_and_goals_of_care.md — scenario 5](case_set_05_mechanical_support_and_goals_of_care.md).
 
 **Shared fictional situation:** A fictional adult with advanced illness has separately chosen a comfort-focused plan after a goals-of-care discussion.
 

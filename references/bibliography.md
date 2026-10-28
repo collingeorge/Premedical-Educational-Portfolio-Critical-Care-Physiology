@@ -26,3 +26,11 @@ Revised 27 October 2026. This selected guide replaces the earlier incomplete bib
 For a proposed claim, record the exact source/version, study design, population, intervention/comparator, outcome and time point. Distinguish the source result from your own inference, note uncertainty and identify what is not supported. Record whether you checked the abstract, full text, supplement, corrections and current guideline status.
 
 Sources retain their own copyright. No society algorithm, questionnaire, clinical checklist or article figure is reproduced under the repository license.
+
+
+## Integrated ICU/CTICU workup sources (28 October 2026)
+
+See the [27-source register](../ICU_CTICU_WORKUP_CASES.md#sources-and-verification-scope) and [per-case source/test mapping](../INTEGRATED_WORKUP_AUDIT.json). Source verification scope and full-text limitations are stated there.
+
+
+The [procedure-organized CTICU casebook](../CTICU_PROCEDURE_EXAMPLES.md#source-register-and-limits) adds 11 DOI-bearing references for its 18 paired narratives, including thoracic/vascular surgery and transplantation. Verification limits are stated per source.

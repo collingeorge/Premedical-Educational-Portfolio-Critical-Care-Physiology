@@ -2,189 +2,163 @@
 
 Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
-## How to use these exercises
+## How to use these worked examples
 
-Identify mechanisms, missing information and the limits of each inference. These are discussion prompts rather than management plans. A completed worksheet demonstrates study, not competence to diagnose or treat patients. Use the [source guide](references/bibliography.md) and [self-assessment rubric](learning_objectives/self_assessment_rubric.md).
+Read the paired patient examples and integrated clinical narratives linked under each scenario. The examples explain interpretation and conditional care decisions; no student answers or scoring are required. See the [procedure-organized CTICU casebook](CTICU_PROCEDURE_EXAMPLES.md) and [source guide](references/bibliography.md).
 
 ## Scenario 1: CABG with low vascular tone
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-01).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-01). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-01).
 
 **Synthetic vignette:** A fictional bypass recipient has hypotension, low calculated SVR, rising lactate and hypothermia.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. What must be known about cardiac output before interpreting SVR?
-2. Which competing mechanisms remain possible?
-3. Which observations would meaningfully change the differential?
+Verify the measurement and recheck tone, flow, blood loss and obstruction; a single calculated resistance cannot determine mechanism. Methylene blue and other vasoactive agents are not routine numerical-trigger treatments; interactions and contraindications require review. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No methylene-blue or vasopressor trigger is derived from one resistance or lactate number.
 
 ## Scenario 2: Redo AVR with AKI and congestion
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-02).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-02). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-02).
 
 **Synthetic vignette:** A fictional valve-surgery patient has borderline cardiac output, pulmonary edema and worsening kidney function.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. How could low forward flow and venous congestion contribute simultaneously?
-2. What supports the assertion that excess fluid is present?
-3. What evidence would distinguish an intervention’s physiologic effect from improved clinical outcomes?
+Low forward flow and venous back-pressure can coexist; choose observations that distinguish mechanisms and response to prior interventions. Inotropes and diuretics address different hypotheses; a cardiac-index cutoff alone does not select either. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A cardiac-index cutoff alone does not select an inotrope.
 
 ## Scenario 3: Mitral surgery, bradycardia and delirium
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-03).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-03). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-03).
 
 **Synthetic vignette:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Could rhythm, medication effects, low flow and noncardiac causes explain the mental status?
-2. Which observations establish whether the rate is causing hemodynamic compromise?
-3. What airway support is actually present?
+Check rhythm/perfusion and noncardiac delirium contributors; establish the actual airway device before discussing readiness tests. Medication review may reveal rate/sedation effects; HFNC is not an endotracheal tube and does not itself call for an extubation SBT. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** HFNC does not imply an endotracheal tube. An extubation SBT is not the corresponding readiness test. No atropine dose or pacing rule is supplied.
 
 ## Scenario 4: Tricuspid repair and RV dysfunction
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-04).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-04). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-04).
 
 **Synthetic vignette:** A fictional adult after CABG and tricuspid repair has RV dysfunction, kidney injury and oxygen needs.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. How do preload, afterload and contractility interact in RV physiology?
-2. Why can both derecruitment and overdistension matter?
-3. What does a venous-pressure trend fail to establish on its own?
+Compare RV loading and pulmonary mechanics; both inadequate recruitment and overdistension can affect circulation. Neither all PEEP nor all diuresis is categorically excluded; specialist assessment determines suitability. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** Avoid blanket prohibition of PEEP or a fluid-removal rule based solely on CVP.
 
 ## Scenario 5: Mechanical AVR and anticoagulation
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-05).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-05). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-05).
 
 **Synthetic vignette:** A fictional adult after mechanical-valve surgery has a reported INR and an incompletely described bleeding risk.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Which valve, position, thrombotic risks, postoperative timing and medicines must be identified?
-2. Why is an isolated INR insufficient to set the complete anticoagulation plan?
-3. What device/surgical guidance and team input are needed?
+Verify valve position/model, thrombotic context and bleeding history before interpreting the INR. No generic warfarin hold, heparin addition or INR target is supplied; anticoagulation requires the complete clinical context. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No universal INR range, warfarin hold or heparin instruction is supplied.
 
 ## Scenario 6: CABG/MVR with pulmonary edema
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-06).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-06). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-06).
 
 **Synthetic vignette:** A fictional adult after bypass and mitral surgery has reduced output, pulmonary edema, kidney injury and early fever.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. What distinguishes hydrostatic, permeability and mixed pulmonary edema?
-2. Which findings support infection rather than nonspecific postoperative inflammation?
-3. How might perfusion and congestion goals conflict?
+Assess hydrostatic, inflammatory and infectious explanations rather than treating early fever as proof of infection. A broad antibiotic regimen or negative-fluid target cannot be selected from fever and edema alone. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No automatic broad-spectrum antibiotic or fixed negative-fluid target is established.
 
 ## Scenario 7: Post-MAZE bradycardia
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-07).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-07). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-07).
 
 **Synthetic vignette:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Assess whether bradycardia is causal, compensatory or incidental.
-2. What is missing about rhythm, pacing wires and medication effects?
-3. How would renal perfusion and congestion be evaluated together?
+Determine temporal association, rhythm and hemodynamic consequences; assess whether a rate change explains organ findings. Review rate-altering and sedating drugs; atropine/pacing decisions are not made from a rate-only threshold. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No rate-only treatment threshold is supplied.
 
 ## Scenario 8: LV aneurysmectomy with low output
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-08).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-08). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-08).
 
 **Synthetic vignette:** A fictional adult after bypass and aneurysm surgery has low measured output, rising lactate and edema.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Verify the output measurement and identify possible mechanical causes.
-2. What do venous saturation and lactate add, and where can they mislead?
-3. What findings would distinguish congestion from fluid responsiveness?
+Confirm output and sampling, then examine mechanical/ischemic causes and the relationship of delivery to demand. Low saturation or lactate does not independently select milrinone, transfusion or fluid removal. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A low saturation or rising lactate is not by itself a milrinone or diuresis prescription.
 
 ## Scenario 9: New postoperative fever
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-09).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-09). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-09).
 
 **Synthetic vignette:** A fictional valve/bypass recipient develops fever, leukocytosis and a renewed vasopressor requirement.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Consider infectious and noninfectious causes in the postoperative context.
-2. What cultures, imaging and source-control questions are relevant?
-3. How should microbiology, exposure and local resistance inform an antimicrobial discussion?
+Revisit infection sources and noninfectious postoperative causes; use cultures and imaging to refine hypotheses. Antimicrobial discussion incorporates likely source, prior exposure, local resistance and organ function, not fever alone. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** Fever or procalcitonin alone neither proves infection nor chooses an antibiotic regimen.
 
 ## Scenario 10: RV dysfunction after tricuspid repair
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-10).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-10). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-10).
 
 **Synthetic vignette:** A fictional patient has RV dysfunction, kidney injury, congestion and HFNC support.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Identify potential causes of increased RV load.
-2. What observations would suggest intolerance of a proposed fluid change?
-3. How can respiratory support affect RV physiology in either direction?
+Assess RV load and fluid tolerance with respiratory context rather than imposing a blanket pressure or volume rule. No categorical beta-blocker/PEEP prohibition or extubation SBT instruction follows from these findings. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No blanket beta-blocker prohibition, PEEP prohibition or SBT instruction is supplied.
 
 ## Scenario 11: Bentall/hemiarch with mixed shock
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-11).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-11). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-11).
 
 **Synthetic vignette:** A fictional postoperative adult has vasopressor support, biventricular dysfunction, kidney injury and an INR result.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Separate tone, pump, bleeding and obstructive questions.
-2. Which details of the operation determine the anticoagulation context?
-3. Which new findings require surgical reassessment?
+Separate pump, tone, bleeding and obstruction; identify the operation/prosthesis before discussing anticoagulation. Vasoactive and anticoagulation choices solve different problems and require surgical-team context. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** An INR value does not identify the prosthesis or establish the complete anticoagulation plan.
 
 ## Scenario 12: Persistent congestion after CABG/AVR
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-12).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-12). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-12).
 
 **Synthetic vignette:** A fictional adult has persistent congestion, kidney dysfunction and incomplete response to prior diuretic treatment.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. What supports the diagnosis of congestion and apparent treatment resistance?
-2. Could low flow, renal injury, drug delivery or anatomic problems contribute?
-3. What distinguishes refractory life-threatening fluid complications from uncomplicated positive balance?
+Examine exposure, delivery, perfusion and urgent complications before comparing decongestion options. More diuretic or renal support is not selected solely because balance is positive; response and tolerance matter. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** No escalating diuretic combination or dialysis instruction is supplied.
 
 ## Scenario 13: Rising lactate after CABG/mitral repair
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-04-13).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-13). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-13).
 
 **Synthetic vignette:** A fictional adult develops rising lactate with borderline output and pulmonary congestion.
 
-**Reasoning questions**
+**Worked example interpretation**
 
-1. Check alternative causes of lactate elevation and sampling changes.
-2. What mechanical or ischemic problems should be considered?
-3. How would serial perfusion findings alter the working hypothesis?
+Review sampling and non-flow causes of lactate, then reassess mechanical, ischemic and rhythm explanations. A lactate cutoff alone is not an evidence-based switch to a specific inotrope. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
 **Interpretation boundary:** A lactate cutoff is not a validated trigger for a particular inotrope.
 

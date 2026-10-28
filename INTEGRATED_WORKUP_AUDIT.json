@@ -1,0 +1,1968 @@
+{
+  "date": "2026-10-28",
+  "topics": 42,
+  "synthetic_profiles": 84,
+  "domains_per_case": 8,
+  "lab_catalogue": [
+    {
+      "id": "CBC",
+      "test": "CBC: hemoglobin/hematocrit, platelets, differential",
+      "when": "Suspected bleeding, anemia, infection context or thrombocytopenia",
+      "question": "Blood-loss trend, oxygen-carrying capacity and platelet trend",
+      "decision": "May inform bleeding/transfusion evaluation or drug-exposure review alongside clinical findings",
+      "limit": "Hemoglobin can lag acute hemorrhage or reflect dilution; WBC does not prove infection; platelets do not measure all platelet function",
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "FEVER"
+      ]
+    },
+    {
+      "id": "GAS",
+      "test": "Arterial blood gas when oxygenation, ventilation or acid-base status needs clarification",
+      "when": "New respiratory failure, altered support or unexplained acid-base disturbance",
+      "question": "PaO2, PaCO2 and pH under recorded oxygen/support conditions",
+      "decision": "May inform respiratory-support assessment and whether a metabolic/respiratory process is changing",
+      "limit": "Venous PO2 cannot replace arterial oxygenation assessment; record FiO2/device; do not schedule ABGs automatically",
+      "sources": [
+        "ARDS",
+        "NIV",
+        "AIRWAY"
+      ]
+    },
+    {
+      "id": "LAC",
+      "test": "Lactate, with repeat justified by a response question",
+      "when": "Shock or unexplained change in perfusion",
+      "question": "Trend compatible with altered production/clearance or delivery-demand imbalance",
+      "decision": "May prompt reassessment of shock mechanism or response to an intervention",
+      "limit": "Not specific for hypoperfusion and not a standalone fluid, transfusion or inotrope trigger",
+      "sources": [
+        "SEPSIS",
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "RENALCHEM",
+      "test": "Basic metabolic chemistry: sodium, potassium, bicarbonate/total CO2, urea/BUN, creatinine and glucose",
+      "when": "AKI, oliguria, arrhythmia, diuresis, metabolic or neurologic concern",
+      "question": "Electrolyte/acid-base changes and kidney-function trajectory",
+      "decision": "May inform medication-exposure review, electrolyte management or renal-support evaluation",
+      "limit": "Creatinine lags injury; an isolated value does not distinguish low flow from congestion or choose dialysis",
+      "sources": [
+        "KIDNEY",
+        "RENAL"
+      ]
+    },
+    {
+      "id": "MGPHOS",
+      "test": "Magnesium and phosphate when clinically relevant",
+      "when": "Arrhythmia, nutritional risk, ongoing losses or respiratory-muscle concern",
+      "question": "Potential reversible electrolyte contribution",
+      "decision": "May inform replacement assessment and review of losses or drug effects",
+      "limit": "Not every abnormal value explains the illness; replacement needs kidney function and local policy",
+      "sources": [
+        "POSTCARD",
+        "KIDNEY"
+      ]
+    },
+    {
+      "id": "ICAL",
+      "test": "Ionized calcium",
+      "when": "Major bleeding/transfusion or unexplained circulatory dysfunction",
+      "question": "Biologically active calcium in the current clinical context",
+      "decision": "May inform correction assessment while investigating the primary problem",
+      "limit": "Total calcium is not interchangeable; sampling/pH and clinical context matter",
+      "sources": [
+        "PBM",
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "COAG",
+      "test": "PT/INR, aPTT and fibrinogen selected for the question",
+      "when": "Bleeding, hepatic/coagulation concern or relevant anticoagulant exposure",
+      "question": "Selected clotting-pathway/fibrinogen abnormalities",
+      "decision": "May inform hemostatic or anticoagulant assessment with bleeding history and drug identity",
+      "limit": "Do not equate a normal screen with no bleeding risk or use INR to quantify every anticoagulant",
+      "sources": [
+        "PBM",
+        "VALVE"
+      ]
+    },
+    {
+      "id": "VET",
+      "test": "Viscoelastic/platelet-function testing if indicated and locally available",
+      "when": "Active complex cardiac-surgical bleeding under an established clinical pathway",
+      "question": "More specific clot formation or platelet-function questions",
+      "decision": "May inform component-directed hemostatic discussion and distinguish hypotheses",
+      "limit": "Does not replace surgical source evaluation; not a routine screening or independent treatment algorithm here",
+      "sources": [
+        "PBM"
+      ]
+    },
+    {
+      "id": "CROSS",
+      "test": "Type and screen / compatibility testing through the transfusion service",
+      "when": "Clinically meaningful bleeding or a realistic transfusion question",
+      "question": "Compatibility and preparation for potential blood-product support",
+      "decision": "May support timely transfusion logistics if the clinical team determines need",
+      "limit": "Not a transfusion indication, hemoglobin target or proof of ongoing bleeding",
+      "sources": [
+        "PBM"
+      ]
+    },
+    {
+      "id": "CULT",
+      "test": "Source-directed microbiology, including blood cultures when indicated",
+      "when": "Suspected infection, new fever with a plausible source or shock",
+      "question": "Organism identification and susceptibility/context",
+      "decision": "May refine antimicrobial/source-control decisions and later de-escalation",
+      "limit": "Avoid reflex cultures from every site; contamination/colonization matter; sampling must not cause harmful treatment delay",
+      "sources": [
+        "FEVER",
+        "SEPSIS"
+      ]
+    },
+    {
+      "id": "RESPMIC",
+      "test": "Respiratory sample / pathogen testing selected for suspected pneumonia",
+      "when": "New pulmonary infection question",
+      "question": "Potential respiratory pathogen evidence",
+      "decision": "May refine antimicrobial assessment with imaging and clinical course",
+      "limit": "Positive results may reflect colonization; specimen quality, prior therapy and immune status matter",
+      "sources": [
+        "FEVER",
+        "SEPSIS",
+        "TRANSPLANT"
+      ]
+    },
+    {
+      "id": "URINE",
+      "test": "Urinalysis, microscopy and selective culture",
+      "when": "Kidney-injury mechanism or suspected urinary infection",
+      "question": "Sediment/urine findings and source-specific microbiology",
+      "decision": "May inform AKI differential or urinary-source evaluation",
+      "limit": "Pyuria or bacteriuria is not automatically symptomatic infection; catheter and collection method matter",
+      "sources": [
+        "KIDNEY",
+        "FEVER"
+      ]
+    },
+    {
+      "id": "SODOSM",
+      "test": "Serum sodium with osmolality/urine studies if the specific question warrants them",
+      "when": "Neurocritical electrolyte/water-balance problem",
+      "question": "Patterns of water/solute regulation in context",
+      "decision": "May inform supervised fluid/medication reassessment and correction planning",
+      "limit": "No universal sodium target or rapid-correction instruction follows from this vignette",
+      "sources": [
+        "TBI",
+        "SAH"
+      ]
+    },
+    {
+      "id": "POCGLU",
+      "test": "Prompt bedside glucose when mental status or metabolic stability changes",
+      "when": "Reduced consciousness, agitation or unstable metabolic state",
+      "question": "A potentially reversible glucose abnormality",
+      "decision": "May inform immediate clinical assessment and supervised correction",
+      "limit": "An abnormal result does not exclude a concurrent neurologic or circulatory event",
+      "sources": [
+        "PADISBASE",
+        "TBI",
+        "SAH"
+      ]
+    },
+    {
+      "id": "TROP",
+      "test": "Troponin when a myocardial-injury question is present",
+      "when": "New ischemic/rhythm/pump concern after assessment",
+      "question": "Myocardial injury pattern with serial context if justified",
+      "decision": "May inform coronary/structural evaluation together with ECG and imaging",
+      "limit": "Postoperative elevation alone does not establish type, mechanism or an infarction diagnosis",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "HEMOL",
+      "test": "Hemolysis evaluation: LDH, plasma-free hemoglobin, bilirubin/haptoglobin as appropriate",
+      "when": "ECMO/LVAD blood-trauma concern, anemia or device alarm",
+      "question": "Evidence compatible with hemolysis, integrated with device data",
+      "decision": "May prompt specialist evaluation of pump/circuit/loading or alternative causes",
+      "limit": "Each marker is nonspecific; no single result proves pump thrombosis or selects a speed/anticoagulant change",
+      "sources": [
+        "LVAD",
+        "VA",
+        "VV"
+      ]
+    },
+    {
+      "id": "DRUGCOAG",
+      "test": "Anticoagulant-appropriate assay, e.g. anti-Xa or aPTT under the actual protocol",
+      "when": "Mechanical support, bleeding/thrombotic concern or anticoagulant monitoring need",
+      "question": "Exposure/effect question specific to the medicine, assay and timing",
+      "decision": "May inform specialist anticoagulant assessment",
+      "limit": "Assays are not interchangeable; interferences and concurrent drugs matter; no universal target supplied",
+      "sources": [
+        "VA",
+        "VV",
+        "LVAD",
+        "PBM"
+      ]
+    },
+    {
+      "id": "LIVER",
+      "test": "Selected hepatic chemistry/bilirubin",
+      "when": "Congestion, shock, hepatobiliary or medication-exposure concern",
+      "question": "Hepatic injury/cholestasis pattern or congestion context",
+      "decision": "May inform perfusion/differential assessment and drug handling review",
+      "limit": "Abnormal tests do not uniquely distinguish ischemia, congestion, obstruction or drug injury",
+      "sources": [
+        "POSTCARD",
+        "PANCREASGUIDE",
+        "LVAD"
+      ]
+    },
+    {
+      "id": "LIPASE",
+      "test": "Lipase when pancreatitis diagnosis remains a live question",
+      "when": "Compatible abdominal presentation or uncertain diagnosis",
+      "question": "Evidence contributing to diagnostic criteria with history/imaging",
+      "decision": "May help establish the disease context and need for further evaluation",
+      "limit": "Serial lipase is not a target for resuscitation or a substitute for organ-failure assessment",
+      "sources": [
+        "PANCREASGUIDE"
+      ]
+    },
+    {
+      "id": "TROUGH",
+      "test": "Agent-specific drug level when indicated by the treating transplant/pharmacy protocol",
+      "when": "Potential immunosuppressant toxicity, interaction or exposure problem",
+      "question": "Concentration at the correct timing for the actual agent",
+      "decision": "May inform specialist exposure/interaction assessment alongside organ function",
+      "limit": "Not every agent uses the same level/target; an isolated value does not diagnose rejection",
+      "sources": [
+        "TRANSPLANT"
+      ]
+    }
+  ],
+  "nonlaboratory_catalogue": [
+    {
+      "id": "ECHO",
+      "test": "Focused cardiac imaging, TTE and specialist TEE when appropriate",
+      "question": "Ventricular function/loading, pericardial or valvular/mechanical questions",
+      "decision": "May redirect shock assessment toward pump, obstructive or structural causes",
+      "limit": "A limited study can miss pathology; postoperative windows and loculated collections complicate interpretation",
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "VALVE"
+      ]
+    },
+    {
+      "id": "ECG",
+      "test": "ECG and rhythm/pacing review",
+      "question": "Rhythm, conduction and ischemic-pattern questions",
+      "decision": "May inform rate-related or ischemic evaluation with perfusion assessment",
+      "limit": "Rate alone does not establish causation or choose a drug/pacing setting",
+      "sources": [
+        "POSTCARD"
+      ]
+    },
+    {
+      "id": "CHEST",
+      "test": "Chest imaging / lung ultrasound when indicated",
+      "question": "Tube/line or pleural/parenchymal explanation for deterioration",
+      "decision": "May distinguish mechanical or pulmonary hypotheses and guide further evaluation",
+      "limit": "Not a routine daily-image instruction; findings alone may not separate edema from infection",
+      "sources": [
+        "ARDS",
+        "FEVER"
+      ]
+    },
+    {
+      "id": "HEAD",
+      "test": "Neuroimaging and neurologic reassessment when indicated",
+      "question": "New structural explanation for reduced consciousness or focal change",
+      "decision": "May alter neurocritical/surgical assessment",
+      "limit": "Do not attribute new decline to sedation without evaluating competing urgent causes",
+      "sources": [
+        "TBI",
+        "SAH"
+      ]
+    },
+    {
+      "id": "VASC",
+      "test": "Procedure-appropriate vascular imaging / perfusion assessment",
+      "question": "Aortic, graft, limb or organ malperfusion question",
+      "decision": "May prompt surgical/vascular or device-team reassessment",
+      "limit": "Transport/contrast risks must be balanced against the urgency; a normal lab does not exclude malperfusion",
+      "sources": [
+        "AORTA",
+        "VA"
+      ]
+    },
+    {
+      "id": "ABDOMEN",
+      "test": "Abdominal imaging or pressure assessment chosen for the suspected problem",
+      "question": "Source control, obstruction, pancreatitis complication or intra-abdominal hypertension",
+      "decision": "May inform procedural/surgical assessment",
+      "limit": "Pressure alone does not establish compartment syndrome; a test is not a dressing-change order",
+      "sources": [
+        "ABD",
+        "SEPSIS",
+        "PANCREASGUIDE"
+      ]
+    },
+    {
+      "id": "DEVICE",
+      "test": "Specialist device/circuit review with appropriate imaging, gases and trends",
+      "question": "LVAD/ECMO performance, loading, cannula or oxygenator questions",
+      "decision": "May identify a mechanism requiring expert adjustment",
+      "limit": "Displayed flow, one gradient or one post-membrane gas is not a complete diagnostic rule",
+      "sources": [
+        "LVAD",
+        "VA",
+        "VV"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "ICU-01-01",
+      "title": "Postoperative hemodynamic instability",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-02",
+      "title": "DNI status and respiratory distress",
+      "module": "NIV",
+      "domains": {
+        "diagnostic_reasoning": "COPD/pneumonia, gas-exchange failure, fatigue, interface problems and distress need separate assessment; clarify the treatment ceiling.",
+        "pain_sedation": "Assess pain, fear and dyspnea before assuming a sedation indication; review respiratory effects of prior medicines.",
+        "airway_breathing": "Document NIV/HFNC/oxygen device, work of breathing, consciousness, secretion handling and gas trends; goals determine escalation options.",
+        "blood_pressure_perfusion": "Assess perfusion and tolerance of respiratory support, not oxygen saturation alone.",
+        "renal_metabolic": "Review kidney function and acid-base contributors where they would change decisions.",
+        "response_stability": "Reassess comfort, respiratory work, ventilation and the agreed trial goals; DNR/DNI does not itself establish comfort-only care."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "CULT",
+        "RESPMIC",
+        "POCGLU"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST"
+      ],
+      "sources": [
+        "NIV",
+        "DNR",
+        "GOALS",
+        "FEVER",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-03",
+      "title": "Worsening septic shock",
+      "module": "SEPSIS",
+      "domains": {
+        "diagnostic_reasoning": "Reassess source, source control and competing noninfectious or mixed-shock causes.",
+        "pain_sedation": "Assess pain and agitation causes; distinguish analgesic need from the sedation goal and delirium.",
+        "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
+        "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
+        "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "CULT",
+        "URINE"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ABDOMEN",
+        "ECHO"
+      ],
+      "sources": [
+        "SEPSIS",
+        "FEVER",
+        "PADISBASE",
+        "KIDNEY",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-04",
+      "title": "Rib fractures and impaired ventilation",
+      "module": "TRAUMA",
+      "domains": {
+        "diagnostic_reasoning": "Pain-limited breathing is one hypothesis; assess associated lung, pleural, vascular and other injuries.",
+        "pain_sedation": "Compare systemic versus regional/local analgesic options after injury and bleeding-risk review; reassess breathing and function as well as reported pain.",
+        "airway_breathing": "Evaluate splinting, secretions, work of breathing and oxygenation; deterioration may reflect injury rather than inadequate analgesia alone.",
+        "blood_pressure_perfusion": "Consider blood loss and other shock mechanisms before attributing tachycardia solely to pain.",
+        "renal_metabolic": "Review kidney function and exposure before nonopioid or opioid choices; assess losses if clinically relevant.",
+        "response_stability": "Link analgesic benefit to respiratory effort/function and unwanted effects; new instability prompts injury-focused reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "GAS",
+        "RENALCHEM",
+        "LAC",
+        "COAG",
+        "CROSS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST"
+      ],
+      "sources": [
+        "NIV",
+        "PADIS",
+        "POSTCARD",
+        "PADISBASE",
+        "PBM",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-05",
+      "title": "Myocarditis and shock",
+      "module": "VA",
+      "domains": {
+        "diagnostic_reasoning": "Separate native-heart failure, LV loading, circuit dysfunction, bleeding, vascular complications and end-organ injury.",
+        "pain_sedation": "Assess analgesia, awareness/sedation goals and examination needs; drug exposure is not inferred from device flow.",
+        "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
+        "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
+        "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
+        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "LAC",
+        "CBC",
+        "RENALCHEM",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "VASC",
+        "DEVICE"
+      ],
+      "sources": [
+        "VA",
+        "POSTCARD",
+        "PBM",
+        "RV",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-06",
+      "title": "Pancreatitis with respiratory and renal dysfunction",
+      "module": "PANCREAS",
+      "domains": {
+        "diagnostic_reasoning": "Assess pancreatitis evidence, cause and complications alongside other explanations for postoperative organ failure.",
+        "pain_sedation": "Assess analgesic need and unwanted respiratory/circulatory effects; pain alone does not quantify disease severity.",
+        "airway_breathing": "Evaluate respiratory failure, aspiration, fluid accumulation and mechanics.",
+        "blood_pressure_perfusion": "Reassess perfusion and fluid tolerance; the WATERFALL population is not a complete template for established organ failure.",
+        "renal_metabolic": "Review output, chemistry, balance and medication exposure; avoid inferring further fluid need from creatinine alone.",
+        "response_stability": "Follow organ function, symptoms and treatment tolerance rather than serial lipase as a response target."
+      },
+      "candidate_lab_tests": [
+        "LIPASE",
+        "LIVER",
+        "CBC",
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "ICAL"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ABDOMEN",
+        "CHEST"
+      ],
+      "sources": [
+        "PANCREAS",
+        "RENAL",
+        "PANCREASGUIDE",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-07",
+      "title": "Brain injury with aspiration and airway decline",
+      "module": "TBI",
+      "domains": {
+        "diagnostic_reasoning": "Consider injury progression, aspiration, seizures, oxygenation/ventilation, metabolic disturbance and medication confounding.",
+        "pain_sedation": "Assess analgesia and sedation in the injury/examination context; paralysis does not provide either.",
+        "airway_breathing": "Evaluate protection, secretions and actual respiratory support; trained airway assessment must accompany declining consciousness.",
+        "blood_pressure_perfusion": "Avoid treating a pressure or ICP measurement in isolation from perfusion and injury findings.",
+        "renal_metabolic": "Review sodium/water, kidney and acid-base changes that may affect injury and drug handling.",
+        "response_stability": "Track neurologic and systemic response together; new decline is not attributed to sedatives without reassessing urgent alternatives."
+      },
+      "candidate_lab_tests": [
+        "POCGLU",
+        "GAS",
+        "RENALCHEM",
+        "SODOSM",
+        "CBC",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "HEAD",
+        "CHEST"
+      ],
+      "sources": [
+        "TBI",
+        "PADIS",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-01-08",
+      "title": "Sepsis with ARDS and kidney injury",
+      "module": "ARDS",
+      "domains": {
+        "diagnostic_reasoning": "Confirm clinical syndrome and competing edema, infection or mechanical causes; compare gases under stated support conditions.",
+        "pain_sedation": "Assess pain, distress and ventilator interaction; sedation or paralysis is not automatically indicated by a ratio.",
+        "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
+        "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
+        "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "RESPMIC"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "SEPSIS",
+        "ARDS",
+        "RENAL",
+        "RV",
+        "FEVER",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-01",
+      "title": "Shock immediately after CABG",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-02",
+      "title": "VA-ECMO after myocardial infarction",
+      "module": "VA",
+      "domains": {
+        "diagnostic_reasoning": "Separate native-heart failure, LV loading, circuit dysfunction, bleeding, vascular complications and end-organ injury.",
+        "pain_sedation": "Assess analgesia, awareness/sedation goals and examination needs; drug exposure is not inferred from device flow.",
+        "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
+        "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
+        "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
+        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "LAC",
+        "CBC",
+        "RENALCHEM",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "VASC",
+        "DEVICE"
+      ],
+      "sources": [
+        "VA",
+        "RENAL",
+        "PBM",
+        "RV",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-03",
+      "title": "Early LVAD and RV function",
+      "module": "LVAD",
+      "domains": {
+        "diagnostic_reasoning": "Compare loading, RV failure, rhythm, inflow/outflow problems and blood trauma; an alarm does not establish pump thrombosis.",
+        "pain_sedation": "Review pain/sedation and their effects on examination and circulation; identify actual support/airway needs.",
+        "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
+        "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
+        "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "DEVICE"
+      ],
+      "sources": [
+        "LVAD",
+        "RV",
+        "PBM",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-04",
+      "title": "Pneumonia-associated ARDS",
+      "module": "ARDS",
+      "domains": {
+        "diagnostic_reasoning": "Confirm clinical syndrome and competing edema, infection or mechanical causes; compare gases under stated support conditions.",
+        "pain_sedation": "Assess pain, distress and ventilator interaction; sedation or paralysis is not automatically indicated by a ratio.",
+        "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
+        "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
+        "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "RESPMIC"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "ARDS",
+        "RV",
+        "FEVER",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-05",
+      "title": "Aortic repair, hypertension and AKI",
+      "module": "AORTA",
+      "domains": {
+        "diagnostic_reasoning": "Consider malperfusion, bleeding, graft/mechanical complications and nonanatomic explanations after confirming repair details.",
+        "pain_sedation": "New pain or agitation may be a symptom of a complication; analgesia does not replace evaluation.",
+        "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
+        "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
+        "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "VASC",
+        "ECHO",
+        "ECG"
+      ],
+      "sources": [
+        "AORTA",
+        "RENAL",
+        "POSTCARD",
+        "KIDNEY",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-06",
+      "title": "Lung transplantation and graft dysfunction",
+      "module": "TRANSPLANT",
+      "domains": {
+        "diagnostic_reasoning": "Before labeling PGD, assess timing and competing pulmonary, cardiac, anastomotic, infectious and immune-related explanations.",
+        "pain_sedation": "Balance analgesia, examination and respiratory recovery; assess drug interactions with the transplant regimen.",
+        "airway_breathing": "Review airway/anastomotic concerns, secretion clearance, imaging and gas exchange; transplant-specific evaluation may require specialist procedures.",
+        "blood_pressure_perfusion": "Assess cardiac function, pulmonary/RV loading, perfusion and fluid tolerance together.",
+        "renal_metabolic": "Review kidney chemistry, balance and the actual immunosuppressant/exposure history.",
+        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "CULT",
+        "RESPMIC",
+        "TROUGH",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "PGD",
+        "RV",
+        "TRANSPLANT",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-07",
+      "title": "Sepsis and an open abdomen",
+      "module": "ABDSEPSIS",
+      "domains": {
+        "diagnostic_reasoning": "Revisit intra-abdominal source control, compartment physiology and other shock mechanisms; pressure alone is not the diagnosis.",
+        "pain_sedation": "Assess abdominal pain and distress alongside examination, respiratory and hemodynamic status.",
+        "airway_breathing": "Assess support requirements and effects of abdominal mechanics on ventilation.",
+        "blood_pressure_perfusion": "Evaluate perfusion, venous congestion and fluid tolerance with surgical findings.",
+        "renal_metabolic": "Review output, electrolyte/acid-base changes, obstruction and pressure effects; do not infer renal-support need from creatinine alone.",
+        "response_stability": "Evaluate source-control and organ response with the surgical team; no dressing alteration or ultrafiltration command is supplied."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "CULT",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ABDOMEN",
+        "ECHO",
+        "CHEST"
+      ],
+      "sources": [
+        "SEPSIS",
+        "ABD",
+        "RENAL",
+        "FEVER",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-02-08",
+      "title": "SAH with stress cardiomyopathy",
+      "module": "SAH",
+      "domains": {
+        "diagnostic_reasoning": "Differentiate neurologic deterioration, delayed ischemia, seizures, hydrocephalus, metabolic disturbance and medication effects.",
+        "pain_sedation": "Review pain and agitation causes while preserving the required neurologic assessment; sedation may confound examination.",
+        "airway_breathing": "Assess airway protection and ventilation as well as oxygenation; correlate respiratory changes with cerebral and cardiac context.",
+        "blood_pressure_perfusion": "Verify MAP/ICP reference conditions and cardiac tolerance; prophylactic augmentation is not inferred from an SAH label.",
+        "renal_metabolic": "Check water/solute balance, sodium context, output and exposure when relevant.",
+        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal."
+      },
+      "candidate_lab_tests": [
+        "POCGLU",
+        "RENALCHEM",
+        "SODOSM",
+        "CBC",
+        "GAS",
+        "TROP"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "HEAD",
+        "ECG",
+        "ECHO"
+      ],
+      "sources": [
+        "SAH",
+        "RV",
+        "TBI",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-01",
+      "title": "CABG with vasoplegia, hypothermia and bleeding",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-02",
+      "title": "VA-ECMO with rising lactate",
+      "module": "VA",
+      "domains": {
+        "diagnostic_reasoning": "Separate native-heart failure, LV loading, circuit dysfunction, bleeding, vascular complications and end-organ injury.",
+        "pain_sedation": "Assess analgesia, awareness/sedation goals and examination needs; drug exposure is not inferred from device flow.",
+        "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
+        "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
+        "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
+        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "LAC",
+        "CBC",
+        "RENALCHEM",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "VASC",
+        "DEVICE"
+      ],
+      "sources": [
+        "VA",
+        "PBM",
+        "RV",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-03",
+      "title": "LVAD with RV dysfunction",
+      "module": "LVAD",
+      "domains": {
+        "diagnostic_reasoning": "Compare loading, RV failure, rhythm, inflow/outflow problems and blood trauma; an alarm does not establish pump thrombosis.",
+        "pain_sedation": "Review pain/sedation and their effects on examination and circulation; identify actual support/airway needs.",
+        "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
+        "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
+        "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "DEVICE"
+      ],
+      "sources": [
+        "LVAD",
+        "RV",
+        "RENAL",
+        "PBM",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-04",
+      "title": "ARDS after supination",
+      "module": "ARDS",
+      "domains": {
+        "diagnostic_reasoning": "Confirm clinical syndrome and competing edema, infection or mechanical causes; compare gases under stated support conditions.",
+        "pain_sedation": "Assess pain, distress and ventilator interaction; sedation or paralysis is not automatically indicated by a ratio.",
+        "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
+        "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
+        "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "RESPMIC"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "ARDS",
+        "RV",
+        "FEVER",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-05",
+      "title": "Aortic repair with new pain and oliguria",
+      "module": "AORTA",
+      "domains": {
+        "diagnostic_reasoning": "Consider malperfusion, bleeding, graft/mechanical complications and nonanatomic explanations after confirming repair details.",
+        "pain_sedation": "New pain or agitation may be a symptom of a complication; analgesia does not replace evaluation.",
+        "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
+        "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
+        "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "VASC",
+        "ECHO",
+        "ECG"
+      ],
+      "sources": [
+        "AORTA",
+        "RENAL",
+        "POSTCARD",
+        "KIDNEY",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-06",
+      "title": "Early lung-graft dysfunction",
+      "module": "TRANSPLANT",
+      "domains": {
+        "diagnostic_reasoning": "Before labeling PGD, assess timing and competing pulmonary, cardiac, anastomotic, infectious and immune-related explanations.",
+        "pain_sedation": "Balance analgesia, examination and respiratory recovery; assess drug interactions with the transplant regimen.",
+        "airway_breathing": "Review airway/anastomotic concerns, secretion clearance, imaging and gas exchange; transplant-specific evaluation may require specialist procedures.",
+        "blood_pressure_perfusion": "Assess cardiac function, pulmonary/RV loading, perfusion and fluid tolerance together.",
+        "renal_metabolic": "Review kidney chemistry, balance and the actual immunosuppressant/exposure history.",
+        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "RENALCHEM",
+        "CULT",
+        "RESPMIC",
+        "TROUGH",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "PGD",
+        "ARDS",
+        "TRANSPLANT",
+        "RV",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-07",
+      "title": "Abdominal sepsis with refractory shock",
+      "module": "SEPSIS",
+      "domains": {
+        "diagnostic_reasoning": "Reassess source, source control and competing noninfectious or mixed-shock causes.",
+        "pain_sedation": "Assess pain and agitation causes; distinguish analgesic need from the sedation goal and delirium.",
+        "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
+        "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
+        "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "CULT",
+        "URINE"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ABDOMEN",
+        "ECHO"
+      ],
+      "sources": [
+        "SEPSIS",
+        "RENAL",
+        "FEVER",
+        "PADISBASE",
+        "KIDNEY",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-03-08",
+      "title": "SAH with cardiac dysfunction",
+      "module": "SAH",
+      "domains": {
+        "diagnostic_reasoning": "Differentiate neurologic deterioration, delayed ischemia, seizures, hydrocephalus, metabolic disturbance and medication effects.",
+        "pain_sedation": "Review pain and agitation causes while preserving the required neurologic assessment; sedation may confound examination.",
+        "airway_breathing": "Assess airway protection and ventilation as well as oxygenation; correlate respiratory changes with cerebral and cardiac context.",
+        "blood_pressure_perfusion": "Verify MAP/ICP reference conditions and cardiac tolerance; prophylactic augmentation is not inferred from an SAH label.",
+        "renal_metabolic": "Check water/solute balance, sodium context, output and exposure when relevant.",
+        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal."
+      },
+      "candidate_lab_tests": [
+        "POCGLU",
+        "RENALCHEM",
+        "SODOSM",
+        "CBC",
+        "GAS",
+        "TROP"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "HEAD",
+        "ECG",
+        "ECHO"
+      ],
+      "sources": [
+        "SAH",
+        "RV",
+        "TBI",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-01",
+      "title": "CABG with low vascular tone",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-02",
+      "title": "Redo AVR with AKI and congestion",
+      "module": "RV",
+      "domains": {
+        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
+        "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "CBC",
+        "MGPHOS",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-03",
+      "title": "Mitral surgery, bradycardia and delirium",
+      "module": "RHYTHM",
+      "domains": {
+        "diagnostic_reasoning": "Determine rhythm and whether bradycardia is causal; compare medication, conduction, metabolic and low-flow explanations for altered attention.",
+        "pain_sedation": "Assess discomfort/delirium and prior sedatives without labeling every mental-status change a sedation problem.",
+        "airway_breathing": "Identify HFNC versus an invasive airway; assess ventilation and oxygenation rather than assigning an extubation SBT to HFNC.",
+        "blood_pressure_perfusion": "Correlate rhythm with output/perfusion and pacing/surgical context; rate alone is not a treatment rule.",
+        "renal_metabolic": "Review chemistry, magnesium and kidney/exposure changes when they address reversible contributors.",
+        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "MGPHOS",
+        "POCGLU",
+        "GAS",
+        "LAC",
+        "CBC"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECG",
+        "ECHO"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PADIS",
+        "PADISBASE",
+        "KIDNEY",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-04",
+      "title": "Tricuspid repair and RV dysfunction",
+      "module": "RV",
+      "domains": {
+        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
+        "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "CBC",
+        "MGPHOS",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "RV",
+        "RENAL",
+        "POSTCARD",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-05",
+      "title": "Mechanical AVR and anticoagulation",
+      "module": "VALVE",
+      "domains": {
+        "diagnostic_reasoning": "Identify prosthesis, position, timing, rhythm, bleeding and thrombotic risks before interpreting an isolated INR.",
+        "pain_sedation": "Assess postoperative pain and drug effects; new symptoms may prompt structural evaluation rather than more sedation.",
+        "airway_breathing": "Evaluate actual respiratory support and pulmonary congestion or new mechanical concerns.",
+        "blood_pressure_perfusion": "Assess output, rhythm and organ perfusion with valve/surgical findings.",
+        "renal_metabolic": "Review kidney and hepatic function/exposure where relevant to anticoagulation and other medicines.",
+        "response_stability": "Reassess clinical bleeding/thrombotic signs and the correct assay; no universal target, hold or bridging instruction is supplied."
+      },
+      "candidate_lab_tests": [
+        "COAG",
+        "CBC",
+        "RENALCHEM",
+        "DRUGCOAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG"
+      ],
+      "sources": [
+        "VALVE",
+        "PBM",
+        "POSTCARD",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-06",
+      "title": "CABG/MVR with pulmonary edema",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "RENAL",
+        "SEPSIS",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-07",
+      "title": "Post-MAZE bradycardia",
+      "module": "RHYTHM",
+      "domains": {
+        "diagnostic_reasoning": "Determine rhythm and whether bradycardia is causal; compare medication, conduction, metabolic and low-flow explanations for altered attention.",
+        "pain_sedation": "Assess discomfort/delirium and prior sedatives without labeling every mental-status change a sedation problem.",
+        "airway_breathing": "Identify HFNC versus an invasive airway; assess ventilation and oxygenation rather than assigning an extubation SBT to HFNC.",
+        "blood_pressure_perfusion": "Correlate rhythm with output/perfusion and pacing/surgical context; rate alone is not a treatment rule.",
+        "renal_metabolic": "Review chemistry, magnesium and kidney/exposure changes when they address reversible contributors.",
+        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "MGPHOS",
+        "POCGLU",
+        "GAS",
+        "LAC",
+        "CBC"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECG",
+        "ECHO"
+      ],
+      "sources": [
+        "POSTCARD",
+        "PADIS",
+        "RV",
+        "PADISBASE",
+        "KIDNEY",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-08",
+      "title": "LV aneurysmectomy with low output",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "RENAL",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-09",
+      "title": "New postoperative fever",
+      "module": "SEPSIS",
+      "domains": {
+        "diagnostic_reasoning": "Reassess source, source control and competing noninfectious or mixed-shock causes.",
+        "pain_sedation": "Assess pain and agitation causes; distinguish analgesic need from the sedation goal and delirium.",
+        "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
+        "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
+        "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "CULT",
+        "URINE"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "CHEST",
+        "ABDOMEN",
+        "ECHO"
+      ],
+      "sources": [
+        "SEPSIS",
+        "POSTCARD",
+        "FEVER",
+        "PADISBASE",
+        "KIDNEY",
+        "AIRWAY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-10",
+      "title": "RV dysfunction after tricuspid repair",
+      "module": "RV",
+      "domains": {
+        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
+        "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "CBC",
+        "MGPHOS",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "RV",
+        "RENAL",
+        "POSTCARD",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-11",
+      "title": "Bentall/hemiarch with mixed shock",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "AORTA",
+        "VALVE",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-12",
+      "title": "Persistent congestion after CABG/AVR",
+      "module": "RV",
+      "domains": {
+        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
+        "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "CBC",
+        "MGPHOS",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "RENAL",
+        "RV",
+        "POSTCARD",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-04-13",
+      "title": "Rising lactate after CABG/mitral repair",
+      "module": "POSTCARD",
+      "domains": {
+        "diagnostic_reasoning": "Bleeding, pump dysfunction, obstruction and low vascular tone can coexist after surgery; confirm the operation and trajectory.",
+        "pain_sedation": "Assess pain and sedation separately; review recent analgesic/hypnotic exposure and its hemodynamic/respiratory effects.",
+        "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
+        "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
+        "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "ICAL",
+        "COAG",
+        "VET",
+        "CROSS",
+        "GAS"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "PBM",
+        "AIRWAY",
+        "PADISBASE",
+        "KIDNEY",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-05-01",
+      "title": "Early low-output physiology",
+      "module": "RV",
+      "domains": {
+        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
+        "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+      },
+      "candidate_lab_tests": [
+        "RENALCHEM",
+        "GAS",
+        "LAC",
+        "CBC",
+        "MGPHOS",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "CHEST"
+      ],
+      "sources": [
+        "POSTCARD",
+        "RV",
+        "RENAL",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-05-02",
+      "title": "Aortic repair and agitation",
+      "module": "AORTA",
+      "domains": {
+        "diagnostic_reasoning": "Consider malperfusion, bleeding, graft/mechanical complications and nonanatomic explanations after confirming repair details.",
+        "pain_sedation": "New pain or agitation may be a symptom of a complication; analgesia does not replace evaluation.",
+        "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
+        "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
+        "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "GAS",
+        "COAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "VASC",
+        "ECHO",
+        "ECG"
+      ],
+      "sources": [
+        "AORTA",
+        "PADIS",
+        "POSTCARD",
+        "KIDNEY",
+        "AIRWAY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-05-03",
+      "title": "Chronic LVAD low-flow alarms",
+      "module": "LVAD",
+      "domains": {
+        "diagnostic_reasoning": "Compare loading, RV failure, rhythm, inflow/outflow problems and blood trauma; an alarm does not establish pump thrombosis.",
+        "pain_sedation": "Review pain/sedation and their effects on examination and circulation; identify actual support/airway needs.",
+        "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
+        "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
+        "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+      },
+      "candidate_lab_tests": [
+        "CBC",
+        "RENALCHEM",
+        "LAC",
+        "HEMOL",
+        "DRUGCOAG",
+        "COAG",
+        "LIVER"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "ECHO",
+        "ECG",
+        "DEVICE"
+      ],
+      "sources": [
+        "LVAD",
+        "RV",
+        "PBM",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-05-04",
+      "title": "VV-ECMO with hypoxemia",
+      "module": "VV",
+      "domains": {
+        "diagnostic_reasoning": "Compare native-lung failure, recirculation, circuit performance, oxygen-carrying capacity and demand.",
+        "pain_sedation": "Review pain, sedation goal and possible drug accumulation; high requirements do not automatically justify more sedation/paralysis.",
+        "airway_breathing": "Assess native ventilation and mechanics with systemic and circuit gases interpreted by sampling location.",
+        "blood_pressure_perfusion": "Assess circulation independently; VV support is not equivalent to VA circulatory support.",
+        "renal_metabolic": "Review output, chemistry, balance, hemolysis and exposure as clinically relevant.",
+        "response_stability": "Reassess systemic delivery, ventilation and circuit/patient interaction after expert decisions; one post-membrane result is insufficient."
+      },
+      "candidate_lab_tests": [
+        "GAS",
+        "CBC",
+        "LAC",
+        "RENALCHEM",
+        "HEMOL",
+        "DRUGCOAG"
+      ],
+      "candidate_nonlaboratory_tests": [
+        "DEVICE",
+        "CHEST",
+        "ECHO"
+      ],
+      "sources": [
+        "VV",
+        "ARDS",
+        "PADIS",
+        "PBM",
+        "KIDNEY",
+        "PADISBASE",
+        "TESTING"
+      ]
+    },
+    {
+      "id": "ICU-05-05",
+      "title": "Explicitly chosen comfort-focused care",
+      "module": "GOALS",
+      "domains": {
+        "diagnostic_reasoning": "Define which symptoms and potentially reversible causes matter under the explicitly chosen goals.",
+        "pain_sedation": "Assess pain, dyspnea, anxiety and desired alertness; use proportionate, individually reassessed symptom treatment.",
+        "airway_breathing": "Assess comfort and burden of respiratory interventions against preferences rather than applying an automatic escalation ladder.",
+        "blood_pressure_perfusion": "Determine whether pressure/perfusion measurements would change a goal-concordant decision.",
+        "renal_metabolic": "Consider kidney/hepatic exposure and burdens of testing if relevant to symptom medication choices.",
+        "response_stability": "Reassess comfort, unwanted effects, communication and family concerns; DNR is not synonymous with this separately specified plan."
+      },
+      "candidate_lab_tests": [],
+      "candidate_nonlaboratory_tests": [],
+      "sources": [
+        "GOALS",
+        "DNR",
+        "PADISBASE",
+        "TESTING"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SEPSIS",
+      "title": "Prescott et al. Surviving Sepsis Campaign adult guideline (2026)",
+      "doi": "10.1007/s00134-026-08361-1",
+      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here.",
+      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved"
+    },
+    {
+      "id": "ARDS",
+      "title": "Qadir et al. ATS ARDS update (2024)",
+      "doi": "10.1164/rccm.202311-2011ST",
+      "scope": "Conditional options depend on severity and patient selection; a P:F ratio is not a standalone escalation command.",
+      "checked": "PMC guideline summary and recommendations"
+    },
+    {
+      "id": "POSTCARD",
+      "title": "Hall et al. Management of Post-cardiotomy Shock (2024)",
+      "doi": "10.15420/usc.2024.16",
+      "scope": "Review of mixed shock after cardiac surgery. Not a universal drug or lactate threshold.",
+      "checked": "PubMed abstract and available PMC passages"
+    },
+    {
+      "id": "RV",
+      "title": "ESC Acute cor pulmonale consensus (2024)",
+      "doi": "10.1093/ehjacc/zuad157",
+      "scope": "RV afterload/preload/contractility assessment; surgical and device populations need additional sources.",
+      "checked": "Publisher consensus identity and available passages"
+    },
+    {
+      "id": "VA",
+      "title": "Lorusso et al. ELSO adult VA-ECMO interim guideline (2021)",
+      "doi": "10.1097/MAT.0000000000001510",
+      "scope": "Specialist circulatory-support assessment; not a cannulation or adjustment manual.",
+      "checked": "PubMed and publisher record/selected passages"
+    },
+    {
+      "id": "VV",
+      "title": "Tonna et al. ELSO adult VV-ECMO guideline (2021)",
+      "doi": "10.1097/MAT.0000000000001432",
+      "scope": "Respiratory-support/circuit interpretation; differs from VA physiology.",
+      "checked": "Publisher guideline record/available text"
+    },
+    {
+      "id": "LVAD",
+      "title": "Saeed et al. ISHLT mechanical circulatory support update (2023)",
+      "doi": "10.1016/j.healun.2022.12.004",
+      "scope": "Device-specific assessment and specialist oversight; displayed flow alone does not establish cause.",
+      "checked": "Society guideline and PubMed identity/selected text"
+    },
+    {
+      "id": "AORTA",
+      "title": "Isselbacher et al. ACC/AHA aortic disease guideline (2022)",
+      "doi": "10.1161/CIR.0000000000001106",
+      "scope": "Aortic/perfusion assessment; no universal postoperative BP prescription supplied.",
+      "checked": "AHA/PubMed DOI identity and available PMC guideline text"
+    },
+    {
+      "id": "VALVE",
+      "title": "Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021)",
+      "doi": "10.1161/CIR.0000000000000923",
+      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule.",
+      "checked": "PubMed identity; corrections listed in record, exact targets not reproduced"
+    },
+    {
+      "id": "PGD",
+      "title": "Snell et al. ISHLT PGD definition/grading, 2016 consensus published 2017",
+      "doi": "10.1016/j.healun.2017.07.021",
+      "scope": "Timing, imaging and gas-exchange context required; definition source is not a complete treatment guideline.",
+      "checked": "PubMed identity and available published definition context"
+    },
+    {
+      "id": "RENAL",
+      "title": "STARRT-AKI investigators. Timing of Initiation of Renal-Replacement Therapy (2020)",
+      "doi": "10.1056/NEJMoa2000741",
+      "scope": "Timing trial in selected severe AKI; urgent indications are a separate clinical question.",
+      "checked": "Primary trial record and available abstract"
+    },
+    {
+      "id": "PANCREAS",
+      "title": "de-Madaria et al. WATERFALL trial (2022)",
+      "doi": "10.1056/NEJMoa2202884",
+      "scope": "Aggressive fluids increased overload in the studied population; not a fixed replacement strategy for established postoperative organ failure.",
+      "checked": "Primary NEJM abstract"
+    },
+    {
+      "id": "TBI",
+      "title": "Carney et al. Severe TBI guideline, fourth edition (2017)",
+      "doi": "10.1227/NEU.0000000000001432",
+      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here.",
+      "checked": "Brain Trauma Foundation executive summary and publisher recommendations"
+    },
+    {
+      "id": "SAH",
+      "title": "Hoh et al. AHA/ASA aneurysmal SAH guideline (2023)",
+      "doi": "10.1161/STR.0000000000000436",
+      "scope": "Separate delayed ischemia assessment from prophylactic augmentation.",
+      "checked": "PubMed and AHA guideline record/available passages"
+    },
+    {
+      "id": "PADIS",
+      "title": "Lewis et al. PADIS focused update (2025)",
+      "doi": "10.1097/CCM.0000000000006574",
+      "scope": "Pain/anxiety/sedation/delirium questions in adult ICU; not every earlier PADIS topic is replaced.",
+      "checked": "Society recommendations and publisher identity"
+    },
+    {
+      "id": "NIV",
+      "title": "Rochwerg et al. ERS/ATS NIV guideline (2017)",
+      "doi": "10.1183/13993003.02426-2016",
+      "scope": "NIV suitability and goals differ by etiology and treatment preferences.",
+      "checked": "Publisher guideline text"
+    },
+    {
+      "id": "ABD",
+      "title": "Kirkpatrick et al. WSACS definitions/guideline (2013)",
+      "doi": "10.1007/s00134-013-2906-z",
+      "scope": "Pressure interpreted with organ dysfunction and context; not a dressing-change instruction.",
+      "checked": "PMC guideline"
+    },
+    {
+      "id": "GOALS",
+      "title": "ESICM end-of-life/palliative care guideline (2024)",
+      "doi": "10.1007/s00134-024-07579-1",
+      "scope": "Patient priorities, communication and symptom reassessment; jurisdiction and culture matter.",
+      "checked": "Society/publisher guideline record and available passages"
+    },
+    {
+      "id": "DNR",
+      "title": "ICMR DNAR consensus (2020)",
+      "doi": "10.4103/ijmr.IJMR_395_20",
+      "scope": "DNAR pertains to resuscitation rather than a blanket limit on all treatment; Indian guidance used as ethical context, not US legal authority.",
+      "checked": "Published consensus text"
+    },
+    {
+      "id": "TESTING",
+      "title": "CCSC Choosing Wisely policy statement (2014)",
+      "doi": "10.1164/rccm.201407-1317ST",
+      "scope": "Question-driven diagnostic testing; not automatic daily panels.",
+      "checked": "Society PDF/publisher policy text"
+    },
+    {
+      "id": "FEVER",
+      "title": "SCCM/IDSA new fever guideline (2023)",
+      "doi": "10.1097/CCM.0000000000006022",
+      "scope": "Source-directed evaluation; does not directly cover severe immunocompromise.",
+      "checked": "IDSA recommendations and published guideline"
+    },
+    {
+      "id": "PBM",
+      "title": "EACTS/EACTAIC adult cardiac-surgery blood management guideline (2024; journal issue 2025)",
+      "doi": "10.1093/ejcts/ezae352",
+      "scope": "Bleeding/hemostatic assessment and context-specific transfusion reasoning; not a bedside algorithm reproduced here.",
+      "checked": "Publisher/PMC selected sections and identity"
+    },
+    {
+      "id": "PADISBASE",
+      "title": "Devlin et al. PADIS adult ICU guideline (2018)",
+      "doi": "10.1097/CCM.0000000000003299",
+      "scope": "Foundational pain/sedation/delirium assessment, read with the 2025 focused update.",
+      "checked": "Publisher guideline passages and society version"
+    },
+    {
+      "id": "AIRWAY",
+      "title": "SCCM rapid sequence intubation in critically ill adults (2023)",
+      "doi": "10.1097/CCM.0000000000006000",
+      "scope": "Critically ill airway preparation/physiologic context; no procedural or medication sequence reproduced.",
+      "checked": "PubMed guideline identity and available source description"
+    },
+    {
+      "id": "KIDNEY",
+      "title": "KDIGO AKI guideline, section 2: definition/evaluation (2012)",
+      "doi": "10.1038/kisup.2011.32",
+      "scope": "Foundational AKI evaluation; historical source, not asserted to cover every current specialty issue.",
+      "checked": "Official KDIGO PDF section 2, including diagnostic evaluation"
+    },
+    {
+      "id": "PANCREASGUIDE",
+      "title": "ACG management of acute pancreatitis guideline (2024)",
+      "doi": "10.14309/ajg.0000000000002645",
+      "scope": "Disease-specific diagnosis and complication questions; not a fixed ICU fluid prescription.",
+      "checked": "PubMed/PMC and ACG source text"
+    },
+    {
+      "id": "TRANSPLANT",
+      "title": "Trinh et al. Early Postoperative Management of Lung Transplant Recipients (2022)",
+      "doi": "10.1016/j.thorsurg.2021.11.006",
+      "scope": "Specialist multi-organ transplant context; drug-level interpretation must follow the actual agent/protocol.",
+      "checked": "PubMed review identity/abstract; complete full text not appraised"
+    }
+  ],
+  "full_text_audit_complete": false,
+  "standing_orders": false,
+  "clinical_validation": false
+}

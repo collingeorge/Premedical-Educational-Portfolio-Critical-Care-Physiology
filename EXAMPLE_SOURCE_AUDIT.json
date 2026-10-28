@@ -815,5 +815,25 @@
     }
   ],
   "full_text_audit_complete": false,
-  "clinical_validation": false
+  "clinical_validation": false,
+  "integrated_workup": {
+    "document": "ICU_CTICU_WORKUP_CASES.md",
+    "audit": "INTEGRATED_WORKUP_AUDIT.json",
+    "topics": 42,
+    "synthetic_profiles": 84,
+    "lab_categories": 20,
+    "nonlaboratory_categories": 7,
+    "source_count": 27,
+    "clinical_validation": false,
+    "full_text_audit_complete": false
+  },
+  "procedure_examples": {
+    "document": "CTICU_PROCEDURE_EXAMPLES.md",
+    "audit": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
+    "paired_examples": 18,
+    "synthetic_profiles": 36,
+    "new_sources": 11,
+    "format": "worked narratives, no quiz questions",
+    "clinical_validation": false
+  }
 }

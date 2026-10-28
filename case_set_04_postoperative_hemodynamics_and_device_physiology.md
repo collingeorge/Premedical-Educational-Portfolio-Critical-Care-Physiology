@@ -8,6 +8,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: CABG with low vascular tone
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-01).
+
 **Synthetic vignette:** A fictional bypass recipient has hypotension, low calculated SVR, rising lactate and hypothermia.
 
 **Reasoning questions**
@@ -19,6 +21,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No methylene-blue or vasopressor trigger is derived from one resistance or lactate number.
 
 ## Scenario 2: Redo AVR with AKI and congestion
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-02).
 
 **Synthetic vignette:** A fictional valve-surgery patient has borderline cardiac output, pulmonary edema and worsening kidney function.
 
@@ -32,6 +36,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: Mitral surgery, bradycardia and delirium
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-03).
+
 **Synthetic vignette:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
 
 **Reasoning questions**
@@ -43,6 +49,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** HFNC does not imply an endotracheal tube. An extubation SBT is not the corresponding readiness test. No atropine dose or pacing rule is supplied.
 
 ## Scenario 4: Tricuspid repair and RV dysfunction
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-04).
 
 **Synthetic vignette:** A fictional adult after CABG and tricuspid repair has RV dysfunction, kidney injury and oxygen needs.
 
@@ -56,6 +64,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 5: Mechanical AVR and anticoagulation
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-05).
+
 **Synthetic vignette:** A fictional adult after mechanical-valve surgery has a reported INR and an incompletely described bleeding risk.
 
 **Reasoning questions**
@@ -67,6 +77,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No universal INR range, warfarin hold or heparin instruction is supplied.
 
 ## Scenario 6: CABG/MVR with pulmonary edema
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-06).
 
 **Synthetic vignette:** A fictional adult after bypass and mitral surgery has reduced output, pulmonary edema, kidney injury and early fever.
 
@@ -80,6 +92,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 7: Post-MAZE bradycardia
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-07).
+
 **Synthetic vignette:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
 
 **Reasoning questions**
@@ -91,6 +105,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No rate-only treatment threshold is supplied.
 
 ## Scenario 8: LV aneurysmectomy with low output
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-08).
 
 **Synthetic vignette:** A fictional adult after bypass and aneurysm surgery has low measured output, rising lactate and edema.
 
@@ -104,6 +120,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 9: New postoperative fever
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-09).
+
 **Synthetic vignette:** A fictional valve/bypass recipient develops fever, leukocytosis and a renewed vasopressor requirement.
 
 **Reasoning questions**
@@ -115,6 +133,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** Fever or procalcitonin alone neither proves infection nor chooses an antibiotic regimen.
 
 ## Scenario 10: RV dysfunction after tricuspid repair
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-10).
 
 **Synthetic vignette:** A fictional patient has RV dysfunction, kidney injury, congestion and HFNC support.
 
@@ -128,6 +148,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 11: Bentall/hemiarch with mixed shock
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-11).
+
 **Synthetic vignette:** A fictional postoperative adult has vasopressor support, biventricular dysfunction, kidney injury and an INR result.
 
 **Reasoning questions**
@@ -140,6 +162,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 12: Persistent congestion after CABG/AVR
 
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-12).
+
 **Synthetic vignette:** A fictional adult has persistent congestion, kidney dysfunction and incomplete response to prior diuretic treatment.
 
 **Reasoning questions**
@@ -151,6 +175,8 @@ Identify mechanisms, missing information and the limits of each inference. These
 **Interpretation boundary:** No escalating diuretic combination or dialysis instruction is supplied.
 
 ## Scenario 13: Rising lactate after CABG/mitral repair
+
+[Paired synthetic application examples](APPLIED_CASES.md#icu-04-13).
 
 **Synthetic vignette:** A fictional adult develops rising lactate with borderline output and pulmonary congestion.
 

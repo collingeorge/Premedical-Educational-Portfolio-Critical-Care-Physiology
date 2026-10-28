@@ -1,5 +1,15 @@
 # Critical care physiology: synthetic educational exercises
 
+
+## Applied clinical examples — 28 October 2026
+
+- [Topic-specific paired cases](APPLIED_CASES.md): 42 male/female pairs (84 synthetic profiles), with worked applications, options and source maps.
+- [Shared anesthesia options and cases](ANESTHESIA_OPTIONS_AND_CASES.md): the same four-modality guide and 12 general teaching cases used throughout the clinical portfolio.
+- [Example format and verification standard](CASE_EXAMPLE_STANDARD.md), [topic source audit](EXAMPLE_SOURCE_AUDIT.json), and [shared source audit](SHARED_SOURCE_AUDIT.json).
+
+These additions standardize educational reasoning and evidence documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
+
+
 Independent premedical study portfolio by Collin B. George. Revised 27 October 2026.
 
 The five case sets contain **42 entirely synthetic exercises**. The author confirmed that they are independent of real encounters/charts. They are not de-identified patient notes or evidence of clinical care experience.

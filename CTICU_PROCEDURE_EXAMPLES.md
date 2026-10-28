@@ -1,5 +1,7 @@
 # CTICU worked patient examples by procedure and condition
 
+**Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
+
 28 October 2026. Eighteen paired worked examples with 18 visual decision trees (36 wholly synthetic adults) describe care reasoning rather than quizzes, examinations or standing orders. Each pair is an authored illustration, not a patient encounter or reported outcome. Male and female examples are matched 60-year-old adults (male 180 cm/80 kg; female 165 cm/65 kg, nonpregnant); differences below are clinical histories/findings, not sex-based prescribing rules. Missing histories, allergies, drug exposure and organ function would still need assessment in actual care.
 
 The four groups below organize cardiac, thoracic, vascular and severe cardiorespiratory presentations. Admission patterns vary by institution: CTICU and cardiac medical ICU responsibilities overlap, and vascular surgery patients may instead use surgical/vascular ICUs. Procedure name alone does not determine ICU admission.
@@ -20,6 +22,8 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 <a id="cabg"></a>
 ### After coronary bypass
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man with diabetes has incisional pain, shallow breathing and a new fall in pressure.
 
@@ -65,6 +69,8 @@ flowchart TD
 <a id="valve"></a>
 ### Aortic, mitral or tricuspid repair/replacement
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man after mechanical aortic replacement develops bradycardia and reduced urine output.
 
 **Female example:** A woman after mitral repair develops breathlessness and congestion.
@@ -108,6 +114,8 @@ flowchart TD
 
 <a id="aortic"></a>
 ### Thoracic aortic repair or dissection
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man after dissection repair becomes hypertensive and reports new pain.
 
@@ -153,6 +161,8 @@ flowchart TD
 <a id="va"></a>
 ### VA-ECMO for cardiac failure
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man on VA-ECMO after myocardial injury develops cool extremities and rising lactate.
 
 **Female example:** A woman on VA-ECMO after surgery develops pulmonary congestion despite displayed circuit flow.
@@ -196,6 +206,8 @@ flowchart TD
 
 <a id="lvad"></a>
 ### Early or established LVAD support
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man soon after LVAD implantation develops venous congestion and reduced device flow.
 
@@ -241,6 +253,8 @@ flowchart TD
 <a id="impella"></a>
 ### Temporary microaxial flow-pump support
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man supported with an Impella develops access-site swelling and a cooler leg.
 
 **Female example:** A woman supported with an Impella develops dark urine and a falling hemoglobin.
@@ -284,6 +298,8 @@ flowchart TD
 
 <a id="hearttx"></a>
 ### Immediate heart-transplant recovery
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man after heart transplant develops low output and worsening kidney function.
 
@@ -331,6 +347,8 @@ flowchart TD
 <a id="lungresection"></a>
 ### Lobectomy or pneumonectomy
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man after lobectomy has pain-limited coughing and a rising oxygen requirement.
 
 **Female example:** A woman after pneumonectomy develops breathlessness and a new circulation change.
@@ -374,6 +392,8 @@ flowchart TD
 
 <a id="lungtx"></a>
 ### Single or double lung transplantation
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man early after bilateral transplant develops impaired oxygenation and opacities.
 
@@ -419,6 +439,8 @@ flowchart TD
 <a id="esoph"></a>
 ### Esophagectomy
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man after esophagectomy develops tachycardia, new oxygen need and chest discomfort.
 
 **Female example:** A woman after esophagectomy develops fever, hypotension and altered drain findings.
@@ -462,6 +484,8 @@ flowchart TD
 
 <a id="airwaysurg"></a>
 ### Tracheal reconstruction or mediastinal surgery
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man after tracheal reconstruction develops stridor and distress.
 
@@ -509,6 +533,8 @@ flowchart TD
 <a id="aaa"></a>
 ### Open or endovascular abdominal aortic repair
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man after open AAA repair develops abdominal distension and reduced urine output.
 
 **Female example:** A woman after endovascular repair develops new pain and falling pressure.
@@ -553,6 +579,8 @@ flowchart TD
 <a id="carotid"></a>
 ### Carotid endarterectomy
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man after carotid endarterectomy develops neck swelling and voice change.
 
 **Female example:** A woman after the same operation develops severe headache and a new focal deficit.
@@ -596,6 +624,8 @@ flowchart TD
 
 <a id="limb"></a>
 ### Complex limb revascularization
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man after lower-limb bypass develops increasing pain, tense swelling and sensory change.
 
@@ -643,6 +673,8 @@ flowchart TD
 <a id="shock"></a>
 ### Cardiogenic shock without a completed operation
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man with acute myocardial injury has cool skin, oliguria and pulmonary edema.
 
 **Female example:** A woman with acute severe ventricular dysfunction has hypotension and increasing respiratory effort.
@@ -686,6 +718,8 @@ flowchart TD
 
 <a id="respfail"></a>
 ### Severe respiratory failure or ARDS
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man with severe pneumonia develops diffuse lung injury and worsening oxygenation.
 
@@ -731,6 +765,8 @@ flowchart TD
 <a id="endocard"></a>
 ### Complicated infective endocarditis
 
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
+
 **Male example:** A man with valve infection develops pulmonary edema and low output.
 
 **Female example:** A woman with suspected valve infection develops shock and a focal neurological change.
@@ -774,6 +810,8 @@ flowchart TD
 
 <a id="comfort"></a>
 ### A goals-concordant course with advanced cardiorespiratory failure
+
+**Classification:** Synthetic patient example. Clinical interpretation applies general clinical knowledge; investigation and care choices are context-dependent clinical practice. The original decision tree is an educational application, not a standardized clinical protocol. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
 **Male example:** A man with persistent multiorgan failure chooses a comfort-focused plan after an informed discussion.
 

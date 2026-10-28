@@ -48,3 +48,8 @@ A public source is not necessarily the latest source for every subspecialty issu
 The [procedure casebook](CTICU_PROCEDURE_EXAMPLES.md) links all 18 pairs to applicable laboratory, respiratory/pain and equipment explanations. The earlier [42-topic ICU companion](ICU_CTICU_WORKUP_CASES.md) and its source register remain separate. The new guides add explanations, not fixed standing laboratory orders, drug schedules or device-setting prescriptions.
 
 [Machine-readable source and coverage record](CLINICAL_CARE_SOURCE_AUDIT.json).
+
+
+## Statement-level evidence classification
+
+The [classification review](EVIDENCE_CLASSIFICATION.md) checks 27 scoped recommendation groups against public recommendation/definition sections and distinguishes them from general clinical knowledge, context-dependent practice and synthetic examples. Source location and applicable population are recorded in [JSON](EVIDENCE_CLASSIFICATION.json). The whole case is not assigned the authority of a guideline merely because one supporting source is a guideline.

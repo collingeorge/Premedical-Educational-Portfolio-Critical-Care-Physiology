@@ -835,5 +835,13 @@
     "new_sources": 11,
     "format": "worked narratives, no quiz questions",
     "clinical_validation": false
+  },
+  "evidence_classification": {
+    "reviewed": "2026-10-28",
+    "document": "EVIDENCE_CLASSIFICATION.md",
+    "record": "EVIDENCE_CLASSIFICATION.json",
+    "recommendation_groups": 27,
+    "case_applications": "Synthetic examples using general clinical knowledge and context-dependent practice; not standardized protocols",
+    "clinical_validation": false
   }
 }

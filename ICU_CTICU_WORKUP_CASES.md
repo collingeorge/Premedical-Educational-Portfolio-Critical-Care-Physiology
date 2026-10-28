@@ -1,5 +1,7 @@
 # Integrated ICU and CTICU workups: 42 paired case applications
 
+**Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
+
 [Laboratory findings and diagnosis examples](CLINICAL_LAB_EXAMPLES.md) · [Pain, airway, ventilation and extubation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) · [Equipment basics and case uses](ICU_EQUIPMENT_BASICS.md) · [Public clinical sources](CLINICAL_CARE_PUBLIC_SOURCES.md)
 
 [Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives across cardiac, thoracic, vascular and acute cardiorespiratory care.
@@ -35,6 +37,8 @@ flowchart TD
 ```
 
 ## Laboratory catalogue: which test, why and what it may change
+
+**Classification:** General clinical knowledge about test purpose/limitations; proposed selection and frequency are context-dependent clinical practice. These catalogue entries are authored summaries, not standardized laboratory panels. Exact checked guideline recommendations are separated in the [classification record](EVIDENCE_CLASSIFICATION.md#recommendations).
 
 The rows are authored teaching summaries supported by the mapped disease/guideline concepts. They are not verbatim recommendations for a fixed panel. Repeats depend on instability, expected response, exposure and a decision question, not a fixed interval.
 

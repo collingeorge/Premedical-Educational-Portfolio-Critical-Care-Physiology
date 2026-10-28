@@ -310,5 +310,13 @@
     "format": "Mermaid flowchart",
     "scope": "Original visual summaries of the existing paired narratives; not validated algorithms",
     "clinical_validation": false
+  },
+  "care_companions": {
+    "lab": "CLINICAL_LAB_EXAMPLES.md",
+    "pain_airway_ventilation": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+    "equipment": "ICU_EQUIPMENT_BASICS.md",
+    "sources": "CLINICAL_CARE_PUBLIC_SOURCES.md",
+    "audit": "CLINICAL_CARE_SOURCE_AUDIT.json",
+    "case_mapping_count": 18
   }
 }

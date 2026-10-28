@@ -34,3 +34,8 @@ See the [27-source register](../ICU_CTICU_WORKUP_CASES.md#sources-and-verificati
 
 
 The [procedure-organized CTICU casebook](../CTICU_PROCEDURE_EXAMPLES.md#source-register-and-limits) adds 11 DOI-bearing references for its 18 paired narratives, including thoracic/vascular surgery and transplantation. Verification limits are stated per source.
+
+
+## Public clinical-care and equipment sources
+
+The [new public-source register](../CLINICAL_CARE_PUBLIC_SOURCES.md) supports worked laboratory, pain/airway/ventilation and equipment examples, and labels guideline, consensus, review and official-device sources separately. It contains 29 entries, including 27 DOI-bearing clinical publications and two FDA sources. It does not revalidate earlier manuscripts.

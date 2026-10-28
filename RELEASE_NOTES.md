@@ -23,3 +23,8 @@ Added 18 paired worked examples (36 synthetic profiles) in four procedure/condit
 ### CTICU visual decision trees
 
 Added one original Mermaid decision tree to each of the 18 paired procedure/condition examples. Each tree connects assessment, illustrative differential branches, investigations, conditional care and reassessment. Urgent care can proceed in parallel; branches may coexist. The comfort-focused example follows goals and symptoms. Existing narratives and citations remain; diagrams add no doses, device settings or universal targets and are not validated treatment algorithms.
+
+
+### Public-source clinical care and equipment examples
+
+Added 11 worked laboratory examples, pain/sedation and airway/intubation/extubation workflows, respiratory-support and ventilator-mode comparisons, and 19 equipment explanations. Linked all 18 procedure pairs to relevant sections and added navigation from the 42-topic ICU supplements. Each teaching item links to public clinical or official device sources, with source type, conditional recommendations and review limits stated. Existing decision trees, case narratives, manuscripts and code are retained.

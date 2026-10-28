@@ -103,13 +103,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3900,
-      "sha256": "3ee33b223ffd02974fee487ad533ac5b5742aaeedf122f1bf56bab3d329caabc"
+      "bytes": 4191,
+      "sha256": "fcf63193e6b8bcce9e05e2e50416194d89e85155aef0c25027bddd3b5081f6f9"
     },
     {
       "path": "references/bibliography.md",
-      "bytes": 4763,
-      "sha256": "af68b5e411b15b40bcac8f71e7e88f0c7e97aeac607ec16ed67b3a678e35436c"
+      "bytes": 5173,
+      "sha256": "f3b6892b540cfda96aad9a2b3be83e5352f1d9cc130d2a84ee971f253a4b3dc9"
     },
     {
       "path": "references/icu_physiology_notes.md",
@@ -128,13 +128,13 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 2594,
-      "sha256": "678031871f3797505df6eef9385e73dedbcd19a47691e9eb1b3dce4a0fb9aba6"
+      "bytes": 3159,
+      "sha256": "26619e53786c1b9641fb817153b960d81650a9a1d54a6bfa35b2f031c3f1eb94"
     },
     {
       "path": "APPLIED_CASES.md",
-      "bytes": 62473,
-      "sha256": "d26ec4a8dc9a83aab6147bf4b4afecef6d21ab047f1aef60beacce49addbc154"
+      "bytes": 62764,
+      "sha256": "10eef15a8a74d3e746b72112d9f591f0f6bd6063fb47034fa622accb454cda29"
     },
     {
       "path": "EXAMPLE_SOURCE_AUDIT.json",
@@ -158,13 +158,13 @@
     },
     {
       "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 3087,
-      "sha256": "253f103bcaab75ff4dff2ee6264b8eb08bec4b147ed8e338c0dbbde9f00c484b"
+      "bytes": 3915,
+      "sha256": "e25d881f782f1d2b7652bc32472e47c05b6e9a3d7323c4794557fb979ec48567"
     },
     {
       "path": "ICU_CTICU_WORKUP_CASES.md",
-      "bytes": 144394,
-      "sha256": "87da86e4c2bfc590798185be87b24f6120ba90486f84d9e1af87990bce165a3e"
+      "bytes": 144685,
+      "sha256": "4a6c2037514397d53f5274c824dd2dab4f11701aa96faf7b52dcf57d96ab7d47"
     },
     {
       "path": "INTEGRATED_WORKUP_AUDIT.json",
@@ -173,13 +173,38 @@
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES.md",
-      "bytes": 63096,
-      "sha256": "04666f8c1394b0f3ce2895068c783647c7d7d6b3ba1913d29f29918b7cfb2cda"
+      "bytes": 74825,
+      "sha256": "27297b5f3f159ed2829769cbd7c5800a7485b0f1515521fed64886ad86451681"
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
-      "bytes": 11408,
-      "sha256": "82bbc40626c34839b19368720d03e57e735816cef48cf1137a266a6606c40739"
+      "bytes": 11720,
+      "sha256": "66e4b3489a70606e7f6f114c82ea71b9a667416bcbd6258f08982dbf72c08faf"
+    },
+    {
+      "path": "CLINICAL_LAB_EXAMPLES.md",
+      "bytes": 12819,
+      "sha256": "a7e9c220f11a65d2fd0355f1ea7d5951f90d45163dec4d78d62b01203f2cebad"
+    },
+    {
+      "path": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+      "bytes": 13211,
+      "sha256": "5b4bbdc4c5bf6e74643a5ed1f411240f96c9e123983a6fbb0e5d074aea1921ce"
+    },
+    {
+      "path": "ICU_EQUIPMENT_BASICS.md",
+      "bytes": 15050,
+      "sha256": "36338ee5507eecac3f016b290ceb63b40564860ad659ab9aed3748072e23352a"
+    },
+    {
+      "path": "CLINICAL_CARE_PUBLIC_SOURCES.md",
+      "bytes": 11313,
+      "sha256": "0521fc6202a7163e0bdf9195fe3c34b9ff3fe39562a843c3d5a0f6dce07c3e02"
+    },
+    {
+      "path": "CLINICAL_CARE_SOURCE_AUDIT.json",
+      "bytes": 26194,
+      "sha256": "5604d08f53b5f29ef50721e79ea5b5531fdf7c18788820a13e1876974ac99ade"
     }
   ],
   "supplement": "clinical-applied-cases-2026-10-28"

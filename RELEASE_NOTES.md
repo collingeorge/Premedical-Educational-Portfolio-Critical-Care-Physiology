@@ -8,3 +8,8 @@ The candidate is not a clinical protocol, validated controller, systematic/scopi
 
 ## Applied example set — 28 October 2026
 Added 42 topic-specific male/female case pairs, a local copy of the shared anesthesia-options set, two levels of source mapping and an explicit verification standard. The profiles are entirely synthetic; the source checks are scoped and do not certify clinical validity. Existing clinical/manuscript text and PDF exports are preserved.
+
+
+## 28 October 2026 — Integrated ICU/CTICU workups
+
+Added a companion for all 42 topics/84 synthetic profiles covering diagnostic alternatives, pain/sedation, airway/breathing, pressure/perfusion, renal/metabolic issues, conditional laboratory/imaging choices and reassessment. Twenty lab categories and seven nonlaboratory categories explain indications, questions, decision implications and limitations. These are authored educational applications, not standing orders or validated protocols. Existing case text, manuscripts, PDFs and code are retained.

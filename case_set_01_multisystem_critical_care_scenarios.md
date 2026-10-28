@@ -8,7 +8,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: Postoperative hemodynamic instability
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-01).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-01). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-01).
 
 **Synthetic vignette:** A fictional postoperative adult develops hypotension, rising lactate and chest-drain output. Cardiac function and the bleeding source have not been established.
 
@@ -22,7 +22,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 2: DNI status and respiratory distress
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-02).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-02). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-02).
 
 **Synthetic vignette:** An older fictional adult with COPD and pneumonia is distressed and has difficulty tolerating non-invasive ventilation. DNR/DNI is documented; other treatment preferences are unknown.
 
@@ -36,7 +36,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: Worsening septic shock
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-03).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-03). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-03).
 
 **Synthetic vignette:** A fictional adult with suspected infection has increasing vasopressor requirements, mottling, oliguria and rising lactate.
 
@@ -50,7 +50,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 4: Rib fractures and impaired ventilation
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-04).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-04). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-04).
 
 **Synthetic vignette:** A fictional trauma patient has chest-wall pain, shallow breathing and increasing oxygen needs. Associated injuries are incompletely described.
 
@@ -64,7 +64,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 5: Myocarditis and shock
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-05).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-05). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-05).
 
 **Synthetic vignette:** A fictional adult with suspected fulminant myocarditis has poor perfusion despite initial support. Ventricular function, rhythm and the cause of inflammation need reassessment.
 
@@ -78,7 +78,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 6: Pancreatitis with respiratory and renal dysfunction
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-06).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-06). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-06).
 
 **Synthetic vignette:** A fictional postoperative adult with pancreatitis has pain, positive fluid balance, worsening breathing and rising creatinine.
 
@@ -92,7 +92,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 7: Brain injury with aspiration and airway decline
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-07).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-07). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-07).
 
 **Synthetic vignette:** A fictional adult with traumatic brain injury develops reduced alertness and suspected aspiration.
 
@@ -106,7 +106,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 8: Sepsis with ARDS and kidney injury
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-01-08).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-01-08). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-01-08).
 
 **Synthetic vignette:** A fictional adult with pneumonia has bilateral opacities, impaired gas exchange, positive fluid balance and kidney dysfunction.
 

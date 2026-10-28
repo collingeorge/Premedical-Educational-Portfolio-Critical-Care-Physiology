@@ -8,7 +8,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 1: CABG with vasoplegia, hypothermia and bleeding
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-01).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-01). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-01).
 
 **Synthetic vignette:** A fictional bypass recipient has hypotension, a rising lactate trend, reduced calculated vascular resistance and drain output.
 
@@ -22,7 +22,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 2: VA-ECMO with rising lactate
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-02).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-02). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-02).
 
 **Synthetic vignette:** A fictional myocarditis patient on VA-ECMO has rising lactate and concern about hemolysis, LV distension or circuit dysfunction.
 
@@ -36,7 +36,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 3: LVAD with RV dysfunction
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-03).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-03). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-03).
 
 **Synthetic vignette:** A fictional LVAD recipient has rising venous pressure, falling pulsatility and worsening renal function.
 
@@ -50,7 +50,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 4: ARDS after supination
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-04).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-04). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-04).
 
 **Synthetic vignette:** A fictional adult with ARDS has worsening oxygenation and carbon dioxide retention after supination.
 
@@ -64,7 +64,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 5: Aortic repair with new pain and oliguria
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-05).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-05). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-05).
 
 **Synthetic vignette:** A fictional aortic-surgery patient has new back pain, hypertension and deteriorating urine output.
 
@@ -78,7 +78,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 6: Early lung-graft dysfunction
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-06).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-06). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-06).
 
 **Synthetic vignette:** A fictional transplant recipient has low compliance and worsening gas exchange soon after surgery.
 
@@ -92,7 +92,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 7: Abdominal sepsis with refractory shock
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-07).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-07). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-07).
 
 **Synthetic vignette:** A fictional adult after bowel surgery remains shocked with oliguria and venous congestion.
 
@@ -106,7 +106,7 @@ Identify mechanisms, missing information and the limits of each inference. These
 
 ## Scenario 8: SAH with cardiac dysfunction
 
-[Paired synthetic application examples](APPLIED_CASES.md#icu-03-08).
+[Paired synthetic application examples](APPLIED_CASES.md#icu-03-08). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-03-08).
 
 **Synthetic vignette:** A fictional aneurysmal-SAH patient has reduced cardiac function and uncertain cerebral perfusion.
 

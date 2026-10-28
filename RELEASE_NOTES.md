@@ -18,3 +18,8 @@ Added a companion for all 42 topics/84 synthetic profiles covering diagnostic al
 ### Procedure-organized narrative examples
 
 Added 18 paired worked examples (36 synthetic profiles) in four procedure/condition groups. Replaced the 42 original scenario question lists with worked interpretations, retaining their topics, vignettes and interpretation boundaries. Existing manuscripts and code are unchanged. The new material is additive except for this requested conversion from questions to explanatory examples. Pasted generic targets and palliative absolutes were qualified rather than adopted as universal rules.
+
+
+### CTICU visual decision trees
+
+Added one original Mermaid decision tree to each of the 18 paired procedure/condition examples. Each tree connects assessment, illustrative differential branches, investigations, conditional care and reassessment. Urgent care can proceed in parallel; branches may coexist. The comfort-focused example follows goals and symptoms. Existing narratives and citations remain; diagrams add no doses, device settings or universal targets and are not validated treatment algorithms.

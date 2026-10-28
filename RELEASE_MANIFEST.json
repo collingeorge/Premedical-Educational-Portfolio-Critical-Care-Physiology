@@ -103,8 +103,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3873,
-      "sha256": "57ae85da4ec5faacdb6f7544210fe305cafe96bbbf1e5b72daf51e1ef0f598be"
+      "bytes": 3900,
+      "sha256": "3ee33b223ffd02974fee487ad533ac5b5742aaeedf122f1bf56bab3d329caabc"
     },
     {
       "path": "references/bibliography.md",
@@ -128,8 +128,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 2084,
-      "sha256": "cd59c32fa2ba0a4cac50bb9d96718fda9073dc824ece8e039e18b858eb0834ce"
+      "bytes": 2594,
+      "sha256": "678031871f3797505df6eef9385e73dedbcd19a47691e9eb1b3dce4a0fb9aba6"
     },
     {
       "path": "APPLIED_CASES.md",
@@ -158,8 +158,8 @@
     },
     {
       "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 3086,
-      "sha256": "5bbc8dcb909572c8f270ffa01f8adc5b3da9917c383a4b5852206064c8c2db4a"
+      "bytes": 3087,
+      "sha256": "253f103bcaab75ff4dff2ee6264b8eb08bec4b147ed8e338c0dbbde9f00c484b"
     },
     {
       "path": "ICU_CTICU_WORKUP_CASES.md",
@@ -173,13 +173,13 @@
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES.md",
-      "bytes": 39662,
-      "sha256": "5889ae6c4bafedce99d8d7e5b0a31e67e22e64869289c788f5ac349ba723d114"
+      "bytes": 63096,
+      "sha256": "04666f8c1394b0f3ce2895068c783647c7d7d6b3ba1913d29f29918b7cfb2cda"
     },
     {
       "path": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
-      "bytes": 9870,
-      "sha256": "6491ca4d3858c977b3f1d3e8e5f21ffc33df0d66e53f9b9524d32cf7caf85b33"
+      "bytes": 11408,
+      "sha256": "82bbc40626c34839b19368720d03e57e735816cef48cf1137a266a6606c40739"
     }
   ],
   "supplement": "clinical-applied-cases-2026-10-28"

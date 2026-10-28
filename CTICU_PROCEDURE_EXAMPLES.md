@@ -1,6 +1,6 @@
 # CTICU worked patient examples by procedure and condition
 
-28 October 2026. Eighteen paired worked examples (36 wholly synthetic adults) describe care reasoning rather than quizzes, examinations or standing orders. Each pair is an authored illustration, not a patient encounter or reported outcome. Male and female examples are matched 60-year-old adults (male 180 cm/80 kg; female 165 cm/65 kg, nonpregnant); differences below are clinical histories/findings, not sex-based prescribing rules. Missing histories, allergies, drug exposure and organ function would still need assessment in actual care.
+28 October 2026. Eighteen paired worked examples with 18 visual decision trees (36 wholly synthetic adults) describe care reasoning rather than quizzes, examinations or standing orders. Each pair is an authored illustration, not a patient encounter or reported outcome. Male and female examples are matched 60-year-old adults (male 180 cm/80 kg; female 165 cm/65 kg, nonpregnant); differences below are clinical histories/findings, not sex-based prescribing rules. Missing histories, allergies, drug exposure and organ function would still need assessment in actual care.
 
 The four groups below organize cardiac, thoracic, vascular and severe cardiorespiratory presentations. Admission patterns vary by institution: CTICU and cardiac medical ICU responsibilities overlap, and vascular surgery patients may instead use surgical/vascular ICUs. Procedure name alone does not determine ICU admission.
 
@@ -35,6 +35,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Improvement includes adequate perfusion, controlled bleeding, comfortable ventilation and an organ-function trajectory consistent with recovery. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New hypotension after CABG"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Drain loss or bleeding concern"]
+ D --> E["CBC and indicated hemostatic studies plus surgical review"]
+ E --> F["Address bleeding source and hemostasis with the surgical team"]
+ C --> G["Congestion, rhythm or pump concern"]
+ G --> H["ECG and focused echo plus perfusion assessment"]
+ H --> I["Choose circulatory support for the demonstrated mechanism"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [POSTCARD](https://doi.org/10.15420/usc.2024.16), [PBM](https://doi.org/10.1093/ejcts/ezae352), [ERASC](https://doi.org/10.1016/j.athoracsur.2023.12.006). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="valve"></a>
@@ -53,6 +76,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man receives specialist evaluation of bradycardia and perfusion, including temporary pacing if clinically indicated. The woman receives evaluation of ventricular and valve function before choosing fluid removal or circulatory support. Antithrombotic planning is specific to valve type, timing and bleeding.
 
 **Reassessment:** Reassessment includes rhythm, perfusion, pulmonary congestion and bleeding/thrombosis balance; tricuspid procedures also require close right-heart assessment. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New rhythm, pressure or breathing change after valve surgery"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Bradycardia or conduction concern"]
+ D --> E["ECG, pacing-system review and relevant chemistry"]
+ E --> F["Correct contributing factors and consider indicated specialist pacing"]
+ C --> G["Congestion or valve-function concern"]
+ G --> H["Echo plus respiratory and perfusion assessment"]
+ H --> I["Treat the identified valve, loading or ventricular problem"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [POSTCARD](https://doi.org/10.15420/usc.2024.16), [VALVE](https://doi.org/10.1161/CIR.0000000000000923), [RV](https://doi.org/10.1093/ehjacc/zuad157). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -73,6 +119,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** The response is judged by organ perfusion, neurological findings and surgical integrity, as well as pressure. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New pain, hypertension or organ change after aortic repair"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Pain or agitation with no established structural cause"]
+ D --> E["Assess comfort, pressure trend and organ perfusion"]
+ E --> F["Provide analgesia and surgeon-directed pressure control"]
+ C --> G["Focal deficit or possible malperfusion"]
+ G --> H["Urgent surgical and neurological assessment with targeted imaging"]
+ H --> I["Address the suspected vascular or neurological complication"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [AORTA](https://doi.org/10.1161/CIR.0000000000001106), [KIDNEY](https://doi.org/10.1038/kisup.2011.32). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="va"></a>
@@ -91,6 +160,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** For the man, examination and access assessment investigate impaired limb/systemic perfusion. For the woman, echo and specialist assessment investigate loading and pulmonary congestion. Device changes belong to the ECMO team using the actual configuration and protocol.
 
 **Reassessment:** Reassessment follows organ perfusion, gas exchange, bleeding, access and ventricular loading, rather than a single circuit number. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["Deterioration during VA-ECMO support"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Cool limb or systemic perfusion concern"]
+ D --> E["Access and limb examination plus site-specific gases and perfusion trends"]
+ E --> F["ECMO team addresses vascular, circuit or circulatory cause"]
+ C --> G["Pulmonary congestion despite displayed flow"]
+ G --> H["Echo and circuit assessment of native function and loading"]
+ H --> I["ECMO team selects configuration-specific management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [VA](https://doi.org/10.1097/MAT.0000000000001510), [RV](https://doi.org/10.1093/ehjacc/zuad157). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -111,6 +203,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Track perfusion, congestion, renal function, bleeding and device findings after the team-directed intervention. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New LVAD low flow, congestion or anemia"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Early congestion and low flow"]
+ D --> E["Echo, rhythm, right-heart and loading assessment"]
+ E --> F["LVAD team addresses the demonstrated loading or right-heart problem"]
+ C --> G["Alarms with dark urine or falling hemoglobin"]
+ G --> H["CBC, selected hemolysis studies, renal function and device review"]
+ H --> I["LVAD team distinguishes bleeding, hemolysis and device causes"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [LVAD](https://doi.org/10.1016/j.healun.2022.12.004), [RV](https://doi.org/10.1093/ehjacc/zuad157). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="impella"></a>
@@ -130,6 +245,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Follow limb viability, organ perfusion, bleeding, hemolysis and device performance. Support is not declared successful from pressure alone. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New complication during microaxial pump support"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Access swelling or a cool leg"]
+ D --> E["Urgent vascular examination and indicated vascular imaging"]
+ E --> F["Specialist team addresses bleeding or threatened limb perfusion"]
+ C --> G["Dark urine or falling hemoglobin"]
+ G --> H["CBC, selected hemolysis studies, renal chemistry and echo/device review"]
+ H --> I["Specialist team investigates position, filling and other causes"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [CS2025](https://doi.org/10.1016/j.jacc.2025.02.018), [MCSHEM](https://doi.org/10.1016/j.iccl.2026.03.013). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="hearttx"></a>
@@ -148,6 +286,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man’s renal change triggers reassessment of perfusion, congestion and drug exposure. The woman’s rhythm/support change triggers urgent graft and rhythm assessment. The transplant service determines immunosuppression and any biopsy or additional imaging.
 
 **Reassessment:** Follow graft function, perfusion, kidney trajectory, infection and medication toxicity with a documented recovery plan. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New low output or rhythm change after heart transplant"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Low output with renal deterioration"]
+ D --> E["Echo, perfusion, congestion and drug-exposure review"]
+ E --> F["Transplant team addresses graft, loading and organ-function problems"]
+ C --> G["Rhythm change with increasing support needs"]
+ G --> H["ECG and urgent graft/function assessment"]
+ H --> I["Transplant team selects rhythm and circulatory management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [HEARTTX](https://doi.org/10.1016/j.healun.2022.10.015). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -170,6 +331,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Improvement includes comfortable breathing/coughing, adequate gas exchange, mobilization and a stable circulatory course. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New respiratory or circulatory change after lung resection"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Pain-limited cough and rising oxygen need"]
+ D --> E["Assess pain, secretions and breathing; image for the new problem"]
+ E --> F["Coordinate analgesia and respiratory care while excluding complications"]
+ C --> G["Deterioration after pneumonectomy"]
+ G --> H["Prompt surgical review of remaining-lung, pleural and circulatory causes"]
+ H --> I["Use operation-specific support, drain and fluid decisions"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [LUNGERAS](https://doi.org/10.1093/ejcts/ezy301). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="lungtx"></a>
@@ -188,6 +372,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man’s findings prompt assessment of graft dysfunction alongside alternatives. The woman’s pressure change prompts airway and mechanical assessment, rather than an oxygen-only response. PGD classification is not a substitute for investigating treatable causes.
 
 **Reassessment:** Follow oxygenation, mechanics, perfusion, airway integrity, renal function and immunosuppression toxicity with the transplant service. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New hypoxemia after single or double lung transplant"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Opacities and impaired oxygenation"]
+ D --> E["Graft, cardiac, fluid and infection evaluation with documented support conditions"]
+ E --> F["Transplant team treats identified causes and assesses graft dysfunction"]
+ C --> G["Changed airway pressures or mechanical concern"]
+ G --> H["Assess airway, mechanics, anatomy and native lung when present"]
+ H --> I["Transplant team addresses the airway or mechanical cause"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [PGD](https://doi.org/10.1016/j.healun.2017.07.021), [TRANSPLANT](https://doi.org/10.1016/j.thorsurg.2021.11.006). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -208,6 +415,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Follow perfusion, respiration, source control and nutritional tolerance, documenting the reconstruction-specific plan. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New deterioration after esophagectomy"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Tachycardia, discomfort and oxygen need"]
+ D --> E["Assess respiratory, rhythm, bleeding and reconstruction-related causes"]
+ E --> F["Treat demonstrated problems while retaining the surgical differential"]
+ C --> G["Fever, hypotension or altered drain findings"]
+ G --> H["Urgent surgical/source assessment and indicated cultures or imaging"]
+ H --> I["Coordinate timely infection treatment and source management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [ESOPERAS](https://doi.org/10.1007/s00268-018-4786-4), [FEVER](https://doi.org/10.1097/CCM.0000000000006022). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="airwaysurg"></a>
@@ -226,6 +456,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man’s stridor triggers urgent coordinated airway/surgical management. The woman’s positional findings trigger assessment for airway and circulatory compression. Analgesia/sedation are cautious and coordinated because loss of airway tone or pressure changes can matter.
 
 **Reassessment:** Follow airway patency, gas exchange, hemodynamics and reconstruction integrity under the specialist plan. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New distress after tracheal or mediastinal surgery"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Stridor after tracheal reconstruction"]
+ D --> E["Immediate coordinated airway and surgical assessment"]
+ E --> F["Use an anatomy-specific rescue and reconstruction plan"]
+ C --> G["Positional breathing difficulty with hypotension"]
+ G --> H["Urgent assessment for airway or cardiovascular compression"]
+ H --> I["Specialists coordinate positioning, support and definitive management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [TRACHEAL](https://doi.org/10.1016/j.anclin.2012.08.012), [AIRWAY](https://doi.org/10.1097/CCM.0000000000006000). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -248,6 +501,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Track abdomen, limb/organ perfusion, bleeding and renal response; laboratory improvement alone cannot exclude a structural complication. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New deterioration after open or endovascular AAA repair"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Distension and reduced urine output"]
+ D --> E["Assess perfusion, kidney function and abdominal complications"]
+ E --> F["Vascular team addresses identified perfusion or abdominal causes"]
+ C --> G["New pain and falling pressure"]
+ G --> H["Urgent vascular assessment for bleeding or graft-related complications"]
+ H --> I["Coordinate source-directed surgical and circulatory management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [AAA](https://doi.org/10.1016/j.ejvs.2023.11.002), [ABD](https://doi.org/10.1007/s00134-013-2906-z), [KIDNEY](https://doi.org/10.1038/kisup.2011.32). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="carotid"></a>
@@ -267,6 +543,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Follow airway, neurological findings, pressure/perfusion and bleeding. Unit placement depends on risk and local service organization. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New change after carotid endarterectomy"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Neck swelling or voice change"]
+ D --> E["Immediate coordinated airway and surgical assessment"]
+ E --> F["Address threatened airway and suspected neck hematoma"]
+ C --> G["Headache or focal neurological change"]
+ G --> H["Urgent neurological/vascular assessment and indicated imaging"]
+ H --> I["Individualize treatment and pressure management to the diagnosis"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [CAROTID](https://doi.org/10.1016/j.ejvs.2022.04.011). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="limb"></a>
@@ -285,6 +584,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man receives prompt surgical assessment of the swollen painful limb; analgesia alone is insufficient. The woman receives urgent assessment of graft flow/ischemia. Antithrombotic decisions depend on repair, indication and bleeding; no regimen is inferred solely from sex.
 
 **Reassessment:** Follow motor/sensory function, perfusion, renal/electrolyte effects and bleeding. ICU need reflects actual complexity, not every bypass operation. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["New limb findings after revascularization"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Pain, tense swelling or sensory change"]
+ D --> E["Urgent surgical examination for compartment or reperfusion complications"]
+ E --> F["Address the limb-threatening cause and systemic consequences"]
+ C --> G["New cool foot or diminished Doppler signals"]
+ G --> H["Urgent vascular assessment of limb viability and graft flow"]
+ H --> I["Restore or protect perfusion under the vascular team plan"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [PAD2024](https://doi.org/10.1161/CIR.0000000000001251). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -307,6 +629,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Reassess clinical perfusion and organ trajectory, not pressure alone; de-escalation also needs evidence of recovery. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["Cardiogenic shock with organ hypoperfusion"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Acute myocardial injury with pulmonary edema"]
+ D --> E["ECG, echo and urgent assessment for ischemic or structural causes"]
+ E --> F["Coordinate cause-directed intervention and circulatory support"]
+ C --> G["Acute severe dysfunction with increasing respiratory effort"]
+ G --> H["Assess ventricular phenotype, rhythm, mixed shock and organ effects"]
+ H --> I["Select respiratory and circulatory support for the actual physiology"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [CS2025](https://doi.org/10.1016/j.jacc.2025.02.018). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="respfail"></a>
@@ -325,6 +670,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** The man’s course leads to cause-directed care and assessment of evidence-based ARDS options. The woman’s course leads to assessment of ventilation, mechanics and sedation rather than simply increasing oxygen. VV-ECMO referral is a specialist selection decision for refractory failure.
 
 **Reassessment:** Follow gas exchange, mechanics, perfusion, comfort and treatment harms. VA and VV support address different physiologic problems. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["Severe respiratory failure with acute lung injury"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Predominantly worsening oxygenation"]
+ D --> E["Assess support conditions, imaging, cause and circulatory contributors"]
+ E --> F["Apply cause-directed care and indicated lung-protective ARDS options"]
+ C --> G["Hypercapnia or ventilator dyssynchrony"]
+ G --> H["Assess gas/pH, airway, mechanics, pain and sedation"]
+ H --> I["Address ventilation and mechanical causes; specialist VV-ECMO assessment if appropriate"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [ARDS](https://doi.org/10.1164/rccm.202311-2011ST), [VV](https://doi.org/10.1097/MAT.0000000000001432). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
@@ -345,6 +713,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 
 **Reassessment:** Follow perfusion, infection evidence, organ injury and complications; persistent instability triggers re-evaluation of source and structural disease. These are illustrative response criteria; no actual outcome is claimed.
 
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["Valve infection with cardiac or systemic deterioration"] --> B["Confirm procedure, current support, goals and immediate threats"]
+ B --> U["If deteriorating, activate appropriate urgent care while evaluating causes"]
+ B --> C{"Illustrative findings; causes may coexist"}
+ C --> D["Pulmonary edema or low output"]
+ D --> E["Echo and urgent assessment of valve dysfunction and shock"]
+ E --> F["Coordinate infection/source treatment and valve-team evaluation"]
+ C --> G["Shock with focal neurological change"]
+ G --> H["Urgent neurological evaluation alongside cultures, imaging and infection care"]
+ H --> I["Specialists balance infection, valve and neurological management"]
+ F --> R["Reassess pain, airway, gas exchange, perfusion, organ response and harms"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
+
 **Condition-specific references:** [ENDO](https://doi.org/10.1093/eurheartj/ehad193). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 
 <a id="comfort"></a>
@@ -363,6 +754,29 @@ Palliative care may accompany recovery-oriented treatment. DNI, DNR and comfort-
 **Worked care course:** Symptom medication is proportionate to distress, prior exposure and organ function, with reassessment. No unrestricted dose escalation or automatic simultaneous discontinuation of all support is implied. Withdrawal decisions follow the agreed plan and clinical/legal context.
 
 **Reassessment:** Reassessment centers on symptoms, communication, unwanted effects and goal consistency. These examples do not establish legal rules for a jurisdiction. These are illustrative response criteria; no actual outcome is claimed.
+
+**Visual decision tree — paired worked example**
+
+The branches illustrate the male and female presentations above; they are not exhaustive or mutually exclusive. Assessment, investigations and urgent care can occur in parallel. Read this authored diagram with the narrative and its references; it is not a validated clinical algorithm.
+
+```mermaid
+flowchart TD
+ A["Clarify capacity, preferences and the agreed care goals"] --> B["Confirm current symptoms, treatment limits and shared care plan"]
+ B --> U["Relieve distress promptly while clarifying the agreed plan"]
+ B --> C{"Illustrative goal-consistent courses"}
+ C --> D["Comfort-focused plan chosen after informed discussion"]
+ D --> E["Assess pain, dyspnea, anxiety and burdens of current support"]
+ E --> F["Provide proportionate symptom relief and any agreed support withdrawal"]
+ C --> G["DNI with treatment of a reversible condition requested"]
+ G --> H["Clarify permitted treatments, symptom burden and useful investigations"]
+ H --> I["Provide goal-consistent treatment and reassess support tolerance"]
+ F --> R["Reassess comfort, unwanted effects and consistency with patient goals"]
+ I --> R
+ U -.-> R
+ R --> J{"Response consistent with the agreed goals?"}
+ J -->|Yes| K["Continue review; reduce burdens or support when appropriate"]
+ J -->|No or uncertain| B
+```
 
 **Condition-specific references:** [GOALS](https://doi.org/10.1007/s00134-024-07579-1), [DNR](https://doi.org/10.4103/ijmr.IJMR_395_20). General pain/airway, renal, investigation and goals principles are contextualized in the companion source register, not independently validated by each condition-specific citation.
 

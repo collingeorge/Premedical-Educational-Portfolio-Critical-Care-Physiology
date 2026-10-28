@@ -1,6 +1,6 @@
 # Critical care physiology: synthetic educational exercises
 
-[Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives across cardiac, thoracic, vascular and acute cardiorespiratory care.
+[Procedure-organized CTICU worked examples](CTICU_PROCEDURE_EXAMPLES.md) — 18 paired narratives with visual decision trees across cardiac, thoracic, vascular and acute cardiorespiratory care.
 
 [Integrated ICU/CTICU workups: pain, airway, circulation, diagnosis and testing](ICU_CTICU_WORKUP_CASES.md) — all 42 topics, with conditional test purposes and reassessment.
 

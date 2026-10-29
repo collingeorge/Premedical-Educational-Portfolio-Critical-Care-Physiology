@@ -1,4 +1,6 @@
-# Critical care physiology: synthetic educational exercises
+# Critical care physiology: worked synthetic examples
+
+[Reader’s guide](START_HERE.md) · [Authorship & review status](AUTHORSHIP_AND_REVIEW.md) · [Portfolio home](https://collingeorge.github.io/CM-2026/)
 
 [What is guideline-recommended, general knowledge or clinical practice?](EVIDENCE_CLASSIFICATION.md) — verified recommendation strengths and labels beside the examples.
 
@@ -15,12 +17,12 @@
 - [Shared anesthesia options and cases](ANESTHESIA_OPTIONS_AND_CASES.md): the same four-modality guide and 12 general teaching cases used throughout the clinical portfolio.
 - [Example format and verification standard](CASE_EXAMPLE_STANDARD.md), [topic source audit](EXAMPLE_SOURCE_AUDIT.json), and [shared source audit](SHARED_SOURCE_AUDIT.json).
 
-These additions standardize educational reasoning and evidence documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
+These additions use a consistent educational format and source documentation; they do not certify clinical correctness, guideline compliance or patient-care suitability. Existing manuscript/PDF content is retained.
 
 
-Independent premedical study portfolio by Collin B. George. Revised 27 October 2026.
+Independent premedical study portfolio by Collin B. George. Navigation updated 29 October 2026.
 
-The five case sets contain **42 entirely synthetic exercises**. The author confirmed that they are independent of real encounters/charts. They are not de-identified patient notes or evidence of clinical care experience.
+The five case sets contain **42 entirely synthetic case topics**. The author confirmed that they are independent of real encounters/charts. They are not de-identified patient notes or evidence of clinical care experience.
 
 ## Case sets
 
@@ -32,7 +34,7 @@ The five case sets contain **42 entirely synthetic exercises**. The author confi
 | [Pattern recognition](case_set_04_postoperative_hemodynamics_and_device_physiology.md) | Valve/bypass surgery, rhythm, kidney injury, congestion and devices | 13 |
 | [Support and goals of care](case_set_05_mechanical_support_and_goals_of_care.md) | Mechanical support, alarms, respiratory physiology and explicit comfort-focused goals | 5 |
 
-Each vignette provides reasoning questions and an interpretation boundary. The rc2 reconstruction withdraws unsupported medicine doses, device adjustments, generic thresholds and clinical-competence claims from earlier versions. It preserves the educational themes, not the old treatment plans.
+Each vignette links worked explanations and an interpretation boundary. The rc2 reconstruction withdraws unsupported medicine doses, device adjustments, generic thresholds and clinical-competence claims from earlier versions. It preserves the educational themes, not the old treatment plans.
 
 ## Study resources
 

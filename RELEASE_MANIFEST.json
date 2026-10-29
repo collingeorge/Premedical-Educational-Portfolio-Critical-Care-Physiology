@@ -103,8 +103,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4363,
-      "sha256": "ea746f34e0c7e83746546c583b085aa1fd7e990f7dbd20e3ed2bba7e2a7263de"
+      "bytes": 4521,
+      "sha256": "86b60a9b3b321b0b12e0caa596cf19b52cc082dbda3fe43a4fbb07123c979cab"
     },
     {
       "path": "references/bibliography.md",
@@ -128,8 +128,8 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 3789,
-      "sha256": "2d93a2133a806383f4430924edfff19280433c9c00a6058b555a9a8936d70f02"
+      "bytes": 4146,
+      "sha256": "eaa0550d7a2a26de24a15bd4f669c61d349dc7f64cd4bee24a94389e78bdb140"
     },
     {
       "path": "APPLIED_CASES.md",
@@ -158,8 +158,8 @@
     },
     {
       "path": "EXAMPLES_MANIFEST.json",
-      "bytes": 4241,
-      "sha256": "9588f602af38a95d62f246136b87fbb8ecc0f568a7ec6e5d164df94e224cc12b"
+      "bytes": 4686,
+      "sha256": "02f9f3bb76ad0ac8c9a3a07e037a6a16de0d4eec7885b99ff7aa71277b1c5314"
     },
     {
       "path": "ICU_CTICU_WORKUP_CASES.md",
@@ -215,7 +215,21 @@
       "path": "EVIDENCE_CLASSIFICATION.json",
       "bytes": 41099,
       "sha256": "1eac89b5d61d02b80e597ab83cb9216305dcbc182f499963406369de76719297"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1555,
+      "sha256": "a0b1fd63f945938e666a95f4b7abe910d79ee88bfab1450e0af6cd9a07308615"
+    },
+    {
+      "path": "AUTHORSHIP_AND_REVIEW.md",
+      "bytes": 2298,
+      "sha256": "aa7cfbc06a894ba2f42823b3790ab95f4eca34e4b6ff1fca8844a060faea0856"
     }
   ],
-  "supplement": "clinical-applied-cases-2026-10-28"
+  "supplement": "clinical-applied-cases-2026-10-28",
+  "presentation_update": {
+    "date": "2026-10-29",
+    "scope": "Navigation, authorship and presentation; prior audit scopes are not expanded"
+  }
 }

@@ -33,3 +33,8 @@ Added 11 worked laboratory examples, pain/sedation and airway/intubation/extubat
 ### Clinical knowledge versus guideline recommendations
 
 Checked and classified 27 scoped recommendation groups, recording source strength, location and population. Labeled the 11 laboratory examples, 19 equipment entries, 18 procedure pairs and 42 ICU topic pairs as appropriate: guideline/consensus guidance, general clinical knowledge, context-dependent practice and/or synthetic example. Clarified the ARDS recruitment wording, NIV population limits and preventive post-extubation NIV eligibility. Retained narratives and diagrams; removed the implication that the authored reasoning format standardizes a clinical regimen.
+
+
+## 29 October 2026 — Portfolio presentation and reading path
+
+Added a concise reader’s guide, explicit AI-assistance/authorship scope and review-status notes. Linked the portfolio home and corrected navigation wording. This presentation pass preserves substantive manuscripts, casebooks, code and existing exports. Repository visibility is unchanged.

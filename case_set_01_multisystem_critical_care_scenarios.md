@@ -1,5 +1,7 @@
 # Simulated case set: Multisystem critical care
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
 ## How to use these worked examples
@@ -100,5 +102,5 @@ Separate airway/oxygenation threats, injury progression and medication effects; 
 
 Integrate lung-protection assessment, infection/source control and fluid tolerance rather than treating isolated oxygenation or creatinine values. Sedation or neuromuscular-block discussions depend on the actual ventilation problem; renal support is a separate indication-based decision. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
-**Interpretation boundary:** FiO2 alone does not give a P:F ratio. P:F below 150 is not identical to the Berlin severe category. Neuromuscular blockade and renal support are not automatic responses to a single number.
+**Interpretation boundary:** FiO2 alone does not give a P:F ratio. P:F below 150 is not identical to the Berlin severe category (severe is at or below 100 mmHg in both the Berlin definition and the 2024 Global Definition). Neuromuscular blockade and renal support are not automatic responses to a single number.
 

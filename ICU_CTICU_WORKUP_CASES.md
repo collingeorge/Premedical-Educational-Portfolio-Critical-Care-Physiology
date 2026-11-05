@@ -1,6 +1,8 @@
 # Integrated ICU and CTICU workups: 42 paired case applications
 
-**Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
+**Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol. Unless a row cites a graded item in the [classification record](EVIDENCE_CLASSIFICATION.md#recommendations), case-table rows are **general clinical knowledge** or **context-dependent clinical practice** applied to a **synthetic example**; they are not guideline recommendations.
 
 [Laboratory findings and diagnosis examples](CLINICAL_LAB_EXAMPLES.md) · [Pain, airway, ventilation and extubation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) · [Equipment basics and case uses](ICU_EQUIPMENT_BASICS.md) · [Public clinical sources](CLINICAL_CARE_PUBLIC_SOURCES.md)
 
@@ -383,7 +385,7 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 **Result-to-decision reasoning:** use each linked test's question, possible decision and limitation; combine with this case's priority above. A concerning result prompts clinical reassessment rather than a prewritten medication, fluid, ventilator or device adjustment. Record why repeating the test would change a decision and when it can stop.
 
-**Source map:** [NIV](#sources), [PADIS](#sources), [POSTCARD](#sources), [PADISBASE](#sources), [PBM](#sources), [AIRWAY](#sources), [TESTING](#sources).
+**Source map:** [TRAUMAPAIN](#sources), [NIV](#sources), [PADIS](#sources), [PADISBASE](#sources), [AIRWAY](#sources), [TESTING](#sources).
 
 <a id="icu-01-05"></a>
 ## ICU-01-05 — Myocarditis and shock
@@ -399,22 +401,22 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 | Domain | Applied assessment / reasoning |
 |---|---|
-| Diagnostic alternatives | Separate native-heart failure, LV loading, circuit dysfunction, bleeding, vascular complications and end-organ injury. |
-| Pain and sedation | Assess analgesia, awareness/sedation goals and examination needs; drug exposure is not inferred from device flow. |
-| Airway control and breathing | Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample. |
-| Blood pressure and effective perfusion | Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb. |
-| Renal/metabolic and exposure review | Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion. |
+| Diagnostic alternatives | Separate myocarditis-related pump failure from arrhythmia, ischemia, tamponade/pericardial involvement, sepsis or other causes of shock; identify whether one or both ventricles are involved. |
+| Pain and sedation | Assess discomfort, anxiety and awareness; sedative and analgesic choices can lower blood pressure or cardiac output in a failing heart. |
+| Airway control and breathing | Assess pulmonary edema, work of breathing and gas exchange; recognize that intubation and positive-pressure ventilation can abruptly change loading conditions and blood pressure in severe pump failure. |
+| Blood pressure and effective perfusion | Integrate rhythm, echocardiographic ventricular function, end-organ perfusion, lactate trend and congestion; no single pressure value defines adequate support. |
+| Renal/metabolic and exposure review | Review kidney output/chemistry, hepatic congestion, electrolytes relevant to arrhythmia, fluid balance and drug exposure. |
 | Treatment/medication context | Inotrope, vasopressor and sedation choices depend on the assessed physiology; suspected myocarditis does not select an empiric immune-treatment regimen. |
-| Stability and response | Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment. |
+| Stability and response | Trend perfusion, rhythm and ventricular function after pharmacologic support; persistent or worsening shock prompts early expert discussion of mechanical circulatory support and transfer capability, not a self-directed escalation. |
 | Other patient requirements | Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred. |
 
-**Candidate laboratory requests, each only if it answers the case question:** [GAS](#test-gas), [LAC](#test-lac), [CBC](#test-cbc), [RENALCHEM](#test-renalchem), [HEMOL](#test-hemol), [DRUGCOAG](#test-drugcoag), [COAG](#test-coag)
+**Candidate laboratory requests, each only if it answers the case question:** [GAS](#test-gas), [LAC](#test-lac), [CBC](#test-cbc), [RENALCHEM](#test-renalchem), [MGPHOS](#test-mgphos), [TROP](#test-trop), [LIVER](#test-liver), [COAG](#test-coag)
 
-**Nonlaboratory studies / bedside measurements:** [ECHO](#study-echo), [VASC](#study-vasc), [DEVICE](#study-device)
+**Nonlaboratory studies / bedside measurements:** [ECHO](#study-echo), [ECG](#study-ecg), [CHEST](#study-chest)
 
 **Result-to-decision reasoning:** use each linked test's question, possible decision and limitation; combine with this case's priority above. A concerning result prompts clinical reassessment rather than a prewritten medication, fluid, ventilator or device adjustment. Record why repeating the test would change a decision and when it can stop.
 
-**Source map:** [VA](#sources), [POSTCARD](#sources), [PBM](#sources), [RV](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources).
+**Source map:** [MYOCARDITIS](#sources), [VA](#sources), [RV](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources). VA is cited only for the specialist mechanical-support discussion; the patient is not described as cannulated.
 
 <a id="icu-01-06"></a>
 ## ICU-01-06 — Pancreatitis with respiratory and renal dysfunction
@@ -1050,9 +1052,9 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 | Domain | Applied assessment / reasoning |
 |---|---|
-| Diagnostic alternatives | Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction. |
+| Diagnostic alternatives | Assess LV and RV function, prosthetic valve function including paravalvular leak, tamponade or pericardial collection, rhythm, and preload/afterload contributors; congestion after valve surgery is not assumed to be right-sided. |
 | Pain and sedation | Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone. |
-| Airway control and breathing | Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load. |
+| Airway control and breathing | Evaluate respiratory support and gas exchange; pulmonary edema, collapse and overdistension can each worsen gas exchange and alter ventricular loading. |
 | Blood pressure and effective perfusion | Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness. |
 | Renal/metabolic and exposure review | Assess output/chemistry and congestion together before comparing fluid removal or support options. |
 | Treatment/medication context | Inotropes and diuretics address different hypotheses; a cardiac-index cutoff alone does not select either. |
@@ -1065,14 +1067,14 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 **Result-to-decision reasoning:** use each linked test's question, possible decision and limitation; combine with this case's priority above. A concerning result prompts clinical reassessment rather than a prewritten medication, fluid, ventilator or device adjustment. Record why repeating the test would change a decision and when it can stop.
 
-**Source map:** [POSTCARD](#sources), [RV](#sources), [RENAL](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources).
+**Source map:** [POSTCARD](#sources), [VALVE](#sources), [RV](#sources), [RENAL](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources).
 
 <a id="icu-04-03"></a>
 ## ICU-04-03 — Mitral surgery, bradycardia and delirium
 
 **Paired source cases:** [male/female application](APPLIED_CASES.md#icu-04-03).
 
-**Situation:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
+**Situation:** A fictional adult after mitral surgery and a Cox-Maze procedure has bradycardia, altered attention and respiratory support by HFNC.
 
 - **Male profile detail:** Bradycardia coincides with altered attention.
 - **Female profile detail:** Sedating medication and HFNC are documented.
@@ -1192,13 +1194,13 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 **Source map:** [POSTCARD](#sources), [RENAL](#sources), [SEPSIS](#sources), [PBM](#sources), [AIRWAY](#sources), [PADISBASE](#sources), [KIDNEY](#sources), [TESTING](#sources).
 
 <a id="icu-04-07"></a>
-## ICU-04-07 — Post-MAZE bradycardia
+## ICU-04-07 — Post-Cox-Maze bradycardia
 
 **Paired source cases:** [male/female application](APPLIED_CASES.md#icu-04-07).
 
-**Situation:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
+**Situation:** A fictional adult after a Cox-Maze procedure has bradycardia, RV dysfunction, oliguria and altered attention.
 
-- **Male profile detail:** Bradycardia follows MAZE surgery.
+- **Male profile detail:** Bradycardia follows Cox-Maze surgery.
 - **Female profile detail:** Oliguria and inattention accompany bradycardia.
 
 **Case-specific priority:** Determine temporal association, rhythm and hemodynamic consequences; assess whether a rate change explains organ findings.
@@ -1207,7 +1209,7 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 |---|---|
 | Diagnostic alternatives | Determine rhythm and whether bradycardia is causal; compare medication, conduction, metabolic and low-flow explanations for altered attention. |
 | Pain and sedation | Assess discomfort/delirium and prior sedatives without labeling every mental-status change a sedation problem. |
-| Airway control and breathing | Identify HFNC versus an invasive airway; assess ventilation and oxygenation rather than assigning an extubation SBT to HFNC. |
+| Airway control and breathing | Confirm the current airway and oxygen/ventilatory support as documented, then assess ventilation, oxygenation and airway protection in the context of altered attention; low output and RV dysfunction can contribute to hypoxemia or hypercapnia. |
 | Blood pressure and effective perfusion | Correlate rhythm with output/perfusion and pacing/surgical context; rate alone is not a treatment rule. |
 | Renal/metabolic and exposure review | Review chemistry, magnesium and kidney/exposure changes when they address reversible contributors. |
 | Treatment/medication context | Review rate-altering and sedating drugs; atropine/pacing decisions are not made from a rate-only threshold. |
@@ -1360,9 +1362,9 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 | Domain | Applied assessment / reasoning |
 |---|---|
-| Diagnostic alternatives | Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction. |
+| Diagnostic alternatives | Assess LV and RV function, prosthetic valve function including paravalvular leak, tamponade or pericardial collection, rhythm, and preload/afterload contributors; congestion after valve surgery is not assumed to be right-sided. |
 | Pain and sedation | Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone. |
-| Airway control and breathing | Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load. |
+| Airway control and breathing | Evaluate respiratory support and gas exchange; pulmonary edema, collapse and overdistension can each worsen gas exchange and alter ventricular loading. |
 | Blood pressure and effective perfusion | Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness. |
 | Renal/metabolic and exposure review | Assess output/chemistry and congestion together before comparing fluid removal or support options. |
 | Treatment/medication context | More diuretic or renal support is not selected solely because balance is positive; response and tolerance matter. |
@@ -1375,7 +1377,7 @@ The rows are authored teaching summaries supported by the mapped disease/guideli
 
 **Result-to-decision reasoning:** use each linked test's question, possible decision and limitation; combine with this case's priority above. A concerning result prompts clinical reassessment rather than a prewritten medication, fluid, ventilator or device adjustment. Record why repeating the test would change a decision and when it can stop.
 
-**Source map:** [RENAL](#sources), [RV](#sources), [POSTCARD](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources).
+**Source map:** [RENAL](#sources), [VALVE](#sources), [RV](#sources), [POSTCARD](#sources), [KIDNEY](#sources), [PADISBASE](#sources), [TESTING](#sources).
 
 <a id="icu-04-13"></a>
 ## ICU-04-13 — Rising lactate after CABG/mitral repair
@@ -1585,7 +1587,7 @@ For any requested test, document the clinical question, collection/source and re
 
 | ID | Source / DOI | Scope | Verification available |
 |---|---|---|---|
-| SEPSIS | Prescott et al. Surviving Sepsis Campaign adult guideline (2026) — [DOI](https://doi.org/10.1007/s00134-026-08361-1) | Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here. | Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved |
+| SEPSIS | Prescott et al. Surviving Sepsis Campaign adult guideline (2026), Intensive Care Med — [DOI](https://doi.org/10.1007/s00134-026-08361-1); co-published in Crit Care Med — [DOI](https://doi.org/10.1097/CCM.0000000000007075) | Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: [10.1007/s00134-026-08410-9](https://doi.org/10.1007/s00134-026-08410-9) (Intensive Care Med 2026;52(6):1411-1413); no precise disputed table value is used here. | Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved |
 | ARDS | Qadir et al. ATS ARDS update (2024) — [DOI](https://doi.org/10.1164/rccm.202311-2011ST) | Conditional options depend on severity and patient selection; a P:F ratio is not a standalone escalation command. | PMC guideline summary and recommendations |
 | POSTCARD | Hall et al. Management of Post-cardiotomy Shock (2024) — [DOI](https://doi.org/10.15420/usc.2024.16) | Review of mixed shock after cardiac surgery. Not a universal drug or lactate threshold. | PubMed abstract and available PMC passages |
 | RV | ESC Acute cor pulmonale consensus (2024) — [DOI](https://doi.org/10.1093/ehjacc/zuad157) | RV afterload/preload/contractility assessment; surgical and device populations need additional sources. | Publisher consensus identity and available passages |
@@ -1593,11 +1595,11 @@ For any requested test, document the clinical question, collection/source and re
 | VV | Tonna et al. ELSO adult VV-ECMO guideline (2021) — [DOI](https://doi.org/10.1097/MAT.0000000000001432) | Respiratory-support/circuit interpretation; differs from VA physiology. | Publisher guideline record/available text |
 | LVAD | Saeed et al. ISHLT mechanical circulatory support update (2023) — [DOI](https://doi.org/10.1016/j.healun.2022.12.004) | Device-specific assessment and specialist oversight; displayed flow alone does not establish cause. | Society guideline and PubMed identity/selected text |
 | AORTA | Isselbacher et al. ACC/AHA aortic disease guideline (2022) — [DOI](https://doi.org/10.1161/CIR.0000000000001106) | Aortic/perfusion assessment; no universal postoperative BP prescription supplied. | AHA/PubMed DOI identity and available PMC guideline text |
-| VALVE | Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021) — [DOI](https://doi.org/10.1161/CIR.0000000000000923) | Prosthesis and patient context matter for anticoagulation; not a universal INR rule. | PubMed identity; corrections listed in record, exact targets not reproduced |
+| VALVE | Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021) — [DOI](https://doi.org/10.1161/CIR.0000000000000923) | Prosthesis and patient context matter for anticoagulation; not a universal INR rule. Still the current ACC/AHA guideline; the 2025 ESC/EACTS valvular heart disease guideline (Eur Heart J 2025, doi 10.1093/eurheartj/ehaf194) is a newer European comparator. | PubMed identity; corrections listed in record, exact targets not reproduced |
 | PGD | Snell et al. ISHLT PGD definition/grading, 2016 consensus published 2017 — [DOI](https://doi.org/10.1016/j.healun.2017.07.021) | Timing, imaging and gas-exchange context required; definition source is not a complete treatment guideline. | PubMed identity and available published definition context |
 | RENAL | STARRT-AKI investigators. Timing of Initiation of Renal-Replacement Therapy (2020) — [DOI](https://doi.org/10.1056/NEJMoa2000741) | Timing trial in selected severe AKI; urgent indications are a separate clinical question. | Primary trial record and available abstract |
 | PANCREAS | de-Madaria et al. WATERFALL trial (2022) — [DOI](https://doi.org/10.1056/NEJMoa2202884) | Aggressive fluids increased overload in the studied population; not a fixed replacement strategy for established postoperative organ failure. | Primary NEJM abstract |
-| TBI | Carney et al. Severe TBI guideline, fourth edition (2017) — [DOI](https://doi.org/10.1227/NEU.0000000000001432) | Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. | Brain Trauma Foundation executive summary and publisher recommendations |
+| TBI | Carney et al. Severe TBI guideline, fourth edition (2017) — [DOI](https://doi.org/10.1227/NEU.0000000000001432) | Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. The decompressive-craniectomy recommendations were updated in 2020 (Hawryluk et al., Neurosurgery 2020;87:427-434, doi 10.1093/neuros/nyaa278). | Brain Trauma Foundation executive summary and publisher recommendations |
 | SAH | Hoh et al. AHA/ASA aneurysmal SAH guideline (2023) — [DOI](https://doi.org/10.1161/STR.0000000000000436) | Separate delayed ischemia assessment from prophylactic augmentation. | PubMed and AHA guideline record/available passages |
 | PADIS | Lewis et al. PADIS focused update (2025) — [DOI](https://doi.org/10.1097/CCM.0000000000006574) | Pain/anxiety/sedation/delirium questions in adult ICU; not every earlier PADIS topic is replaced. | Society recommendations and publisher identity |
 | NIV | Rochwerg et al. ERS/ATS NIV guideline (2017) — [DOI](https://doi.org/10.1183/13993003.02426-2016) | NIV suitability and goals differ by etiology and treatment preferences. | Publisher guideline text |
@@ -1611,6 +1613,8 @@ For any requested test, document the clinical question, collection/source and re
 | AIRWAY | SCCM rapid sequence intubation in critically ill adults (2023) — [DOI](https://doi.org/10.1097/CCM.0000000000006000) | Critically ill airway preparation/physiologic context; no procedural or medication sequence reproduced. | PubMed guideline identity and available source description |
 | KIDNEY | KDIGO AKI guideline, section 2: definition/evaluation (2012) — [DOI](https://doi.org/10.1038/kisup.2011.32) | Foundational AKI evaluation; historical source, not asserted to cover every current specialty issue. | Official KDIGO PDF section 2, including diagnostic evaluation |
 | PANCREASGUIDE | ACG management of acute pancreatitis guideline (2024) — [DOI](https://doi.org/10.14309/ajg.0000000000002645) | Disease-specific diagnosis and complication questions; not a fixed ICU fluid prescription. | PubMed/PMC and ACG source text |
-| TRANSPLANT | Trinh et al. Early Postoperative Management of Lung Transplant Recipients (2022) — [DOI](https://doi.org/10.1016/j.thorsurg.2021.11.006) | Specialist multi-organ transplant context; drug-level interpretation must follow the actual agent/protocol. | PubMed review identity/abstract; complete full text not appraised |
+| TRANSPLANT | Trinh et al. Early Postoperative Management of Lung Transplant Recipients (2022) — [DOI](https://doi.org/10.1016/j.thorsurg.2021.11.006) | Specialist multi-organ transplant context; drug-level interpretation must follow the actual agent/protocol. | PubMed record (PMID 35512937; Thorac Surg Clin 2022;32(2):185-195) identity/abstract; complete full text not appraised |
+| TRAUMAPAIN | Galvagno et al. EAST/Trauma Anesthesiology Society pain management for blunt thoracic trauma guideline (2016) — [DOI](https://doi.org/10.1097/TA.0000000000001209) | Chest-wall injury analgesia options (regional and multimodal approaches conditionally considered; low-quality evidence); not a block technique or drug regimen. | EAST guideline page and PubMed identity (PMID 27533913); full text not appraised |
+| MYOCARDITIS | Kociol et al. AHA scientific statement: recognition and initial management of fulminant myocarditis (2020) — [DOI](https://doi.org/10.1161/CIR.0000000000000745) | Early recognition, rhythm and ventricular assessment, and timely referral to centers with mechanical-support capability; expert considerations, not formal graded recommendations. | AHA/PubMed identity (PMID 31902242) and abstract; full text not appraised |
 
 [Machine-readable coverage audit](INTEGRATED_WORKUP_AUDIT.json) maps all 42 topics, domains and test IDs. Source identities and available supporting passages were checked; not every full text, supplement, correction or newest specialty update was fully appraised. The authored test selections are conditional applications, not society-approved panels or clinical validation. Existing source-version and correction limits remain applicable. No claim is made that these cases contain every variable needed for a real ICU patient or that they substitute for multidisciplinary care.

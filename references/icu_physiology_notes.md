@@ -1,7 +1,6 @@
 # Critical care physiology: concepts and unit conventions
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
-
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
 ## Flow and oxygen transport
 
 Cardiac output equals heart rate multiplied by stroke volume. Stroke volume, ejection fraction, LVOT velocity-time integral, and perfusion markers are influenced by loading conditions; none is an isolated measure of intrinsic contractility. A normal ejection fraction does not exclude shock.
@@ -22,7 +21,7 @@ CVP, wedge pressure, and IVC appearance are context-dependent observations, not 
 
 PEEP may recruit collapsed lung or overdistend aerated lung. Recruitment can reduce hypoxic pulmonary vasoconstriction; overdistension can raise pulmonary vascular resistance, and positive pressure can reduce venous return. Its net effect on RV function is context-dependent. “Always lower PEEP in RV failure” is not a valid general rule.
 
-Plateau and driving pressure interpretation requires attention to patient effort, chest-wall mechanics, total PEEP, and the measurement conditions. A driving-pressure association does not establish a universal independent treatment target.
+Plateau and driving pressure interpretation requires attention to patient effort, chest-wall mechanics, total PEEP, and the measurement conditions. A driving-pressure association (Amato et al., N Engl J Med 2015;372:747-755; higher risk commonly cited above roughly 15 cm H2O) does not establish a universal independent treatment target.
 
 ## Renal, acid–base, and neurologic concepts
 
@@ -34,8 +33,10 @@ CPP ≈ MAP − ICP is a simplified relationship. A target derived from traumati
 
 ## Sources and applicability
 
-- [SCCM/ESICM 2026 adult sepsis guideline](https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines): the current guideline supersedes the 2021 edition. For ongoing fluid decisions, dynamic responsiveness assessment is preferable to isolated filling pressures.
+- [SCCM/ESICM 2026 adult sepsis guideline](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026) (Prescott et al.; co-published in Intensive Care Med, [DOI](https://doi.org/10.1007/s00134-026-08361-1), and Crit Care Med, [DOI](https://doi.org/10.1097/CCM.0000000000007075)): the current guideline supersedes the 2021 edition. For ongoing fluid decisions, dynamic responsiveness assessment is preferable to isolated filling pressures.
 - [ATS 2024 ARDS guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/): conditionally favors higher PEEP without recruitment maneuvers in moderate-to-severe ARDS and recommends against prolonged recruitment maneuvers.
-- [ATS/ESICM/SCCM 2017 ventilation guideline](https://academic.oup.com/ajrccm/article/195/9/1253/8500154): lower tidal volumes use predicted body weight, not actual body weight.
+- [ATS/ESICM/SCCM 2017 ventilation guideline](https://academic.oup.com/ajrccm/article/195/9/1253/8500154): lower tidal volumes use predicted body weight, not actual body weight. Its PEEP, recruitment-maneuver and ECMO questions were re-addressed and are superseded by the ATS 2024 update; the low-tidal-volume/predicted-body-weight and prone-positioning recommendations remain in use.
+- [ESICM 2023 ARDS guideline](https://link.springer.com/article/10.1007/s00134-023-07050-7) (Grasselli et al., Intensive Care Med 2023;49:727-759): a European comparator whose recommendations on PEEP and other adjuncts differ in places from ATS 2024.
+- [ESICM 2025 circulatory shock and hemodynamic monitoring guideline](https://link.springer.com/article/10.1007/s00134-025-08137-z) (Monnet et al., Intensive Care Med 2025;51:1971-2012): current society guidance on shock assessment, including dynamic over static preload markers, echocardiography as first-line imaging for shock type, and cardiac-output monitoring in patients not responding to initial therapy. It updates the 2014 ESICM consensus.
 
 These summaries are educational and do not reproduce the full guideline, its exceptions, or its implementation requirements.

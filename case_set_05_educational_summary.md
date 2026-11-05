@@ -1,5 +1,7 @@
 # Case set 05: educational synthesis
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Revised 27 October 2026. This summary follows the corrected [case bank](case_set_05_mechanical_support_and_goals_of_care.md). It supplies no separate medication, device or escalation instructions.
 
 - Scenario 1: **Early low-output physiology**. No automatic decision to withhold diuresis or lower PEEP follows from RV dysfunction alone.

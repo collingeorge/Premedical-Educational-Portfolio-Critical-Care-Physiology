@@ -1,6 +1,8 @@
 # Critical care physiology: worked synthetic examples
 
-[Reader’s guide](START_HERE.md) · [Authorship & review status](AUTHORSHIP_AND_REVIEW.md) · [Portfolio home](https://collingeorge.github.io/CM-2026/)
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
+[Reader’s guide](START_HERE.md) · [Authorship & review status](AUTHORSHIP_AND_REVIEW.md) · [Disclaimer](DISCLAIMER.md) · [Portfolio home](https://collingeorge.github.io/CM-2026/)
 
 [What is guideline-recommended, general knowledge or clinical practice?](EVIDENCE_CLASSIFICATION.md) — verified recommendation strengths and labels beside the examples.
 

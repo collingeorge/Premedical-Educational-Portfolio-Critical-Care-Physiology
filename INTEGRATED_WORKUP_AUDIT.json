@@ -340,7 +340,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "Vasoactive support does not correct a surgical bleeding source; analgesic/sedative effects also belong in the medication review.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -376,7 +378,9 @@
         "airway_breathing": "Document NIV/HFNC/oxygen device, work of breathing, consciousness, secretion handling and gas trends; goals determine escalation options.",
         "blood_pressure_perfusion": "Assess perfusion and tolerance of respiratory support, not oxygen saturation alone.",
         "renal_metabolic": "Review kidney function and acid-base contributors where they would change decisions.",
-        "response_stability": "Reassess comfort, respiratory work, ventilation and the agreed trial goals; DNR/DNI does not itself establish comfort-only care."
+        "treatment_medication": "Analgesia and anxiolysis require respiratory reassessment; a sedative combination is not implied by DNI.",
+        "response_stability": "Reassess comfort, respiratory work, ventilation and the agreed trial goals; DNR/DNI does not itself establish comfort-only care.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -409,7 +413,9 @@
         "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
         "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
         "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
-        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+        "treatment_medication": "Antimicrobials and vasopressor support are distinct interventions; culture/resistance and organ function inform drug discussions.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -443,7 +449,9 @@
         "airway_breathing": "Evaluate splinting, secretions, work of breathing and oxygenation; deterioration may reflect injury rather than inadequate analgesia alone.",
         "blood_pressure_perfusion": "Consider blood loss and other shock mechanisms before attributing tachycardia solely to pain.",
         "renal_metabolic": "Review kidney function and exposure before nonopioid or opioid choices; assess losses if clinically relevant.",
-        "response_stability": "Link analgesic benefit to respiratory effort/function and unwanted effects; new instability prompts injury-focused reassessment."
+        "treatment_medication": "Local/regional or systemic analgesia are discussion options after injury and bleeding-risk assessment; respiratory effects matter.",
+        "response_stability": "Link analgesic benefit to respiratory effort/function and unwanted effects; new instability prompts injury-focused reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -457,11 +465,10 @@
         "CHEST"
       ],
       "sources": [
+        "TRAUMAPAIN",
         "NIV",
         "PADIS",
-        "POSTCARD",
         "PADISBASE",
-        "PBM",
         "AIRWAY",
         "TESTING"
       ]
@@ -469,33 +476,35 @@
     {
       "id": "ICU-01-05",
       "title": "Myocarditis and shock",
-      "module": "VA",
+      "module": "MYOCARDITIS",
       "domains": {
-        "diagnostic_reasoning": "Separate native-heart failure, LV loading, circuit dysfunction, bleeding, vascular complications and end-organ injury.",
-        "pain_sedation": "Assess analgesia, awareness/sedation goals and examination needs; drug exposure is not inferred from device flow.",
-        "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
-        "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
-        "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
-        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+        "diagnostic_reasoning": "Separate myocarditis-related pump failure from arrhythmia, ischemia, tamponade/pericardial involvement, sepsis or other causes of shock; identify whether one or both ventricles are involved.",
+        "pain_sedation": "Assess discomfort, anxiety and awareness; sedative and analgesic choices can lower blood pressure or cardiac output in a failing heart.",
+        "airway_breathing": "Assess pulmonary edema, work of breathing and gas exchange; recognize that intubation and positive-pressure ventilation can abruptly change loading conditions and blood pressure in severe pump failure.",
+        "blood_pressure_perfusion": "Integrate rhythm, echocardiographic ventricular function, end-organ perfusion, lactate trend and congestion; no single pressure value defines adequate support.",
+        "renal_metabolic": "Review kidney output/chemistry, hepatic congestion, electrolytes relevant to arrhythmia, fluid balance and drug exposure.",
+        "treatment_medication": "Inotrope, vasopressor and sedation choices depend on the assessed physiology; suspected myocarditis does not select an empiric immune-treatment regimen.",
+        "response_stability": "Trend perfusion, rhythm and ventricular function after pharmacologic support; persistent or worsening shock prompts early expert discussion of mechanical circulatory support and transfer capability, not a self-directed escalation.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
         "LAC",
         "CBC",
         "RENALCHEM",
-        "HEMOL",
-        "DRUGCOAG",
+        "MGPHOS",
+        "TROP",
+        "LIVER",
         "COAG"
       ],
       "candidate_nonlaboratory_tests": [
         "ECHO",
-        "VASC",
-        "DEVICE"
+        "ECG",
+        "CHEST"
       ],
       "sources": [
+        "MYOCARDITIS",
         "VA",
-        "POSTCARD",
-        "PBM",
         "RV",
         "KIDNEY",
         "PADISBASE",
@@ -512,7 +521,9 @@
         "airway_breathing": "Evaluate respiratory failure, aspiration, fluid accumulation and mechanics.",
         "blood_pressure_perfusion": "Reassess perfusion and fluid tolerance; the WATERFALL population is not a complete template for established organ failure.",
         "renal_metabolic": "Review output, chemistry, balance and medication exposure; avoid inferring further fluid need from creatinine alone.",
-        "response_stability": "Follow organ function, symptoms and treatment tolerance rather than serial lipase as a response target."
+        "treatment_medication": "Analgesic choice and renal/hepatic exposure need review; no fixed high-volume fluid or drug infusion follows from the diagnosis.",
+        "response_stability": "Follow organ function, symptoms and treatment tolerance rather than serial lipase as a response target.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "LIPASE",
@@ -546,7 +557,9 @@
         "airway_breathing": "Evaluate protection, secretions and actual respiratory support; trained airway assessment must accompany declining consciousness.",
         "blood_pressure_perfusion": "Avoid treating a pressure or ICP measurement in isolation from perfusion and injury findings.",
         "renal_metabolic": "Review sodium/water, kidney and acid-base changes that may affect injury and drug handling.",
-        "response_stability": "Track neurologic and systemic response together; new decline is not attributed to sedatives without reassessing urgent alternatives."
+        "treatment_medication": "Hypnotics, analgesics and osmotic agents have different purposes; no dose or ventilation target can be selected from the abbreviated case.",
+        "response_stability": "Track neurologic and systemic response together; new decline is not attributed to sedatives without reassessing urgent alternatives.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "POCGLU",
@@ -579,7 +592,9 @@
         "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
         "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
         "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
-        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+        "treatment_medication": "Sedation or neuromuscular-block discussions depend on the actual ventilation problem; renal support is a separate indication-based decision.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -613,7 +628,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "A vasopressor, inotrope or transfusion discussion addresses different mechanisms; none is selected solely by MAP.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -649,7 +666,9 @@
         "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
         "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
         "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
-        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+        "treatment_medication": "Anticoagulation, vasoactive and analgesic choices require bleeding/perfusion context and specialist oversight.",
+        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -685,7 +704,9 @@
         "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
         "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
         "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
-        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+        "treatment_medication": "Fluid and vasoactive changes are not substitutes for device assessment; no universal speed or dose follows from a display value.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -720,7 +741,9 @@
         "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
         "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
         "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
-        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+        "treatment_medication": "Corticosteroids or neuromuscular blockade are indication-dependent options in the cited guideline, not automatic responses to a ratio.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -752,7 +775,9 @@
         "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
         "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
         "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
-        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+        "treatment_medication": "Rate/pressure-control discussion is specific to repair and perfusion; repeated fluid or antihypertensive changes are not an imaging substitute.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -786,7 +811,9 @@
         "airway_breathing": "Review airway/anastomotic concerns, secretion clearance, imaging and gas exchange; transplant-specific evaluation may require specialist procedures.",
         "blood_pressure_perfusion": "Assess cardiac function, pulmonary/RV loading, perfusion and fluid tolerance together.",
         "renal_metabolic": "Review kidney chemistry, balance and the actual immunosuppressant/exposure history.",
-        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise."
+        "treatment_medication": "Diuresis, ventilator support and immune therapy answer different questions; none is established by poor compliance alone.",
+        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -820,7 +847,9 @@
         "airway_breathing": "Assess support requirements and effects of abdominal mechanics on ventilation.",
         "blood_pressure_perfusion": "Evaluate perfusion, venous congestion and fluid tolerance with surgical findings.",
         "renal_metabolic": "Review output, electrolyte/acid-base changes, obstruction and pressure effects; do not infer renal-support need from creatinine alone.",
-        "response_stability": "Evaluate source-control and organ response with the surgical team; no dressing alteration or ultrafiltration command is supplied."
+        "treatment_medication": "Antimicrobial and hemodynamic treatment require reassessment; no dressing manipulation or fixed fluid-removal rate is implied.",
+        "response_stability": "Evaluate source-control and organ response with the surgical team; no dressing alteration or ultrafiltration command is supplied.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -855,7 +884,9 @@
         "airway_breathing": "Assess airway protection and ventilation as well as oxygenation; correlate respiratory changes with cerebral and cardiac context.",
         "blood_pressure_perfusion": "Verify MAP/ICP reference conditions and cardiac tolerance; prophylactic augmentation is not inferred from an SAH label.",
         "renal_metabolic": "Check water/solute balance, sodium context, output and exposure when relevant.",
-        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal."
+        "treatment_medication": "Nimodipine and hemodynamic augmentation have different indications; prophylactic hypertension or a fixed sodium regimen is not inferred.",
+        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "POCGLU",
@@ -889,7 +920,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "Vasopressors do not replace correction of an anatomic or bleeding cause; do not infer vasodilation from low temperature alone.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -925,7 +958,9 @@
         "airway_breathing": "Assess native-lung function and sampling/circuit configuration; systemic gas exchange cannot be interpreted from one oxygenator sample.",
         "blood_pressure_perfusion": "Integrate native output, echo, pulsatility, support configuration and regional perfusion, including the cannulated limb.",
         "renal_metabolic": "Review kidney output/chemistry, hemolysis, fluid balance and effective perfusion.",
-        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment."
+        "treatment_medication": "An escalation in vasoactive drugs or circuit flow is not a universal response; the ECMO team evaluates competing effects.",
+        "response_stability": "Compare regional and systemic perfusion, gas exchange and bleeding after expert changes; no single trend authorizes a circuit adjustment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -960,7 +995,9 @@
         "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
         "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
         "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
-        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+        "treatment_medication": "Fluid, diuretic and inotrope discussions require different supporting findings and device-team review.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -996,7 +1033,9 @@
         "airway_breathing": "Review tube/support integrity, gas exchange, pressures, volumes, effort and synchrony; conditional adjuncts require actual context.",
         "blood_pressure_perfusion": "Assess how ventilation and lung/RV physiology affect circulation and tolerance.",
         "renal_metabolic": "Integrate fluid tolerance, output, kidney chemistry and acid-base status.",
-        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability."
+        "treatment_medication": "A mode switch, paralytic or sedative is not guaranteed to reduce lung stress; ECMO assessment is a separate specialist question.",
+        "response_stability": "Assess oxygenation and ventilation alongside mechanics, circulation and adverse effects; a better saturation alone is not complete stability.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -1028,7 +1067,9 @@
         "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
         "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
         "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
-        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+        "treatment_medication": "Analgesia may be needed but should not become a substitute for evaluation of the underlying complication.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1062,7 +1103,9 @@
         "airway_breathing": "Review airway/anastomotic concerns, secretion clearance, imaging and gas exchange; transplant-specific evaluation may require specialist procedures.",
         "blood_pressure_perfusion": "Assess cardiac function, pulmonary/RV loading, perfusion and fluid tolerance together.",
         "renal_metabolic": "Review kidney chemistry, balance and the actual immunosuppressant/exposure history.",
-        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise."
+        "treatment_medication": "No PEEP change, immune regimen or ECMO threshold is derived from the limited data.",
+        "response_stability": "Reassess graft function and other organ trends with the transplant team. General fever guidance does not directly cover severe immunocompromise.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -1097,7 +1140,9 @@
         "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
         "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
         "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
-        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+        "treatment_medication": "Antimicrobials, fluid/vasoactive treatment and renal support have separate indications and exposure considerations.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1132,7 +1177,9 @@
         "airway_breathing": "Assess airway protection and ventilation as well as oxygenation; correlate respiratory changes with cerebral and cardiac context.",
         "blood_pressure_perfusion": "Verify MAP/ICP reference conditions and cardiac tolerance; prophylactic augmentation is not inferred from an SAH label.",
         "renal_metabolic": "Check water/solute balance, sodium context, output and exposure when relevant.",
-        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal."
+        "treatment_medication": "A preselected pressor target or sodium range is not justified by the label SAH alone.",
+        "response_stability": "Reassess neurologic trajectory, perfusion and cardiopulmonary harms; a numerical CPP alone is not a complete goal.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "POCGLU",
@@ -1166,7 +1213,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "Methylene blue and other vasoactive agents are not routine numerical-trigger treatments; interactions and contraindications require review.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1195,14 +1244,16 @@
     {
       "id": "ICU-04-02",
       "title": "Redo AVR with AKI and congestion",
-      "module": "RV",
+      "module": "VALVE_CONGESTION",
       "domains": {
-        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "diagnostic_reasoning": "Assess LV and RV function, prosthetic valve function including paravalvular leak, tamponade or pericardial collection, rhythm, and preload/afterload contributors; congestion after valve surgery is not assumed to be right-sided.",
         "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
-        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; pulmonary edema, collapse and overdistension can each worsen gas exchange and alter ventricular loading.",
         "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
         "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
-        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+        "treatment_medication": "Inotropes and diuretics address different hypotheses; a cardiac-index cutoff alone does not select either.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1219,6 +1270,7 @@
       ],
       "sources": [
         "POSTCARD",
+        "VALVE",
         "RV",
         "RENAL",
         "KIDNEY",
@@ -1236,7 +1288,9 @@
         "airway_breathing": "Identify HFNC versus an invasive airway; assess ventilation and oxygenation rather than assigning an extubation SBT to HFNC.",
         "blood_pressure_perfusion": "Correlate rhythm with output/perfusion and pacing/surgical context; rate alone is not a treatment rule.",
         "renal_metabolic": "Review chemistry, magnesium and kidney/exposure changes when they address reversible contributors.",
-        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied."
+        "treatment_medication": "Medication review may reveal rate/sedation effects; HFNC is not an endotracheal tube and does not itself call for an extubation SBT.",
+        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1269,7 +1323,9 @@
         "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
         "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
         "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
-        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+        "treatment_medication": "Neither all PEEP nor all diuresis is categorically excluded; specialist assessment determines suitability.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1303,7 +1359,9 @@
         "airway_breathing": "Evaluate actual respiratory support and pulmonary congestion or new mechanical concerns.",
         "blood_pressure_perfusion": "Assess output, rhythm and organ perfusion with valve/surgical findings.",
         "renal_metabolic": "Review kidney and hepatic function/exposure where relevant to anticoagulation and other medicines.",
-        "response_stability": "Reassess clinical bleeding/thrombotic signs and the correct assay; no universal target, hold or bridging instruction is supplied."
+        "treatment_medication": "No generic warfarin hold, heparin addition or INR target is supplied; anticoagulation requires the complete clinical context.",
+        "response_stability": "Reassess clinical bleeding/thrombotic signs and the correct assay; no universal target, hold or bridging instruction is supplied.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "COAG",
@@ -1334,7 +1392,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "A broad antibiotic regimen or negative-fluid target cannot be selected from fever and edema alone.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1364,15 +1424,17 @@
     },
     {
       "id": "ICU-04-07",
-      "title": "Post-MAZE bradycardia",
+      "title": "Post-Cox-Maze bradycardia",
       "module": "RHYTHM",
       "domains": {
         "diagnostic_reasoning": "Determine rhythm and whether bradycardia is causal; compare medication, conduction, metabolic and low-flow explanations for altered attention.",
         "pain_sedation": "Assess discomfort/delirium and prior sedatives without labeling every mental-status change a sedation problem.",
-        "airway_breathing": "Identify HFNC versus an invasive airway; assess ventilation and oxygenation rather than assigning an extubation SBT to HFNC.",
+        "airway_breathing": "Confirm the current airway and oxygen/ventilatory support as documented, then assess ventilation, oxygenation and airway protection in the context of altered attention; low output and RV dysfunction can contribute to hypoxemia or hypercapnia.",
         "blood_pressure_perfusion": "Correlate rhythm with output/perfusion and pacing/surgical context; rate alone is not a treatment rule.",
         "renal_metabolic": "Review chemistry, magnesium and kidney/exposure changes when they address reversible contributors.",
-        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied."
+        "treatment_medication": "Review rate-altering and sedating drugs; atropine/pacing decisions are not made from a rate-only threshold.",
+        "response_stability": "Reassess attention, perfusion and respiratory effects after clinical decisions; no automatic atropine/pacing dose is implied.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1406,7 +1468,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "Low saturation or lactate does not independently select milrinone, transfusion or fluid removal.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1443,7 +1507,9 @@
         "airway_breathing": "Evaluate actual airway/support, work of breathing and oxygenation/ventilation; assess deterioration without delaying stabilization for tests.",
         "blood_pressure_perfusion": "Evaluate perfusion and both fluid responsiveness and tolerance; reassess source control alongside circulatory support.",
         "renal_metabolic": "Review output, kidney chemistry, fluid balance and medication clearance; positive balance and oliguria are not interchangeable indications.",
-        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen."
+        "treatment_medication": "Antimicrobial discussion incorporates likely source, prior exposure, local resistance and organ function, not fever alone.",
+        "response_stability": "Use clinical response and source information to revisit antimicrobial, procedural and hemodynamic decisions; biomarkers do not independently choose a regimen.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1478,7 +1544,9 @@
         "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
         "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
         "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
-        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+        "treatment_medication": "No categorical beta-blocker/PEEP prohibition or extubation SBT instruction follows from these findings.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1512,7 +1580,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "Vasoactive and anticoagulation choices solve different problems and require surgical-team context.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1543,14 +1613,16 @@
     {
       "id": "ICU-04-12",
       "title": "Persistent congestion after CABG/AVR",
-      "module": "RV",
+      "module": "VALVE_CONGESTION",
       "domains": {
-        "diagnostic_reasoning": "Assess preload, afterload, contractility, rhythm and mechanical/anatomic contributors to RV dysfunction.",
+        "diagnostic_reasoning": "Assess LV and RV function, prosthetic valve function including paravalvular leak, tamponade or pericardial collection, rhythm, and preload/afterload contributors; congestion after valve surgery is not assumed to be right-sided.",
         "pain_sedation": "Assess distress and sedative/analgesic effects; do not infer comfort from reduced movement alone.",
-        "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
+        "airway_breathing": "Evaluate respiratory support and gas exchange; pulmonary edema, collapse and overdistension can each worsen gas exchange and alter ventricular loading.",
         "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
         "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
-        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+        "treatment_medication": "More diuretic or renal support is not selected solely because balance is positive; response and tolerance matter.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1567,6 +1639,7 @@
       ],
       "sources": [
         "RENAL",
+        "VALVE",
         "RV",
         "POSTCARD",
         "KIDNEY",
@@ -1584,7 +1657,9 @@
         "airway_breathing": "Establish whether intubated, extubated or on noninvasive support; evaluate airway patency, gas exchange, mechanics and device/pleural complications.",
         "blood_pressure_perfusion": "Integrate pressure with output, rhythm, examination, drain losses, congestion and organ perfusion; a low MAP does not select one agent.",
         "renal_metabolic": "Track urine output, chemistry, balance and exposure; differentiate perfusion, congestion and structural/obstructive questions.",
-        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment."
+        "treatment_medication": "A lactate cutoff alone is not an evidence-based switch to a specific inotrope.",
+        "response_stability": "Relate each intervention to perfusion, bleeding, respiratory and adverse-effect trends; persistent deterioration requires prompt surgical/critical-care reassessment.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1621,7 +1696,9 @@
         "airway_breathing": "Evaluate respiratory support and gas exchange; both collapse and overdistension can alter RV load.",
         "blood_pressure_perfusion": "Integrate effective perfusion and congestion; static venous pressure does not establish fluid responsiveness.",
         "renal_metabolic": "Assess output/chemistry and congestion together before comparing fluid removal or support options.",
-        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers."
+        "treatment_medication": "Do not automatically withhold decongestion or lower PEEP without the broader assessment.",
+        "response_stability": "Assess both decongestion response and perfusion tolerance; avoid blanket prohibitions on PEEP or beta-blockers.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "RENALCHEM",
@@ -1655,7 +1732,9 @@
         "airway_breathing": "Assess oxygenation, ventilation and neurologic state; respiratory distress can compound pressure/rate stress.",
         "blood_pressure_perfusion": "Assess rate, pressure, organ perfusion and repair context together; no universal postoperative target is assigned.",
         "renal_metabolic": "Oliguria requires perfusion, congestion, obstruction and exposure assessment; imaging decisions weigh urgency and risk.",
-        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target."
+        "treatment_medication": "Heart rate and pressure both matter in the aortic context; a sedative or antihypertensive is not selected by agitation alone.",
+        "response_stability": "New regional symptoms, neurologic change or worsening organ function require prompt surgical/vascular reassessment; do not wait for a lab target.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1689,7 +1768,9 @@
         "airway_breathing": "Evaluate oxygenation, ventilation and respiratory contributors to RV loading.",
         "blood_pressure_perfusion": "Assess device-specific pressure/output context, RV function and congestion rather than relying on displayed flow alone.",
         "renal_metabolic": "Review urine output, congestion, kidney chemistry and hemolysis signals.",
-        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm."
+        "treatment_medication": "No empirical speed, fluid or transfusion change follows from the alarm; device-specific expert assessment is required.",
+        "response_stability": "Specialist reassessment integrates device data and patient response; do not assign speed, fluid or transfusion changes from one alarm.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "CBC",
@@ -1724,7 +1805,9 @@
         "airway_breathing": "Assess native ventilation and mechanics with systemic and circuit gases interpreted by sampling location.",
         "blood_pressure_perfusion": "Assess circulation independently; VV support is not equivalent to VA circulatory support.",
         "renal_metabolic": "Review output, chemistry, balance, hemolysis and exposure as clinically relevant.",
-        "response_stability": "Reassess systemic delivery, ventilation and circuit/patient interaction after expert decisions; one post-membrane result is insufficient."
+        "treatment_medication": "Sweeping gas and blood flow affect different processes; no automatic paralysis, transfusion or sedative escalation is inferred.",
+        "response_stability": "Reassess systemic delivery, ventilation and circuit/patient interaction after expert decisions; one post-membrane result is insufficient.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [
         "GAS",
@@ -1759,7 +1842,9 @@
         "airway_breathing": "Assess comfort and burden of respiratory interventions against preferences rather than applying an automatic escalation ladder.",
         "blood_pressure_perfusion": "Determine whether pressure/perfusion measurements would change a goal-concordant decision.",
         "renal_metabolic": "Consider kidney/hepatic exposure and burdens of testing if relevant to symptom medication choices.",
-        "response_stability": "Reassess comfort, unwanted effects, communication and family concerns; DNR is not synonymous with this separately specified plan."
+        "treatment_medication": "Proportionate symptom treatment is individualized; routine sedative combinations or disease-driven targets are not substituted for the expressed priorities.",
+        "response_stability": "Reassess comfort, unwanted effects, communication and family concerns; DNR is not synonymous with this separately specified plan.",
+        "other_requirements": "Revisit the eight-domain coverage prompts above, goals, baseline function, lines/drains, nutrition, prevention, mobility and handoff; document what is relevant or deferred."
       },
       "candidate_lab_tests": [],
       "candidate_nonlaboratory_tests": [],
@@ -1776,8 +1861,9 @@
       "id": "SEPSIS",
       "title": "Prescott et al. Surviving Sepsis Campaign adult guideline (2026)",
       "doi": "10.1007/s00134-026-08361-1",
-      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here.",
-      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved"
+      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9 (Intensive Care Med 2026;52(6):1411-1413); no precise disputed table value is used here.",
+      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved",
+      "co_publication_doi": "10.1097/CCM.0000000000007075"
     },
     {
       "id": "ARDS",
@@ -1832,7 +1918,7 @@
       "id": "VALVE",
       "title": "Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021)",
       "doi": "10.1161/CIR.0000000000000923",
-      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule.",
+      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule. Still the current ACC/AHA guideline; the 2025 ESC/EACTS valvular heart disease guideline (Eur Heart J 2025, doi 10.1093/eurheartj/ehaf194) is a newer European comparator.",
       "checked": "PubMed identity; corrections listed in record, exact targets not reproduced"
     },
     {
@@ -1860,7 +1946,7 @@
       "id": "TBI",
       "title": "Carney et al. Severe TBI guideline, fourth edition (2017)",
       "doi": "10.1227/NEU.0000000000001432",
-      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here.",
+      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. The decompressive-craniectomy recommendations were updated in 2020 (Hawryluk et al., Neurosurgery 2020;87:427-434, doi 10.1093/neuros/nyaa278).",
       "checked": "Brain Trauma Foundation executive summary and publisher recommendations"
     },
     {
@@ -1959,7 +2045,24 @@
       "title": "Trinh et al. Early Postoperative Management of Lung Transplant Recipients (2022)",
       "doi": "10.1016/j.thorsurg.2021.11.006",
       "scope": "Specialist multi-organ transplant context; drug-level interpretation must follow the actual agent/protocol.",
-      "checked": "PubMed review identity/abstract; complete full text not appraised"
+      "checked": "PubMed record (PMID 35512937; Thorac Surg Clin 2022;32(2):185-195) identity/abstract; complete full text not appraised",
+      "pmid": "35512937"
+    },
+    {
+      "id": "TRAUMAPAIN",
+      "title": "Galvagno et al. EAST/Trauma Anesthesiology Society pain management for blunt thoracic trauma guideline (2016)",
+      "doi": "10.1097/TA.0000000000001209",
+      "pmid": "27533913",
+      "scope": "Chest-wall injury analgesia options (regional and multimodal approaches conditionally considered; low-quality evidence); not a block technique or drug regimen.",
+      "checked": "EAST guideline page and PubMed identity; full text not appraised"
+    },
+    {
+      "id": "MYOCARDITIS",
+      "title": "Kociol et al. AHA scientific statement: recognition and initial management of fulminant myocarditis (2020)",
+      "doi": "10.1161/CIR.0000000000000745",
+      "pmid": "31902242",
+      "scope": "Early recognition, rhythm and ventricular assessment, and timely referral to centers with mechanical-support capability; expert considerations, not formal graded recommendations.",
+      "checked": "AHA/PubMed identity and abstract; full text not appraised"
     }
   ],
   "full_text_audit_complete": false,
@@ -1972,5 +2075,7 @@
     "recommendation_groups": 27,
     "case_applications": "Synthetic examples using general clinical knowledge and context-dependent practice; not standardized protocols",
     "clinical_validation": false
-  }
+  },
+  "domains_recorded_per_case": 8,
+  "domains_note": "All eight table domains are recorded per case, including treatment_medication and other_requirements (added November 2026 review; earlier versions recorded six). other_requirements is a shared coverage prompt rather than case-specific content."
 }

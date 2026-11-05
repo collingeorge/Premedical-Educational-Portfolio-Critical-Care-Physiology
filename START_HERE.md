@@ -1,5 +1,7 @@
 # Critical care physiology — reader’s guide
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Updated 29 October 2026. Worked ICU and CTICU cases connect physiology, investigations, clinical reasoning and reassessment.
 
 ## Read in this order

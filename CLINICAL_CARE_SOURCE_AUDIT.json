@@ -84,7 +84,7 @@
     },
     {
       "id": "MODES",
-      "title": "Wattley and Camporota, ventilation physiology/mechanism/modes (2026)",
+      "title": "Wattley and Camporota, \"JICS education: mechanical ventilation – physiology, mechanism and modes\" (J Intensive Care Soc 2026)",
       "doi": "10.1177/17511437261470614",
       "public_url": "https://journals.sagepub.com/doi/10.1177/17511437261470614",
       "type": "Peer-reviewed educational review; public publisher text",
@@ -148,9 +148,10 @@
       "doi": "10.1007/s00134-026-08361-1",
       "public_url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
       "type": "Clinical guideline; public society recommendations",
-      "support": "Blood cultures and lactate in clinical context; publisher correction 10.1007/s00134-026-08410-9 previously identified, not fully appraised",
+      "support": "Blood cultures and lactate in clinical context; publisher correction 10.1007/s00134-026-08410-9 (Intensive Care Med 2026;52(6):1411-1413) identified, not fully appraised",
       "checked": "2026-10-28",
-      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+      "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit",
+      "co_publication_doi": "10.1097/CCM.0000000000007075"
     },
     {
       "id": "FEVER",
@@ -224,13 +225,23 @@
     },
     {
       "id": "HEMO",
-      "title": "Hamzaoui and Boissier hemodynamic monitoring review (2023)",
+      "title": "Hamzaoui and Boissier, hemodynamic monitoring in cardiogenic shock (2023)",
       "doi": "10.1016/j.jointm.2022.10.003",
       "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/",
       "type": "Peer-reviewed clinical review; public full text",
-      "support": "Arterial, central venous and PA monitoring with clinical/echo context",
+      "support": "Arterial, central venous and PA monitoring with clinical/echo context; written for cardiogenic shock, so general-shock statements are also checked against SHOCK25",
       "checked": "2026-10-28",
       "verification": "Identity and relevant publicly available text/passages checked; not a comprehensive full-text, supplement or correction audit"
+    },
+    {
+      "id": "SHOCK25",
+      "title": "ESICM guidelines on circulatory shock and hemodynamic monitoring (2025)",
+      "doi": "10.1007/s00134-025-08137-z",
+      "public_url": "https://link.springer.com/article/10.1007/s00134-025-08137-z",
+      "type": "Clinical guideline; public publisher text",
+      "support": "Dynamic over static preload assessment, echocardiography as first-line imaging for shock type, arterial and cardiac-output monitoring in selected patients; updates the 2014 ESICM consensus (Monnet et al., Intensive Care Med 2025;51:1971-2012)",
+      "checked": "2026-11-05",
+      "verification": "Identity, abstract and publisher/society summaries checked; full text not appraised"
     },
     {
       "id": "PACE",
@@ -325,7 +336,8 @@
       "title": "Lactate in sepsis or postoperative shock",
       "sources": [
         "SEPSIS",
-        "HEMO"
+        "HEMO",
+        "SHOCK25"
       ],
       "synthetic_values": true
     },
@@ -448,21 +460,24 @@
       "id": "arterial",
       "name": "Arterial catheter/transducer",
       "sources": [
-        "HEMO"
+        "HEMO",
+        "SHOCK25"
       ]
     },
     {
       "id": "central",
       "name": "Central venous catheter",
       "sources": [
-        "HEMO"
+        "HEMO",
+        "SHOCK25"
       ]
     },
     {
       "id": "pac",
       "name": "Pulmonary artery catheter",
       "sources": [
-        "HEMO"
+        "HEMO",
+        "SHOCK25"
       ]
     },
     {

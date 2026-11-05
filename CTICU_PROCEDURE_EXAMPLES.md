@@ -1,5 +1,7 @@
 # CTICU worked patient examples by procedure and condition
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 **Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
 
 28 October 2026. Eighteen paired worked examples with 18 visual decision trees (36 wholly synthetic adults) describe care reasoning rather than quizzes, examinations or standing orders. Each pair is an authored illustration, not a patient encounter or reported outcome. Male and female examples are matched 60-year-old adults (male 180 cm/80 kg; female 165 cm/65 kg, nonpregnant); differences below are clinical histories/findings, not sex-based prescribing rules. Missing histories, allergies, drug exposure and organ function would still need assessment in actual care.
@@ -869,7 +871,7 @@ These are original educational narratives. References identify the relevant lite
 | CAROTID | [ESVS carotid and vertebral artery guideline (2023)](https://doi.org/10.1016/j.ejvs.2022.04.011) | PubMed identity and society postoperative chapter; no complete recommendation audit. |
 | PAD2024 | [ACC/AHA multisociety lower-extremity PAD guideline (2024)](https://doi.org/10.1161/CIR.0000000000001251) | Primary guideline identity and available text; no full recommendation audit. |
 | CS2025 | [ACC evaluation and management of cardiogenic shock consensus (2025)](https://doi.org/10.1016/j.jacc.2025.02.018) | Publisher text, including structured reassessment; no order schedule reproduced. |
-| MCSHEM | [Prevention and Management of Hemolysis when Utilizing Mechanical Circulatory Support (2026)](https://doi.org/10.1016/j.iccl.2026.03.013) | PubMed review abstract; not proof of device benefit and no device adjustment instructions. |
+| MCSHEM | [Prevention and Management of Hemolysis when Utilizing Mechanical Circulatory Support (2026)](https://doi.org/10.1016/j.iccl.2026.03.013) | Interventional Cardiology Clinics review; identity confirmed via ScienceDirect and PubMed records (PMID 42209077); abstract only, full text not appraised. Not proof of device benefit and no device adjustment instructions. |
 | ENDO | [ESC management of endocarditis guideline (2023)](https://doi.org/10.1093/eurheartj/ehad193) | Primary guideline identity and available text. Corrections 10.1093/eurheartj/ehad625, ehad776 and ehae877 identified; not all correction content fully appraised. |
 
 [Machine-readable case/source index](CTICU_PROCEDURE_EXAMPLES_AUDIT.json). Full-text appraisal and clinical validation are incomplete. These examples do not account for every bedside variable or establish legal clearance for clinical use.

@@ -1,5 +1,7 @@
 # Simulated case set: Postoperative pattern recognition
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Entirely synthetic independent premedical study material. Revised 27 October 2026. The author confirmed that scenarios are independent of real encounters/charts. This reconstruction preserves the earlier topic coverage while withdrawing unsupported medication doses, device adjustments and automatic escalation thresholds. Earlier versions remain in Git history.
 
 ## How to use these worked examples
@@ -34,7 +36,7 @@ Low forward flow and venous back-pressure can coexist; choose observations that 
 
 [Paired synthetic application examples](APPLIED_CASES.md#icu-04-03). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-03).
 
-**Synthetic vignette:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
+**Synthetic vignette:** A fictional adult after mitral surgery and a Cox-Maze procedure has bradycardia, altered attention and respiratory support by HFNC.
 
 **Worked example interpretation**
 
@@ -78,11 +80,11 @@ Assess hydrostatic, inflammatory and infectious explanations rather than treatin
 
 **Interpretation boundary:** No automatic broad-spectrum antibiotic or fixed negative-fluid target is established.
 
-## Scenario 7: Post-MAZE bradycardia
+## Scenario 7: Post-Cox-Maze bradycardia
 
 [Paired synthetic application examples](APPLIED_CASES.md#icu-04-07). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-07).
 
-**Synthetic vignette:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
+**Synthetic vignette:** A fictional adult after a Cox-Maze procedure has bradycardia, RV dysfunction, oliguria and altered attention.
 
 **Worked example interpretation**
 

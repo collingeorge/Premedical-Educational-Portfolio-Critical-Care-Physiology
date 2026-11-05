@@ -1,18 +1,23 @@
 # Critical care source guide
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Revised 27 October 2026. This selected guide replaces the earlier incomplete bibliography, which included abbreviated titles, ambiguous journal attributions and conflated trials. It is not an exhaustive review. A link identifies the source; it does not establish that every topic in the case bank is covered by a specific recommendation.
 
 ## Core sources and their scope
 
 | Source | Use in this portfolio | Important limit |
 |---|---|---|
-| [SCCM/ESICM adult sepsis guideline, 2026](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026) | Context for infection, source control and resuscitation questions | Applies to adult sepsis; recommendations have different certainty and conditions |
+| [SCCM/ESICM adult sepsis guideline, 2026](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026) (Prescott et al.; Intensive Care Med [DOI](https://doi.org/10.1007/s00134-026-08361-1); co-published in Crit Care Med [DOI](https://doi.org/10.1097/CCM.0000000000007075); publisher correction [DOI](https://doi.org/10.1007/s00134-026-08410-9)) | Context for infection, source control and resuscitation questions | Applies to adult sepsis; recommendations have different certainty and conditions |
 | [ATS ARDS update, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/) | Ventilation/rescue evidence appraisal | Conditional interventions are not automatic responses to a ratio |
-| [ATS/ESICM/SCCM ventilation guideline, 2017](https://academic.oup.com/ajrccm/article/195/9/1253/8500154) | Lung-protection concepts | Trial/guideline settings are not universal patient targets |
-| [KDIGO AKI guideline, 2012](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf) | AKI definitions and renal-support reasoning | Consult current specialty guidance; a number alone is not a dialysis rule |
+| [Global definition of ARDS, 2024](https://doi.org/10.1164/rccm.202303-0558WS) (Matthay et al.) | Definition context alongside the 2012 Berlin definition | Adds SpO2/FiO2 and non-intubated categories; a definition is not a treatment rule |
+| [ESICM ARDS guideline, 2023](https://link.springer.com/article/10.1007/s00134-023-07050-7) (Grasselli et al.) | European comparator for respiratory-support recommendations | Recommendations differ in places from ATS 2024 |
+| [ESICM circulatory shock and hemodynamic monitoring guideline, 2025](https://link.springer.com/article/10.1007/s00134-025-08137-z) (Monnet et al.) | Shock assessment and hemodynamic-monitoring concepts | Population and recommendation strength vary; not a monitoring order set |
+| [ATS/ESICM/SCCM ventilation guideline, 2017](https://academic.oup.com/ajrccm/article/195/9/1253/8500154) | Low-tidal-volume ventilation by predicted body weight | Partly superseded: its PEEP, recruitment-maneuver and ECMO questions were re-addressed by ATS 2024 (Qadir et al.); low tidal volume/PBW and prone positioning remain. Trial settings are not universal patient targets |
+| [KDIGO AKI guideline, 2012](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf) | AKI definitions and renal-support reasoning | 2012 remains the final published guideline; a 2026 KDIGO AKI/AKD update completed public review as a draft in 2026 and is not used as final guidance here (recheck kdigo.org for the final version). A number alone is not a dialysis rule |
 | [WATERFALL, 2022](https://pubmed.ncbi.nlm.nih.gov/36103415/) | Appraise aggressive versus moderate fluid strategies in acute pancreatitis | Enrolled population does not represent all postoperative organ failure |
 | [STARRT-AKI primary trial, 2020](https://doi.org/10.1056/NEJMoa2000741) | Study timing strategies for renal support | Distinguish the trial from correspondence/corrections and from urgent indications |
-| [Brain Trauma Foundation severe TBI, fourth edition](https://braintrauma.org/s/Management_of_Severe_TBI_4th_Edition.pdf) | Injury-specific neurophysiology questions | Not a universal protocol for all neurologic disease |
+| [Brain Trauma Foundation severe TBI, fourth edition](https://braintrauma.org/s/Management_of_Severe_TBI_4th_Edition.pdf) | Injury-specific neurophysiology questions; see also the [2020 update of the decompressive craniectomy recommendations](https://doi.org/10.1093/neuros/nyaa278) (Hawryluk et al., Neurosurgery 2020;87:427-434) | Not a universal protocol for all neurologic disease |
 | [AHA/ASA aneurysmal SAH guideline, 2023](https://professional.heart.org/en/guidelines-statements/2023-guideline-for-the-management-of-patients-with-aneurysmal-subarachnoidstr0000000000000436) | Appraise aneurysmal-SAH concepts | Distinguish prevention from treatment of symptomatic deterioration |
 | [SCCM PADIS focused update, 2025](https://www.sccm.org/clinical-resources/guidelines/guidelines/focused-update-padis-guideline) | Sedation/delirium evidence appraisal | Focused update supplements rather than replaces every earlier topic |
 | [ELSO guideline index](https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx) | Find mode- and population-specific ECMO guidance | Not a device-operator manual or proof of candidacy |
@@ -30,7 +35,7 @@ Sources retain their own copyright. No society algorithm, questionnaire, clinica
 
 ## Integrated ICU/CTICU workup sources (28 October 2026)
 
-See the [27-source register](../ICU_CTICU_WORKUP_CASES.md#sources-and-verification-scope) and [per-case source/test mapping](../INTEGRATED_WORKUP_AUDIT.json). Source verification scope and full-text limitations are stated there.
+See the [29-source register](../ICU_CTICU_WORKUP_CASES.md#sources-and-verification-scope) and [per-case source/test mapping](../INTEGRATED_WORKUP_AUDIT.json). Source verification scope and full-text limitations are stated there.
 
 
 The [procedure-organized CTICU casebook](../CTICU_PROCEDURE_EXAMPLES.md#source-register-and-limits) adds 11 DOI-bearing references for its 18 paired narratives, including thoracic/vascular surgery and transplantation. Verification limits are stated per source.
@@ -38,4 +43,4 @@ The [procedure-organized CTICU casebook](../CTICU_PROCEDURE_EXAMPLES.md#source-r
 
 ## Public clinical-care and equipment sources
 
-The [new public-source register](../CLINICAL_CARE_PUBLIC_SOURCES.md) supports worked laboratory, pain/airway/ventilation and equipment examples, and labels guideline, consensus, review and official-device sources separately. It contains 29 entries, including 27 DOI-bearing clinical publications and two FDA sources. It does not revalidate earlier manuscripts.
+The [new public-source register](../CLINICAL_CARE_PUBLIC_SOURCES.md) supports worked laboratory, pain/airway/ventilation and equipment examples, and labels guideline, consensus, review and official-device sources separately. It contains 30 entries, including 28 DOI-bearing clinical publications and two FDA sources. It does not revalidate earlier manuscripts.

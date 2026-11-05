@@ -1,5 +1,7 @@
 # Critical care terminology and unit conventions
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Revised 27 October 2026. This concise glossary replaces the earlier expanded list where shorthand could be mistaken for a diagnostic or treatment rule.
 
 | Term | Educational meaning and limit |

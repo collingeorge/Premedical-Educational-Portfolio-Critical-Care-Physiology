@@ -1,5 +1,7 @@
 # Case set 03: educational synthesis
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Revised 27 October 2026. This summary follows the corrected [case bank](case_set_03_postoperative_cardiothoracic_scenarios.md). It supplies no separate medication, device or escalation instructions.
 
 - Scenario 1: **CABG with vasoplegia, hypothermia and bleeding**. A preserved EF does not exclude important low-output physiology, and hypothermia should not be assumed to cause vasodilation.

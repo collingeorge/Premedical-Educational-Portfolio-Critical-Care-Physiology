@@ -1,5 +1,7 @@
 # Case set 04: educational synthesis
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Revised 27 October 2026. This summary follows the corrected [case bank](case_set_04_postoperative_hemodynamics_and_device_physiology.md). It supplies no separate medication, device or escalation instructions.
 
 - Scenario 1: **CABG with low vascular tone**. No methylene-blue or vasopressor trigger is derived from one resistance or lactate number.

@@ -1,5 +1,7 @@
 # ICU/CTICU worked laboratory examples
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 **Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
 
 28 October 2026. These 11 worked examples extend the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md) and [42 integrated ICU topics](ICU_CTICU_WORKUP_CASES.md). People, numerical results and trends are wholly synthetic; no clinical outcome is claimed. These are explanations of source-supported clinical reasoning, not quizzes or an order set.

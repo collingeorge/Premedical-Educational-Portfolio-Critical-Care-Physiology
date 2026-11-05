@@ -1,5 +1,7 @@
 # Pain, airway and ventilation: worked clinical examples
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 **Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
 
 28 October 2026. This companion applies publicly available clinical guidance to wholly synthetic ICU/CTICU examples. It explains established care principles and explicitly conditional options. It does not turn a narrative into an executable medication, intubation or ventilator order set. The [source register](CLINICAL_CARE_PUBLIC_SOURCES.md) distinguishes guidelines, consensus statements, reviews and official device information.

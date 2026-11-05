@@ -1,5 +1,7 @@
 # Neurocritical care: study objectives
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Independent premedical study objectives, revised 27 October 2026. The earlier execute-a-protocol and medication-dose objectives are withdrawn.
 
 ## Concepts to explain

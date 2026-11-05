@@ -1,5 +1,7 @@
 # Hemodynamics: study objectives
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Independent premedical study objectives, revised 27 October 2026. These assess explanation and evidence appraisal, not authority or competence to perform clinical procedures.
 
 ## Explain the model

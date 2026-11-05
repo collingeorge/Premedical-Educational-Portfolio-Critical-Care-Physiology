@@ -1,7 +1,6 @@
 # Mechanical ventilation: educational concepts
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
-
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
 ## Measurement and scope
 
 Lower tidal-volume strategies in ARDS are expressed per **predicted body weight**, a height-based estimate, not actual body weight. Plateau pressure is interpreted during appropriate no-flow measurement conditions, and patient effort and chest-wall mechanics can affect its meaning. Static compliance is tidal volume divided by plateau pressure minus total PEEP under suitable passive conditions. Auto-PEEP matters.

@@ -1,7 +1,6 @@
 # Shock physiology: educational interpretation
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
-
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
 Shock is inadequate tissue perfusion or oxygen utilization in context; a blood pressure cutoff alone is insufficient. Mechanisms can coexist and change over time.
 
 | Mechanism | Educational features and caveats |

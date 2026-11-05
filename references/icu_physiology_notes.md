@@ -1,7 +1,6 @@
 # Critical care physiology: concepts and unit conventions
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
-
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
 ## Flow and oxygen transport
 
 Cardiac output equals heart rate multiplied by stroke volume. Stroke volume, ejection fraction, LVOT velocity-time integral, and perfusion markers are influenced by loading conditions; none is an isolated measure of intrinsic contractility. A normal ejection fraction does not exclude shock.

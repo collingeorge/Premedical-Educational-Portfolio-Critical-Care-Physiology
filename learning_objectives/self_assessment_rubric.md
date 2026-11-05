@@ -1,5 +1,7 @@
 # Self-assessment rubric: synthetic physiology reasoning
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Revised 27 October 2026. This is a study aid, not a validated assessment, clinical credential or readiness-to-practice scale.
 
 For each exercise, score each dimension from 0 to 2: 0 = absent/incorrect; 1 = partially explained with unresolved gaps; 2 = clear explanation with explicit limits. Scores organize revision priorities and have no clinical pass threshold.

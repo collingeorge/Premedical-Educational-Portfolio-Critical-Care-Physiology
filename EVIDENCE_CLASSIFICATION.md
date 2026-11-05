@@ -1,5 +1,7 @@
 # What is guideline-recommended, general knowledge or clinical practice?
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Reviewed 28 October 2026. This page classifies the ICU/CTICU care, laboratory and equipment examples. It separates direct source recommendations from general knowledge and from the authored case applications. A supported recommendation is not the same as one standardized regimen for all patients.
 
 ## Labels used beside the examples

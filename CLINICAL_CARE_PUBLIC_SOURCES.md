@@ -1,5 +1,7 @@
 # Public clinical sources for the care and equipment examples
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Checked 28 October 2026. The new [laboratory examples](CLINICAL_LAB_EXAMPLES.md), [pain/airway/ventilation examples](AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md) and [equipment guide](ICU_EQUIPMENT_BASICS.md) link each teaching item to publicly accessible clinical guidance, published clinical reviews or official device guidance. No experimental treatment is introduced. These are original short explanations, not reproduced guideline tables or licensed society algorithms.
 
 ## What the sources establish

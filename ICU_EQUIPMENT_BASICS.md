@@ -1,5 +1,7 @@
 # ICU and CTICU equipment basics with clinical examples
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 **Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
 
 28 October 2026. Nineteen established equipment categories are explained below: function, purpose, setting, case use and limitations. These are original educational explanations based on public clinical or official device sources. They do not reproduce operating manuals, pump adjustments or rescue procedures. Device models, indications and instructions differ.

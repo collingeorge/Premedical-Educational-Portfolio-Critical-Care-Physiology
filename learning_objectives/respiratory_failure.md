@@ -1,5 +1,7 @@
 # Respiratory failure: study objectives
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Independent premedical study objectives, revised 27 October 2026. These concern conceptual interpretation rather than initiating or adjusting ventilation.
 
 ## Gas exchange and mechanics

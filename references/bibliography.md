@@ -1,5 +1,7 @@
 # Critical care source guide
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](../DISCLAIMER.md).
+
 Revised 27 October 2026. This selected guide replaces the earlier incomplete bibliography, which included abbreviated titles, ambiguous journal attributions and conflated trials. It is not an exhaustive review. A link identifies the source; it does not establish that every topic in the case bank is covered by a specific recommendation.
 
 ## Core sources and their scope

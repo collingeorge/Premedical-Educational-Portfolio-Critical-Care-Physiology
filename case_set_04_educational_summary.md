@@ -10,7 +10,7 @@ Revised 27 October 2026. This summary follows the corrected [case bank](case_set
 - Scenario 4: **Tricuspid repair and RV dysfunction**. Avoid blanket prohibition of PEEP or a fluid-removal rule based solely on CVP.
 - Scenario 5: **Mechanical AVR and anticoagulation**. No universal INR range, warfarin hold or heparin instruction is supplied.
 - Scenario 6: **CABG/MVR with pulmonary edema**. No automatic broad-spectrum antibiotic or fixed negative-fluid target is established.
-- Scenario 7: **Post-MAZE bradycardia**. No rate-only treatment threshold is supplied.
+- Scenario 7: **Post-Cox-Maze bradycardia**. No rate-only treatment threshold is supplied.
 - Scenario 8: **LV aneurysmectomy with low output**. A low saturation or rising lactate is not by itself a milrinone or diuresis prescription.
 - Scenario 9: **New postoperative fever**. Fever or procalcitonin alone neither proves infection nor chooses an antibiotic regimen.
 - Scenario 10: **RV dysfunction after tricuspid repair**. No blanket beta-blocker prohibition, PEEP prohibition or SBT instruction is supplied.

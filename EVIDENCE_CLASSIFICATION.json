@@ -71,7 +71,7 @@
       "source": "PADIS18",
       "source_url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-prevention-and-management-of-pa",
       "source_location": "Neuropathic Pain Meds; moderate certainty",
-      "scope": "Neuropathic pain indication, not every acute postoperative pain.",
+      "scope": "Neuropathic pain indication. PADIS 2018 separately and conditionally suggests a neuropathic agent with opioids after cardiovascular surgery (low certainty); neither is a routine adjunct for every acute pain presentation.",
       "checked": "2026-10-28",
       "result": "Supported within the stated source population and qualification"
     },
@@ -236,7 +236,7 @@
       "source": "ARDS",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/",
       "source_location": "Question 4; low-to-moderate certainty",
-      "scope": "ATS: moderate-to-severe ARDS. Other societies differ; not a universal PEEP strategy.",
+      "scope": "ATS: moderate-to-severe ARDS. Other societies differ (for example, ESICM 2023 ARDS guideline, Grasselli et al., Intensive Care Med 2023;49:727-759, doi 10.1007/s00134-023-07050-7); not a universal PEEP strategy.",
       "checked": "2026-10-28",
       "result": "Supported within the stated source population and qualification"
     },

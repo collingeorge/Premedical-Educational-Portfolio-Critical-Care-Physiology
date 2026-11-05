@@ -620,7 +620,7 @@ flowchart TD
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 3](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
-**Shared fictional situation:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
+**Shared fictional situation:** A fictional adult after mitral surgery and a Cox-Maze procedure has bradycardia, altered attention and respiratory support by HFNC.
 
 - **Male example:** Bradycardia coincides with altered attention.
 - **Female example:** Sedating medication and HFNC are documented.
@@ -700,7 +700,7 @@ flowchart TD
 **Source map:** [POSTCARD](#source-registry), [RENAL](#source-registry), [SEPSIS](#source-registry). The linked sources inform the named concepts; the fictional profiles and discussion branches are author-created.
 
 <a id="icu-04-07"></a>
-## ICU-04-07 — Post-MAZE bradycardia
+## ICU-04-07 — Post-Cox-Maze bradycardia
 
 **Classification:** Synthetic example applying general clinical knowledge and context-dependent practice. [Evidence labels](EVIDENCE_CLASSIFICATION.md).
 
@@ -708,9 +708,9 @@ flowchart TD
 
 **Original scenario:** [case_set_04_postoperative_hemodynamics_and_device_physiology.md — scenario 7](case_set_04_postoperative_hemodynamics_and_device_physiology.md).
 
-**Shared fictional situation:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
+**Shared fictional situation:** A fictional adult after a Cox-Maze procedure has bradycardia, RV dysfunction, oliguria and altered attention.
 
-- **Male example:** Bradycardia follows MAZE surgery.
+- **Male example:** Bradycardia follows Cox-Maze surgery.
 - **Female example:** Oliguria and inattention accompany bradycardia.
 
 **Worked application:** Determine temporal association, rhythm and hemodynamic consequences; assess whether a rate change explains organ findings.
@@ -968,7 +968,7 @@ flowchart TD
 
 | ID | DOI source | Application and limits |
 |---|---|---|
-| SEPSIS | Prescott et al. Surviving Sepsis Campaign adult guideline (2026) — [DOI](https://doi.org/10.1007/s00134-026-08361-1) | Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here. |
+| SEPSIS | Prescott et al. Surviving Sepsis Campaign adult guideline (2026), Intensive Care Med — [DOI](https://doi.org/10.1007/s00134-026-08361-1); co-published in Crit Care Med — [DOI](https://doi.org/10.1097/CCM.0000000000007075) | Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: [10.1007/s00134-026-08410-9](https://doi.org/10.1007/s00134-026-08410-9) (Intensive Care Med 2026;52(6):1411-1413); no precise disputed table value is used here. |
 | ARDS | Qadir et al. ATS ARDS update (2024) — [DOI](https://doi.org/10.1164/rccm.202311-2011ST) | Conditional options depend on severity and patient selection; a P:F ratio is not a standalone escalation command. |
 | POSTCARD | Hall et al. Management of Post-cardiotomy Shock (2024) — [DOI](https://doi.org/10.15420/usc.2024.16) | Review of mixed shock after cardiac surgery. Not a universal drug or lactate threshold. |
 | RV | ESC Acute cor pulmonale consensus (2024) — [DOI](https://doi.org/10.1093/ehjacc/zuad157) | RV afterload/preload/contractility assessment; surgical and device populations need additional sources. |
@@ -976,11 +976,11 @@ flowchart TD
 | VV | Tonna et al. ELSO adult VV-ECMO guideline (2021) — [DOI](https://doi.org/10.1097/MAT.0000000000001432) | Respiratory-support/circuit interpretation; differs from VA physiology. |
 | LVAD | Saeed et al. ISHLT mechanical circulatory support update (2023) — [DOI](https://doi.org/10.1016/j.healun.2022.12.004) | Device-specific assessment and specialist oversight; displayed flow alone does not establish cause. |
 | AORTA | Isselbacher et al. ACC/AHA aortic disease guideline (2022) — [DOI](https://doi.org/10.1161/CIR.0000000000001106) | Aortic/perfusion assessment; no universal postoperative BP prescription supplied. |
-| VALVE | Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021) — [DOI](https://doi.org/10.1161/CIR.0000000000000923) | Prosthesis and patient context matter for anticoagulation; not a universal INR rule. |
+| VALVE | Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021) — [DOI](https://doi.org/10.1161/CIR.0000000000000923) | Prosthesis and patient context matter for anticoagulation; not a universal INR rule. Still the current ACC/AHA guideline; the 2025 ESC/EACTS valvular heart disease guideline (Eur Heart J 2025, doi 10.1093/eurheartj/ehaf194) is a newer European comparator. |
 | PGD | Snell et al. ISHLT PGD definition/grading, 2016 consensus published 2017 — [DOI](https://doi.org/10.1016/j.healun.2017.07.021) | Timing, imaging and gas-exchange context required; definition source is not a complete treatment guideline. |
 | RENAL | STARRT-AKI investigators. Timing of Initiation of Renal-Replacement Therapy (2020) — [DOI](https://doi.org/10.1056/NEJMoa2000741) | Timing trial in selected severe AKI; urgent indications are a separate clinical question. |
 | PANCREAS | de-Madaria et al. WATERFALL trial (2022) — [DOI](https://doi.org/10.1056/NEJMoa2202884) | Aggressive fluids increased overload in the studied population; not a fixed replacement strategy for established postoperative organ failure. |
-| TBI | Carney et al. Severe TBI guideline, fourth edition (2017) — [DOI](https://doi.org/10.1227/NEU.0000000000001432) | Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. |
+| TBI | Carney et al. Severe TBI guideline, fourth edition (2017) — [DOI](https://doi.org/10.1227/NEU.0000000000001432) | Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. The decompressive-craniectomy recommendations were updated in 2020 (Hawryluk et al., Neurosurgery 2020;87:427-434, doi 10.1093/neuros/nyaa278). |
 | SAH | Hoh et al. AHA/ASA aneurysmal SAH guideline (2023) — [DOI](https://doi.org/10.1161/STR.0000000000000436) | Separate delayed ischemia assessment from prophylactic augmentation. |
 | PADIS | Lewis et al. PADIS focused update (2025) — [DOI](https://doi.org/10.1097/CCM.0000000000006574) | Pain/anxiety/sedation/delirium questions in adult ICU; not every earlier PADIS topic is replaced. |
 | NIV | Rochwerg et al. ERS/ATS NIV guideline (2017) — [DOI](https://doi.org/10.1183/13993003.02426-2016) | NIV suitability and goals differ by etiology and treatment preferences. |

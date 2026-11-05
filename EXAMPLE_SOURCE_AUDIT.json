@@ -7,8 +7,9 @@
       "id": "SEPSIS",
       "title": "Prescott et al. Surviving Sepsis Campaign adult guideline (2026)",
       "doi": "10.1007/s00134-026-08361-1",
-      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9; no precise disputed table value is used here.",
-      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved"
+      "scope": "Adult infection/source-control and individualized hemodynamic assessment. Not a postcardiotomy diagnosis. Publisher correction exists: 10.1007/s00134-026-08410-9 (Intensive Care Med 2026;52(6):1411-1413); no precise disputed table value is used here.",
+      "checked": "Publisher guideline passages and PubMed identity; correction identity noted, full correction text not retrieved",
+      "co_publication_doi": "10.1097/CCM.0000000000007075"
     },
     {
       "id": "ARDS",
@@ -63,7 +64,7 @@
       "id": "VALVE",
       "title": "Otto et al. ACC/AHA valvular heart disease guideline (2020, journal publication 2021)",
       "doi": "10.1161/CIR.0000000000000923",
-      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule.",
+      "scope": "Prosthesis and patient context matter for anticoagulation; not a universal INR rule. Still the current ACC/AHA guideline; the 2025 ESC/EACTS valvular heart disease guideline (Eur Heart J 2025, doi 10.1093/eurheartj/ehaf194) is a newer European comparator.",
       "checked": "PubMed identity; corrections listed in record, exact targets not reproduced"
     },
     {
@@ -91,7 +92,7 @@
       "id": "TBI",
       "title": "Carney et al. Severe TBI guideline, fourth edition (2017)",
       "doi": "10.1227/NEU.0000000000001432",
-      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here.",
+      "scope": "Severe-injury-specific neurocritical assessment; no automatic sedation or osmotic-therapy prescription here. The decompressive-craniectomy recommendations were updated in 2020 (Hawryluk et al., Neurosurgery 2020;87:427-434, doi 10.1093/neuros/nyaa278).",
       "checked": "Brain Trauma Foundation executive summary and publisher recommendations"
     },
     {
@@ -557,7 +558,7 @@
       "set": 4,
       "n": 3,
       "title": "Mitral surgery, bradycardia and delirium",
-      "vignette": "A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.",
+      "vignette": "A fictional adult after mitral surgery and a Cox-Maze procedure has bradycardia, altered attention and respiratory support by HFNC.",
       "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
       "id": "ICU-04-03",
       "sources": [
@@ -620,8 +621,8 @@
     {
       "set": 4,
       "n": 7,
-      "title": "Post-MAZE bradycardia",
-      "vignette": "A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.",
+      "title": "Post-Cox-Maze bradycardia",
+      "vignette": "A fictional adult after a Cox-Maze procedure has bradycardia, RV dysfunction, oliguria and altered attention.",
       "file": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
       "id": "ICU-04-07",
       "sources": [
@@ -629,7 +630,7 @@
         "PADIS",
         "RV"
       ],
-      "male_extra": "Bradycardia follows MAZE surgery.",
+      "male_extra": "Bradycardia follows Cox-Maze surgery.",
       "female_extra": "Oliguria and inattention accompany bradycardia.",
       "application": "Determine temporal association, rhythm and hemodynamic consequences; assess whether a rate change explains organ findings.",
       "medication_context": "Review rate-altering and sedating drugs; atropine/pacing decisions are not made from a rate-only threshold."
@@ -823,7 +824,7 @@
     "synthetic_profiles": 84,
     "lab_categories": 20,
     "nonlaboratory_categories": 7,
-    "source_count": 27,
+    "source_count": 29,
     "clinical_validation": false,
     "full_text_audit_complete": false
   },

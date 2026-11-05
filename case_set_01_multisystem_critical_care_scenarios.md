@@ -102,5 +102,5 @@ Separate airway/oxygenation threats, injury progression and medication effects; 
 
 Integrate lung-protection assessment, infection/source control and fluid tolerance rather than treating isolated oxygenation or creatinine values. Sedation or neuromuscular-block discussions depend on the actual ventilation problem; renal support is a separate indication-based decision. The linked paired example and integrated narrative explain the patient-specific context, investigation purposes and reassessment.
 
-**Interpretation boundary:** FiO2 alone does not give a P:F ratio. P:F below 150 is not identical to the Berlin severe category. Neuromuscular blockade and renal support are not automatic responses to a single number.
+**Interpretation boundary:** FiO2 alone does not give a P:F ratio. P:F below 150 is not identical to the Berlin severe category (severe is at or below 100 mmHg in both the Berlin definition and the 2024 Global Definition). Neuromuscular blockade and renal support are not automatic responses to a single number.
 

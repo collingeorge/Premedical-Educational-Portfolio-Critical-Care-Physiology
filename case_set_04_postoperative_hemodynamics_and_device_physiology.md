@@ -36,7 +36,7 @@ Low forward flow and venous back-pressure can coexist; choose observations that 
 
 [Paired synthetic application examples](APPLIED_CASES.md#icu-04-03). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-03).
 
-**Synthetic vignette:** A fictional adult after mitral surgery and MAZE has bradycardia, altered attention and respiratory support by HFNC.
+**Synthetic vignette:** A fictional adult after mitral surgery and a Cox-Maze procedure has bradycardia, altered attention and respiratory support by HFNC.
 
 **Worked example interpretation**
 
@@ -80,11 +80,11 @@ Assess hydrostatic, inflammatory and infectious explanations rather than treatin
 
 **Interpretation boundary:** No automatic broad-spectrum antibiotic or fixed negative-fluid target is established.
 
-## Scenario 7: Post-MAZE bradycardia
+## Scenario 7: Post-Cox-Maze bradycardia
 
 [Paired synthetic application examples](APPLIED_CASES.md#icu-04-07). [Integrated workup and test reasoning](ICU_CTICU_WORKUP_CASES.md#icu-04-07).
 
-**Synthetic vignette:** A fictional adult after MAZE has bradycardia, RV dysfunction, oliguria and altered attention.
+**Synthetic vignette:** A fictional adult after a Cox-Maze procedure has bradycardia, RV dysfunction, oliguria and altered attention.
 
 **Worked example interpretation**
 

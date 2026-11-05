@@ -4,14 +4,14 @@
 
 **Evidence labels:** [Guideline/consensus recommendation](EVIDENCE_CLASSIFICATION.md#recommendations) (strength and population stated), **general clinical knowledge**, **context-dependent clinical practice**, and **synthetic example**. A case or original diagram is not a standardized treatment protocol.
 
-28 October 2026. These 11 worked examples extend the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md) and [42 integrated ICU topics](ICU_CTICU_WORKUP_CASES.md). People, numerical results and trends are wholly synthetic; no clinical outcome is claimed. These are explanations of source-supported clinical reasoning, not quizzes or an order set.
+28 October 2026. These 11 worked examples extend the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md) and [42 integrated ICU topics](ICU_CTICU_WORKUP_CASES.md). Paired-case context lines name the matching procedure-casebook example; where an example is not one of the 18 pairs, it is labeled as an additional synthetic example. People, numerical results and trends are wholly synthetic; no clinical outcome is claimed. These are explanations of source-supported clinical reasoning, not quizzes or an order set.
 
 Choose an investigation to answer a clinical question that may change care. Review prior results, specimen/site, timing, current support, exposures and local assay ranges. A result supports or challenges a diagnosis; it does not independently diagnose every cause or prescribe treatment. Urgent assessment and treatment can proceed in parallel with investigation. Frequency depends on instability and the decision at hand.
 
 <a id="bleeding"></a>
 ## Postoperative bleeding and anemia
 
-**Paired case context — synthetic example:** The CABG male example has increasing drain loss; the valve-surgery female example has pallor and a falling pressure.
+**Paired case context — synthetic example:** The coronary-bypass male example has a new fall in pressure, which raises a postoperative bleeding question among other causes; the endovascular aortic-repair female example develops new pain and a falling pressure.
 
 **Investigation and purpose — context-dependent clinical practice:** CBC (hemoglobin/hematocrit and platelets); fibrinogen and appropriate coagulation studies if bleeding is clinically suspected. Compatibility testing is considered when transfusion may be needed.
 
@@ -26,7 +26,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="ventilation"></a>
 ## Carbon dioxide retention and acidemia
 
-**Paired case context — synthetic example:** The ARDS female example has increased somnolence or dyssynchrony; a postoperative male has shallow breathing after analgesia.
+**Paired case context — synthetic example:** The ARDS female example develops hypercapnia and ventilator dyssynchrony; the coronary-bypass male example has shallow breathing with incisional pain, so analgesic exposure is also reviewed.
 
 **Investigation and purpose — context-dependent clinical practice:** Arterial blood gas with documented oxygen/support conditions, interpreted alongside examination and delivered ventilation.
 
@@ -41,7 +41,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="oxygenation"></a>
 ## Oxygenation under defined support
 
-**Paired case context — synthetic example:** A male pneumonia/ARDS example has persistent hypoxemia; the female lung-transplant example develops a new oxygen requirement.
+**Paired case context — synthetic example:** The male severe-pneumonia/ARDS example has worsening oxygenation; the female single-lung-transplant example develops hypoxemia with altered airway pressures.
 
 **Investigation and purpose — context-dependent clinical practice:** An arterial gas when it can resolve the oxygenation question, with FiO2, PEEP/support and sample time recorded.
 
@@ -56,7 +56,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="lactate"></a>
 ## Lactate in sepsis or postoperative shock
 
-**Paired case context — synthetic example:** The abdominal-sepsis male example has poor perfusion; the CABG female example has congestion and a rising lactate.
+**Paired case context — synthetic example:** The esophagectomy female example has fever and hypotension, raising a sepsis question; the VA-ECMO male example has cool extremities and a rising lactate despite displayed circuit flow.
 
 **Investigation and purpose — context-dependent clinical practice:** Lactate when shock/sepsis evaluation calls for it, alongside pressure, examination, urine output and cardiac/source assessment.
 
@@ -66,12 +66,12 @@ Choose an investigation to answer a clinical question that may change care. Revi
 
 **Classification note:** Guideline recommendation G24 is conditional (low certainty) for measuring lactate in sepsis; interpretation and response in this case are context-dependent. [Evidence details](EVIDENCE_CLASSIFICATION.md#laboratory-examples).
 
-**Public clinical sources:** [SEPSIS](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026), [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/).
+**Public clinical sources:** [SEPSIS](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026), [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/), [SHOCK25](https://link.springer.com/article/10.1007/s00134-025-08137-z).
 
 <a id="kidney"></a>
 ## Kidney injury after major surgery
 
-**Paired case context — synthetic example:** The aortic-repair male example has oliguria; the female heart-transplant example has worsening kidney function and medication exposure.
+**Paired case context — synthetic example:** The open AAA-repair male example has abdominal distension and reduced urine output; the arch-repair female example has reduced urine output with a focal neurological change. The heart-transplant male example (low output with worsening kidney function) adds a medication-exposure question.
 
 **Investigation and purpose — context-dependent clinical practice:** Creatinine/BUN, electrolytes and relevant acid-base measures, urine-output/balance trends; urinalysis or imaging when a specific cause is being evaluated.
 
@@ -81,12 +81,12 @@ Choose an investigation to answer a clinical question that may change care. Revi
 
 **Classification note:** Guideline diagnostic definition G25 is not graded. The fictional creatinine change fits a definition component after context checks; the cause and management remain clinical assessments. [Evidence details](EVIDENCE_CLASSIFICATION.md#laboratory-examples).
 
-**Public clinical sources:** [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf), [RRT](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf).
+**Public clinical sources:** [AKI](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf), [RRT](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf). KDIGO 2012 remains the final published guideline; a 2026 KDIGO AKI/AKD update was in public-review draft at the time of writing and is not used here as final guidance.
 
 <a id="electrolytes"></a>
 ## Potassium and rhythm/perfusion changes
 
-**Paired case context — synthetic example:** The valve male example develops bradycardia; the limb-revascularization female example develops reduced urine output after reperfusion.
+**Paired case context — synthetic example:** The mechanical aortic-valve male example develops bradycardia and reduced urine output; the limb-revascularization male example has increasing pain, tense swelling and sensory change after reperfusion, a setting in which potassium release and kidney injury are also considered.
 
 **Investigation and purpose — context-dependent clinical practice:** Potassium and renal/acid-base chemistry; magnesium where the rhythm or exposure question makes it relevant, with ECG/clinical assessment.
 
@@ -116,7 +116,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="anticoagulation"></a>
 ## Bleeding/thrombosis balance with anticoagulation
 
-**Paired case context — synthetic example:** The mechanical-valve male example and female MCS example receive different anticoagulant therapies.
+**Paired case context — synthetic example:** The mechanical aortic-valve male example and the female LVAD or Impella examples receive different anticoagulant therapies.
 
 **Investigation and purpose — context-dependent clinical practice:** The assay appropriate to the actual agent and indication, such as INR for vitamin-K antagonist effect, or a protocol-defined aPTT/anti-Xa assessment for heparin. CBC and clinical bleeding/device findings add context.
 
@@ -131,7 +131,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="hemolysis"></a>
 ## Anemia or dark urine during mechanical support
 
-**Paired case context — synthetic example:** The LVAD female example has dark urine and anemia; the Impella male example has an unexpected hemoglobin fall without an established bleeding source.
+**Paired case context — synthetic example:** The established-LVAD female example has alarms, dark urine and a falling hemoglobin; the Impella female example has dark urine and a falling hemoglobin. The Impella male example has access-site swelling, so blood loss must be distinguished from hemolysis.
 
 **Investigation and purpose — context-dependent clinical practice:** CBC, renal chemistry and selected hemolysis measures, such as plasma-free hemoglobin, LDH, bilirubin or haptoglobin, interpreted with device/imaging findings.
 
@@ -146,7 +146,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="fluidacid"></a>
 ## Fluid, electrolyte and acid-base needs during CRRT
 
-**Paired case context — synthetic example:** A male with multiorgan failure remains fluid overloaded; a female with AKI has evolving acid-base/electrolyte abnormalities.
+**Additional synthetic example (not one of the 18 procedure pairs):** A male with multiorgan failure remains fluid overloaded; a female with AKI has evolving acid-base/electrolyte abnormalities.
 
 **Investigation and purpose — context-dependent clinical practice:** Chemistry and appropriate blood gas assessment, fluid balance and urine output; monitoring is tailored to modality, anticoagulant and clinical course.
 
@@ -161,7 +161,7 @@ Choose an investigation to answer a clinical question that may change care. Revi
 <a id="paireddata"></a>
 ## A displayed number that conflicts with the patient
 
-**Paired case context — synthetic example:** A male LVAD example has unreliable pulse-oximetry signal; a female ventilated example has an unexpected gas result.
+**Additional synthetic example (not one of the 18 procedure pairs):** A male with continuous-flow LVAD support has an unreliable pulse-oximetry signal; a female ventilated patient has an unexpected gas result.
 
 **Investigation and purpose — context-dependent clinical practice:** Check measurement method, waveform/signal, specimen identity/site, timing and current support; use an appropriate independent assessment when necessary.
 

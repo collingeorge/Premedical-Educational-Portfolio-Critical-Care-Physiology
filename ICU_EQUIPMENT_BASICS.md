@@ -126,7 +126,7 @@ The examples relate to the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md). Li
 
 **Classification note:** General clinical/measurement knowledge; selection and interpretation depend on the clinical setting. [Evidence details](EVIDENCE_CLASSIFICATION.md#equipment-basics).
 
-**Public source:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/).
+**Public sources:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/) (cardiogenic-shock review), [SHOCK25](https://link.springer.com/article/10.1007/s00134-025-08137-z) (ESICM 2025 shock and monitoring guideline).
 
 <a id="central"></a>
 ## Central venous catheter
@@ -141,7 +141,7 @@ The examples relate to the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md). Li
 
 **Classification note:** General clinical/measurement knowledge; selection and interpretation depend on the clinical setting. [Evidence details](EVIDENCE_CLASSIFICATION.md#equipment-basics).
 
-**Public source:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/).
+**Public sources:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/) (cardiogenic-shock review), [SHOCK25](https://link.springer.com/article/10.1007/s00134-025-08137-z) (ESICM 2025 shock and monitoring guideline).
 
 <a id="pac"></a>
 ## Pulmonary artery catheter
@@ -156,7 +156,7 @@ The examples relate to the [18 procedure pairs](CTICU_PROCEDURE_EXAMPLES.md). Li
 
 **Classification note:** General clinical/measurement knowledge and selected specialist practice; not routine use for every ICU patient. [Evidence details](EVIDENCE_CLASSIFICATION.md#equipment-basics).
 
-**Public source:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/).
+**Public sources:** [HEMO](https://pmc.ncbi.nlm.nih.gov/articles/PMC10175734/) (cardiogenic-shock review), [SHOCK25](https://link.springer.com/article/10.1007/s00134-025-08137-z) (ESICM 2025 shock and monitoring guideline).
 
 <a id="infusion"></a>
 ## Infusion or syringe pump
